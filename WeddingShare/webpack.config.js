@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 const glob = require('glob');
 
-const themeEntries = glob.sync('./wwwroot/css/themes/*.css').reduce((acc, filePath) => {
+const themeEntries = glob.sync('./wwwroot/components/themes/*.css').reduce((acc, filePath) => {
     const normalizedPath = filePath.startsWith('./') ? filePath : `./${filePath}`;
     const themeName = path.basename(filePath, '.css');
     acc[`themes/${themeName}`] = normalizedPath;
@@ -13,6 +13,11 @@ const themeEntries = glob.sync('./wwwroot/css/themes/*.css').reduce((acc, filePa
 module.exports = {
     entry: {
         main: './wwwroot/js/index.js',
+        gallery_selector: './wwwroot/js/pages/gallery/selector.js',
+        login: './wwwroot/js/pages/account/login.js',
+        registration: './wwwroot/js/pages/account/registration.js',
+        forgot_password: './wwwroot/js/pages/account/forgot-password.js',
+        password_reset: './wwwroot/js/pages/account/password-reset.js',
         ...themeEntries
     },
     output: {

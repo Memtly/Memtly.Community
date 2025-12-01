@@ -9,9 +9,10 @@ import 'jquery-validation';
 import 'jquery-validation-unobtrusive';
 
 import { Localization } from '../components/localization';
-import '../components/presentation';
-import '../components/cookies';
-import '../components/sponsors';
+import { initGdpr } from '../components/gdpr';
+import { initThemes } from '../components/themes';
+import { initIdentityCheck } from '../components/identity-check';
+import { initSponsors } from '../components/sponsors';
 
 const app = {
     initialized: false,
@@ -21,28 +22,24 @@ const app = {
     }
 };
 
-function init() {
+async function init() {
     if (app.initialized) return;
 
     app.config.theme = document.body.dataset.theme.toLowerCase();
     app.initialized = true;
 
-    let culture = window.navigator.language;
-    //if (culture !== undefined && culture.length > 0) {
-    //    $.ajax({
-    //        type: "POST",
-    //        url: '/Language/ChangeDisplayLanguage',
-    //        data: { culture: culture },
-    //        success: function (data) {
-    //            if (data.success) {
-    //                window.location.reload();
-    //            }
-    //        }
-    //    });
-    //}
-
     resizeLayout();
     bindEventHandlers();
+
+    const localization = new Localization();
+    await localization.init();
+
+    window.localization = localization;
+
+    initGdpr();
+    initThemes();
+    initIdentityCheck();
+    initSponsors();
 }
 
 function bindEventHandlers() {
@@ -61,6 +58,13 @@ function bindEventHandlers() {
                 $('.presentation-hidden').fadeOut(500);
                 $('body').css('cursor', 'none');
             }, 1000);
+        });
+    }
+
+    if ($('.nav-horizontal-scroller').length > 0) {
+        $('.nav-horizontal-scroller').each(function () {
+            let pos = $(this).find('.active').position().left - 30;
+            $('.nav-horizontal-scroller').scrollLeft(pos);
         });
     }
 }
@@ -99,14 +103,12 @@ function resizeLayout() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    init();
-
-    window.localization = new Localization();
-
     window.preventDefaults = event => {
         event.preventDefault();
         event.stopPropagation();
     };
+
+    init();
 });
 
 

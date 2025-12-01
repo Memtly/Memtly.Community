@@ -1,15 +1,4 @@
-﻿function bindEventHandlers() {
-    if ($('div.cookie-consent-alert').length === 0) {
-        acceptCookieConcent();
-    }
-
-    $(document).off('click', '.cookie-consent-alert button.accept-policy').on('click', '.cookie-consent-alert button.accept-policy', function (e) {
-        preventDefaults(e);
-        acceptCookieConcent();
-    });
-}
-
-export function setCookie(cname, cvalue, hours) {
+﻿export function setCookie(cname, cvalue, hours) {
     let consent = getCookie('.AspNet.Consent');
     if (consent !== undefined && consent === 'yes') {
         const d = new Date();
@@ -38,17 +27,3 @@ export function getCookie(cname) {
 
     return "";
 }
-
-export function acceptCookieConcent() {
-    document.cookie = $('.cookie-consent').data('cookie-string');
-
-    $('.cookie-consent-wrapper').remove();
-    $('.cookie-consent-alert').remove();
-
-    $.ajax({
-        url: '/Home/LogCookieApproval',
-        method: 'POST'
-    });
-}
-
-bindEventHandlers();

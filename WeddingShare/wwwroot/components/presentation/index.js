@@ -1,5 +1,9 @@
 ﻿let presentationTimeout = null;
 
+export function initPresentation() {
+    bindEventHandlers();
+}
+
 function bindEventHandlers() {
     if ($('div.navbar-options').length === 0) {
         presentationTimeout = setTimeout(hidePresentation, 1000);
@@ -25,5 +29,3 @@ function resetTimeout() {
     clearTimeout(presentationTimeout);
     presentationTimeout = setTimeout(hidePresentation, 1000);
 }
-
-bindEventHandlers();

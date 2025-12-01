@@ -1,6 +1,8 @@
+using System.Globalization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using WeddingShare.Constants;
 using WeddingShare.Helpers;
 using WeddingShare.Models;
@@ -12,14 +14,16 @@ namespace WeddingShare.Controllers
     {
         private readonly ISettingsHelper _settings;
         private readonly ILanguageHelper _languageHelper;
-        private readonly ILogger<LanguageController> _logger;
+        private readonly ILogger<LanguageController> _logger; 
+        private readonly IStringLocalizer<Lang.Translations> _localizer;
 
-        public LanguageController(ISettingsHelper settings, ILanguageHelper languageHelper, ILogger<LanguageController> logger)
+        public LanguageController(ISettingsHelper settings, ILanguageHelper languageHelper, ILogger<LanguageController> logger, IStringLocalizer<Lang.Translations> localizer)
             : base()
         {
             _settings = settings;
             _languageHelper = languageHelper;
-            _logger = logger;
+            _logger = logger; 
+            _localizer = localizer;
         }
 
         [HttpGet]
@@ -44,6 +48,22 @@ namespace WeddingShare.Controllers
 
             return Json(new { supported = options });
         }
+
+        [HttpGet]
+        public IActionResult GetTranslations()
+        {
+            return Json(new
+            {
+                current = new
+                {
+                    full = $"{CultureInfo.CurrentCulture.EnglishName} ({CultureInfo.CurrentCulture.Name})",
+                    code = CultureInfo.CurrentCulture.Name,
+                    name = CultureInfo.CurrentCulture.EnglishName
+                },
+                translations = _localizer.GetAllStrings().ToDictionary(x => x.Name, x => x.Value)
+            });
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> ChangeDisplayLanguage(string culture)

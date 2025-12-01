@@ -3,6 +3,10 @@
 import { displayLoader, hideLoader } from '../loader';
 import { displayPopup } from '../popups';
 
+export function initSponsors() {
+    bindEventHandlers();
+}
+
 function bindEventHandlers() {
     $(document).off('click', '.btn-show-sponsors').on('click', '.btn-show-sponsors', function (e) {
         preventDefaults(e);
@@ -52,5 +56,3 @@ function bindEventHandlers() {
         });
     });
 }
-
-bindEventHandlers();

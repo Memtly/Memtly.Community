@@ -1,12 +1,38 @@
 ﻿import { displayLoader, hideLoader } from '../loader';
 import { displayPopup } from '../popups';
+import { getCookie } from '../cookies';
 
 export class Localization {
     constructor() {
+        this.data = {
+            current: {
+                full: 'English (en-GB)',
+                code: 'en-GB',
+                name: 'English'
+            },
+            translations: []
+        };
+    }
+
+    async init() {
+        const cultureCookie = getCookie('.AspNetCore.Culture');
+        if (cultureCookie === undefined || cultureCookie.length === 0) {
+            const urlParams = new URLSearchParams(window.location.search);
+            const culture = urlParams.get('culture') || window.navigator.language;
+
+            changeSelectedLanguage(culture);
+        }
+
+        await this.getTranslations();
+    }
+
+    async getTranslations() {
+        const response = await fetch(`/Language/GetTranslations`);
+        this.data = await response.json();
     }
 
     translate(key) {
-        return key;
+        return this.data.translations[key] || key;
     }
 }
 
@@ -37,20 +63,8 @@ function bindEventHandlers() {
                             Text: localization.translate('Switch'),
                             Class: 'btn-success',
                             Callback: function () {
-                                $.ajax({
-                                    type: "POST",
-                                    url: '/Language/ChangeDisplayLanguage',
-                                    data: { culture: $('#popup-modal-field-language-id').val().trim() },
-                                    success: function (data) {
-                                        if (data.success) {
-                                            try {
-                                                window.location = window.location.toString().replace(/([&]*culture\=.+?)(\&|$)/g, '');
-                                            } catch {
-                                                window.location.reload();
-                                            }
-                                        }
-                                    }
-                                });
+                                let culture = $('#popup-modal-field-language-id').val().trim();
+                                changeSelectedLanguage(culture);
                             }
                         }, {
                             Text: localization.translate('Cancel')
@@ -59,6 +73,23 @@ function bindEventHandlers() {
                 }
             }
         });
+    });
+}
+
+export function changeSelectedLanguage(culture) {
+    $.ajax({
+        type: "POST",
+        url: '/Language/ChangeDisplayLanguage',
+        data: { culture: culture || 'en-GB' },
+        success: function (data) {
+            if (data.success) {
+                try {
+                    window.location = window.location.toString().replace(/([&]*culture\=.+?)(\&|$)/g, '');
+                } catch {
+                    window.location.reload();
+                }
+            }
+        }
     });
 }
 

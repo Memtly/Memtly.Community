@@ -1,4 +1,4 @@
-﻿import '../../lib/jquery-loading/jquery.loading.min.js';
+﻿import './jquery.loading.min.js';
 import './loader.css';
 
 function bindEventHandlers() {

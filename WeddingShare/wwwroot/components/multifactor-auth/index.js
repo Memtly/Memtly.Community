@@ -1,6 +1,10 @@
 ﻿import { displayPopup } from '../popups';
 import { displayMessage } from '../message-box';
 
+export function initMultiFactorAuth() {
+    bindEventHandlers();
+}
+
 function bindEventHandlers() {
     $(document).off('click', '.change-2fa').on('click', '.change-2fa', function (e) {
         preventDefaults(e);
@@ -8,7 +12,7 @@ function bindEventHandlers() {
     });
 }
 
-export function multiFactorAuthSetup(showResetOption) {
+function multiFactorAuthSetup(showResetOption) {
     let customHtml = '';
     let buttons = [];
 
@@ -99,5 +103,3 @@ export function multiFactorAuthValidation() {
         }]
     });
 }
-
-bindEventHandlers();

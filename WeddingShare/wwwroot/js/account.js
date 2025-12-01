@@ -1,3 +1,5 @@
+import '../components/validation/password-validation';
+
 //let accountStateCheckInterval = null;
 //let auditSearchTimeout = null;
 
