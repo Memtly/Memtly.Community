@@ -18,6 +18,7 @@ COPY ["WeddingShare/WeddingShare.csproj", "WeddingShare/"]
 RUN dotnet restore -a $TARGETARCH "./WeddingShare/./WeddingShare.csproj"
 COPY . .
 WORKDIR "/src/WeddingShare"
+RUN npi ci
 RUN dotnet build "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
