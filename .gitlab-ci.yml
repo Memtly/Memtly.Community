@@ -47,7 +47,6 @@ push_release:
     - 'docker buildx build --tag $CI_REGISTRY_IMAGE:pre_release --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
   needs:
     - test
-  when: manual
 
 push_latest:
   variables:
@@ -60,7 +59,6 @@ push_latest:
     - 'docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
   needs:
     - test
-  when: manual
     
 push_tag:
   variables:
@@ -72,7 +70,6 @@ push_tag:
     - 'docker buildx build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
   needs:
     - test
-  when: manual
 
 push_docker_hub:
   variables:
@@ -85,4 +82,3 @@ push_docker_hub:
     - 'docker buildx build --tag $DOCKERHUB_USERNAME/wedding_share:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/wedding_share:latest --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
   needs:
     - push_tag
-  when: manual
