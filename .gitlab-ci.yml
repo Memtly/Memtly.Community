@@ -24,6 +24,7 @@ cache:
 
 before_script:
   - 'cd ./WeddingShare'
+  - 'apt install npm -y'
   - 'npm ci'
   - 'cd ../'
   - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
