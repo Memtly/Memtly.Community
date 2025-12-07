@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Voer de door uw 2FA-app gegenereerde code in</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Voer handmatig de code in:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Herstellen van 2FA mislukt</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>2FA met succes gereset</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Scan de volgende afbeelding met uw app</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Opzetten 2FA mislukt</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>2FA met succes opgezet</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA succesvol gewist</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA installatie</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Weet u zeker dat u 2FA wilt wissen voor gebruiker '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Als dit probleem aanhoudt, neem dan contact op met de webbeheerder</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Acties</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activeer</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Activeren van account is mislukt</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Account succesvol geactiveerd</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Gebruiker activeren</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Weet u zeker dat u dit account wilt activeren</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Voeg toe</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Beschikbare galerijen</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Uw browser ondersteunt deze functie niet</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Evaluatie in bulk</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Kon alle items niet goedkeuren</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Wilt u alle hangende zaken goedkeuren of verwerpen?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Alle items weigeren is mislukt</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Kon accountstatus niet controleren</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Sluiten</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Rubriek</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Neem contact op met een beheerder van de site om toegang te bieden</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Aanmaken</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Cultuur</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Selecteer een weergavecultuur</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>U heeft momenteel geen toegang</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Weet u zeker dat u deze galerij wilt verwijderen?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Item verwijderen</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Verwijderen van item mislukt</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id kan niet leeg zijn</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Weet u zeker dat u '{name}' wilt verwijderen?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Item succesvol verwijderd</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Dit is een demoversie. Alle configuratie wordt periodiek gewist om te zorgen voor een schone lei voor toekomstige testers.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destructieve actie uitgevoerd</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Gegevens</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Downloaden</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Kon galerij niet downloaden</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>U bent niet bevoegd om deze galerij te downloaden</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-mailadres</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Fouten</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Uitvoer</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Gegevens exporteren</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Exporteren van gegevens is mislukt</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Weet je zeker dat je wilt doorgaan?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Gegevens succesvol geëxporteerd</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Aanmaken van galerij mislukt</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Kon galerij niet wissen</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Deze functie is nog in ontwikkeling, maar zal binnenkort beschikbaar zijn</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Downloaden van FFMPEG naar pad is mislukt</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Kon wachtwoord reset e-mail niet versturen</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Wachtwoord reset link verzonden. Controleer uw e-mail</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Halt</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Fout bij het bevriezen van account</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Account succesvol bevroren</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Gebruiker stilzetten</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Weet u zeker dat u account wilt bevriezen</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerijen</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerij</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Galerij aanmaken</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Aanmaken van galerij mislukt</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Galerie succesvol aangemaakt</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Galerij verwijderen</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Kon galerij niet verwijderen</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Weet u zeker dat u galerij '{name}' wilt verwijderen?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Galerie succesvol verwijderd</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>De aangezochte galerij is niet gevonden of bestaat niet</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Galerij bewerken</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Kon galerij niet bijwerken</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Galerie succesvol bijgewerkt</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Er zijn momenteel geen herinneringen gedeeld</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>my-huwelijk-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Ongeldige galerienaam of geheime sleutel, probeer het opnieuw</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Geef een geldige galerienaam</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Ongeldige geheime sleutel, probeer het opnieuw</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galerijsleutel</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Ophalen van galerielijst mislukt</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerij Id kan niet leeg zijn</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galerijnaam kan niet leeg zijn</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galerijnaam</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galerijnaam bestaat al</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Voer een nieuwe gallerijnaam in</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Geheime sleutel</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Geef een nieuwe geheime sleutel</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galerijselectie</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galerijinstellingen</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Galerij wissen</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Kon galerij niet wissen</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Weet u zeker dat u galerij '{name}' wilt wissen?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galerie met succes gewist</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Genereren</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Downloaden genereren</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Groep</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Er is een fout opgetreden bij het laden van de startpagina</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identiteitscontrole</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Wijziging</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Identiteit wijzigen</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Vertel ons uw e-mail zodat we u kunnen bereiken.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Bijvoorbeeld, john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Ongeldig e-mail</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Geef een geldige e-mail op</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Ongeldige naam</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Geef een geldige naam</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Vertel ons wie je bent zodat we weten wie er herinneringen heeft geüpload.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Bijvoorbeeld Jane Doe, Jimmy, oom Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Kon gebruikersidentiteit niet instellen</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Anoniem blijven</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Vertel het ons</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Kon gebruikersidentiteitssessie niet instellen - Naam</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importeren</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Gegevens importeren</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Reservekopiebestand</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Selecteer een bruiloft Backuparchief delen</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Kon gegevens niet importeren</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Selecteer een importbestand</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Gegevens met succes geïmporteerd</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Het opgegeven toegangs token was ongeldig</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Landschap</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Taal wijzigen</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Selecteer een weergavetaal</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Verband</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Laden...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Aanmelden</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Kon gebruiker niet aanmelden</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Ongeldige gebruikersnaam of wachtwoord opgegeven</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Geef een geldig wachtwoord</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Voer een geldige gebruikersnaam in</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Voer accountwachtwoord in.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Wachtwoord</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Log in om deze actie te voltooien</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Voer account gebruikersnaam in.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Gebruikersnaam</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Controleer uw e-mail om uw account te activeren</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Afmelden</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nieuwe items in behandeling</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Geen aangepaste bronnen geüpload</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Geen</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Of</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Uw wachtwoord is nu gereset. Als u geen wachtwoordreset heeft aangevraagd, neem dan onmiddellijk contact op met een beheerder.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Problemen met toegang tot uw account?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Wachtwoord overeenkomst bevestigen</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Ten minste 8 tekens</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Kleine letters</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Getallen</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Bijzondere tekens</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Hoofdletters</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Wachtwoord resetten</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Kon wachtwoord reset e-mail niet versturen.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Uw wachtwoord is succesvol gereset</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Upgrade uw account lidmaatschap om toegang te krijgen tot deze functie</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>In afwachting</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Gebruikersnaam</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registratie</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Bevestigingswachtwoord komt niet overeen</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Kon nieuwe gebruiker niet registreren</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Bevestigingswachtwoord komt niet overeen met het wachtwoord</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Geef een geldig e-mailadres op</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Er was een probleem met het verwerken van de e-mail verificatie link</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Account succesvol aangemaakt</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Uw account is succesvol geregistreerd en wacht tot u toegang krijgt</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Welkom!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Uw account is aangemaakt maar uw e-mailadres moet worden gevalideerd voordat u kunt inloggen</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Uw account is geregistreerd maar moet worden geverifieerd voordat het kan worden geopend. Activeer uw account door op onderstaande link te klikken.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Versie vrijgeven</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Hernoemen</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Er was een probleem met het verwerken van de wachtwoord reset koppeling</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Evaluatie</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Kon item niet bekijken</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Kon item-id niet vinden</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>QR opslaan</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Gebruik</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsors</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Aanhang</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Omschakelen</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Tijdstempel</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Totaal</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Niet beschikbaar</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Er is een onverwachte fout opgetreden</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Vrijlaten</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Kon account niet verwijderen</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Account niet bevroren met succes</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Gebruiker un-freeze</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Weet u zeker dat u een account wilt verwijderen</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Onbekende evaluatieactie</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Bijwerken</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Instellingen bijwerken</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Bijwerken van instellingen is mislukt</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Er zijn geen wijzigingen aangebracht om op te slaan</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Instellingen met succes bijgewerkt</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Upgrade</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>U gebruikt momenteel de gratis versie. Om meer gallery-opslag en andere geweldige functies te ontgrendelen overweeg het upgraden van uw account</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Uploaden</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Er was een probleem met het uploaden van enkele bestanden</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Ongeldige galerij Id gedetecteerd</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Kon upload niet vinden Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Media uploaden</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Selecteer een uploadmethode</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Er zijn geen bestanden gevonden om te uploaden</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Item {index} van {count} uploaden...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Met succes geüpload {count} item(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Succesvol geüpload {count} item(s) in afwachting van beoordeling</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Geüpload door</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Wachtwoord bevestigen</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Bevestig het wachtwoord</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Het opgegeven wachtwoord en wachtwoord komen niet overeen</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Gebruiker aanmaken</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Aanmaken van gebruiker mislukt</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Gebruiker succesvol aangemaakt</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Gebruiker verwijderen</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Verwijderen van gebruiker is mislukt</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Weet u zeker dat u gebruiker '{name}' wilt verwijderen?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Gebruiker succesvol verwijderd</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Gebruiker bewerken</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Bijwerken van gebruiker mislukt</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Gebruiker succesvol bijgewerkt</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Het e-mailadres van de gebruikers</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Wachtwoord en wachtwoord bevestigen komen niet overeen</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Geef een geldig e-mailadres op</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Het geselecteerde gebruikersniveau is ongeldig</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Geef een geldige gebruikersnaam op</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Geef een geldig gebruikerswachtwoord op</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Toegang tot het gebruikersniveau</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Gebruiker Id kan niet leeg zijn</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Gebruikersnaam kan niet leeg zijn</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Gebruiker met dezelfde naam toevoegen bestaat al</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>De gebruikersnaam van de nieuwe gebruiker</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Het wachtwoord van de nieuwe gebruiker</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Gebruikersnaam</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Ophalen gebruikerslijst mislukt</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valideren</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verifiëren</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Weet je zeker dat je deze galerie wilt afvegen?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Gegevens wissen</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Kon gegevens niet wissen</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Weet u zeker dat u alle gegevens wilt wissen?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Gegevens met succes gewist</value>
   </data>
 </root>

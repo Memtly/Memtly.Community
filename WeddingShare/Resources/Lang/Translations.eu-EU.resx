@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Sartu zure 2FA aplikazioak sortutako kodea</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Sartu kodea eskuz:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Huts egin du 2FA berrezartzean</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>2FA ongi berrezarri da</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Eskaneatu irudi hau zure aplikazioarekin</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Huts egin du 2FA konfiguratzean</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>2FA ongi konfiguratu da</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA behar bezala garbitu da</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FAren konfigurazioa</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Ziur zaude 2FA garbitu nahi duzula '{name}' erabiltzailearentzat?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Arazo honek jarraitzen badu, jarri harremanetan web-administratzailearekin</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Opps, ustekabeko errorea gertatu dela dirudi...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Badirudi ez duzula orri hori ikusteko baimenik...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Sarbidea ukatuta</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Emandako gako sekretua ez da zuzena</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Gako sekretu baliogabea</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Zehaztutako gelleria ez da existitzen eta sortzeko baimenik ez duzu</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Sarbidea ukatuta</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Galeria sortzeko gehienezko mugara iritsi zara</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Mugara iritsita</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Zehaztutako galeria ez da existitzen</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Galeria baliogabea</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>Arazo bat izan zen zure kontua egiaztatzean. Egiaztatu esteka baliozkoa dela.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>Egiaztapen baliogabea Esteka</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>Arazo bat izan zen zure kontuaren pasahitza berrezarri nahian. Egiaztatu esteka baliozkoa dela.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>Pasahitza berrezarri esteka baliogabea</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Onartu</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Ekintza</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Ekintzak</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktibatu</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Huts egin du kontua aktibatzean</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Kontua ongi aktibatu da</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktibatu erabiltzailea</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Ziur zaude kontu hau aktibatu nahi duzula</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Gehitu</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Denak</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Onartu</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Onartua</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Gorantz</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>Erabiltzaile erregistratuaren kontua</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>Erabiltzaile aktiboa</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Bulk-ek berrikuspen guztiak onartu ditu</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Bulk-ek ez zituen iritzi guztiak baztertu</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Bisitari batek onartu du cookien erabilera</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Sortutako galeria</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Erabiltzaile berria sortu</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Ezabatu baliabide pertsonalizatua</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Baliabide pertsonalizatua igota</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Ezabatutako galeria</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Ezabatutako erabiltzailea</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>Erabiltzaileak egiaztatu du bere helbide elektronikoa</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Babeskopia esportatu</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Huts egin du saioa hastean detektatzean</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Huts egin du saio-hasierako saiakuntzen kopurua berrezartzean</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>Erabiltzaileak pasahitza berrezartzeko eskatu du</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Froze erabiltzailea</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Babeskopia inportatua</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>galerian onartua</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>ezabatua galerian</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>ukatua galerian</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Zenbat egunkari erakusteko</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Muga</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Huts egin du auditoretza-zerrenda eskuratzean</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Lokatuta</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Audit egunkariak</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Hainbat faktore gehitu zaizkio kontuari</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Hainbat faktoretako token zuzena</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Berrezarri faktore anitzeko gakoa</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Berrezarri faktore anitzekoa erabiltzailearentzat</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>Erabiltzaileak pasahitza berrezartzeko eskatu du</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Iragazi erregistroak bilaketa-termino batean oinarrituta</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Bilaketa-aldia</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Galeriaren ezarpen eguneratua</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Erabiltzaileak huts egin</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Galeria eguneratua</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Erabiltzaile eguneratua</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Erabiltzaileak saioa hasi du</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Galeria guztiak garbitu</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Argazki galeria</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Galeria erabilgarriak</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Zure nabigatzaileak ez du eginbide hau onartzen</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Huts egin du elementu guztiak onartzean</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Onartu edo baztertu nahi dituzu falta diren elementu guztiak?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Huts egin du elementu guztiak baztertzean</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Utzi</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Huts egin du kontuaren egoera egiaztatzean</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Garbitu</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Ziur zaude galeria hau garbitu nahi duzula?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Egin klik hemen fitxategiak igotzeko hautatzeko</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Itxi</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodea</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Jar zaitez guneko administratzailearekin harremanetan sarbidea emateko</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Huts egin du auditoria-mezu bat erregistratzean cookie-ak onartzeko</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Cookie politika</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Webgune hau erabiltzean oinarrizko cookieak erabiltzea onartzen duzu, gure cookien erabilera-baldintzen arabera. Gehiago jakiteko, ikus gure</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Sortu</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Une honetan ez duzu sarbiderik</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Baliabide pertsonalizatuak</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Huts egin du baliabide pertsonalizatuak eskuratzean</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Hautatu irudi-fitxategi bat igotzeko</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Igo baliabide pertsonalizatua</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Huts egin du baliabide pertsonalizatua ezabatzean</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Huts egin du baliabide pertsonalizatua igotzean</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Arrisku-eremua</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Lehenetsia</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Ziur zaude galeria hau ezabatu nahi duzula?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Ezabatu elementua</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Huts egin du elementua ezabatzean</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id ezin da hutsik egon</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Ziur zaude '{name}' ezabatu nahi duzula?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Ongi ezabatutako elementua</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Hau demo bertsioa da. Konfigurazio guztia aldian-aldian ezabatzen da etorkizuneko probatzaileentzako arbel garbi bat ziurtatzeko.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Beherantz</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Ekintza suntsitzailea</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Xehetasunak</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Deskargatu</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Huts egin du galeria deskargatzean</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Ez duzu galeria hau deskargatzeko baimenik</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Arrastatu</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Bikoiztutako fitxategia detektatuta</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Helbide elektronikoa</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Errorea</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Erroreak</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Esportatu</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Esportatu datuak</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Huts egin du datuak esportatzean</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Ziur zaude jarraitu nahi duzula?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Ongi esportatutako datuak</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Huts egin du galeria sortzean</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Huts egin du erabiltzailea sortzean</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Huts egin du galeria ezabatzean</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Huts egin du erabiltzailea ezabatzean</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Huts egin du galeria deskargatzean</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Huts egin du galeria deskargatzean. Gako sekretua baliogabea zen</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Huts egin du galeria eguneratzean</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Huts egin du erabiltzailea eguneratzean</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Huts egin du datuak esportatzean</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Huts egin du fitxategia bilatzean</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Huts egin du datuak inportatzean</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Huts egin du elementua aztertzean</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Huts egin du ezarpenak eguneratzean</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Huts egin du galeriak garbitzean</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Huts egin du galeria garbitzean</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Eginbide hau oraindik garatzen ari da, baina laster egongo da erabilgarri</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Huts egin du FFMPEG bide-izenera jaisten</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Bideoaren koadro txikia sortzen saiatu zen, baina FFMPEGk ez du oraindik deskargatu. Instalazio berria bada, itxaron deskargatu eta koadro txikiak galdu arte atzeko planoko eskanerrak sortuko ditu</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Huts egin du fitxategia igotzean</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Izen bereko fitxategia badago lehendik ere</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Iragazkia</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>Pasahitza ahaztu da</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Pasahitza ahaztu da</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>Sartu kontuaren helbide elektronikoa.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>Helbide elektronikoa</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>Huts egin du pasahitza berrezartzeko posta bidaltzean</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Pasahitza berrezartzeko esteka bidalita. Egiaztatu zure posta elektronikoa</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Izoztu</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Huts egin du kontua izoztean</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Kontua ongi gorde da</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Izoztu erabiltzailea</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Ziur zaude kontua izoztu nahi duzula</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galeriak</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galeria</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Sortu galeria</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Huts egin du galeria sortzean</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Galeria ongi sortu da</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Ezabatu galeria</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Huts egin du galeria ezabatzean</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Ziur zaude galeria ezabatu nahi duzula?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Galeria ongi ezabatu da</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Eskatutako galeria ez da aurkitu edo ez da existitzen</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Editatu galeria</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Huts egin du galeria eguneratzean</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Galeria ongi eguneratu da</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Une honetan ez dago oroitzapen partekaturik</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Une honetan ez dago oroitzapen partekaturik, zergatik ez duzu zurea igotzen!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Galeria beteta dago eta gehienezko tamaina gainditu du</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>Galeriaren identifikatzailea</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>Sartu bisitatu nahi duzun galeriaren identifikatzailea.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>my-wedding-gallery</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Galeriaren izen baliogabea edo ezkutuko gakoa, saiatu berriro</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Zehaztu baliozko galeria-izena</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Gako sekretu baliogabea, saiatu berriro</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Galeriako giltza</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Sartu ezkutuko gakoa.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Sartu gako sekretua hemen</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Baimendutako galeria kopurua lortu da</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Huts egin du galeria-zerrenda eskuratzean</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galeria Id ezin da hutsik egon</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galeriaren izena ezin da hutsik egon</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Galeriaren izena</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Galeriaren izena badago lehendik ere</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Sartu galeriaren izen berria</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Ezkutuko gakoa</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Sartu gako sekretu berria</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Galeria-hautatzailea</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galeriaren ezarpenak</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Huts egin du galeria garbitzean</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Ziur zaude galeria garbitu nahi duzula?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galeria ongi ezabatuta</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Sortu</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Deskarga sortzen</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Taldea</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Errorea gertatu da webgunea kargatzean</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identitatearen kontrola</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Aldatu</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Aldatu identitatea</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Helbide elektronikoa</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Esan zure e-posta zurekin harremanetan jartzeko.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Adibidez, john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Email baliogabea</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Adierazi baliozko posta elektronikoa</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Izen baliogabea</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Zehaztu baliozko izena</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Izena</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Esan nor zaren eta badakigu nork igo dituen oroitzapenak.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Adibidez, Jane Doe, Jimmy, osaba Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzailearen identitatea ezartzean</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Mantendu anonimoa</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Esan iezaguzu</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Huts egin du erabiltzailearen identitatearen saioa ezartzean - Izena</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Huts egin du irudiak igotzean</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Irudiak</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Inportatu</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Inportatu datuak</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Babeskopia-fitxategia</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Hautatu ezkontza bat Partekatu babeskopiaren artxiboa</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Huts egin du datuak inportatzean</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Hautatu inportatzeko fitxategia</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Ongi inportatutako datuak</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Emandako sarbide-tokena ez da baliozkoa</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Fitxategi mota baliogabea da</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Galeria baliogabea Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Galeria-gako baliogabea</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>Eskaera bat egin zen gako sekretu baliogabea erabiliz</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Gakoa</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Paisaia</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Hizkuntza</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Aldatu hizkuntza</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Hautatu bistaratzeko hizkuntza bat</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Esteka</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Kargatzen...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Saio-hasiera</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzailea saioa hastean</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Baliogabeko erabiltzaile-izena edo pasahitza zehaztu da</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Sartu baliozko pasahitza</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Sartu baliozko erabiltzaile-izena</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Sartu kontuaren pasahitza.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Pasahitza</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Hasi saioa ekintza hau bukatzeko</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Sartu kontuaren erabiltzaile-izena.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Erabiltzaile-izena</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Egiaztatu zure posta elektronikoa zure kontua aktibatzeko</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Saioa amaitu</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Kudeatu datuak</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Fitxategi-tamaina maximoa</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>Euskarria Mota</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Kideak</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Huts egin du 2FA konfiguratzean</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Izena</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Galeriaren izena ezin da hutsik egon</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Elementu berriak gainbegiratzeko</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Hurrengoa</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Ez da baliabide pertsonalizaturik igo</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Daturik ez</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Ez da fitxategirik detektatu igotzeko</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Ez da galeriarik sortu oraindik</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Ez dago igoerarik berrikuspenaren zain</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Bat ere ez</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Edo</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>Pasahitza berrezarri da. Pasahitzen berrezarpena eskatu ez baduzu, administratzailearengana jo berehala.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>Zure pasahitza eguneratu egin da!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>Pasahitza berrezarri behar da zure kontuan. Pasahitza aldatu nahi baduzu, egin klik azpiko estekan eguneratzeko.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>Arazoak dituzu zure kontura sartzeko?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Berretsi pasahitza bat dator</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Gutxienez 8 karaktere</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Letra maiuskulak eta minuskulak</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Zenbakiak</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Karaktere bereziak</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Goiko letra maiuskulak</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Pasahitza berrezarri</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>Huts egin du pasahitza berrezartzeko posta bidaltzean.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Pasahitza ongi berrezarri da</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Eguneratu zure kontuko kideak eginbide hau eskuratzeko</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Gorantz</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Igotzeko zain</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Huts egin du zain dauden igoerak lortzean</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Erretratua</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Aurkezpena</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Ausazkoa</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Erregistratu</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>Erregistratu kontua</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>Berretsi pasahitza</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>Berretsi pasahitza</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>Sartu kontuaren helbide elektronikoa.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>Helbide elektronikoa</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>Pasahitza sartu pasahitza.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>Pasahitza</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>Sartu kontuaren erabiltzaile-izena.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>Erabiltzaile-izena</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Erregistroa</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>Berrespen-pasahitza ez dator bat</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>Huts egin du erregistroko mezua erabiltzaileari bidaltzean.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>Zehaztutako helbide elektronikoa duen kontu bat badago lehendik ere</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzaile berria erregistratzean</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Berrespen-pasahitza ez dator bat pasahitzarekin</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>Zehaztu baliozko helbide elektronikoa</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>Zehaztu 8 eta 100 karaktere arteko baliozko pasahitza, gutxienez 1 maiuskula, 1 letra maiuskula, 1 zenbaki eta 1 karaktere berezi dituena</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>Zehaztu baliozko erabiltzaile-izena 5 eta 50 karaktere artean</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>Arazo bat gertatu da posta elektronikoa egiaztatzeko esteka prozesatzean</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Kontua ongi sortu da</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>Kontua ongi erregistratu da eta zure zain dago sarbidetzeko</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>Ongi etorri!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Zure kontua sortu da, baina zure helbide elektronikoa baliozkotu egin behar da saioa hasi aurretik</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>Zure kontua erregistratu da, baina egiaztatu egin behar da sartu aurretik. Mesedez, aktibatu kontua azpiko estekan klik eginez.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>Erabiltzaile-izena lehendik ere badago. Hautatu berria</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>Zehaztutako pasahitza erraz asmatzen da. Hautatu pasahitz seguruagoa.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Baztertu</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Bertsioa</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Kendu</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Berrizendatu</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Berrezarri</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>Arazo bat gertatu da pasahitza berrezartzeko esteka prozesatzean</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Baliabideak</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Berrikusi</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Huts egin du elementua aztertzean</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Ezin izan da Id elementua aurkitu</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Gorde QRa</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Huts egin du baliabide pertsonalizatua gordetzean</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Huts egin du irudia galerian gordetzean</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Eskaneatu QR kodea telefonoarekin irudiak partekatzeko</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ezarpenak</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Kontua</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Erabiltzaile bat blokeatu aurretik huts egindako saio-hasierak zenbat diren</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Blokeatutako saiakerak</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Erabiltzaile bat noiz blokeatu behar den</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Blokeatu minutuak</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Profilaren ikonoa goiburuan agertu behar duen ala ez</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Profilaren ikonoa</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>Baimenduta al dago gonbidatuak kontuak erregistratzea?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>Erregistroa gaituta</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>Erabiltzaileek posta elektronikoa egiaztatu behar dute kontua aktibatzeko?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>Posta elektronikoaren balidazioa behar da</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Abisuak</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Abisuak bidali behar dira kontuak blokeatuta daudenean</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Kontuaren blokeoa</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Abisuak bidali behar dira ekintza suntsitzailea egiten denean</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Ekintza suntsitzaileak</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Alertak bidali behar dira saio-hasiera hutseko saiakeretan</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Huts egin du saioa hastean</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Alertak bidali behar dira elementu berri bat berrikusteko zain badago</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Pending Review</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Atzeko planoko zerbitzuak</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Aldi baterako fitxategiak garbitzen ditu</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Garbiketa</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Fitxategiak zuzenean galeriako karpetara erortzen dira</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Directory Scanner</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Bidali galeria-estatistikei buruzko txostena</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>Posta elektronikoko txostenak</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Oinarrizkoa</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Url oinarrizkoa esteketan eta jakinarazpenetan erabiltzeko</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Base Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Mezu elektroniko bat bidali behar bada galeria-estatistikekin</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>Posta elektronikoko txostena</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Behar bada Http-en erabiltzaileak https-era behartuta daude</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Behartu Https</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Erabiltzaileek galeria nola hautatzen duten</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Galeria-hautatzailea Mota</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Galeria lehenetsia ikusgai dagoen ala ez</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Erakutsi galeria lehenetsia</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Gonbidatuek galeria berriak sortu behar ote zituzten</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Gonbidatuen galeria sortzea</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Gako sekretua QR kodean sartu behar den ala ez</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>QR kode ez-seguruak</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Etxeko estekan klik eginez gero, erabiltzailea birbideratzen da</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Etxeko esteka klikagarria</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Estekak fitxa berrietan ireki behar lirateke</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Fitxa berriaren estekak</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Goiburuetan eta fitxetan erakusteko ikonoa</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logotipoa</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Zenbat galeria sor ditzakete erabiltzaileek</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Max Gallery Count</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Galeria bat edo gehiago badago</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Galeria modua</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Gehienezko pixelak edozein norabidetan koadro txikietarako</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Koadro txikien bereizmena</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Goiburuetan eta fitxetan erakusteko izena</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Titulua</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Cookie-politikaren informazio-orrian bistaratu beharreko edukia</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Cookien politika pertsonalizatua</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Politika pertsonalizatuak</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Huts egin du ezarpenak lortzean</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Galeria lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Zein fitxategi mota igo dezakete gonbidatuek</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Baimendutako fitxategi motak</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Irudi bat galeriaren goialdean erakusteko</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Banner irudia</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Gonbidatuek fitxategi-hautatzailearen edo kameraren artean aukera izan behar dute</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Kamerak igo</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Zutabe kopurua bistaratzeko</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Zutabe kopurua</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Zer da galeria-iragazki lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Iragazki lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Zer da galeria-talde lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Talde lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Zer da galeria-ordena lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Ordena lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Zer da galeria-ikuspegi lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Ikuspegi lehenetsia</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Gonbidatuek elementuak deskargatu behar dituzten</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Baimendu deskarga</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Galeriaren zabalera</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Bistaratze mota</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Zenbat denbora behar duen galeriak eduki berriak lortzeko</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Idle Freskatu Mins</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Gehienezko elementu kopurua orrialdeko erakusteko</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Orrialdeko elementuak</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Zein da igotako fitxategirik handiena MBn</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Fitxategi-tamaina maximoa (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>MB-etan galeriak hazteko aukera ematen du</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Max Gallery Tamaina (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Elementu bikoiztuak automatikoki baztertu behar dira</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Saihestu bikoiztuak</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Eskanerraren ondoren, zein ordenatan agertuko diren elementuak</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>QR lehenetsia Ordenatu</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Erabiltzaileak ikusi behar duen diseinua eskaneatu ondoren</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>QR lehenetsia Ikusi</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>QR kodea bistaratu behar den</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Erakutsi QR kodea</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>QR kodeak bistaratze-hizkuntza zehaztu behar du</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Sartu kultura QRean</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Galeriaren goialdean erakusteko aurrekontua</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Aipua</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Elementuak berrikusi egin behar dira webgunean agertu aurretik</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Eskatu berrikuspena</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Ezetsitako elementuak geroago erabiltzeko gorde behar dira</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Gorde baztertutako elementuak</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Berrikuspen-mahaia erakutsi behar den ala ez</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Berrikusi kontagailua</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Erabiltzaileak gai izan behar du euskarria iragazteko eta taldekatzeko?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Erakutsi iragazkiak</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>Titulua galeriaren goialdean bistaratuko balitz</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Erakutsi titulua</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Gonbidatuek elementuak igo ditzakete</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Baimendu igoerak</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Murriztu igoerak aldi jakin batera</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Igo aldiak</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Ntfy alertak bidali behar dira</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Gotify zerbitzariaren helbidea</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Amaiera-puntua</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Abisuen garrantzia</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Lehentasuna</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Autentifikaziorako erabilitako tokena</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Access Token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Identitatearen kontrola</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Eskatu erabiltzaileei beren izena</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Nortasun-kontrola orrialdearen kargan bistaratu behar den ala ez</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Page Load Prompt</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Erabiltzaileak helbide elektroniko bat sartu behar badu</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Helbide elektronikoa behar da</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>Erabiltzaileak izen bat sartu behar badu</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>Izena behar du</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Identitatea egiaztatu behar den euskarria igotzeko</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Gonbitea</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Hizkuntzak</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Web-orriko hizkuntza lehenetsia, hautatua ez badago</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Hizkuntza lehenetsia</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Baimendu erabiltzaileek hizkuntza aldatzea</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Ntfy alertak bidali behar dira</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Ntfy zerbitzariaren helbidea</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Amaiera-puntua</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Abisuen garrantzia</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Lehentasuna</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Autentifikaziorako erabilitako tokena</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Access Token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Abisuak bidaltzeko gaia</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Gaia</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Erabiltzaileak GDPR estiloko laster-leihoak ikusi behar ditu?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Diapositiba-aurkezpena</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Zenbat denbora behar du diapositiba arteko trantsizioak</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Noiz arte egon behar du diapositiba batek hurrengo diapositibara joan aurretik</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Gehienezko diapositiba kopurua sartzeko</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Muga</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>QR kodea deskargatuko balitz gonbidatuek eskaneatzeko</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Partekatu diapositiba</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>Posta elektronikoa</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Erabiltzailearen bidaltzailearen izena</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Bistaratu izena</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>Abisu elektronikoak bidali behar dira</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>Abisua bidaltzen den helbide elektronikoa</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Hemendik</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>SMTP hornitzailearen ostalari-izena</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Ostalaria</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Eskaera identifikatzeko erabilitako pasahitza</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Pasahitza</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>SMTP hornitzaileak erabilitako ataka</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Ataka</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Komaz bereiztutako helbide elektronikoen zerrenda</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Hartzaileak</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>SMTP hornitzaileak SSL erabiltzen du</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Erabili SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Eskaera autentifikatzeko erabilitako erabiltzaile-izena</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Erabiltzaile-izena</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Gaiak</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Webgune lehenetsiaren gaia ez bada hautatzen</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Lehenetsia Gaia</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Utzi erabiltzaileei gaia aldatzen</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Gaituta</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Partekatu kodea</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Bakarra</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Diapositiba-aurkezpena</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordenatu</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Erabilera</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Babeslea</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Babesleak</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Une honetan ez dago babeslerik. Zergatik ez zara lehena bihurtzen!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Huts egin du babesleen zerrenda kargatzean</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Karratua</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Bidali</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Laguntzaileak</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Aldatu</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Guztira</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Ez dago erabilgarri</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Ustekabeko errore bat gertatu da</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Izoztu gabe</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Huts egin du kontua desizoztean</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Kontua ongi garbitu gabe</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Izoztu gabeko erabiltzailea</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Ziur zaude kontu izoztua kendu nahi duzula</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Berrikusi ekintza ezezaguna</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Eguneratu</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Eguneratu ezarpenak</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Huts egin du ezarpenak eguneratzean</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Ez da aldaketarik egin gordetzeko</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Ezarpenak ongi eguneratu dira</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Bertsio-berritzea</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>Orain bertsio librea erabiltzen ari zara. Galeria-biltegi gehiago eta beste ezaugarri handi batzuk desblokeatzeko, kontuan hartu zure kontua berritzea</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Igo</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Arazo bat zegoen zenbait fitxategi igotzeko</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Galeria baliogabea Id detektatuta</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Ezin izan da igoera aurkitu Url</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Igo multimedia</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Hautatu igotzeko metodoa</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Ez da fitxategirik detektatu igotzeko</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>{index} elementua igotzen...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>{count} elementua ongi igo da</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>{count} elementua(k) behar bezala igo da berrikusi gabe</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Igota</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Igotzailea</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Erabiltzailea</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Berretsi pasahitza</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Berretsi pasahitza</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Emandako pasahitza eta pasahitza ez datoz bat</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Sortu erabiltzailea</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzailea sortzean</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Erabiltzaile arrakastatsua sortu da</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Ezabatu erabiltzailea</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzailea ezabatzean</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Ziur zaude erabiltzailea ezabatu nahi duzula?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Erabiltzaileak ongi ezabatu du</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Editatu erabiltzailea</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzailea eguneratzean</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Erabiltzaile eguneratu berria</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Posta elektronikoa</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Erabiltzaileen helbide elektronikoa</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Pasahitza eta pasahitza ez datoz bat</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Zehaztu baliozko helbide elektronikoa</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Hautatutako erabiltzaile-maila ez da baliozkoa</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Zehaztu baliozko erabiltzaile-izena</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Zehaztu baliozko erabiltzailearen pasahitza</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Maila</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Erabiltzaileen sarbide-maila</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Erabiltzailea Id ezin da hutsik egon</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Erabiltzaile-izena ezin da hutsik egon</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Erabiltzaile-izena</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Gehitu izen bereko erabiltzailea badago lehendik ere</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Erabiltzaile berriaren erabiltzaile-izena</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Pasahitza</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Erabiltzaile berriaren pasahitza</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Erabiltzaile-izena</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Erabiltzaileak</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Huts egin du erabiltzaileen zerrenda eskuratzean</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Balidatu</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Egiaztatu</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Bideoak</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ikusi</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Bisitatu</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Abisua</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Wipe</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Ziur zaude galeria guztiak garbitu nahi dituzula?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Ziur zaude galeria hau ezabatu nahi duzula?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Datuak</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Huts egin du datuak ezabatzean</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Ziur zaude datu guztiak ezabatu nahi dituzula?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Datuak ongi ezabatu dira</value>
+  </data>
+</root>

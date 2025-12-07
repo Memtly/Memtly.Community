@@ -314,11 +314,11 @@ function bindAddUserButton() {
             }, {
                 Text: localization.translate('Close')
             }]
+        }, () => {
+            const validator = $('input#popup-modal-field-user-password');
+            initPasswordValidationField(validator);
         });
     });
-
-    const validator = $('input#popup-modal-field-user-password');
-    initPasswordValidationField(validator);
 }
 
 function bindEditUserButton() {
@@ -564,10 +564,10 @@ function bindChangePasswordButton() {
             }, {
                 Text: localization.translate('Close')
             }]
+        }, () => {
+            const validator = $('input#popup-modal-field-user-password');
+            initPasswordValidationField(validator);
         });
-
-        const validator = $('input#popup-modal-field-user-password');
-        initPasswordValidationField(validator);
     });
 }
 

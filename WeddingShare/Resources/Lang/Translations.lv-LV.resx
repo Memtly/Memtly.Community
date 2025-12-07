@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Lūdzu, ievadiet kodu, ko ģenerē jūsu 2FA lietotne</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Manuāli ievadiet kodu:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Neizdevās atiestatīt 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Veiksmīgi atiestatīt 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skenējiet šo attēlu ar savu programmu</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Neizdevās iestatīt 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Veiksmīgi izveidots 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Veiksmīgi noslaucīts 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA uzstādīšana</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties noslaucīt 2FA lietotājam '{nosaukums}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Ja šī problēma turpinās, lūdzu sazinieties ar tīmekļa administratoru</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Darbības</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktivizēt</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Neizdevās aktivizēt kontu</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Konts veiksmīgi aktivizēts</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivizēt lietotāju</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties aktivizēt šo kontu</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Pievienot</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Pieejamās galerijas</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Jūsu pārlūks neatbalsta šo funkciju</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Liela apjoma pārskatīšana</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Neizdevās apstiprināt visus ierakstus</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Vai vēlaties apstiprināt vai noraidīt visus vēl nepieņemtos darbus?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Neizdevās noraidīt visus ierakstus</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Fotoaparāts</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Neizdevās pārbaudīt konta stāvokli</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Aizvērt</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kods</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Lai nodrošinātu piekļuvi, sazinieties ar vietnes administratoru</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Izveidot</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultūra</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Lūdzu izvēlieties displeja kultūru</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Jums šobrīd nav piekļuves</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Vai tiešām vēlaties dzēst šo galeriju?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Dzēst atribūtu</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Neizdevās izdzēst ierakstu</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id nevar būt tukšs</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Veiksmīgi izdzēsts ieraksts</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Šī ir demo versija. Visu konfigurāciju periodiski noslauka, lai nodrošinātu tīru šīferi nākamajiem testētājiem.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Iznīcinoša darbība</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaļas</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Lejupielādēt</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Neizdevās lejupielādēt galeriju</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Jums nav tiesību lejupielādēt šo galeriju</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E- pasta adrese</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Kļūda</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Kļūda</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksports</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Eksportēt datus</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Neizdevās eksportēt datus</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Vai tiešām vēlies turpināt?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Veiksmīgi eksportētie dati</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Neizdevās izveidot galeriju</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Neizdevās noslaucīt galeriju</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Šī funkcija joprojām ir izstrādes stadijā, bet būtu pieejama drīz</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Neizdevās lejupielādēt FFMPEG uz ceļu</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Neizdevās nosūtīt paroli reset email</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Paroles atiestatīšanas saite nosūtīta. Lūdzu pārbaudiet savu e- pastu</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Iesaldēt</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Neizdevās iesaldēt kontu</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Konts veiksmīgi iesaldēts</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Iesaldēt lietotāju</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties iesaldēt kontu</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerijas</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerija</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Izveidot galeriju</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Neizdevās izveidot galeriju</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Veiksmīgi izveidota galerija</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Dzēst galeriju</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Neizdevās izdzēst galeriju</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst galeriju '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Veiksmīgi izdzēsta galerija</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Pieprasītā galerija netika atrasta vai neeksistē</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Rediģēt galeriju</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Neizdevās atjaunināt galeriju</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Veiksmīgi atjaunināta galerija</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Šobrīd nav kopīgotu atmiņu</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>mana kāzu galerija</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Nederīgs galerijas nosaukums vai slepenā atslēga, lūdzu mēģiniet vēlreiz</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu galerijas nosaukumu</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Nederīga slepenā atslēga, lūdzu mēģiniet vēlreiz</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galerijas atslēga</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Neizdevās iegūt galerijas sarakstu</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerija Id nevar būt tukšs</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galerijas nosaukums nevar būt tukšs</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galerijas nosaukums</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galerijas nosaukums jau eksistē</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Lūdzu ievadiet jaunu galerijas nosaukumu</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Slepenā atslēga</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Lūdzu, ievadiet jaunu slepeno atslēgu</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galerijas Selektors</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galerijas iestatījumi</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Noslaucīt galeriju</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Neizdevās noslaucīt galeriju</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties noslaucīt galeriju '{name}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Veiksmīgi noslaucīta galerija</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Vispārējs</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Ģenerē lejupielādi</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupa</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Gadījās kļūda ielādējot mājaslapu</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identitātes pārbaude</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Mainīt</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Mainīt identitāti</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E- pasta adrese</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Pastāstiet mums savu e-pastu, lai mēs varētu sasniegt jums.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Piem., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Nederīgs e- pasts</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu e- pastu</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Nederīgs vārds</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu nosaukumu</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Pastāstiet mums, kas jūs esat, lai mēs zinām, kas augšupielādēt atmiņas.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Piemēram, Džeina Dū, Džimijs, tēvocis Bobs</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Neizdevās iestatīt lietotāja identitāti</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Palieciet anonīmi</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Pastāstiet mums</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Neizdevās iestatīt lietotāja identitātes sesiju - Name</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importēt</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importēt datus</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Rezerves kopijas fails</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Lūdzu izvēlieties kāzas Kopīgot rezerves kopiju arhīvu</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Neizdevās importēt datus</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Lūdzu izvēlieties importa failu</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Dati, kas veiksmīgi importēti</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Norādītā piekļuve marķierierīcei nebija derīga</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Ainava</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Mainīt valodu</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Lūdzu izvēlieties attēlošanas valodu</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Saikne</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ielādē...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Pieteikties</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Neizdevās pieteikties lietotājam iekš</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Norādīts nederīgs lietotājvārds vai parole</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Lūdzu ievadiet derīgu paroli</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Lūdzu ievadiet derīgu lietotājvārdu</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Lūdzu ievadiet konta paroli.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Parole</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Lūdzu ieiet, lai pabeigtu šo darbību</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Lūdzu ievadiet konta lietotājvārdu.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Lietotājvārds</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Lūdzu, pārbaudiet savu e-pastu, lai aktivizētu savu kontu</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Atteikties</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Pārskatīšana</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nākamais</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Nav augšupielādētu pielāgotu resursu</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Nav</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Vai</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Jūsu parole tagad ir atiestatīta. Ja neesat pieprasījis paroles atiestatīšanu, nekavējoties vērsieties pie administratora.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Grūti piekļūt savam kontam?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Paroles atbilstības apstiprināšana</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Vismaz 8 rakstzīmes</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Mazie burti</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Skaitļi</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Īpašās rakstzīmes</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Lielie burti</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Paroles atiestatīt</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Neizdevās nosūtīt paroli atiestatīšanas e- pastu.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Jūsu parole ir veiksmīgi atiestatīta</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Lūdzu uzlabot savu kontu dalību, lai iegūtu piekļuvi šai funkcijai</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Gaida</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Lietotājvārds</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Reģistrācija</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Paroles apstiprināšana nesakrīt</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Neizdevās reģistrēt jaunu lietotāju</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Paroles apstiprināšana neatbilst parolei</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Lūdzu norādiet derīgu e- pasta adresi</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Bija jautājums apstrādes e-pasta pārbaudes saiti</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Konts izveidots veiksmīgi</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Jūsu konts ir veiksmīgi reģistrēts un gaida, lai jūs varētu piekļūt</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Laipni lūdzam!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Jūsu konts ir izveidots, bet jūsu e-pasta adrese vajadzībām apstiprināt, pirms jūs varat pieteikties</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Jūsu konts ir reģistrēts, bet ir jāpārbauda, pirms tam var piekļūt. Lūdzu, aktivizējiet savu kontu, noklikšķinot uz saites zemāk.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Laidiena versija</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Izņemt</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Pārdēvēt</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Atstatīt</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Paroles atiestatīšanas saites apstrāde notika</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Pārskatīšana</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Neizdevās pārskatīt ierakstu</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Nevar atrast vienības Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Saglabāt QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Lietojums</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsori</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Atbalstītāji</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Slēdzis</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Laika zīmogs</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Kopā</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Nav pieejams</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Ir notikusi negaidīta kļūdaName</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Nesaldēt</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Neizdevās iesaldēt kontu</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Nesaldēts konts veiksmīgi</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Neiesaldēt lietotāju</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties atslēgt kontu</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Nezināma pārskatīšanas darbība</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Atjaunināt</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Atjaunināt iestatījumus</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Neizdevās atjaunināt iestatījumus</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Lai saglabātu, netika veiktas nekādas izmaiņas</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Iestatījumi veiksmīgi atjaunināti</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Modernizēt</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Jūs pašlaik izmantojat bezmaksas versiju. Lai atbloķētu vairāk galerija uzglabāšanas un citas lieliskas funkcijas apsvērt uzlabot savu kontu</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Augšupielāde</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Bija problēma ar dažu failu augšupielādi</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Nederīga galerija Id noteikts</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Neizdevās atrast augšupielādi Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>&amp; Projekts</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Lūdzu izvēlieties augšupielādes metodi</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Netika atrasts neviens fails, ko augšupielādēt</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Augšupielādē vienumu {indekss} of {skaitlis}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Veiksmīgi augšupielādēts {count} ieraksts( i)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Veiksmīgi augšupielādēts {count} ieraksts(-i) gaida pārskatīšanu</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Augšupielādējis</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Lietotājs</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Apstiprināt paroli</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Apstiprināt paroli</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Norādītā parole un uzticības parole nesakrīt</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Izveidot lietotāju</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Neizdevās izveidot lietotāju</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Veiksmīgi izveidots lietotājs</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Dzēst lietotāju</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Neizdevās izdzēst lietotāju</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst lietotāju '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Veiksmīgi izdzēsts lietotājs</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Rediģēt lietotāju</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Neizdevās atjaunināt lietotāju</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Veiksmīgi atjaunināts lietotājs</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E- pasts</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Lietotāja e- pasta adrese</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Parole un paroles apstiprināšana nesakrīt</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu e- pasta adresi</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Izvēlētais lietotāja līmenis nav derīgs</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu lietotāja vārdu</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Lūdzu norādiet derīgu lietotāja paroli</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Līmenis</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Lietotāju piekļuves līmenis</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Lietotājs Id nevar būt tukšs</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Lietotāja vārds nevar būt tukšs</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Pievienot lietotāju ar tādu pašu nosaukumu jau eksistē</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Jaunā lietotāja lietotājvārds</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Jaunā lietotāja parole</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Lietotājvārds</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Neizdevās iegūt lietotāju sarakstu</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Pārbaudīt</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Pārbaudīt</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Vai tiešām gribi noslaucīt šo galeriju?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Noslaucīt datus</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Neizdevās nodzēst datus</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst visus datus?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Veiksmīgi noslaucīti dati</value>
   </data>
 </root>

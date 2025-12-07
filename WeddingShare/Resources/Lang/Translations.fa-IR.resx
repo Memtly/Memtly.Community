@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>لطفا کد تولید شده توسط برنامه 2FA خود را وارد کنید</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Manually وارد کد:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>شکست در تنظیم مجدد 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>بازسازی موفق 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>تصویر زیر را با برنامه خود اسکن کنید</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>شکست در راه اندازی 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>موفق به راه اندازی 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>موفق به از بین بردن 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید 2FA را برای کاربر “نام” پاک کنید؟?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>اگر این موضوع ادامه داشته باشد، لطفا با مدیر وب تماس بگیرید</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>اقدامات</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>فعال کردن</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>شکست در فعال کردن حساب</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>حساب فعال شده با موفقیت</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>فعال کردن User</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>مطمئن هستید که می خواهید این حساب را فعال کنید</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Add</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>گالری های موجود</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>مرورگر شما از این ویژگی پشتیبانی نمی کند</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>نقد و بررسی</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>شکست در تایید همه موارد</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>آیا دوست دارید همه موارد را تایید یا رد کنید؟?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>شکست در رد کردن همه چیز</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>دوربین</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>شکست در بررسی وضعیت حساب</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>نزدیک</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>کد</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>لطفا با یک مدیر سایت برای ارائه دسترسی تماس بگیرید</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>ایجاد آفرینش</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>فرهنگ فرهنگ فرهنگی</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>لطفا یک فرهنگ نمایش را انتخاب کنید</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>شما در حال حاضر دسترسی ندارید</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>آیا می خواهید این گالری را حذف کنید؟?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>شکست برای حذف آیتم</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>نمی توانم خالی باشم</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>آیا می خواهید «نام» را حذف کنید؟?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>خرید موفق</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>این یک نسخه آزمایشی است. تمام تنظیمات به صورت دوره ای از بین می رود تا اطمینان حاصل شود که یک تخته تمیز برای تست های آینده.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>اقدام مخرب</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>جزئیات</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>شکست برای دانلود گالری</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>شما مجاز به دانلود این گالری نیستید</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>آدرس ایمیل</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطای خطا</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>اشتباهات</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>صادرات</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>صادرات داده</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>شکست در صادرات داده ها</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید ادامه دهید؟?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>موفق به صادرات داده</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>شکست برای ایجاد گالری</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>شکست برای حذف گالری</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>این ویژگی هنوز در حال توسعه است اما باید به زودی در دسترس باشد</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>شکست برای دانلود FF MPEG به مسیر</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>شکست برای ارسال ایمیل بازنشانی رمز عبور</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Password Reset link ارسال شده است. ایمیل خود را چک کنید</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>یخ سرد</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>شکست در مسدود کردن حساب</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>حساب یخ زده با موفقیت</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>مسدود کردن کاربر</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>مطمئن هستید که می خواهید حساب را مسدود کنید</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>گالری ها</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>گالری</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>ایجاد گالری</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>شکست برای ایجاد گالری</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>موفق به ایجاد گالری</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>گالری حذف</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>شکست برای حذف گالری</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید گالری '{name} را حذف کنید؟?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>موفق به حذف گالری</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>گالری درخواست شده پیدا نشد یا وجود ندارد</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>گالری Edit</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>شکست برای به روز رسانی گالری</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>موفق به روز گالری</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>در حال حاضر هیچ خاطره مشترکی وجود ندارد</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>دانلود بازی my-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>نام گالری Invalid یا کلید مخفی، لطفا دوباره امتحان کنید</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>لطفا نام گالری معتبر را مشخص کنید</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>کلید مخفی Invalid لطفا دوباره امتحان کنید</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>گالری Key</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>شکست در لیست گالری</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>گالری گالری گالری نمی توانم خالی باشم</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>نام گالری نمی تواند خالی باشد</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>گالری Name</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>نام گالری در حال حاضر وجود دارد</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>لطفا نام گالری جدید را وارد کنید</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>کلید راز</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>لطفا یک کلید مخفی جدید وارد کنید</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>گالری Selector</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>گالری تنظیمات</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>گالری Wipe</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>شکست برای حذف گالری</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید گالری «نام» را پاک کنید؟?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>موفق به حذف گالری</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generate</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>تولید کننده</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>گروه Group</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>یک خطا در بارگذاری صفحه اصلی رخ داد</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>بررسی هویت</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>تغییر</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>تغییر هویت</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>آدرس ایمیل</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>ایمیل خود را به ما بگویید تا بتوانیم به شما برسیم.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>به عنوان مثال، John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>ایمیل Invalid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>لطفا یک ایمیل معتبر را مشخص کنید</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>نام Invalid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>لطفا نام معتبر را مشخص کنید</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>به ما بگویید که شما چه کسی هستید، بنابراین ما می دانیم که چه کسی خاطرات را آپلود می کند.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>جین دو، جیمی، عمو باب</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>شکست برای ایجاد هویت کاربر</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>ناشناس ماندن</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>به ما بگویید</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>شکست در تنظیم جلسه هویت کاربر - نام</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>واردات</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>واردات داده</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>فایل پشتیبان</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>یک عروسی را انتخاب کنید Share Backup</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>شکست داده های وارداتی</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>لطفا یک فایل import را انتخاب کنید</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>داده های موفق وارداتی</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>توکن دسترسی ارائه شده بی اعتبار بود</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>چشم انداز</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>تغییر زبان</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>لطفا یک زبان صفحه نمایش را انتخاب کنید</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>لینک Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>بارگذاری ...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>ورود</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>شکست در ورود به کاربر</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>نام کاربری Invalid یا Password مشخص شده</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>لطفا یک رمز عبور معتبر وارد کنید</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>لطفا یک نام کاربری معتبر وارد کنید</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>لطفا رمز عبور حساب را وارد کنید.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>لطفا برای تکمیل این عمل وارد شوید</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>لطفا نام کاربری را وارد کنید.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Username</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>لطفا ایمیل خود را برای فعال کردن حساب خود تأیید کنید</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>ویژگی های جدید Pending Review</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>منابع سفارشی آپلود نشده</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>هیچ</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>یا</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>رمز عبور شما در حال حاضر دوباره تنظیم شده است. اگر درخواست تنظیم مجدد رمز عبور را نکردید، بلافاصله به یک مدیر مراجعه کنید.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>مشکل دسترسی به حساب شما؟?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>بازی های Password تایید شده</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>حداقل 8 کاراکتر</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>حروف</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>اعداد</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>شخصیت های خاص</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>حروف بالا</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Password Reset</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>شکست برای ارسال ایمیل مجدد رمز عبور.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>رمز عبور شما با موفقیت تنظیم شده است</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>لطفا عضویت حساب خود را برای دسترسی به این ویژگی ارتقا دهید</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>بازگشت</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Username</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>ثبت نام</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>تایید رمز عبور مطابقت ندارد</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>شکست برای ثبت نام کاربری جدید</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>رمز عبور تایید شده با رمز عبور مطابقت ندارد</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>لطفا آدرس ایمیل معتبر را مشخص کنید</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>یک مسئله پردازش لینک تأیید ایمیل وجود داشت</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>ایجاد حساب با موفقیت</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>شما با موفقیت ثبت شده اید و منتظر دسترسی به آن هستید</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>خوش آمدید!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>حساب کاربری شما ایجاد شده است، اما آدرس ایمیل شما قبل از اینکه بتوانید وارد شوید، اعتبار می یابد</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>حساب شما ثبت شده است اما باید قبل از دسترسی به آن تایید شود. لطفا حساب خود را با کلیک بر روی لینک زیر فعال کنید.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>نسخه آزاد</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>حذف</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Rename</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>تنظیم مجدد</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>یک مسئله پردازش لینک تنظیم مجدد رمز عبور</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>نقد</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>شکست در بررسی آیتم</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>نمی تواند آیتم Id را پیدا کند</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Save QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>استفاده از</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>حمایت مالی</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>حامیان</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>حامیان</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Switch</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>مجموع</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>یک خطای غیرمنتظره رخ داده است</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>عدم موفقیت در حساب بدون درز</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>حساب بدون موفقیت</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>کاربر Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>شما مطمئن هستید که می خواهید بدون حساب حساب کنید</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>بررسی ناشناخته Action</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>تنظیمات Update</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>شکست در به روز رسانی تنظیمات</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>هیچ تغییری برای نجات ایجاد نشد</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>تنظیمات به روز شده با موفقیت</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>ارتقاء</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>شما در حال حاضر از نسخه رایگان استفاده می کنید. برای باز کردن ذخیره سازی گالری بیشتر و سایر ویژگی های بزرگ، ارتقاء حساب شما را در نظر بگیرید</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>آپلود</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>یک موضوع برای آپلود برخی از فایل ها وجود داشت</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>گالری Invalid تشخیص داده شده</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>نمی تواند آپلود را پیدا کند Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>آپلود رسانه ها</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>یک متد آپلود را انتخاب کنید</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>هیچ فایلی برای آپلود شناسایی نشد</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>ارسال آیتم {index}.</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>{count} Case(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>به صورت موفقیت آمیز (count) را آپلود کنید</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>آپلود شده توسط</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>User</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>تایید Password</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>تایید رمز عبور</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>رمز عبور و رمز عبور ارائه شده مطابقت ندارد</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>ایجاد User</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>شکست برای ایجاد کاربر</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>موفق به ایجاد کاربر</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>حذف User</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>شکست برای حذف کاربر</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید “نام کاربری” را حذف کنید؟?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>کاربران موفق حذف شده</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>ویرایش User</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>شکست برای به روز رسانی کاربران</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>کاربران موفق به روز شده</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>آدرس ایمیل کاربران</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>رمز عبور و تایید رمز عبور مطابقت ندارد</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>لطفا آدرس ایمیل معتبر را مشخص کنید</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>سطح کاربر انتخاب شده بی اعتبار است</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>لطفا نام کاربری معتبر را مشخص کنید</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>لطفا یک رمز عبور کاربر معتبر را مشخص کنید</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>سطح</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>دسترسی کاربران به سطح</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>User User نمی توانم خالی باشم</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>نام کاربری نمی تواند خالی باشد</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Username</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>اضافه کردن کاربر با همان نام در حال حاضر وجود دارد</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>نام کاربری کاربر جدید</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>رمز عبور کاربر جدید</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Username</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>شکست در لیست کاربران</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>اعتبارسنجی</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>بررسی</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>آیا می خواهید این گالری را پاک کنید؟?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>شکست در پاک کردن داده ها</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید تمام اطلاعات را پاک کنید؟?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>موفق به از بین بردن داده ها</value>
   </data>
 </root>

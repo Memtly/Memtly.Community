@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Silahkan masukkan kode yang dihasilkan oleh aplikasi 2FA anda</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Secara manual masukkan kode:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Gagal reset 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Reset secara permanen 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Memindai gambar berikut dengan aplikasi Anda</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Gagal mendirikan 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Sukses menyiapkan 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Memenangkan sukses menghapus 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Persediaan 256</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Anda yakin ingin menghapus 2FA untuk pengguna '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Jika isu ini berlanjut silakan hubungi administrator web</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Aksi</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Diaktifkan</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Gagal mengaktifkan akaun</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Akun tidak dapat diaktifkan</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktifkan Pengguna</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Anda pasti ingin mengaktifkan akun ini</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Tambah</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Perumpamaan yang Tersedia</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Pelayar Anda tidak mendukung fitur ini</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Tinjauan Bolak</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Gagal disahkan semua item</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Apakah Anda ingin menyetujui atau menolak semua item yang tertunda?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Gagal menolak semua item</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Gagal memeriksa keadaan akun</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Klon</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kode Code</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Sila hubungi administrator situs untuk memberikan akses</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Cipta</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Budaya</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Sila pilih budaya paparan</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Anda saat ini tidak memiliki akses</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Anda yakin ingin menghapus galeri ini?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Gagal memadam item</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id tidak boleh kosong</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Anda yakin ingin menghapus '{nama}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Malang Sukses menghapus item</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Ini adalah versi demo. Semua konfigurasi wourdon secara berkala dihapuskan untuk memastikan slate bersih untuk penguji di masa depan.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Tindakan Destructive Dilaksanakan</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Perincian</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Muaturun</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Gagal memuat turun galeri</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Anda tidak diizinkan mengunduh galeri ini</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Alamat Email</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Galat</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Ekspor</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Data Ekspor</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Gagal mengeksport data</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Anda yakin ingin melanjutkan?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Evolution berhasil mengeksport data</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Gagal membuat galeri</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Gagal menghapus galeri</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Fitur ini masih dalam pengembangan tapi harus segera tersedia</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Gagal memuat turun FFMPEG ke path</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Gagal untuk mengirim kata sandi reset email</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Set ulang kata kunci yang dikirim. Sila periksa email anda</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Jangan bergerak</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Gagal untuk membekukan akaun</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Akun void berhasil dibekukan</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Pengguna Beku</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Anda yakin ingin membekukan akun</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galleries</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galeri</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Galeri Buatan</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Gagal membuat galeri</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Gagal membuat galeri</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Galeri Penghapusan Galeri</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Gagal memadam galeri</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Anda yakin ingin menghapus galeri '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Messier Sukses dihapus galeri</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Galeri yang diminta tidak ditemukan atau tidak ada</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Galeri Suntingan Galeri</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Gagal memperbaharui galeri</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Gagal untuk memperbarui galeri</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Saat ini tidak ada kenangan bersama</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>\"membuat perhiasan wedding-ku\"</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Nama galeri tidak sah atau kunci rahasia, silakan coba lagi</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Nama galeri yang sah</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Kunci rahasia tidak sah, silakan coba lagi</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Kunci Galeri Galeri</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Gagal mendapatkan daftar galeri</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galeri Galeri Galeri Id tidak boleh kosong</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Nama Galeri Galeri Galeri tidak dapat kosong</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Name</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Nama Galeri Galeri Galeri Galeri telah ada</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Silahkan masukkan nama galeri baru</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Kunci Rahasia</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Silahkan masukkan kunci rahasia baru</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galeri Galeri Galeri</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Perpustakaan Galeri</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Galeri Keledai</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Gagal menghapus galeri</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Anda yakin ingin menghapus galeri '{name}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galeri yang berhasil dibersihkan</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Hasilkan</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Muaturun Penjanaan</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Kumpulan</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Kesalahan terjadi ketika memuat laman utama</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Cek Identitas</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>♪ Berubah ♪</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Identitas Perubahan</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Alamat Email</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Beritahu kami emailmu agar kami bisa menghubungimu.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>E-mel tidak sah</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Maklumkan emel yang sah</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Nama Tak Valid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Nyatakan nama yang sah</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Beritahu kami siapa kau sehingga kami tahu siapa yang mengunggah kenangan.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, Paman Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Gagal menetapkan identitas pengguna</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Tanpa nama</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Beritahu Kami</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Gagal menetapkan sesi identitas pengguna - Name</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Import</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Data Import</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Berkas Sandar Coup</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Tolong pilihkan Pernikahan Kongsi arsip cadangan</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Gagal mengimpor data</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Sila pilih fail import</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Evolution berhasil mengimpor data</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Token akses yang diberikan tidak sah</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Landskap</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Sila pilih bahasa paparan</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Memuatkan...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Log masuk</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Gagal log pengguna masuk</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Nama pengguna atau kata sandi tak sah invalid dinyatakan</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Keistimewaan silakan masukkan kata sandi yang sah</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Nama pengguna yang sah</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Kata sandi akaun.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Kata Sandi</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Sila log masuk untuk menyelesaikan aksi ini</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Nama pengguna akaun.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Namapengguna</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Anda perlu pengesahan untuk mengaktifkan akaun anda</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logkeluar</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Item Baru Mending Ulasan</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Tak ada sumber daya langganan yang dimuat naik</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Amerika/None</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Or</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Kata sandi Anda sekarang telah ditetapkan ulang. Jika Anda tidak meminta reset kata sandi, silakan hubungi administrator segera.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Masalah mengakses rekeningmu?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Konfirmasi kata sandi cocok</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Setidaknya 8 karakter</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Huruf kecil huruf kecil</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Nombor</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Aksara khas</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Huruf huruf huruf besar huruf</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Ulangtetap Kata Sandi Frasalaluan</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Gagal untuk mengirim kata sandi reset email.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Kata sandi anda telah berhasil diatur ulang</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Tolong tingkatkan keanggotaan akun anda untuk mendapatkan akses ke fitur ini</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Ditunda</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Namapengguna</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Pendaftaran</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Kata sandi pengesahan tidak cocok</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Gagal mendaftar pengguna baru</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Kata sandi pengesahan tidak cocok dengan kata sandi</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Sila nyatakan alamat emel yang sah</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Ada isu pemrosesan link verifikasi email</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Nama akun tidak berhasil diciptakan</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Akun Anda telah terdaftar sukses dan menunggu Anda untuk mengakses</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Selamat Datang!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Akun anda telah dibuat tetapi alamat email anda memerlukan pengesahan sebelum anda dapat log masuk</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Akunmu sudah terdaftar tapi harus diverifikasi sebelum bisa diakses. Sila aktifkan akun anda dengan mengklik link dibawah.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Versi Keluaran Minuman</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Mengeluarkan</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Tukarnama</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>KAN</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Ada isu pemrosesan link reset kata sandi</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Review</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Gagal untuk meninjau item</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Tidak dapat menemukan item Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Simpan QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Penggunaan Teropong</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsor</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Pendukung</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Tukar</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Tidak tersedia</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Kesalahan tak terduga telah terjadi</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Tidak Beku</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Gagal melepaskan akun</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Akun unt-frezen berhasil</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Pengguna Tidak-Beku</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Apakah Anda yakin ingin un-freeze account</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Tindakan review tidak diketahui</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Tetapan Lanjutan</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Gagal memutakhirkan tetapan</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Tidak ada perubahan yang dibuat untuk disimpan</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Pengaturan segera selesai dengan jayanya</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Upgrade</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Anda saat ini menggunakan versi bebas. Untuk membuka lebih banyak gudang galeri dan fitur besar lainnya mempertimbangkan meningkatkan akun Anda</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Unggah</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Ada isu upload beberapa file</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Galeri tidak sah Id terdeteksi</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Tidak dapat menemukan upload Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Media Upload</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Tolong pilih metode muat naik</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Tidak ada file yang terdeteksi untuk diunggah</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Memuat naik item {indeks} dari {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>{0} Sukses Diunggah {count} item</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>{0} Sukses Diunggah {count} item yang belum selesai ditinjau</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Diunggah Oleh</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Pengguna</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Konfirmasi Kata Sandi</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Kepastian kata sandi</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Kata sandi yang diberikan dan kata sandi confrim tidak cocok</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Buat Pengguna</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Gagal mencipta pengguna</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Evolution Sukses mencipta pengguna</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Pengguna Dihapus</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Gagal memadam pengguna</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Anda yakin ingin menghapus pengguna '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Evolution Sukses dihapus pengguna</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Pengguna Edit</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Gagal mengemaskini pengguna</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Gagal untuk memperbarui pengguna</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Alamat email pengguna</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Kata sandi tidak sama dengan kata sandi</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Sila nyatakan alamat emel yang sah</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Aras pengguna yang dipilih tidak sah</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Nama pengguna yang sah</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Nyatakan kata laluan pengguna yang sah</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Aras</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Tingkat akses pengguna</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Pengguna Id tidak boleh kosong</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Nama pengguna uschine tidak boleh kosong</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Namapengguna</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Tambahkan pengguna dengan nama yang sama telah ada</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Nama pengguna baru</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Kata Sandi</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Kata sandi pengguna baru</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Namapengguna</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Gagal mendapatkan daftar pengguna</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Kesahihan</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Tentusah</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Kau yakin ingin menghapus galeri ini?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Data Baru</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Gagal menghapus data</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Kau yakin ingin menghapus semua data?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Kejayaan data dihapus</value>
   </data>
 </root>

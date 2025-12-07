@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Palun sisestage oma 2FA rakenduse genereeritud kood</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Koodi käsitsi sisestamine:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>2FA lähtestamine nurjus</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>2FA edukalt lähtestatud</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skaneerige oma rakendusega järgmine pilt</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>2FA loomine nurjus</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>2FA edukas loomine</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA edukalt pühitud</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA seadistamine</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Are you sure you want to Clean 2FA for user '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Kui see probleem püsib, võtke ühendust veebiadministraatoriga</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Tegevused</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktiveeri</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Konto aktiveerimine nurjus</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Konto aktiveeriti edukalt</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktiveeri kasutaja</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Kas olete kindel, et soovite selle konto aktiveerida</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Lisa</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Saadaolevad galeriid</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Teie brauser ei toeta seda funktsiooni</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Kõigi elementide kinnitamine nurjus</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Kas soovite kõik pooleliolevad küsimused heaks kiita või tagasi lükata?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Kõigi elementide tagasilükkamine nurjus</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kaamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Tühistage</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Konto oleku kontrollimine nurjus</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Sulge</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kood</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Palun võtke ühendust saidi administraatoriga, et pakkuda juurdepääsu</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Loo</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultuuri</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Palun vali kuvakultuur</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Sul pole praegu ligipääsu</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Kas tõesti kustutada see galerii?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Kustuta element</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Elemendi kustutamine nurjus</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id ei saa olla tühi</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Kas tõesti kustutada '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Edukalt kustutatud element</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>See on demo versioon. Kõik konfiguratsioonid pühkitakse perioodiliselt, et tagada tulevaste testijate jaoks puhas kiltkivi.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Teostatud hävitav tegevus</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detailid</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Laadi alla</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Galerii allalaadimine nurjus</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Teil ei ole lubatud seda galeriid alla laadida</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-posti aadress</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Viga</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Vead</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksport</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Ekspordiandmed</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Andmete eksport nurjus</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Oled kindel, et tahad jätkata?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Edukalt eksporditud andmed</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Galerii loomine nurjus</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Galerii pühkimine nurjus</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>See funktsioon on veel väljatöötamisel, kuid peaks varsti saadaval olema</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>FFMPEGi allalaadimine asukohta nurjus</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Parooli lähtestamise kirja saatmine nurjus</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Parooli lähtestamise link on saadetud. Palun kontrollige oma e-maili</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Paigal</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Konto külmutamine nurjus</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Konto külmutati edukalt</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Külmuta kasutaja</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Kas olete kindel, et soovite konto külmutada</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerii</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galeriis</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Galerii loomine</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Galerii loomine nurjus</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Edukalt loodud galerii</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Kustuta galerii</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Galerii kustutamine nurjus</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Kas tõesti kustutada galerii '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Edukalt kustutatud galerii</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Soovitud galeriid ei leitud või ei eksisteeri</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Muuda galeriid</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Galerii uuendamine nurjus</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Edukalt uuendatud galerii</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Hetkel ei ole mälestusi jagatud</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>pulmagalerii</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Vigane galerii nimi või salajane võti, palun proovi uuesti</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Palun määra sobiv galerii nimi</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Vigane salajane võti, palun proovi uuesti</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galerii võti</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Galerii nimekirja hankimine nurjus</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galeriis Id ei saa olla tühi</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galerii nimi ei saa olla tühi</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galerii nimi</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galerii nimi on juba olemas</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Palun sisesta galerii uus nimi</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Salavõti</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Palun sisesta uus salajane võti</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galeriivalija</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galerii seadistused</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Pühi galerii</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Galerii pühkimine nurjus</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Kas oled kindel, et soovid galerii '{name}' pühkida?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Edukalt pühitud galerii</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Genereeri</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Allalaadimise genereerimine</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupp</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Kodulehe laadimisel tekkis viga</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identiteedikontroll</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Muuda</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Identiteedi muutmine</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-posti aadress</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Andke meile oma e-kiri, et saaksime teiega ühendust võtta.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Nt. john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Vigane e- kiri</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Palun määra korrektne kiri</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Vigane nimi</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Palun määra õige nimi</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Ütle meile, kes sa oled, et me teaksime, kes laadis mälestusi.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Nt Jane Doe, Jimmy, Onu Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Kasutaja identiteedi määramine nurjus</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Jää anonüümseks</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Ütle meile</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Kasutaja identiteedi seansi määramine nurjus - nimi</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Import</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Impordiandmed</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Varukoopiafail</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Palun vali pulm Varukoopia arhiivi jagamine</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Imporditud andmed nurjusid</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Palun vali impordifail</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Edukalt imporditud andmed</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Pakutud juurdepääsuluba oli vigane</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Maastik</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Keel</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Muuda keelt</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Palun vali kuvamiskeel</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Laadimine...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Sisselogimine</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Kasutaja sisselogimine nurjus</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Määratud vigane kasutajanimi või parool</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Palun sisesta õige parool</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Palun sisesta kehtiv kasutajanimi</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Palun sisesta konto parool.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Parool</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Palun logi sisse selle toimingu lõpuleviimiseks</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Palun sisesta konto kasutajanimi.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Kasutajanimi</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Palun kontrollige oma e-posti konto aktiveerimiseks</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logi välja</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Läbivaatamist ootavad uued elemendid</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Järgmine</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Kohandatud ressursse pole üles laaditud</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Mitte ükski</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Või</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Sinu parool on nüüd lähtestatud. Kui te parooli lähtestamist ei taotlenud, pöörduge kohe administraatori poole.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Probleemid teie kontole juurdepääsuga?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Parooli sobivuse kinnitamine</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Vähemalt 8 märki</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Väiketähti</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Numbrid</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Erimärgid</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Suurtähed</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Parooli lähtestamine</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Parooli lähtestamise kirja saatmine nurjus.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Parool on edukalt lähtestatud</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Palun uuendage oma konto liikmelisust, et saada juurdepääs sellele funktsioonile</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Oodates</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Kasutajanimi</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registreerimine</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Kinnituse parool ei sobi</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Uue kasutaja registreerimine nurjus</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Parooli kinnitamine ei sobi parooliga</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Palun määra korrektne e- posti aadress</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>E-posti kontrollimise lingi töötlemisel tekkis probleem</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Konto loomine õnnestus</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Teie konto on edukalt registreeritud ja ootab juurdepääsu</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Tere tulemast!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Teie konto on loodud, kuid teie e-posti aadress vajab enne sisselogimist kinnitamist</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Teie konto on registreeritud, kuid enne sellele juurdepääsu saamist tuleb seda kontrollida. Palun aktiveerige oma konto, klõpsates allpool olevat linki.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Vabasta versioon</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Eemalda</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Ümbernimeta</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Taasta lähtestamine</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Probleem oli parooli lähtestamise lingi töötlemises</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Läbivaatamine</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Elemendi läbivaatamine nurjus</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Elemendi ID leidmine nurjus</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Salvesta QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Kasutamine</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorid</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Toetajad</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Lülita</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Ajatempel</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Kokku</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Pole saadaval</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Tekkis ootamatu viga</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Vabasta</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Konto avamine nurjus</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Konto edukalt külmutamata</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Vabasta kasutaja</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Kas oled kindel, et soovid konto külmutada</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Teadmata läbivaatamismeede</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Uuenda</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Uuenda seadistusi</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Seadistuste uuendamine nurjus</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Salvestamiseks muudatusi ei tehtud</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Seadistused uuendati edukalt</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Uuenda</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Praegu kasutate tasuta versiooni. Galerii ladustamise ja muude suurepäraste funktsioonide avamiseks kaaluge konto uuendamist</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Laadi üles</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Tekkis probleem mõnede failide üleslaadimisega</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Vigane galerii Identifitseeritud</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Üleslaadimist ei leitud Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Meedia üleslaadimine</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Palun vali üleslaadimismeetod</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Üleslaadimiseks ei leitud ühtegi faili</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>{count} elemendi {index} üleslaadimine...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Edukalt üleslaaditud {count} element( d)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Edukalt üleslaaditud {count} element(id) ootel läbivaatamine</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Üleslaaditud</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Kasutaja</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Parooli kinnitamine</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Parooli kinnitamine</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Antud parool ja parool ei sobi kokku</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Kasutaja loomine</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Kasutaja loomine nurjus</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Edukalt loodud kasutaja</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Kustuta kasutaja</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Kasutaja kustutamine nurjus</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Kas tõesti kustutada kasutaja '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Edukalt kustutatud kasutaja</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Muuda kasutajat</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Kasutaja uuendamine nurjus</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Edukalt uuendatud kasutaja</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Kasutajate e- posti aadress</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Parool ja parooli kinnitamine ei klapi</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Palun määra korrektne e- posti aadress</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Valitud kasutajatase on vigane</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Palun määra sobiv kasutajanimi</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Palun määra kehtiv kasutaja parool</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Tase</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Kasutajate juurdepääsu tase</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Kasutaja Id ei saa olla tühi</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Kasutajanimi ei saa olla tühi</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Kasutajanimi</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Sama nimega kasutaja lisamine on juba olemas</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Uue kasutaja kasutajanimi</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Parool</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Uue kasutaja parool</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Kasutajanimi</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Kasutajate nimekirja hankimine nurjus</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valideeri</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Kontrolli</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Oled sa kindel, et tahad selle galerii ära pühkida?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Pühi andmed</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Andmete pühkimine nurjus</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Kas olete kindel, et soovite kustutada kõik andmed?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Andmete edukas kustutamine</value>
   </data>
 </root>

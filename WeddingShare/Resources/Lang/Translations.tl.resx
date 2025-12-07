@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Pakipasok ang code na ginawa ng inyong 2FA app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Manu - manong pumasok sa kodigo:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Sawi sa pagsasaayos ng 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Matagumpay na Naiayos ang 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Ang sumusunod na larawan gamit ang iyong app</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Sawi sa pagtatatag ng 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Matagumpay na naitayo ang 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Matagumpay na Nalipol ang 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Setup</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong punasan ang 2FA para sa user na '{name''?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Kung ang labas na ito ay patuloy na makipag - ugnayan sa administrador ng web</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Mga Gagawin</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktibo</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Bigo sa pag-udyok ng account</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Matagumpay na Napukaw ang Ulat</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivate User</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Sigurado ka bang gusto mong pakilusin ang ulat na ito</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Magdagdag</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Makukuhang mga Gallery</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Hindi sinusuportahan ng iyong browser ang bahaging ito</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Repaso sa Bulk</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Sawi sa pagsang - ayon sa lahat ng bagay</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Nais mo bang sang - ayunan o tanggihan ang lahat ng mga bagay na naghihintay?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Sawi sa pagtanggi sa lahat ng bagay</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Huwag ituloy</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Sawi sa pagsusuri ng kalagayan ng account</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Malapit</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodigo</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Pakisuyong makipag - ugnayan sa isang administrador ng site upang makagamit</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Gumawa</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultura</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Pumili ng display culture</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Sa kasalukuyan ay wala kang makuha</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Tiyak mo bang nais mong alisin ang galeryang ito?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Itapon ang Bagay na Ito</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Sawi sa pagtanggal ng larawan</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Hindi maaaring walang laman ang Id</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong i-delete ang 'ificname}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Matagumpay na inalis ang bagay</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Ito ay isang bersyon ng demo. Ang lahat ng kaayusan ay paminsan - minsang sinisira upang matiyak ang isang malinis na rekord para sa mga manunubok sa hinaharap.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Nagkaroon ng Nakapipinsalang Pagkilos</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Mga Detalye</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Ibaba</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Sawi sa pag-download ng galerya</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Hindi ka may - akda na mag - download ng galeryang ito</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Pakikipag - usap sa Email</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Pagkakamali</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Mga Pagkakamali</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Transportasyon</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Talaan ng mga Nilalaman</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Sawi sa pagluluwas ng datos</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Sigurado ka bang magpapatuloy ito?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Matagumpay na nailuwas ang datos</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Sawi ang paglikha ng galerya</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Sawi sa pagbura ng galerya</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Ang bahaging ito ay nagaganap pa rin subalit dapat na makukuha sa lalong madaling panahon</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Sawi sa pag-download ng FFMPEG sa landas</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Sawi sa pagpapadala ng password reconstructed email</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Password reconstructed link na ipinadala. Pakisuyong tingnan ang inyong email</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Malaya</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Sawi sa pagyeyelo</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Matagumpay na natigil ang ulat</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Malayang Paggamit</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Sigurado ka bang gusto mong mag - account</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Mga Gulong</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Gallery</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Gumawa ng Gallery</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Sawi ang paglikha ng galerya</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Matagumpay na nagawang galerya</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Delete Gallery</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Sawi sa pag-distrate ng galerya</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong i-delete ang gallery '{name''?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Matagumpay na Inalis ang galerya</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Ang hiniling na galerya ay hindi nasumpungan o hindi umiiral</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Bigo sa update gallery</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Matagumpay na binagong galerya</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Sa kasalukuyan ay wala pang alaalang naikukuwento</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>aking-weding-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Hindi tanggap na pangalan ng galerya o sekretong susi, pakisuyong subukan muli</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Pakisuyong magtakda ng angkop na pangalan sa galerya</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Hindi tanggap na susing susi, pakisuyong subukan muli</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Susi sa Gallery</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Sawi sa pagkuha ng listahan ng gallery</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Gallery Hindi maaaring walang laman ang Id</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Ang pangalang Gallery ay hindi maaaring walang laman</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Pangalan ng Gallery</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Umiiral na ang pangalang Gallery</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Pakisuyong pumasok sa isang bagong pangalan sa galerya</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Sekreto</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Pakisuyong ipasok ang isang bagong sekretong susi</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Pagpili ng Gallery</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Mga Pakikipagsapalaran sa Gallery</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Eklerya sa Wikipedia</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Sawi sa pagbura ng galerya</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong alisin ang gallery 'ificname}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Matagumpay na nabura ang galerya</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Pag - aanak</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Bumababang Bilang</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupo</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Nagkaroon ng pagkakamali sa pagkarga sa pagguho ng bahay</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Pagsusuri sa Pagkakakilanlan</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Pagbabago</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Palitan ang Pagkakakilanlan</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Pakikipag - usap sa Email</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Sabihin mo sa amin ang email mo para makausap ka namin.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe Janutermail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Hindi tanggap na Email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Pakisuyong magtakda ng isang tanggap na email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Hindi tanggap na Pangalan</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Pakisuyong magtakda ng isang tanggap na pangalan</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Pangalan</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Sabihin mo sa amin kung sino ka kaya alam namin kung sino ang nag - iwan ng maraming alaala.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, Tiyo Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Sawi sa pagtakda ng identity</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Manatiling Walang Dungis</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Sabihin Mo sa Amin</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Sawi sa pagtakda ng user identity session - Pangalan</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Pag - aangkat</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Diksyunaryong Data</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Packup file</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Pumili ng Kasal Ibahagi ang arkibong backup</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Sawi ang pag-angkat ng datos</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Pumili ng talaksang pag - aangkat</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Matagumpay na inangkat na impormasyon</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Ang ibinigay na paunawa ay hindi tanggap</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Tanawin sa Lupa</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Wika</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Palitan ang Wika</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Pumili ng display language</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Kaugnayan</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Pagbuhat...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Sawi sa pag- log in</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Itinakda ang hindi tanggap na username o password</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Pakipasok ang tanggap na password</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Paki-pasok ang tanggap na username</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Pakipasok ang account password.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Pakisuyong pumasok upang tapusin ang pagkilos na ito</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Pakipasok ang account username.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Pangalan</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Pakisuyong tiyakin sa inyong email na mag - e - mail kayo</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Maingay</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Bagong Repleksiyon ng mga Bagay - Bagay</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Susunod</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Walang sinusunod na kaugalian na nag - a - download ng mga bagay - bagay</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Wala</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Ang inyong kontrasenyas ay binago na ngayon. Kung hindi ka humiling ng isang password restoran, pakisuyong makipag - alam agad sa isang administrador.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Nahihirapan kang basahin ang iyong account?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Tiyaking posporo sa password</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Hindi bababa sa 8 karakter</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Ibabang titik ng kaso</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Mga Numero</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Pantanging mga tauhan</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Upper cases</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Muling Pagbigkas sa Password</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Bigo sa pagpapadala ng password reconstructed email.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Ang iyong password ay matagumpay na inayos</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Pakisuyong ihanda ang iyong mga tauhan sa account upang makuha ang bahaging ito</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Paglalagay</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Pangalan</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Pagrerehistro</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Hindi katugma ang signation password</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Bigo sa pagrehistro ng bagong tagagamit</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Hindi katugma ng password ang test</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Pakisuyong magtakda ng isang tanggap na adres ng email</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>May isang isyu na nagpoproseso sa kawing ng email verification</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Matagumpay na nalikha ang ulat</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Ikaw ay matagumpay na nairehistro at naghihintay na ikaw ay makapasok</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Maligayang pagdating!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Ang iyong account ay nilikha na subalit ang iyong direksiyon ng email ay nangangailangan ng katibayan bago ka makapasok</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Ang inyong account ay nakarehistro na ngunit kailangang tiyakin bago pa ito mabasa. Pakisuyong pakilusin ang iyong account sa pamamagitan ng pagpindot sa link sa ibaba.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Release Version</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Alisin</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Muling Pangalan</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Mulingset</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Nagkaroon ng isang isyu na nagpoproseso sa kawing ng password refix</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Repaso</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Sawi sa pagrepaso ng balita</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Hindi mahanap ang bagay na Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Iligtas ang QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Paggamit</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Mga Sponsor</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Mga Tagataguyod</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Stwitch</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Paglipas ng Panahon</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Kabuuan</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Hindi Magagamit</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Isang di - inaasahang pagkakamali ang naganap</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Hindi tapos</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Sawi sa di-malayang account</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Matagumpay na isinasalaysay ang un-frozen</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Di-Freeze User</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong hindi-freeze account</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Di - kilalang ginawa ng pagrerepaso</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Unang mga Pagtatakda</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Sawi sa update settings</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Walang mga pagbabagong ginawa upang magligtas</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Matagumpay na inayos ang mga setting</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Itaas na grade</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Kasalukuyan mong ginagamit ang malayang bersyon. Para mabuksan ang mas maraming gallery storage at iba pang magagandang katangian, i - upgradye ang account mo</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Itaas</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Nagkaroon ng isyu na nagdidiskarga ng ilang files</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Hindi tanggap na galerya Natuklasan ang Id</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Hindi mahanap ang download Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Pinatataas na Media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Pumili ng upload method</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Walang mga files na nahanap upang i-upload</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Pag - a - download ng bagay na {index } ng { {...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Matagumpay na nai-upload {/s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Matagumpay na nai-download ang {/s) naghihintay na review</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Nabibigatan</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>User</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Tiyakin ang Pasagot</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Tiyakin ang password</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Ang ibinigay na password at confrim password ay hindi katugma</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Gumawa ng User</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Sawi ang paglikha ng user</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Matagumpay na nilikha ang gumagamit</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Sawi sa pag-delete ng gumagamit</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong i-delete ang user 'ificulati'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Matagumpay na inalis ang gumagamit</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Sawi sa pag-update ng gumagamit</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Matagumpay na binago ang paggamit</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Ang mga gumagamit ng email address</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Ang password ay hindi katugma ng password</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Pakisuyong magtakda ng isang tanggap na adres ng email</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Ang piniling antas ng gumagamit ay hindi tanggap</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Pakisuyong magtakda ng isang tanggap na pangalan</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Pakisuyong magtakda ng tanggap na password</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Bibelin</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Ang mga gumagamit ay nakakakuha ng antas</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>User Hindi maaaring walang laman ang Id</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Ang pangalan ng user ay hindi maaaring walang laman</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Pangalan</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Idagdag ang gumagamit na may kaparehong pangalan na umiiral na</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Pangalan ng bagong gumagamit</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Ang password ng bagong gumagamit</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Pangalan</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Sawi sa pagkuha ng listahan ng mga gumagamit</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Maging Makatuwiran</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Pare - pareho</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Sigurado ka bang papahirin mo ang galeryang ito?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Sawi sa pagbura ng datos</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Natitiyak mo ba na nais mong alisin ang lahat ng impormasyon?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Matagumpay na nabura ang datos</value>
   </data>
 </root>

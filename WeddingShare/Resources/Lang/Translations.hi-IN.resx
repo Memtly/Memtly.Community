@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>कृपया अपने 2FA ऐप द्वारा उत्पन्न कोड दर्ज करें</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>मैन्युअल रूप से कोड दर्ज करें:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>2FA को रीसेट करने में विफल</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>सफलतापूर्वक 2FA रीसेट करें</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>अपने ऐप के साथ निम्नलिखित छवि स्कैन करें</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>2FA स्थापित करने में विफल</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>सफलतापूर्वक 2FA स्थापित</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>सफलतापूर्वक 2FA को मिटा दिया</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA सेटअप</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>क्या आपको यकीन है कि आप उपयोगकर्ता '{name}' के लिए 2FA को मिटाना चाहते हैं?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>यदि यह मुद्दा जारी रहता है तो कृपया वेब प्रशासक से संपर्क करें</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>कार्य</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>खाते को सक्रिय करने में विफल</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>खाता सफलतापूर्वक सक्रिय</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>उपयोगकर्ता को सक्रिय करें</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>क्या आप इस खाते को सक्रिय करना चाहते हैं</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>जोड़ें</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>उपलब्ध दीर्घाओं</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>आपका ब्राउज़र इस सुविधा का समर्थन नहीं करता है</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>बल्क समीक्षा</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>सभी वस्तुओं को मंजूरी देने में विफल</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>क्या आप सभी लंबित वस्तुओं को स्वीकार या अस्वीकार करना चाहते हैं?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>सभी वस्तुओं को अस्वीकार करने में विफल</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>कैमरा</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>खाते की स्थिति की जांच करने में विफल</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>बंद</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>कोड</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>कृपया एक्सेस प्रदान करने के लिए साइट व्यवस्थापक से संपर्क करें</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>बनाना</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>संस्कृति</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>कृपया एक प्रदर्शन संस्कृति का चयन करें</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>वर्तमान में आपके पास पहुंच नहीं है</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>क्या आप इस गैलरी को हटाना चाहते हैं?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>आइटम हटाएं</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>आइटम को हटाने में विफल</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>आईडी खाली नहीं हो सकता</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>क्या आप '{name}' को हटाना चाहते हैं?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>सफलतापूर्वक हटाए गए आइटम</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>यह एक डेमो संस्करण है। भविष्य के परीक्षकों के लिए स्वच्छ स्लेट सुनिश्चित करने के लिए सभी विन्यास समय-समय पर पोंछे जाते हैं।.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>विनाशकारी कार्रवाई का प्रदर्शन</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>गैलरी डाउनलोड करने में विफल</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>आप इस गैलरी को डाउनलोड करने के लिए अधिकृत नहीं हैं</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>ईमेल पता</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>त्रुटियाँ</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>निर्यात</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>निर्यात डेटा</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>डेटा निर्यात करने में विफल</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>क्या आप चाहते हैं?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>सफलतापूर्वक निर्यात डेटा</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>गैलरी बनाने में विफल</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>गैलरी पोंछने में विफल</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>यह सुविधा अभी भी विकास में है लेकिन जल्द ही उपलब्ध होना चाहिए</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>FFMPEG डाउनलोड करने में विफल</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>पासवर्ड रीसेट ईमेल भेजने में विफल</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>पासवर्ड रीसेट लिंक भेजा गया। कृपया अपने ईमेल को चेक करें</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>फ्रीज</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>खाते को फ्रीज करने में विफल</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>सफलतापूर्वक जमे हुए खाता</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>उपयोगकर्ता को फ्रीज करें</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>क्या आपको यकीन है कि आप खाते को फ्रीज करना चाहते हैं</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>गैलरी</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>गैलरी</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>गैलरी</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>गैलरी बनाने में विफल</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>सफलतापूर्वक निर्मित गैलरी</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>गैलरी</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>गैलरी को हटाने में विफल</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>क्या आपको यकीन है कि आप गैलरी '{name}' को हटाना चाहते हैं?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>सफलतापूर्वक हटाए गए गैलरी</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>अनुरोधित गैलरी नहीं मिली थी या मौजूद नहीं है</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>एडिट गैलरी</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>गैलरी अद्यतन करने में विफल</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>सफलतापूर्वक अद्यतन गैलरी</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>वर्तमान में साझा कोई याद नहीं है</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>मेरी शादी गैलरी</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Invalid गैलरी नाम या गुप्त कुंजी, कृपया फिर से प्रयास करें</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>कृपया एक वैध गैलरी नाम निर्दिष्ट करें</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Invalid secret key, कृपया फिर से प्रयास करें</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>गैलरी कुंजी</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>गैलरी सूची प्राप्त करने में विफल</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>गैलरी आईडी खाली नहीं हो सकता</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>गैलरी का नाम खाली नहीं हो सकता</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>गैलरी नाम</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>गैलरी का नाम पहले से मौजूद है</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>कृपया एक नया गैलरी नाम दर्ज करें</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>गुप्त कुंजी</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>कृपया एक नया गुप्त कुंजी दर्ज करें</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>गैलरी चयनकर्ता</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>गैलरी सेटिंग्स</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>वाइप गैलरी</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>गैलरी पोंछने में विफल</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>क्या आपको यकीन है कि आप गैलरी '{name}' को मिटाना चाहते हैं?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>सफलतापूर्वक पोंछे गैलरी</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>उत्पन्न करना</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generating डाउनलोड</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>समूह</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>एक त्रुटि होमपेज लोड हो रही है</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>पहचान जांच</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>परिवर्तन</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>पहचान बदलें</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>ईमेल पता</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>हमें अपना ईमेल बताएं ताकि हम आपसे संपर्क कर सकें।.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>अमान्य ईमेल</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>कृपया एक वैध ईमेल निर्दिष्ट करें</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>अमान्य नाम</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>कृपया मान्य नाम निर्दिष्ट करें</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>हमें बताएं कि आप कौन हैं इसलिए हम जानते हैं कि कौन यादें अपलोड करता है।.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., जेन डो, जिमी, अंकल बॉब</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>उपयोगकर्ता पहचान सेट करने में विफल</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>बेनामी</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>हमें बताएं</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>उपयोगकर्ता पहचान सत्र निर्धारित करने में विफल - नाम</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>आयात</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>आयात डेटा</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>बैकअप फ़ाइल</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>कृपया एक शादी का चयन करें शेयर बैकअप संग्रह</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>आयातित डेटा में विफल</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>कृपया एक आयात फ़ाइल चुनें</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>सफलतापूर्वक आयात डेटा</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>प्रदान की गई पहुंच टोकन को अवैध घोषित किया गया था</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>लैंडस्केप</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>कृपया एक डिस्प्ले भाषा चुनें</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>लिंक</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>लोड ...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>लॉग इन</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>उपयोगकर्ता को लॉग इन करने में विफल</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता नाम या पासवर्ड निर्दिष्ट</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>कृपया मान्य पासवर्ड दर्ज करें</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>कृपया मान्य उपयोगकर्ता नाम दर्ज करें</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>कृपया अकाउंट पासवर्ड दर्ज करें।.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>पासवर्ड</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>कृपया इस कार्रवाई को पूरा करने के लिए लॉग इन करें</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>कृपया अकाउंट यूज़रनेम दर्ज करें।.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>उपयोगकर्ता नाम</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>अपने खाते को सक्रिय करने के लिए अपने ईमेल को सत्यापित करें</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>लॉग-इन</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>नए आइटम लंबित समीक्षा</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>अगला</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>कोई कस्टम संसाधन अपलोड नहीं किया गया</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>कोई नहीं</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>या</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>अब आपका पासवर्ड रीसेट हो गया है। यदि आप पासवर्ड रीसेट करने का अनुरोध नहीं करते हैं तो कृपया तुरंत एक प्रशासक तक पहुंचें।.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>अपने खाते तक पहुंचने में परेशानी?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>पासवर्ड मैच की पुष्टि करें</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>कम से कम 8 वर्ण</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>लोअर केस अक्षर</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>संख्या</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>विशेष वर्ण</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>ऊपरी मामले अक्षर</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>पासवर्ड रीसेट करें</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>पासवर्ड रीसेट ईमेल भेजने में विफल रहा।.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>आपका पासवर्ड सफलतापूर्वक रीसेट किया गया है</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>इस सुविधा तक पहुंच पाने के लिए कृपया अपनी खाता सदस्यता अपग्रेड करें</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>लंबित</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>उपयोगकर्ता नाम</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>पंजीकरण</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>पुष्टि पासवर्ड मैच नहीं करता है</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>नए उपयोगकर्ता को पंजीकृत करने में विफल</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>पुष्टि पासवर्ड पासवर्ड से मेल नहीं खाता है</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>कृपया एक वैध ईमेल पता निर्दिष्ट करें</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>वहाँ एक मुद्दा प्रसंस्करण ईमेल सत्यापन लिंक था</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>खाता सफलतापूर्वक बनाया गया</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>आपके खाते को सफलतापूर्वक पंजीकृत किया गया है और आप तक पहुंचने का इंतजार कर रहे हैं</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>स्वागत!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>आपका खाता बनाया गया है लेकिन इससे पहले कि आप लॉग इन कर सकते हैं, आपका ईमेल पता मान्य होना चाहिए।</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>आपका खाता पंजीकृत किया गया है लेकिन इसे एक्सेस करने से पहले सत्यापित करने की आवश्यकता है। कृपया नीचे दिए गए लिंक पर क्लिक करके अपना खाता सक्रिय करें।.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>रिलीज संस्करण</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>निकालें</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>नाम बदलें</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>रीसेट करें</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>वहाँ एक समस्या पासवर्ड रीसेट लिंक प्रसंस्करण था</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>समीक्षा</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>आइटम की समीक्षा करने में विफल</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>आइटम आईडी नहीं मिला</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>QR सहेजें</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>प्रयोग</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>प्रायोजक</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>प्रायोजक</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>समर्थक</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>स्विच</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>टाइमस्टैम्प</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>कुल</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>उपलब्ध</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>अप्रत्याशित त्रुटि हुई है</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Un-freeze खाते में विफल</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>सफलतापूर्वक खाता खोलना</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-freeze user</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>क्या आपको यकीन है कि आप खाता खोलना चाहते हैं</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>अज्ञात समीक्षा कार्रवाई</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>अपडेट</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>अद्यतन सेटिंग</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>सेटिंग्स अद्यतन करने में विफल</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>बचाने के लिए कोई बदलाव नहीं किया गया था</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>सेटिंग सफलतापूर्वक अद्यतन</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>अपग्रेड</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>वर्तमान में आप मुफ्त संस्करण का उपयोग कर रहे हैं। अधिक गैलरी भंडारण और अन्य महान सुविधाओं को अनलॉक करने के लिए अपने खाते को अपग्रेड करने पर विचार करें</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>अपलोड</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>कुछ फ़ाइलों को अपलोड करने का एक मुद्दा था</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Invalid गैलरी Id पता लगा</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>अपलोड नहीं मिल सका Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>मीडिया अपलोड करें</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>कृपया एक अपलोड विधि का चयन करें</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>अपलोड करने के लिए कोई फाइल नहीं मिली</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>{count} के आइटम {index} को अपलोड करना ...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>सफलतापूर्वक अपलोड किया गया {count} आइटम</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>सफलतापूर्वक अपलोड किया गया {count} आइटम (s) लंबित समीक्षा</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>द्वारा अपलोड</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>उपयोगकर्ता</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>प्रदान किए गए पासवर्ड और confrim पासवर्ड से मेल नहीं खाता</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>उपयोगकर्ता बनाना</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>उपयोगकर्ता बनाने में विफल</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>सफलतापूर्वक उपयोगकर्ता बनाया</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>उपयोगकर्ता को हटा दें</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>उपयोगकर्ता को हटाने में विफल</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>क्या आप उपयोगकर्ता को '{name}' हटाना चाहते हैं?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>सफलतापूर्वक उपयोगकर्ता को हटा दिया गया</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>उपयोगकर्ता संपादित करें</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>उपयोगकर्ता को अद्यतन करने में विफल</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>सफलतापूर्वक अद्यतन उपयोगकर्ता</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>उपयोगकर्ता ईमेल पता</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करना</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>कृपया एक वैध ईमेल पता निर्दिष्ट करें</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>चयनित उपयोगकर्ता स्तर अमान्य है</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>कृपया एक वैध उपयोगकर्ता नाम निर्दिष्ट करें</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>कृपया एक वैध उपयोगकर्ता पासवर्ड निर्दिष्ट करें</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>स्तर</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>उपयोगकर्ता पहुँच स्तर</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>उपयोगकर्ता आईडी खाली नहीं हो सकता</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>उपयोगकर्ता नाम खाली नहीं हो सकता</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>उपयोगकर्ता नाम</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>पहले से ही मौजूद समान नाम के साथ उपयोगकर्ता जोड़ें</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>नए उपयोगकर्ता का उपयोगकर्ता नाम</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>नए उपयोगकर्ता का पासवर्ड</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>उपयोगकर्ता नाम</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>उपयोगकर्ताओं की सूची प्राप्त करने में विफल</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>मान्य</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>सत्यापित</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>क्या आप इस गैलरी को मिटाना चाहते हैं?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>वाइप डेटा</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>डेटा मिटाने में विफल</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>क्या आप सभी डेटा मिटाना चाहते हैं?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>सफलतापूर्वक डेटा मिटाना</value>
   </data>
 </root>

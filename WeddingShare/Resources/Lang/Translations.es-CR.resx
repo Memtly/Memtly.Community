@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Introduzca el código generado por su aplicación 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Introduzca manualmente el código:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Failed to reset 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Restablecimiento exitoso 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Escanee la siguiente imagen con su aplicación</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Falló en establecer 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Creación exitosa de 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Eliminado exitosamente 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Setup</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>¿Estás seguro de que quieres limpiar 2FA para el usuario '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Si este problema persiste, póngase en contacto con el administrador web</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Acciones</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Failed to activate account</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Cuenta activada con éxito</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Activar el usuario</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>¿Seguro que quieres activar esta cuenta</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Añadir</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Galerías disponibles</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Su navegador no admite esta característica</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Failed to approve all items</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>¿Le gustaría aprobar o rechazar todos los artículos pendientes?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Failed to reject all items</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Cámara</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Failed to check account state</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Cerca</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Por favor contacte con un administrador del sitio para proporcionar acceso</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Crear</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Seleccione una cultura de visualización</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Actualmente no tiene acceso</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>¿Estás seguro de querer borrar esta galería?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Failed to delete item</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>No estaría vacío</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>¿Estás seguro de querer borrar '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Tema suprimido con éxito</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Es una versión demo. Toda la configuración se limpia periódicamente para asegurar una pizarra limpia para futuros probadores.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destructive Action Performed</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Failed para descargar galería</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>No está autorizado para descargar esta galería</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Dirección de correo electrónico</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Errores</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Exportación</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Exportar datos</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Failed to export data</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>¿Seguro que quieres continuar?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Datos exportados con éxito</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Failed to create gallery</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Failed to clean gallery</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Esta característica todavía está en desarrollo, pero debería estar disponible pronto</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Failed to download FFMPEG to path</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Failed to send password reset email</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Enlace de restablecimiento de contraseña enviado. Por favor, compruebe su email</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Quieto</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Failed to freeze account</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Cuenta congelada con éxito</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Freeze User</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>¿Seguro que quieres congelar la cuenta</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerías</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galería</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Crear galería</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Failed to create gallery</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Galería creada con éxito</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Borrar galería</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Failed to delete gallery</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>¿Estás seguro de querer borrar la galería '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Galería eliminada con éxito</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>La galería solicitada no fue encontrada o no existe</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Editar galería</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Failed to update gallery</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Galería actualizada con éxito</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Actualmente no hay recuerdos compartidos</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>mi boda-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Nombre de la galería inválida o clave secreta, por favor intente de nuevo</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Por favor, especifique un nombre de galería válido</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>La clave secreta inválida, por favor intente de nuevo</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galería clave</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Failed to get gallery list</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galería No estaría vacío</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>El nombre de la galería no puede estar vacío</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Nombre de la galería</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>El nombre de la galería ya existe</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Por favor escriba un nuevo nombre de galería</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Secret Key</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Por favor, introduzca una nueva clave secreta</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galería Selector</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Configuración de la galería</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Failed to clean gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>¿Estás seguro de que quieres limpiar la galería '{name}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galería borrada exitosamente</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generar</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generación de Descarga</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupo</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Se produjo un error cargando la página principal</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Verificación de identidad</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Cambio</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Cambio de identidad</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Dirección de correo electrónico</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Díganos su correo electrónico para que podamos contactar con usted.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Correo electrónico inválido</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Por favor, especifique un correo electrónico válido</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Nombre inválido</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Por favor especifique un nombre válido</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Díganos quién es usted para que sepamos quién subió los recuerdos.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Por ejemplo, Jane Doe, Jimmy, tío Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Failed to set user identity</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Quédese anónimo</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Díganos</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Failed to set user identity session - Name</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importación</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importar datos</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Archivo de respaldo</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Por favor seleccione una boda Compartir archivo de copia de seguridad</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Failed to imported data</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Seleccione un archivo de importación</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Datos importados con éxito</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>The provided access token was invalid</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Paisaje</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Cambiar idioma</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Seleccione un idioma de visualización</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Enlace</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Iniciar sesión</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Failed to log user in</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Nombre de usuario o contraseña inválido especificado</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Ingrese una contraseña válida</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Por favor, introduzca un nombre de usuario válido</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Por favor, introduzca la contraseña de la cuenta.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Contraseña</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Por favor inicie sesión para completar esta acción</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Por favor ingrese el nombre de usuario de la cuenta.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Nombre de usuario</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Por favor, verifique su correo electrónico para activar su cuenta</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Cerrar sesión</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nuevos artículos pendientes de revisión</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>No hay recursos personalizados subidos</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Ninguno</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Su contraseña ahora ha sido restablecida. Si no solicitó un reinicio de contraseña, por favor contacte a un administrador inmediatamente.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>¿Problemas para acceder a su cuenta?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Confirmar coincidencias de contraseña</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Al menos 8 caracteres</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Cartas de casos inferiores</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Números</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Personajes especiales</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Cartas de casos superiores</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Contraseña</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Failed to send password reset email.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Su contraseña ha sido restaurada con éxito</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Por favor, actualice su cuenta para obtener acceso a esta función</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Pendiente</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Nombre de usuario</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registro</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>La contraseña de confirmación no coincide</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Failed to register new user</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>La contraseña de confirmación no coincide con la contraseña</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Por favor, especifique una dirección de correo electrónico válida</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Hubo un problema procesando el enlace de verificación de correo electrónico</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Cuenta creada con éxito</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Usted cuenta ha sido registrado con éxito y esperando que usted tenga acceso</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>¡Bienvenido!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Su cuenta ha sido creada pero su dirección de correo electrónico necesita validar antes de iniciar sesión</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Su cuenta ha sido registrada pero necesita ser verificada antes de poder acceder a ella. Por favor, active su cuenta haciendo clic en el enlace de abajo.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Versión de lanzamiento</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Retirar</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Rename</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Hubo un problema procesando el enlace de restablecimiento de contraseña</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Examen</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Failed to review item</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>No se puede encontrar el artículo Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Guardar QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Usage</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsors</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Supporters</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Cambio</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>No disponible</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Ha ocurrido un error inesperado</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Failed to unfreeze account</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Cuenta sin depósito con éxito</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Usuario no liberado</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>¿Estás seguro de que quieres desactivar la cuenta</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Medidas de examen desconocidas</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Actualización</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Configuración de actualización</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Failed to update settings</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>No se hicieron cambios para salvar</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Ajustes actualizados con éxito</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Actualización</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Actualmente está usando la versión gratuita. Para desbloquear más almacenamiento de galerías y otras grandes características considerar actualizar su cuenta</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Hubo un problema subiendo algunos archivos</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Galería inválida Id detectada</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>No se puede encontrar subida Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Subir los medios</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Por favor seleccione un método de carga</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>No se detectaron archivos para subir</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Subiendo el artículo {index} de {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Sucesivamente subido {cuenta} artículo(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Subido exitosamente {cuenta} artículo(s) pendiente de revisión</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Subido por</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Usuario</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Confirme la contraseña</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>La contraseña proporcionada y la contraseña confrim no coinciden</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Crear usuario</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Failed to create user</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Usuario creado con éxito</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Eliminar usuario</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Failed to delete user</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>¿Estás seguro de que quieres eliminar el usuario '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Usuario eliminado con éxito</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Editar usuario</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Failed to update user</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Usuario actualizado con éxito</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Dirección de correo electrónico de los usuarios</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Contraseña y confirmación de contraseña no coinciden</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Por favor, especifique una dirección de correo electrónico válida</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>El nivel de usuario seleccionado es inválido</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Por favor, especifique un nombre de usuario válido</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Por favor, especifique una contraseña de usuario válida</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>El nivel de acceso de los usuarios</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Usuario No estaría vacío</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Nombre de usuario no puede estar vacío</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Nombre de usuario</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Agregar usuario con el mismo nombre ya existe</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>El nombre de usuario del nuevo usuario</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>La contraseña del nuevo usuario</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Nombre de usuario</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Failed to get users list</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validación</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verificar</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>¿Seguro que quieres limpiar esta galería?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Datos de cable</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>No se puede borrar datos</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>¿Seguro que quieres borrar todos los datos?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Datos eliminados con éxito</value>
   </data>
 </root>

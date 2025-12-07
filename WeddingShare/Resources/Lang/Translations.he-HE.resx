@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>אנא הזן את הקוד שנוצר על ידי אפליקציית 2FA שלך</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>היכנסו ידנית לקוד:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>נכשלת בתיקון 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>איפוס מוצלח 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>בדוק את התמונה הבאה עם האפליקציה שלך</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>נכשל בהקמת 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>בהצלחה להגדיר 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Setup</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>האם אתה בטוח שאתה רוצה למחוק 2FA למשתמש 'שם'?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>אם נושא זה נמשך אנא צרו קשר עם מנהל האינטרנט</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>זה נראה כמו טעות בלתי צפויה התרחשה...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>נראה שאתה לא מורשה להציג את הדף הזה...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>גישה Denied</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>המפתח הסודי היה לא נכון</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>מפתח סודי</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>הגלאי שצוין אינו קיים ואין לך הרשאות ליצור אותו</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>גישה Denied</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>הגעתם למגבלת יצירת הגלריה המקסימלית</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>הגבול מגיע</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>הגלריה המפורטת אינה קיימת</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>גלריית Invalid</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>יש בעיה בעת ניסיון לאמת את החשבון שלך. אנא ודא כי קישור אימות הוא בתוקף.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>המונחים: invalid Verification קישור</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>הייתה בעיה בעת ניסיון לאפס את הסיסמה של החשבון שלך. אנא ודא כי קישור אימות הוא בתוקף.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>תגית: איפוס קישורים</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>קבלה</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>פעולה</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>פעולות</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>פעיל</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>נכשל להפעיל חשבון</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>החשבון מופעל בהצלחה</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>הפעלת משתמש</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה להפעיל את החשבון הזה</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>הכל</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>שיפור</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>עלייה</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>ביקורת</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>חשבון רשום</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>משתמש פעיל</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Bulk אישר את כל חוות הדעת</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>בורק דחה את כל חוות הדעת</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>מבקר אישר את השימוש בעוגיות</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>גלריה</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>יצר משתמש חדש</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>משאב מותאם אישית</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>מקור: Custom Resources</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>גלריה</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>משתמש</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>המשתמש אימות כתובת הדואר האלקטרוני שלהם</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>ייצוא גיבוי</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>ניסיון כניסה כושל מזוהה</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>ניסיונות כניסה כושלים לספור מחדש</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>המשתמש ביקש איפוס סיסמה</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>להקפיא משתמשים</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>ייבוא גיבוי</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>אישור בגלריה</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>נמחק בגלריה</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>נדחה בגלריה</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>כמה יומני להראות</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>גבולות</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>לא מצליחים לקבל רשימת ביקורת</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>תגית: Out</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>תגית: Audit Logs</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>תוספת רב-ספק לחשבון שלהם</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>המונחים: multi-factor</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>איפוס המפתח העיקרי שלהם</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>איפוס רב-ספק למשתמש</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>המשתמש ביקש איפוס סיסמה</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>יומני מסנן המבוססים על מונח חיפוש</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>תוצאות חיפוש</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>הגדרה מעודכנת לגלריה</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>משתמש Unfroze</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>גלריה חדשנית</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>עדכון המשתמש</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>המשתמש מחובר</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>כל הגלריות</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>גלריה</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>גלריות זמינות</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>הדפדפן שלך אינו תומך בתכונה זו</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>ביקורת: Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>נכשל לאשר את כל הפריטים</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>רוצים לאשר או לדחות את כל הפריטים?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>נכשל לדחות את כל הפריטים</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>מצלמה</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>נכשל לבדוק את מצב החשבון</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>נקי</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה לנקות את הגלריה?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>לחץ כאן כדי לבחור קבצים כדי להעלות</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>קודקוד</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>צור קשר עם מנהל האתר כדי לספק גישה</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>לא הצליח לשלוח הודעת ביקורת לאישור קבצי Cookie</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>מדיניות Cookie</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>באמצעות אתר זה אתה מסכים לשימוש שלנו בעוגיות בסיסיות בהתאם לתנאי השימוש בעוגיות. כדי לגלות עוד בבקשה עיין בנו</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>יצירת</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>כרגע אין לך גישה</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>משאבי מכס</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>נכשל לקבל משאבים מותאמים אישית</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>אנא בחר קובץ תמונה כדי להעלות</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>המונחים Custom</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>נכשל למחוק משאבים מותאמים אישית</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>נכשל להעלות משאבים מותאמים אישית</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>אזורי סכנה</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את הגלריה?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>לקט Item</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>נכשל למחוק פריט</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>לא יכול להיות ריק</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את השם?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>פריט נמחק מוצלח</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>זו גרסה הדגמה. כל התצורה נמחקת מעת לעת כדי להבטיח סלטה נקייה עבור בודקים עתידיים.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>נפילה</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>פעולות הרסניות שבוצעו</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>הורד Download</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>נכשל להוריד את הגלריה</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>אתה לא מורשה להוריד את הגלריה</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>דרגו</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>קובץ Duplicate זוהה</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>כתובת דואר אלקטרוני</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>טעות שגיאה</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>טעויות</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>יצוא</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>יצוא נתונים</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>נכשל לייצא נתונים</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה להמשיך?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>נתונים מייצאים בהצלחה</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>נכשל ליצור גלריה</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>נכשל ליצור משתמשים</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>נכשל למחוק את הגלריה</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>נכשל למחוק משתמשים</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>נכשל להוריד את הגלריה</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>לא הצליח להוריד את הגלריה. המפתח הסודי היה בלתי חוקי</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>נכשל לעדכן את הגלריה</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>נכשל לעדכן את המשתמש</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>נכשל לייצא נתונים</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>נכשל למצוא קובץ</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>נכשל לייבא נתונים</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>נכשל בבדיקת הפריט</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>נכשל לעדכן הגדרות</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>נכשל בגלריות</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>נכשלת בגלריית הנגיף</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>תכונה זו עדיין בפיתוח אבל צריך להיות זמין בקרוב</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>FF MPEG to Path</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>ניסה ליצור אגודל וידאו אבל FF MPEG עדיין לא השלים את ההורדה. אם מדובר בתקנה חדשה, חכה שההורדה תבוטל ותפספס את האגודל ייגרם על ידי סורק הרקע</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>נכשל להעלות קבצים</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>קובץ עם אותו שם כבר קיים</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>שכח סיסמה</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>שכח סיסמה</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>אנא הכנס את כתובת הדואר האלקטרוני.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>כתובת דואר אלקטרוני</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>נכשל לשלוח דואר אלקטרוני של סיסמה</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>קישור איפוס סיסמה שנשלח בדוק את הדואר האלקטרוני שלך</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>להקפיא</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>נכשל להקפיא את החשבון</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>חשבון קפוא בהצלחה</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Freeze User</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה להקפיא חשבון</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>גלריות</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>גלריה</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>יצירת גלריה</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>נכשל ליצור גלריה</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>גלריה שנוצרה בהצלחה</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>גלריה Delete</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>נכשל למחוק את הגלריה</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>האם אתם בטוחים שאתם רוצים למחוק את הגלריה?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>גלריה נמחקה</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>הגלריה המבוקשת לא נמצאה ואינה קיימת</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>נכשל לעדכן את הגלריה</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>גלריה מעודכנת</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>כרגע אין זיכרונות משותפים</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>אין כרגע זיכרונות משותפים, למה אתה לא מעלה את שלך למעלה!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>הגלריה מלאה והתגברה על הגודל המקסימלי של</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>גלריה Identifier</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>אנא הזן את המזה של הגלריה שברצונך לבקר.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>הצחוק שלי</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>שם גלריה לא חוקי או מפתח סודי, אנא נסה שוב</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>נא לציין שם גלריה בתוקף</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>מפתח סודי, אנא נסה שוב</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>גלריה מפתח</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>אנא הזן את המפתח הסודי.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>היכנסו למפתח הסודי כאן</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>המספר המקסימלי המותר של גלריות הגיע</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>לא מצליחים להגיע לרשימת הגלריה</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>גלריה לא יכול להיות ריק</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>שם גלריה לא יכול להיות ריק</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>שם גלריה</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>שם הגלריה כבר קיים</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>אנא הזן שם גלריה חדש</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>מפתח סודי</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>אנא הכנס מפתח סודי חדש</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>גלריה Selector</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>הגדרות גלריה</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>גלריה Wipe</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>נכשלת בגלריית הנגיף</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את הגלריה '?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>גלריה ממולחת</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>ייצור</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>יצירת Download</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>קבוצה</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>טעות הייתה לטעון את דף הבית</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identity Check</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>שינוי</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>שינוי זהות</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>כתובת דואר אלקטרוני</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>ספר לנו את הדואר האלקטרוני שלך כדי שנוכל להגיע אליך.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>דואר אלקטרוני Invalid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>נא לציין אימייל בתוקף</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>שם לא חוקי</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>נא לציין שם חוקי</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>שם השם</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>ספר לנו מי אתה, אז אנחנו יודעים מי העלה זיכרונות.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>ג'יין דו, ג'ימי, דוד בוב</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>נכשל להגדיר זהות משתמשים</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>תישאר אנונימי</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>ספרי לנו</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>נכשל בקביעת זהות המשתמש - שם</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>נכשל להעלות תמונות</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>יבוא</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>יבוא נתונים</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>קובץ גיבוי</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>בחר חתונה ארכיון הגיבוי</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>נכשל בנתונים מיובאים</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>אנא בחר קובץ יבוא</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>נתונים מיובאים בהצלחה</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>הסימון של הגישה היה בלתי חוקי</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>סוג הקובץ אינו חוקי</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>גלריה Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>מפתח גלריה</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>בקשה נעשתה באמצעות מפתח סודי לא חוקי</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>מפתח</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>נוף</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>שינוי שפה</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>אנא בחרו שפת תצוגה</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>קישור</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>לטעון...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>כניסה</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>נכשל להכניס משתמשים</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>שם משתמש או סיסמה</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>אנא הזן סיסמה בתוקף</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>אנא הזן שם משתמש חוקי</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>אנא הזן את הסיסמה של החשבון.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>אנא היכנסו להשלמת הפעולה</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>אנא הכנס את שם המשתמש.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>שם המשתמש</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>אנא בדוק את הדואר האלקטרוני שלך כדי להפעיל את החשבון שלך</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>ניהול נתונים</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>גודל הקובץ מקס</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>מדיה סוג</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>חברים</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>נכשל בהקמת 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם השם</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>שם גלריה לא יכול להיות ריק</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>פריטים חדשים להורדה</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>אין מקורות מותאמים אישית</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>אין נתונים</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>לא נמצאו קבצים להעלאה</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>עדיין לא נוצרו גלריות</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>אין העלאת ביקורת</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>אף אחד לא</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>או</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>הסיסמה שלך כבר בוטלה. אם לא ביקשת איפוס סיסמה בבקשה להגיע מיד למנהל המערכת.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>הסיסמה שלך כבר מעודכנת!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>איפוס סיסמה נדרש בחשבון שלך. אם ביקשת שינוי סיסמה, לחץ על הקישור למטה כדי לעדכן אותו.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>בעיות בגישה לחשבון שלך?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>משחקי סיסמה</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>8 תווים</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>האותיות הקטנות</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>מספרים</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>דמויות מיוחדות</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>האותיות הקטנות</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>סיסמה איפוס</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>נכשל לשלוח דואר אלקטרוני לאפסת סיסמה.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>הסיסמה שלך בוטלה בהצלחה</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>אנא לשדרג את חברות החשבון שלך כדי לקבל גישה לתכונה זו</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>עקבו</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>עקבו אחרי Uploads</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>נכשלים לקבל העלאה</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>דיוקן</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>מצגת</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>אקראי</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>רשום</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>חשבון רישום</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>לאשר את הסיסמה שלך</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>אישור סיסמה</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>אנא הכנס את כתובת הדואר האלקטרוני.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>כתובת דואר אלקטרוני</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>הסיסמה נכנסת לסיסמה.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>אנא הכנס את שם המשתמש.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>שם המשתמש</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>רישום</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>סיסמה לא תואמת</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>לא הצליח לשלוח דואר אלקטרוני למשתמש.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>חשבון עם כתובת הדואר האלקטרוני המפורטת כבר קיים</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>נכשל לרשום משתמש חדש</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>סיסמה אישור לא תואמת את הסיסמה</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>נא לציין כתובת דואר אלקטרוני בתוקף</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>נא לציין סיסמה בתוקף בין 8 ל -100 תווים, המכילה לפחות מכתב מקרה עליון אחד, מכתב מקרה אחד נמוך יותר, מספר 1 ו 1 מיוחד אופי</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>נא לציין שם משתמש תקף בין 5 ל-50 תווים</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>היה נושא עיבוד הקישור אימות הדואר האלקטרוני</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>החשבון נוצר בהצלחה</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>אתה נרשם בהצלחה ומחכה לך לגשת</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>ברוכים הבאים!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>החשבון שלך נוצר אך כתובת הדואר האלקטרוני שלך צריכה לאמת לפני שתוכל להיכנס</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>החשבון שלך נרשם אך צריך לבדוק לפני שניתן לגשת אליו. אנא להפעיל את החשבון שלך על ידי לחיצה על הקישור למטה.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>שם המשתמש כבר קיים. אנא בחרו אחד חדש</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>את הסיסמה המפורטת ניתן לנחש בקלות. אנא בחר סיסמה בטוחה יותר.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>גרסה חופשית</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>להסיר</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>שם מקור</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>איפוס</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>היה נושא עיבוד הקישור איפוס סיסמה</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>משאבים</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>נכשל בבדיקת הפריט</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>לא מצאתי פריט</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>הצילו QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>נכשל לחסוך משאבים מותאמים אישית</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>לא מצליח להציל תמונה לגלריה</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>לסרוק את קוד QR עם הטלפון שלך כדי לשתף את התמונות שלך</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>חשבון</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>כמה כניסות כושלות לפני שהמשתמש חסום</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>נסיונות נעולים</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>כמה זמן צריך לחסום משתמש</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>דקות נעולות</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>אם סמל הפרופיל מופיע בראש</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>פרופיל אייקון</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>האם האורחים מורשים לרשום חשבונות?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>רישום</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>האם משתמשים נדרשים לאמת את האימייל שלהם כדי להפעיל את החשבון שלהם?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>נדרש אישור</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>התראות</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>יש לשלוח הודעות כאשר חשבונות נעולים</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>חשבון Lockout</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>יש לשלוח התראות כאשר מבוצעת פעולה הרסנית</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>פעולות הרסניות</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>יש לשלוח התראות על ניסיונות כניסה כושלים</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>נכשל כניסה</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>יש לשלוח התראות אם פריט חדש עומד למבחן</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>ביקורת</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>שירותי רקע</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>ניקוי קבצים זמניים</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>ניקוי</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>איסוף קבצים ירד ישירות לתוך תיקיית הגלריה</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Directory Scanner</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>שולח דיווח על קטגוריה</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>דוחות דואר אלקטרוני</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>יסוד</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>הבסיס יש להשתמש בקישורים והודעות</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>בסיס Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>יש לשלוח דוח דואר אלקטרוני עם סטטיסטיקות גלריה</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>דיווח דואר אלקטרוני</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>צריך משתמשי Htp נדרשים ל-https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>כוח Htps</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>כיצד משתמשים בוחרים גלריה</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>גלריה Selector סוג</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>אם ניתן לראות את האפשרות של גלריית ברירת המחדל</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>גלריית Default</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>יש לאפשר לאורחים ליצור גלריות חדשות</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>גלריית אורחים</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>צריך לכלול את המפתח הסודי בקוד QR</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>קודים QR</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>צריך ללחוץ על הקישור הביתי מפנה את המשתמש</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>קישור ביתי Clickable Home Link</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>קישורים פתוחים בכרטיסיות חדשות</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>קישורים חדשים</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>הסמל כדי להציג כותרות וכרטיסיות</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>הלוגו</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>כמה גלריות ניתן למשתמשים ליצור</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Max Gallery Count</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>צריך להיות אחד או יותר גלריות</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>מצב גלריה</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>פיקסלים מקסימליים בכל כיוון לאגודל</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>החלטה</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>שם המופע ב Headers and tabs</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>התוכן להציג בדף מידע CookiePolicy</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>מדיניות קובצי Cookie</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>מדיניות המכס</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>לא מצליחים להגיע להגדרות</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>גלריה Defaults</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>אילו סוגי קבצים מותרים להעלות</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>מותר File Types</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>תמונה להציג בחלק העליון של הגלריה</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>צילום</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>האורחים צריכים לקבל את האפשרות בין איסוף קבצים או מצלמה</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>מצלמות</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>מספר העמודות להציג</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>תגית Count</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>מה זה ברירת המחדל גלריה filter</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Default Filter</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>מהי קבוצת גלריית ברירת המחדל</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Default Group</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>מהו פקודת גלריית ברירת המחדל</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>פקודת Default Order</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>מהי תצוגת גלריית ברירת המחדל</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Default View</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>יש לאפשר לאורחים להוריד פריטים</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>לאפשר הורדה</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>רוחב הגלריה</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Display Type</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>אחרי כמה זמן הגלריה מתרעננת כדי לקבל תוכן חדש</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Idleמרעננים Mins</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>המספר המקסימלי של פריטים להציג בעמוד</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>פריטים בעמוד</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>מה הגדול ביותר ב- MB קובץ מועלה יכול להיות</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Max File Size (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>כמה גדול ב MB הוא הגלריה מותר לגדול</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>גודל גלריה מקס (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>יש לדחות פריטים משוכפלים באופן אוטומטי</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>למנוע Duplicates</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>לאחר סורק איזה סדר צריך להופיע</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>תגית: QR מין</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>לאחר סריקה של מה הפריסה צריכה שהמשתמש יראה</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>תגית: QR View View</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>יש להציג את קוד QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>תגית: QR Code</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>אם קוד QR מציין את שפת התצוגה</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>כולל תרבות QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>ציטוט לתצוגה בחלק העליון של הגלריה</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>תגית:</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>יש לבדוק פריטים לפני שהם מופיעים באתר</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>דרושים Review</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>יש לאחסן פריטים נדחה לשימוש מאוחר יותר</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>חידוש פריטים</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>צריך להראות את הדלפק הסקירה</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>תגית: Counter</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>האם המשתמש יכול לסנן ולארגן מדיה?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>הצג פילטרs</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>צריך להציג את הכותרת בראש הגלריה</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>הצג Title</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>יש לאפשר לאורחים להעלות פריטים</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>לאפשר עלויות</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>הגבלת עלויות לתקופה מסוימת</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>המונחים:</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>צריך לשלוח התראות</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>כתובת השרת Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>סוף</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>החשיבות של התראות</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>עדיפות</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>הסימון המשמש אימות</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>גישה Token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Identity Check</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>משתמשים בולטים בשם שלהם</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>אם בדיקת הזהות תוצג בעומס דף</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>תגית: Prompt</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>אם משתמשים נדרשים להיכנס לכתובת דואר אלקטרוני</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>נדרש כתובת דואר אלקטרוני</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>יש צורך במשתמשים להיכנס לשם</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>שם נדרש</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>צריך לבדוק את זהות כדי להעלות מדיה</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>המונחים Prompt</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>שפות</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>שפת ברירת המחדל אם אף אחד לא נבחר</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>שפה Default</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>לאפשר למשתמשים לשנות את השפה</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>מרוצה</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>צריך לשלוח התראות</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>כתובת השרת Ntious</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>סוף</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>החשיבות של התראות</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>עדיפות</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>הסימון המשמש אימות</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>גישה Token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>הנושא לשלוח התראות</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>נושא</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>האם המשתמש צריך לראות את סגנון ה-GDPR?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Slideshow</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>כמה זמן צריך לעבור בין שקופיות</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>כמה זמן בתוך שניות צריך מופע שקופיות לפני המעבר אל השקופית הבאה</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>אינטרוול</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>המספר המקסימלי של שקופיות יש לכלול</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>גבולות</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>אם קוד QR יופחת בסוף עבור האורחים לסרוק</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>שתף Slide</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>דואר אלקטרוני</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>שם שולח ידידותי למשתמש</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>שם תצוגה</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>צריך לשלוח הודעות דוא"ל</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>כתובת הדואר האלקטרוני נשלחת</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>מתוך</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>שם היצרן SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>המארח</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>הסיסמה המשמשת לאמת את הבקשה</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>הנמל המשמש את ספק SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>הנמל Port</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>רשימה נפרדת של כתובות דוא"ל</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>ספק SMTP משתמש SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>השתמש SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>שם המשתמש נהג לאמת את הבקשה</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>שם המשתמש</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>נושאים</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>נושא ברירת המחדל אם אף אחד לא נבחר</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Default נושא</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>לאפשר למשתמשים לשנות את הנושא</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>המונחים</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>קוד שיתוף</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>רווק</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Slideshow</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>מין</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>שימוש</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>ספונסר</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>מניות</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>כרגע אין ספונסרים. למה אתה לא הופך ראשון!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>נכשל לטעון את רשימת הספונסרים</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>כיכר Square</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>הגשת</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>תומכים</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>בלתי זמין</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>טעות בלתי צפויה התרחשה</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>נכשלת בחשבון un-freeze</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>חשבון לא חטוף בהצלחה</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-Freeze User</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה לבטל חשבון</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>ביקורת לא ידוע</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>עדכון Update</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>הגדרות עדכון הגדרות</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>נכשל לעדכן הגדרות</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>לא נעשו שינויים להצלת</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>הגדרות מעודכנים בהצלחה</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>שדרוג</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>עכשיו אתה משתמש בגרסה החינמית. כדי לפתוח יותר אחסון גלריה ותכונות גדולות אחרות לשקול שדרוג החשבון שלך</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>הייתה בעיה להעלות קבצים</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>גלריה מזוהה</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>לא יכול למצוא העלאה Url</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Upload Media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>אנא בחרו שיטת העלאה</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>לא נמצאו קבצים כדי להעלות</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Load .</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>פורסם ב-[[770]]</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>פורסם ב-[[1924]]</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>מוצג על ידי</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Uploader</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>המשתמש משתמש</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>אישור סיסמה</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>לאשר את הסיסמה</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>הסיסמה והסיסמה המסופקת אינם מתאימים</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>יצירת משתמשים</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>נכשל ליצור משתמשים</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>יצר מוצלח את המשתמש</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>למחוק משתמשים</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>נכשל למחוק משתמשים</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את המשתמש 'שם'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>משתמש מוצלח</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>נכשל לעדכן את המשתמש</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>משתמש מעודכן מוצלח</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>דואר אלקטרוני</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>כתובת הדואר האלקטרוני של המשתמשים</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>סיסמה ומאשר סיסמה לא תואמת</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>נא לציין כתובת דואר אלקטרוני בתוקף</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>רמת המשתמש שנבחרה אינה חוקית</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>נא לציין שם משתמש תקף</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>נא לציין סיסמה למשתמש תקף</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>רמה</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>גישה למשתמשים</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>המשתמש משתמש לא יכול להיות ריק</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>שם המשתמש לא יכול להיות ריק</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>שם המשתמש</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>הוסף למשתמש עם אותו שם כבר קיים</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>שם המשתמש החדש</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>הסיסמה של המשתמש החדש</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>שם המשתמש</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>משתמשים</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>לא מצליחים לקבל רשימת משתמשים</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>אימות</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>לבדוק</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>קטעי וידאו</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>ביקור</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>אזהרה</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Wipe</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את כל הגלריות?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את הגלריה?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>נכשל למחוק נתונים</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>אתה בטוח שאתה רוצה למחוק את כל הנתונים?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>נתונים מוצלחים נמחקים</value>
+  </data>
+</root>

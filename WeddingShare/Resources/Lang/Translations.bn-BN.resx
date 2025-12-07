@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>অনুগ্রহ করে আপনার ২FA অ্যাপ্লিকেশন দ্বারা নির্মিত কোড লিখুন</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>নিজে হাতে কোড লিখুন:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>২-এ রি-সেট করতে ব্যর্থ</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>সাফল্যের সাথে পুনরায় নির্ধারণ করা হয়েছে</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>অ্যাপ্লিকেশন দ্বারা নিম্নলিখিত ছবিটি স্ক্যান করা হবে</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>পরিচয় নির্ধারণ করতে ব্যর্থ</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>সাফল্যের সাথে ২FA নির্ধারণ করা হয়েছে</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>সাফল্যের সাথে ২</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>২FA প্রস্তুতি</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিত যে আপনি ব্যবহারকারীর '{name' নাম মুছে ফেলতে চান?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>এই ইস্যুটি যদি এখনও যোগাযোগ করে চলে তবে অনুগ্রহ করে ওয়েব-সাইটের সাথে যোগাযোগ করুন</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>ওপস, দেখে মনে হচ্ছে একটা অপ্রত্যাশিত ভুল হয়েছে...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>দেখে মনে হচ্ছে আপনার এই পৃষ্ঠা দেখার অনুমতি নেই...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>প্রবেশাধিকার প্রত্যাখ্যাত</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>প্রদত্ত কি সঠিক নয়</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>অবৈধ গোপনীয় কি</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>উল্লিখিত গ্যালারি বর্তমানে উপস্থিত নেই এবং এর অনুমতি আপনার নেই</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>প্রবেশাধিকার প্রত্যাখ্যাত</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>সর্বাধিক গ্যালারির সর্বাধিক সীমা উপস্থিত রয়েছে</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>সীমা পূর্ণ হয়েছে</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>উল্লিখিত সংকলন বর্তমানে উপস্থিত নেই</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>গ্যালারি বৈধ নয়</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট পরীক্ষা করতে সমস্যা হয়েছে। অনুগ্রহ করে পরীক্ষা করুন, কর্ম বৈধ কি না.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>অবৈধ অনুমোদন লিংক</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট রিসেট করার সময় কিছু সমস্যা দেখা দিয়েছে । অনুগ্রহ করে পরীক্ষা করুন, কর্ম বৈধ কি না.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>অবৈধ পাসওয়ার্ড রি-সেট করো</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>গ্রহণ করুন</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>কাজ</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>কাজ</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>সক্রিয় করুন</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>অ্যাকাউন্ট সক্রিয় করতে ব্যর্থ</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>অ্যাকাউন্ট সক্রিয় করা হয়েছে</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>ব্যবহারকারী সক্রিয় করুন</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে এই অ্যাকাউন্ট সক্রিয় করতে ইচ্ছুক</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>যোগ করুন</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>সকল</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>লিবরো</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>অনুমোদিত</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>ছোট থেকে বড়</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>তালিকা</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>ব্যবহারকারীর অ্যাকাউন্ট</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>ব্যবহারকারী সক্রিয় করা হয়েছে</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>কালো সবার পর্যালোচনা অনুমোদন</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Ked সকল অপেক্ষমান পর্যালোচনা প্রত্যাখ্যান করেছে</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>একজন অতিথি কুকির ব্যবহার অনুমোদন করেছেন</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>সংকলন নির্মাণ ব্যবস্থা</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>নতুন ব্যবহারকারী তৈরি করেছেন</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>মুছে ফেলা স্বনির্ধারিত রিসোর্স</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>আপলোড করা স্বনির্ধারিত রিসোর্স</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>মুছে ফেলা গ্যালারি</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>মুছে ফেলা হয়েছে</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>ব্যবহারকারী দ্বারা ই-মেইল ঠিকানা যাচাই করা হয়েছে</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>ব্যাক-আপ সম্পন্ন</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>লগ-ইন ব্যর্থ</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>লগ-ইন প্রচেষ্টার প্রয়াস করতে ব্যর্থ</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>ব্যবহারকারীকে পাসওয়ার্ড পুনরায় লিখুন</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Zoy ব্যবহারকারী</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>একটি ব্যাক-আপ ইম্পোর্ট করুন</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>গ্যালারিতে অনুমোদন</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>গ্যালারিতে মুছে ফেলা হয়েছে</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>গ্যালারির মধ্যে পরিত্যাগ করা হয়েছে</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>লগ প্রদর্শনের জন্য একটি ফন্ট</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>সীমা</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>লিস্টের তালিকা প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>লগ-ইন করা হয়েছে</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>আওয়াজ</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>তাদের অ্যাকাউন্টের সাথে যুক্ত একাধিক- এজন্য</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>সঠিক টোকেনসহ স্বাক্ষর</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>তাদের একাধিক কি পুনরায় নির্ধারণ করুন</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>ব্যবহারকারীর জন্য মাল্টি- রহমত পুনরায় নির্ধারণ করুন</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>ব্যবহারকারীকে পাসওয়ার্ড পুনরায় লিখুন</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>অনুসন্ধানের ফিল্টার সহযোগে ফিল্টার করা হবে</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>অনুসন্ধানের স্থান</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>সংকলনের বৈশিষ্ট্য আপডেট করা হয়েছে</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>ব্যবহারকারীর দ্বারা নির্ধারিত নয়</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>আপডেট করা গ্যালারি</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>ব্যবহারকারী আপডেট করা হয়েছে</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>ব্যবহারকারী লগ-ইন করেছেন</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>সম ্ মানিত আমল লেখকগণ</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>গ্যালারি নির্মাণ করা হয়েছে</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>উপলব্ধ নথিপত্র</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>আপনার ব্রাউজার সমর্থন করে না</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>বুকমার্ক পর্যালোচনা</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>সকল বস্তু প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>আপনি কি সব কিছু অনুমোদন বা প্রত্যাখ্যান করতে চান?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>বস্তুটি হালনাগাদ করা সম্ভব হয়নি</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>ক্যামেরা</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>অ্যাকাউন্ট সন্ধান করতে ব্যর্থ</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>পরিশ্রুত</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে এই গ্যালারিটি মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>আপলোড করার জন্য এখানে ক্লিক করুন</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>বন্ধ</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>কোড</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>অনুগ্রহ করে সহায়তার জন্য একটি সাইট নির্বাচন করুন</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>কুকি অনুমোদনের জন্য অডিট করতে ব্যর্থ</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>কুকি সংক্রান্ত নিয়ম</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>এই ওয়েবসাইট ব্যবহার করে আপনি কুকি ব্যবহারের শর্ত অনুযায়ী আমাদের মূল কুকি ব্যবহার করতে রাজি আছেন। আরো জানার জন্য দয়া করে আমাদের দৃশ্য দেখুন</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>তৈরি করুন (_r)</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>আপনি বর্তমানে ব্যবহার করেননি</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>স্বনির্বাচিত রিসোর্স</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>স্বনির্ধারিত রিসোর্স প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>আপলোড করার উদ্দেশ্যে অনুগ্রহ করে একটি ছবি নির্বাচন করুন</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>স্বনির্ধারিত রিসোর্স আপলোড করুন</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>নির্বাচিত রিসোর্স মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>স্বনির্ধারিত রিসোর্স আপলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>বিপদ সংকেত</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>তারিখ</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>ডিফল্ট</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>মুছে ফেলুন</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে এই গ্যালারিটি মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>বস্তু মুছে ফেলুন</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>বস্তু মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>ফাঁকা রাখা যাবে না</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে '{name' মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে বস্তু মুছে ফেলা হয়েছে</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>এটি একটি ডেমো সংস্করণ। সকল কনফিগারেশন ভবিষ্যৎ পরীক্ষার জন্য পরিষ্কারকরণ নিশ্চিত করার জন্য সংরক্ষণ করা হয়েছে।.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>বড় থেকে ছোট</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>তালিকাবদ্ধ কাজ</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>বিবরণ</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>ডাউনলোড করা হয়েছে</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>সংকলন ডাউনলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>এই গ্যালারি ডাউনলোড করার অনুমতি আপনার নেই</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>টেনে এনে ফেলুন</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>অনুরূপ ফাইল সনাক্ত করা হয়েছে</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>ত্রুটি</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>ত্রুটি</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>এক্সপোর্ট করুন</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>তথ্য এক্সপোর্ট করুন</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>কি এক্সপোর্ট করতে ব্যর্থ</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে এগিয়ে চলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে তথ্য এক্সপোর্ট করা হয়েছে</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>সংকলন নির্মাণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>ব্যবহারকারী তৈরি করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>সংকলন মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>ব্যবহারকারী মুছতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>সংকলন ডাউনলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>গ্যালারি ডাউনলোড করতে ব্যর্থ। গুপ্ত কী অবৈধ</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>সংকলন আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>ব্যবহারকারী আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>কি এক্সপোর্ট করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>ফাইল সন্ধান করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>পরিচয় প্রমাণে ব্যর্থ।</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>হেডার পুনরায় লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>বৈশিষ্ট্য আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>বর্ণালী সংরক্ষণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>গ্যালারি লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>এই বৈশিষ্ট্য এখনও অগ্রগতির মধ্যে রয়েছে কিন্তু শীঘ্রই তা পাওয়া যাবে</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>FFMPG পাথ ডাউনলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>ভিডিও থাম্বনেইল তৈরি করার চেষ্টা করছে কিন্তু এফএফএমপিইজি এখনো ডাউনলোড করা হয়নি। যদি এটি একটি নতুন ইনস্টল করা থাকে, অনুগ্রহ করে ডাউনলোড প্রক্রিয়া সম্পন্ন করার জন্য অপেক্ষা করুন এবং ব্যাক-আপের মাধ্যমে থাম্বনেইল চিত্রের মাধ্যমে থাম্বনেইল তৈরি করা হবে</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>ফাইল আপলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>একই নামের একটি ফাইল বর্তমানে উপস্থিত রয়েছে</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>ফিল্টার</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>পাসওয়ার্ড পরিবর্তন করা যায়নি</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>পাসওয়ার্ড পরিবর্তন করা যায়নি</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে ই-মেইল ঠিকানা লিখুন।.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>পাসওয়ার্ড রি-সেট করতে ব্যর্থ</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>পাসওয়ার্ড রি-সেট করা হয়েছে । আপনার ইমেইল পরীক্ষা করুন</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>শূণ্য</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>অ্যাকাউন্ট বন্ধ করতে ব্যর্থ</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>অ্যাকাউন্ট সফলভাবে জমাট করা হয়েছে</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>শূণ্য ব্যবহারকারী</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে অ্যাকাউন্টটি বন্ধ করতে ইচ্ছুক</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>স্লট</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>গ্যালারি</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>গ্যালারি নির্মাণ করুন</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>সংকলন নির্মাণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে গ্যালারি নির্মিত হয়েছে</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>গ্যালারি মুছে ফেলুন</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>সংকলন মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে '% 2' গ্যালারিটি মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে গ্যালারি মুছে ফেলা হয়েছে</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>অনুরোধ করা গ্যালারি পাওয়া যায়নি অথবা বর্তমানে উপস্থিত নেই</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>গ্যালারি সম্পাদনা করুন</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>সংকলন আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে আপডেট করা হয়েছে</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>বর্তমানে কোনো স্মৃতি শেয়ার করা হয়নি</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>বর্তমানে কোন স্মৃতি নেই, আপনি উপরে আপনার ছবি আপলোড করছেন না!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>গ্যালারিটি পূর্ণ এবং সর্বাধিক মাপ কাছাকাছি রয়েছে</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>গ্যালারি আইডেন্টিফায়ার</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে গ্যালারির নাম লিখুন ।.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>আমার উপদেবতা</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>অবৈধ গ্যালারির নাম অথবা গোপন কী, অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ গ্যালারির নাম নির্ধারণ করুন</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>অবৈধ গোপনীয় কি, অনুগ্রহ করে পুনরায় প্রচেষ্টা করুন</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>গ্যালারি কী</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে গোপনীয় কি সন্নিবেশ করুন.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>সিকিউর শেল কি লিখুন</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>সর্বোচ্চ সংখ্যক কলামের সংখ্যা পৌঁছেছে</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>সংকলনের তালিকা প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>গ্যালারি ফাঁকা রাখা যাবে না</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>গ্যালারির নাম ফাঁকা নেই</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>গ্যালারির নাম</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>গ্যালারির নাম বর্তমানে উপস্থিত রয়েছে</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি নতুন গ্যালারি নির্মাণ করুন</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>গোপনীয় কি</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি নতুন কি লিখুন</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>গ্যালারি নির্বাচক</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>গ্যালারির বৈশিষ্ট্য</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wippe গ্যালারি</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>গ্যালারি লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে '{name' ট্যাগ মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে আপডেট করা হয়েছে</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>উত্‍পাদন করো</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>ডাউনলোড করা হচ্ছে</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>দল</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>হোম-পেজ লোড করার সময় সমস্যা দেখা দিয়েছে</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>পরিচয় পরীক্ষা করো</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>পরিবর্তন</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>পরিচয় পরিবর্তন করো</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>আপনার ইমেইল আমাদের বলুন যাতে আমরা আপনার কাছে পৌঁছাতে পারি।.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>উদাহরণ, জন</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>অবৈধ ই-মেইল</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ই-মেইল ঠিকানা উল্লেখ করুন</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>অবৈধ নাম</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ব্যবহারকারীর নাম উল্লেখ করুন</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>আমাদের বলুন আপনি কে তাই আমরা জানি কে স্মৃতি আপলোড করেছে।.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>জি, জেন ডো, জিমি, বব</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>ব্যবহারকারীর পরিচয় নির্ধারণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>নামবিহীন সংযোগ</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>আমাদের বলুন</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>ব্যবহারকারীর পরিচয় নির্ধারণ করতে ব্যর্থ - নাম</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>ছবি আপলোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>ছবি</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>ইম্পোর্ট</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>প্রয়োজনীয়</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>ব্যাক-আপ ফাইল</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বিয়ে নির্বাচন করুন ব্যাক-আপ আর্কাইভ শেয়ার করা হবে</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>ডাটা ইম্পোর্ট করতে ব্যর্থ</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি ফাইল নির্বাচন করুন</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে তথ্য ইম্পোর্ট করা হয়েছে</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>প্রদত্ত টোকেন অকার্যকর</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>ফাইলের ধরন বৈধ নয়</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>সংকলন বৈধ নয় আই. ডি</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>কি-র সংকলন বৈধ নয়</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>একটি অবৈধ গোপনীয় কি নির্ধারণ করা হয়েছে</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>কি</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>ল্যান্ডস্কেপ</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ভাষা</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>ভাষা পরিবর্তন করো</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি ভাষা নির্বাচন করুন</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>লিংক</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>লোড করা হচ্ছে...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>লগ-ইন করুন</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>লগ-ইন করতে ব্যর্থ</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>ব্যবহারকারী অ্যাকাউন্টের নাম অথবা পাসওয়ার্ড বৈধ নয়</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ পাসওয়ার্ড লিখুন।</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ব্যবহারকারীর নাম লিখুন</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে অ্যাকাউন্টের পাসওয়ার্ড লিখুন।.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>অনুগ্রহ করে এই কাজের জন্য লগ-ইন করুন</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে অ্যাকাউন্টের নাম লিখুন।.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট সক্রিয় করার জন্য অনুগ্রহ করে পরীক্ষা করুন</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>লগ-আউট করুন</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>তথ্য পরিচালনা করুন</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>ফাইলের সর্বাধিক মাপ</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>মিডিয়া ধরন</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>সদস্য</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>পরিচয় নির্ধারণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>গ্যালারির নাম ফাঁকা নেই</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>নতুন বস্তু পর্যালোচনা</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>পরবর্তী</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>কোনো স্বনির্ধারিত রিসোর্স আপলোড করা হয়নি</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>কোনো তথ্য নেই</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>আপলোড করার উদ্দেশ্যে কোনো ফাইল সনাক্ত করা যায়নি</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>কোনো গ্যালারি নির্মাণ করা হয়নি</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>কোনো আপলোডের অনুরোধ সম্পূর্ণ হয়নি</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>শূণ্য</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>অথবা</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>আপনার পাসওয়ার্ড এখনও রিসেট করা হয়নি । যদি আপনি পাসওয়ার্ড অনুরোধ না করেন, তাহলে দয়া করে এখনই প্রশাসকের সাথে যোগাযোগ করুন।.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>আপনার পাসওয়ার্ড আপডেট করা হয়েছে!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্টের পাসওয়ার্ড সঠিকরূপে সাজানো হয়েছে । যদি আপনি একটি পাসওয়ার্ড অনুরোধ করেন, তবে নিচের মেনুটি আপডেট করে নিচে ক্লিক করুন।.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট ব্যবহারের সমস্যা?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>পাসওয়ার্ড নিশ্চায়ন</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>অন্তত ৮ অক্ষর বিশিষ্ট</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>অক্ষরের ছাঁদ ছোট করো</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>সংখ্যা</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>বিশেষ অক্ষর</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>বড় অক্ষরের অক্ষর</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>পাসওয়ার্ড পুনরায় নির্ধারণ করুন</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>Reset বার্তা পাঠাতে ব্যর্থ।.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>আপনার পাসওয়ার্ড সাফল্যের সাথে পুনরায় নির্ধারণ করা হয়েছে</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>অনুগ্রহ করে এই বৈশিষ্ট্য প্রাপ্ত করুন</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>অসমাপ্ত</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>আপলোডিং</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>আপলোডের অনুরোধ প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>পোর্ট্রেট</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>প্রেসেন্টেশন</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>যথেচ্ছ</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Western (পশ্চিমি</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>অ্যাকাউন্ট ইম্পোর্ট করুন</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>পাসওয়ার্ড নিশ্চিত করুন</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>পাসওয়ার্ড নিশ্চায়ন:</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে ই-মেইল ঠিকানা লিখুন।.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>পাসওয়ার্ড প্রবেশ করান।.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>অনুগ্রহ করে অ্যাকাউন্টের নাম লিখুন।.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Western (পশ্চিমি</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>পাসওয়ার্ড মিলছে না</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>ব্যবহারকারীতে নিবন্ধন করতে ব্যর্থ.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>উল্লিখিত ঠিকানার একটি অ্যাকাউন্ট বর্তমানে উপস্থিত রয়েছে</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>নতুন ব্যবহারকারীর নিবন্ধন করতে ব্যর্থ</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>পাসওয়ার্ড মিলছে না</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ই-মেইল ঠিকানা নির্বাচন করুন</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>অনুগ্রহ করে অন্তত ১ অক্ষর বিশিষ্ট একটি বৈধ পাসওয়ার্ড লিখুন, ১ ও বিশেষ অক্ষর বিশিষ্ট ১-এ পরিবর্তন করুন</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>অনুগ্রহ করে ৫ ও ৫০ অক্ষরের মধ্যে একটি বৈধ ব্যবহারকারীর নাম উল্লেখ করুন</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>ই-মেইল যাচাই প্রক্রিয়া প্রক্রিয়াকরণ করতে সমস্যা হয়েছে</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>অ্যাকাউন্ট তৈরি করা হয়েছে</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>সাফল্যের সাথে অ্যাকাউন্ট নিবন্ধন করা হয়েছে এবং আপনার জন্য অপেক্ষা করা হয়েছে</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>স্বাগতম!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট তৈরি হওয়ার পূর্বে আপনার ই-মেইল ঠিকানা উল্লেখ করা আবশ্যক</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>আপনার অ্যাকাউন্ট নিবন্ধন করা গেছে কিন্তু তা ব্যবহারের পূর্বে এটি যাচাই করা আবশ্যক। অনুগ্রহ করে আপনার অ্যাকাউন্ট সক্রিয় করুন।.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম বর্তমানে উপস্থিত রয়েছে। অনুগ্রহ করে নতুন একটি নির্বাচন করুন</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>উল্লিখিত পাসওয়ার্ড দুটি এক নয়। অনুগ্রহ করে নতুন পাসওয়ার্ড শীর্ষক ক্ষেত্রে পাসওয়ার্ড নির্বাচন করুন।.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>বাতিল</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>রিলিজ সংস্করণ</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>মুছে ফেলুন</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>পুনরায় নামকরণ</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>পুনরায় নির্ধারণ</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>একটি সমস্যা উৎপন্ন হয়েছে</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>রিসোর্সসমূহ</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>পর্যালোচনা</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>হেডার পুনরায় লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>তথ্য পাওয়া যায়নি</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>এম- পি- ডি সংরক্ষণ করো</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>রিসোর্স সংরক্ষণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>সংকলনের মধ্যে ছবি সংরক্ষণ করতে ব্যর্থ</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>আপনার ছবি শেয়ার করার জন্য RQR কোড স্ক্যান করুন</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>বৈশিষ্ট্য</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>অ্যাকাউন্ট</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>একজন ব্যবহারকারী লগ-ইন করতে ব্যর্থ</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>বাতিল করা হয়েছে</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>একটি ব্যবহারকারীর জন্য কত সময় অপেক্ষা করা হবে</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>মিনিট লক করুন</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>হেডারের মধ্যে আইকন প্রদর্শন করা হবে কি না</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>প্রোফাইল আইকন</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>অতিথিরা কি অ্যাকাউন্ট নিবন্ধন করতে পারবে?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>নিবন্ধন ব্যবস্থা</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>তাদের অ্যাকাউন্ট সক্রিয় করার জন্য ব্যবহারকারীদের কি তাদের ইমেইল পরীক্ষা করতে হবে?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>ই-মেইল বৈধতা প্রয়োজন</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>অ্যালার্ম</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>অ্যাকাউন্ট বন্ধ করা হলে লক করা হবে</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>অ্যাকাউন্ট লক করা হবে</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>একটি ধ্বংসাত্মক কাজ করা হলে সতর্কবার্তা প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>দ্বন্দ্বযুক্ত কর্ম</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>লগ-ইনের ক্ষেত্রে সতর্কবার্তা প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>লগ-ইন ব্যর্থ</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>সতর্কবার্তা প্রদর্শন করা হবে কি না তা নির্ধারণ করা হয়</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>পর্যালোচনা</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>পটভূমি পরিসেবা</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>অস্থায়ী ফাইল মুছে ফেলুন</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>পরিশ্রুত</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>গ্যালারির মধ্যে সরাসরি ফাইল গ্রহণ করা হবে</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>ডিরেক্টরি স্ক্যানার</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>পরিসংখ্যানের মধ্যে একটি রিপোর্ট প্রেরণ করুন</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>ই-মেইল রিপোর্ট</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>প্রাথমিক</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>লিঙ্ক এবং বিজ্ঞপ্তির মধ্যে ব্যবহৃত বেস-ব্যবস্থা</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>বেটেল্স</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>গ্যালারির পরিসংখ্যান সহ একটি ই-মেইল রিপোর্ট পাঠানো হবে কি না</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>ই-মেইল রিপোর্ট</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>উচিত Http ব্যবহারকারীকে বাধ্যতামূলকভাবে অনুমোদন করা হবে</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Https বাধ্য করা হবে</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>উইন্ডো নির্বাচন ব্যবস্থা</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>গ্যালারি নির্বাচক ধরন</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>ডিফল্ট গ্যালারির বিকল্প প্রদর্শন করা হবে কি না</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>ডিফল্ট গ্যালারি প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>অতিথিদের নতুন গ্যালাক্সি তৈরি করার অনুমতি দেয়া উচিত</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>গেস্ট গ্যালারি নির্মাণ ব্যবস্থা</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>কি আই. আর. এল. - এর মধ্যে উপস্থিত থাকা উচিত</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>অনিরাপদ কোড</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>হোম-পেজ দ্বারা ব্যবহারকারীর লিংকের অবস্থান গ্রহণ করা হবে কি না</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>ক্লিকযোগ্য হোম লিঙ্ক</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>নতুন ট্যাবের মধ্যে লিংক খোলা হবে কি না</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>নতুন ট্যাবের লিংক</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>হেডার ও ট্যাবের মধ্যে প্রদর্শিত আইকন</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>প্রতীকচিহ্ন</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>অসংখ্য গ্যালারি তৈরি করার অনুমতি রয়েছে</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>সর্বাধিক গ্যালারির সংখ্যা</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>এক বা একাধিক সাহস থাকবে</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>গ্যালারি মোড</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>থাম্ব-নেইল প্রদর্শনের জন্য ব্যবহারযোগ্য সর্বাধিক মাপ</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>থাম্ব-নেইল রেসোলিউশন</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>হেডারের মধ্যে প্রদর্শনযোগ্য নাম ও ট্যাবের নাম</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>শিরোনাম</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>কুকি সংক্রান্ত তথ্য প্রদর্শন করার জন্য চিহ্নিত বিষয়বস্তু</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>স্বনির্বাচিত কুকি পলিসি</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>স্বনির্ধারিত নীতি</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>বৈশিষ্ট্য প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>গ্যালারির ডিফল্ট মান</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>আপলোড করার জন্য বিভিন্ন ধরনের ফাইল</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>ফাইলের ধরন</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>সংকলনের মধ্যে উপরের ছবিটিতে ছবি প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>ব্যানার ছবি</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>ফাইল অথবা ক্যামেরার মধ্যে বিকল্প উপস্থিত থাকা আবশ্যক</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>ক্যামেরা আপলোড ব্যবস্থা</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>যে কলাম প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>কলাম গণনা</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>ডিফল্ট গ্যালারির ফিল্টার</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>ডিফল্ট ফিল্টার</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>ডিফল্ট সংকলন রূপে নির্ধারণ করা হয়েছে</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>ডিফল্ট দল</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>ডিফল্ট গ্যালারির সংকলন</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>ডিফল্ট</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>ডিফল্ট গ্যালারিটি কি</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>ডিফল্ট প্রদর্শন</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>অতিথিকে ডাউনলোড করার অনুমতি দেওয়া হবে</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>ডাউনলোড অনুমোদন করো</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>এই সংগ্রহের প্রস্থ</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>প্রদর্শনের ধরন</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>নতুন উপাদান পাওয়ার জন্য গ্যালারির কত সময় লাগবে</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>অলস পুনরায় প্রদর্শন মিন</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>প্রতি পৃষ্ঠায় প্রদর্শনযোগ্য সর্বাধিক সংখ্যা</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>পৃষ্ঠার সংখ্যা</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>ফাইল আপলোড করা সবচেয়ে বড় ফাইল হতে পারে</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>ফাইলের সর্বোচ্চ আকার (এএম)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>বড় হওয়ার জন্য গ্যালারিটি কত বড় হবে</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>সর্বাধিক গ্যালারির মাপ (B)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>স্বয়ংক্রিয়ভাবে বস্তু ডাউনলোড করা হবে কি না</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>প্রতিলিপি মুছে ফেলুন</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>একবার স্ক্যানার দ্বারা কোন বস্তু দেখানো হবে</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>ডিফল্ট ক্রমবিন্যাস</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>একবার স্ক্যানকৃত সময় ব্যবহারকারীর কী দেখতে হবে</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>ডিফল্ট প্রদর্শন</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>ভুল কোড প্রদর্শিত হবে কি না</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>তারিখ প্রদর্শন করো (প)</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>ভুল কোড উল্লিখিত হলে তা উল্লেখ করা হবে</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>QROP এর মধ্যে সংস্কৃতি অন্তর্ভুক্ত করুন</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>সংকলনের উপরের অংশে প্রদর্শন করার উদ্দেশ্যে একটি উদ্ধৃতি</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>উদ্ধৃতি</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>সাইট দেখার পূর্বে এর কিছু সামগ্রী পর্যালোচনা করা আবশ্যক</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>পর্যালোচনা</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>পরে ব্যবহারের জন্য চিহ্নিত সামগ্রী অগ্রাহ্য করা হবে</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>পাঠ হওয়া বস্তু পুনরায় চালু করুন</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>পরিবর্ধন সংক্রান্ত বিকল্প প্রদর্শন করা হবে কি না</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>পর্যালোচনা</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>ব্যবহারকারী কি ফিল্টার ও দলগুলোকে মিডিয়া করতে ইচ্ছুক?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>ফিল্টার দেখাও</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>সংকলনের মধ্যে উইন্ডো প্রদর্শন করা হবে কি না</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>শিরোনাম প্রদর্শন</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>আপলোড করার জন্য অতিথিকে অনুমতি প্রদান করা হবে</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>আপলোড অনুমোদন করো</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>সুনির্দিষ্ট সময়ের মধ্যে আপলোড করার জন্য বাইন্ড করুন</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>স্মাইলি আপলোড করুন</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>প্রাপ্ত করা হচ্ছে</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Natyyy সংকেত প্রেরণ করা হবে</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>ঠিকানা উল্লিখিত হয়েছে</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>%s পয়েন্ট</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>সতর্কবার্তার গুরুত্ব</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>অগ্রগণ্য</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>অনুমোদনের টোকেন</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>অ্যাক্সেস টোকেন</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>পরিচয় পরীক্ষা করো</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>ব্যবহারকারী নাম পরিবর্তন</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>পেজ- এ পরিচয় পরীক্ষা করা হবে কি না</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>পৃষ্ঠা প্রদর্শন</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>একটি ই-মেইল ঠিকানা লিখুন</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা (_A):</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>একটি নাম লেখার জন্য ব্যবহারকারীর নাম উল্লেখ করা আবশ্যক</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>নাম উল্লেখ করা আবশ্যক</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>মিডিয়া আপলোড করার জন্য পরিচয় যাচাই করা আবশ্যক</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>আপলোড ব্যর্থ</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>ভাষা</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>নির্বাচিত না হলে ডিফল্ট ওয়েব- ভাষা ব্যবহার করা হবে ।</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>ডিফল্ট ভাষা</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>ভাষা পরিবর্তনের অনুমতি প্রদান করুন</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>ন্যাটfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Natyyy সংকেত প্রেরণ করা হবে</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Ntfy সার্ভারের ঠিকানা</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>%s পয়েন্ট</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>সতর্কবার্তার গুরুত্ব</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>অগ্রগণ্য</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>অনুমোদনের টোকেন</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>অ্যাক্সেস টোকেন</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>প্রেরণ করার উদ্দেশ্যে চিহ্নিত বিষয়</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>বিষয়</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>ব্যবহারকারীদের কি দেশাত্ম্যতার পপ-আপ প্রদর্শন করা হবে?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>স্লাইড-শো</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>স্লাইডের মধ্যে পরিবর্তন কত সময় হওয়া উচিত</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>ফেড</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>পরবর্তী স্লাইড-শোতে যাওয়ার আগে স্লাইড প্রদর্শন করা উচিত</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>বিরতি</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>যে সর্বোচ্চ স্লাইডগুলো অন্তর্ভুক্ত করা হবে</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>সীমা</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>অতিথি স্ক্যানের জন্য QRIT কোড দুর করা হবে</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>শেয়ার স্লাইড-শো অন্তর্ভুক্ত করুন</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>ই-মেইল</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>প্রেরকের নাম</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>প্রদর্শন করা হবে</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>ই-মেইল সতর্কবার্তা প্রদর্শন করা হবে কি না</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>ই-মেইল ঠিকানা থেকে প্রাপ্ত সতর্কবার্তা</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>প্রেরক</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>SMTP পরিসেবা উপলব্ধকারীর হোস্ট-নেম</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>হোস্ট</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>অনুরোধকৃত পাসওয়ার্ড সঠিক নয়</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>SMTP পরিসেবা উপলব্ধকারী দ্বারা ব্যবহৃত পোর্ট</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>পোর্ট</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>ই-মেইল ঠিকানার ক্ষেত্রে পৃথক ঠিকানার তালিকা</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>প্রাপকতালিকা</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>SMTP সার্ভার %s সমর্থন করে</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>SSL ব্যবহার করা হবে</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>অনুরোধ করা ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>থিম</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>নির্বাচিত না হলে ডিফল্ট ওয়েবসাইট থিম নির্বাচন করা হবে</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>ডিফল্ট থিম</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>থিম পরিবর্তনের অনুমতি প্রদান করুন</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>সক্রিয়</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>শেয়ার কোড</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>একক</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>স্লাইড-শো</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>ক্রমবিন্যাস</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>ব্যবহার প্রণালী</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>উৎস</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>নিক্তি</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>বর্তমানে কোনো স্পন্সর নেই। কেন তুমি প্রথম হওনি!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>স্পনের তালিকা লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>বর্গ</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>জমা করুন</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Hula সহায়তা</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>পরিবর্তন</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>সময়</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>সর্বমোট</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>উপলব্ধ নয়</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>অজানা ত্রুটি দেখা দিয়েছে।</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>মুক্ত নয়</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>অ্যাকাউন্ট সুসংগত করতে ব্যর্থ</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>অ্যাকাউন্ট নিষ্ক্রিয় নয়</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>মুক্ত ব্যবহারকারী নয়</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে প্রস্থান করতে ইচ্ছুক</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>অজানা পর্যালোচনা কর্ম</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>আপডেট</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>বৈশিষ্ট্য আপডেট করা হচ্ছে</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>বৈশিষ্ট্য আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>সংরক্ষণ করার জন্য কোনো পরিবর্তন করা হয়নি</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে আপডেট করা হয়েছে</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>আপগ্রেড করুন</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>আপনি বর্তমানে মুক্ত সংস্করণ ব্যবহার করছেন। আপনার অ্যাকাউন্টের সংকলন আন-লক করার জন্য অন্য একটি বৈশিষ্ট্য নির্ধারণ করুন</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>আপলোড</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>কিছু ফাইল আপলোড করতে সমস্যা হয়েছে</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>সংকলন বৈধ নয় সনাক্ত করা হয়েছে</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>আপলোড পাওয়া যায়নি ইউলার</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>মিডিয়া আপলোড করুন</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি আপলোড পদ্ধতি নির্বাচন করুন</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>আপলোড করার উদ্দেশ্যে কোনো ফাইল সনাক্ত করা যায়নি</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>বস্তু আপলোড করা হচ্ছে ...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে আপলোড করা হয়েছে (%s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>সাফল্যের সাথে আপলোড করা হয়েছে (%s)</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>আপলোড করা হয়েছে</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>আপলোডার</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ব্যবহারকারী</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>পাসওয়ার্ড নিশ্চায়ন:</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>পাসওয়ার্ড নিশ্চিত করুন</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>পাসওয়ার্ড ও dconf পাসওয়ার্ড মিলছে না</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>ব্যবহারকারী তৈরি করুন</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>ব্যবহারকারী তৈরি করতে ব্যর্থ</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে নির্মিত হয়েছে</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>ব্যবহারকারী মুছে ফেলো</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>ব্যবহারকারী মুছতে ব্যর্থ</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে '%s' ব্যবহারকারীর নাম মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে ব্যবহারকারী মুছে ফেলা হয়েছে</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>ব্যবহারকারী সম্পাদনা করুন</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>ব্যবহারকারী আপডেট করতে ব্যর্থ</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে আপডেট করা হয়েছে</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>ই-মেইল</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>ব্যবহারকারীর ই-মেইল ঠিকানা</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>পাসওয়ার্ড অত্যন্ত ছোট।</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ই-মেইল ঠিকানা নির্বাচন করুন</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>নির্বাচিত ব্যবহারকারী মাত্রা বৈধ নয়</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ব্যবহারকারীর নাম উল্লেখ করুন</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>অনুগ্রহ করে একটি বৈধ ব্যবহারকারীর নাম উল্লেখ করুন</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>স্তর</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>ব্যবহারকারীর দক্ষতা স্তর</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>ব্যবহারকারী ফাঁকা রাখা যাবে না</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম ফাঁকা রাখা যাবে না</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>একই নামের একটি ফোল্ডার বর্তমানে উপস্থিত রয়েছে</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>নতুন ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>পাসওয়ার্ড</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>নতুন ব্যবহারকারীর পাসওয়ার্ড</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ব্যবহারকারীর নাম</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>ব্যবহারকারী</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>ব্যবহারকারীর তালিকা প্রাপ্ত করতে ব্যর্থ</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>বৈধতা যাচাই</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>যাচাই করা হচ্ছে</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>ভিডিও</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>প্রদর্শন</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>পরিদর্শন করুন</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>সতর্কবার্তা</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>ওয়াইপে</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>আপনি কি নিশ্চিত আপনি সমস্ত গ্যালাক্সি মুছে ফেলতে চান?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে এই গ্যালারিটি মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wip Data ডাটা</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>ডাটা মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>আপনি কি নিশ্চিতরূপে সব তথ্য মুছে ফেলতে ইচ্ছুক?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে তথ্য মুছে ফেলা হয়েছে</value>
+  </data>
+</root>

@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Shkruaj kodi nga app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Nga kodi:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Gabim gjatë rinisjes së 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Rivendos me sukses 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>_Shfaq figurën në vazhdim me aplikacionin tënd</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Gabim gjatë krijimit të 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>E krijuar me sukses 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Me sukses e fshiu 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Rregullimi 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të eleminoni 2FA për përdoruesin '{name}?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Nëse kjo çështje vazhdon të kontaktojë administratorin e ueb-it</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Veprimet</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>I pamundur aktivizimi i profilit</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Profili u aktivizua me sukses</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivizo përdoruesin</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të aktivizohet ky profil</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>_Shto</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Gallerimet në dispozicion</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Shfletuesi juaj nuk suporton këtë funksion</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Rishikim</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>I pamundur miratimi i të gjithë elementëve</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Dëshironi të miratoni apo të refuzoni të gjithë elementët në pritje?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>I pamundur krijimi i kontestit të kodifikuesit</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamer</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anullo</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Gabim gjatë kontrollit të gjendjes së llogarisë</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Mbyll</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodi</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Vihu në kontakt me administratorin e sitit për të krijuar hyrje</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Krijo</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kulturë</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Ju lutem zgjidhni një figurë display</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Aktualisht nuk keni qasje</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Jeni i sigurt që dëshironi të eleminoni këtë galeri?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Elemino Elementi</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Fshirja e elementit dështoi</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id nuk mund të jetë bosh</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të eleminoni '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Element i fshirë me sukses</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Ky është një version demo. I gjithë konfigurimi është fshirë periodikisht për të siguruar një listë të pastër për testuesit e ardhshëm.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Kryehet veprim destruktiv</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Hollësi</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Shkarkimi</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Dështoi gjatë shkarkimit të koleksionit</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Nuk jeni të autorizuar të shkarkoni këtë galeri</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Adresa email</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Gabim</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Gabime</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksporto</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Eksporto</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Eksportimi i të dhënave dështoi</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Je i sigurt që do të vazhdosh?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Të dhëna të eksportuara me sukses</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Krijimi i koleksionit dështoi</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Fshirja e koleksionit dështoi</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Ky tipar është ende në zhvillim por duhet të jetë në dispozicion së shpejti</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Dështoi nga shtegu</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Dërgimi i fjalëkalimit dështoi</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Rivendos lidhjen. Të lutem kontrollo postën tënde email</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Ndal</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Ngushtimi i profilit dështoi</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Profili u ngri me sukses</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Ndal përdorues</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Je i sigurt që dëshiron të ngrish profilin</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galleritë</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Koleksioni</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Krijo</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Krijimi i koleksionit dështoi</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Galeria e krijuar me sukses</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Elemino</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Eleminimi i koleksionit dështoi</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të eleminoni galerinë '{name}?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Galeria e fshirë me sukses</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Galeria e kërkuar nuk u gjet ose nuk ekziston</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Ndrysho Galerinë</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>I pamundur rifreskimi i koleksionit</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Koleksion i përditësuar me sukses</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Nuk ka aktualisht asnjë kujtesë të përbashkët</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>mi-veshur-galleri im</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Emri i koleksionit të pavlefshëm apo kyçi sekret, ju lutem riprovo</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Shkruaj a emri</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Kyç sekret i pavlefshëm, ju lutem provoni përsëri</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Kyçi i koleksionit</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Marrja e listës së koleksionit dështoi</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Koleksioni Id nuk mund të jetë bosh</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Emri i koleksionit nuk mund të jetë bosh</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Emri i koleksionit</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Emri i koleksionit ekziston</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Shkruaj a i ri file emri</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Kyçi sekret</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Shkruaj a i ri kyç</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Zgjedhësi i Galerisë</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Rregullimet e koleksionit</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Fshi galerinë</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Fshirja e koleksionit dështoi</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të eleminoni galerinë '{name}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galeria e fshirë me sukses</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Gjenero</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Duke krijuar shkarkime</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupi</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>U ndesh një gabim gjatë ngarkimit të faqes home</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Kontrolli i identitetit</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Ndrysho</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Ndrysho identitetin</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Adresa email</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Na tregoni e-mail tuaj kështu që ne mund të arrijë për ju.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Firmë e pavlefshme</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Ju lutem specifikoni një email të vlefshëm</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Emër i pavlefshëm</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Shkruaj a emri</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Emri</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Na thuaj kush je që të dimë kush ka ngarkuar kujtime.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, Uncle Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Gabim gjatë përcaktimit të identitetit të përdoruesit</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Qëndro Anonim</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Na thuaj</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>I pamundur caktimi i seancës së identitetit të përdoruesit - Emri</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importo</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>I rëndësishëm</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Backup File</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Ju lutem zgjidhni një dasmë Shpërnda arkivin backup</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>I pamundur importimi i të dhënave</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Zgjidh një file</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Të dhëna të importuara me sukses</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Argumenti i dhënë i hyrjes ishte i pavlefshëm</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Horizontale</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Gjuha</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Ndrysho gjuhën</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Zgjidhni gjuhën e ekranit</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Lidhje</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Duke ngarkuar...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Futu</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Gabim gjatë regjistrimit të përdoruesit</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Emër përdoruesi apo fjalëkalim i pavlefshëm i specifikuar</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Të lutem shkruaj një fjalëkalim të vlefshëm</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Shkruaj a emri emri</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Të lutem shkruaj fjalëkalimin e profilit.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Fjalëkalimi</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Shkruaj akcion</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Të lutem shkruaj emrin e përdoruesit të profilit.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Përdoruesi</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Ju lutem verifiko postën elektronike për të aktivizuar profilin tuaj</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Elementë të rinj</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Në vazhdim</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Nuk është ngarkuar asnjë burim i personalizuar</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Asnjë</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ose</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Fjalëkalimi juaj tani është rivendosur. Nëse nuk keni kërkuar një fjalëkalim të rirelexuar, ju lutem synoni menjëherë një administrator.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Telashe në llogarinë tënde?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Konfermo rregullimet e fjalëkalimit</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Të paktën 8 shkronja</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Poshtë shkronja</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Numrat</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Personale të veçantë</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Shkronja të mëdha/vogla</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Rikthe fjalëkalimin</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Dërgimi i fjalëkalimit dështoi.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Fjalëkalimi juaj është rivendosur me sukses</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Të lutem përmirëso anëtarësimin në llogarinë tënde për të fituar akses në këtë funksion</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Në pritje</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Përdoruesi</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Regjistrimi</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Konfirmo fjalëkalimin nuk korrispondon</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Regjistrimi i përdoruesit të ri dështoi</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Konfirmo fjalëkalimin nuk përputhet me fjalëkalimin</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Të lutem specifiko një adresë të vlefshme email</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>U bë një problem gjatë proçesimit të lidhjes së verifikimit të email-it</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Profili u krijua me sukses</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Llogaria juaj është regjistruar me sukses dhe pret që ju të hyni</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Mirë se erdhët!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Profili juaj është krijuar por adresa juaj email ka nevojë për vlefshmëri para se të kryeni login</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Llogaria juaj është regjistruar por duhet verifikuar para se të mund të hyjë. Ju lutem aktivizojeni profilin tuaj duke klikuar në lidhjen e mëposhtme.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Release Version</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Hiq</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Riemërto</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>_Nga fillimi</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>U ndesh një çështje gjatë proçesimit të fjalëkalimit për rinisjen e lidhjes</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Pamja e parë</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>I pamundur shqyrtimi i elementit</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>E pamundur gjetja e elementit Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Ruaj</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Përdorimi</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsor</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Përkrahësit</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Kalo</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Unit-format</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Gjithsej</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Në dispozicion</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>U ndesh një gabim i papritur</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Liro</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Autentifikimi dështoi</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Profili jo i plotë</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Përdorues i lirë</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të eleminoni llogarinë</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Veprim i panjohur rishikimi</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Përditëso</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Rifresko Rregullimet</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>I pamundur rifreskimi i rregullimeve</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Nuk janë kryer ndryshime për të ruajtur</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Rregullimet e rifreskuara me sukses</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Përditëso</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Ju aktualisht jeni duke përdorur versionin e lirë. Për të zbllokuar më shumë ruajtje galerie dhe veçori të tjera të mëdha konsiderojnë përmirësimin e llogarisë suaj</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Ngarko</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Kishte një problem që ngarkonte disa dosje</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Koleksion i pavlefshëm U zbulua</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>E pamundur gjetja e ngarkimit Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Ngarko</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Ju lutem zgjidhni një metodë ngarkimi</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Nuk u zbulua asnjë file për ngarkimin</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Nga.</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Të ngarkuar me sukses {count}</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>I ngarkuar me sukses {count}</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Nga</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Përdoruesi</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Konfirmo fjalëkalimin</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Konfermo fjalëkalimin</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Fjalëkalimi i dhënë dhe fjalëkalimi i konfrimit nuk përputhen</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Krijo përdorues</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Krijimi i përdoruesit dështoi</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Përdoruesi i krijuar me sukses</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Elemino përdorues</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Fshirja e përdoruesit dështoi</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Je i sigurt që dëshiron të eleminosh përdoruesin '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Përdoruesi i fshirë me sukses</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Ndrysho përdorues</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>I pamundur rifreskimi i përdoruesit</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Përdoruesi i përditësuar me sukses</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Adresa email e përdoruesve</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Fjalëkalimi dhe konfermo fjalëkalimin nuk përputhen</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Të lutem specifiko një adresë të vlefshme email</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Niveli i zgjedhur i përdoruesit është i pavlefshëm</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Shkruaj a emri</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Ju lutem zgjidhni një fjalëkalim të vlefshëm përdoruesi</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Niveli</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Niveli i hyrjes së përdoruesve</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Përdoruesi Id nuk mund të jetë bosh</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Emri i përdoruesit nuk mund të jetë bosh</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Përdoruesi</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Shto përdorues me të njëjtin emër ekziston</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Përdoruesi i përdoruesit të ri</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Fjalëkalimi</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Fjalëkalimi i përdoruesit të ri</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Përdoruesi</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Gabim gjatë marrjes së listës së përdoruesve</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Vlefshmëria</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verifikimi</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Jeni i sigurt që dëshironi të fshini këtë galeri?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Fshi të dhënat</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Fshirja e të dhënave dështoi</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Jeni i sigurt që dëshironi të fshini të gjitha të dhënat?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Të dhëna të fshirëa me sukses</value>
   </data>
 </root>

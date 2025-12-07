@@ -56,27 +56,48 @@ function bindChangeLanguageButton() {
             success: function (data) {
                 hideLoader();
 
-                if (data.supported && data.supported.length > 0) {
+                if (data.languages && data.languages.length > 0) {
                     displayPopup({
                         Title: localization.translate('Language_Change'),
                         Fields: [{
                             Id: 'language-id',
                             Name: localization.translate('Language'),
                             Hint: localization.translate('Language_Name_Hint'),
-                            Placeholder: 'English (en-GB)',
+                            Placeholder: 'English',
                             Type: 'select',
-                            SelectOptions: data.supported
+                            SelectOptions: data.languages.map(lang => ({
+                                key: lang.name,
+                                value: lang.name,
+                                selected: lang.selected
+                            }))
+                        }, {
+                            Id: 'culture-id',
+                            Name: localization.translate('Culture'),
+                            Hint: localization.translate('Culture_Name_Hint'),
+                            Placeholder: 'en-GB',
+                            Type: 'select',
+                            SelectOptions: data.languages.find(lang => lang.selected).cultures.map(culture => ({
+                                key: culture.name,
+                                value: culture.name,
+                                selected: culture.selected
+                            }))
                         }],
                         Buttons: [{
                             Text: localization.translate('Switch'),
                             Class: 'btn-success',
                             Callback: function () {
-                                let culture = $('#popup-modal-field-language-id').val().trim();
+                                let culture = $('#popup-modal-field-culture-id').val().trim();
                                 changeSelectedLanguage(culture);
                             }
                         }, {
                             Text: localization.translate('Cancel')
                         }]
+                    }, () => {
+                        $('#popup-modal-field-language-id').off('change').on('change', function () {
+                            const selectedLang = $('#popup-modal-field-language-id').val().trim();
+                            let options = data.languages.find(lang => lang.name === selectedLang).cultures.map(culture => `<option value="${culture.name}">${culture.name}</option>`);
+                            $('#popup-modal-field-culture-id').html(options.join(''));
+                        });
                     });
                 }
             }

@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Hãy nhập mã được tạo ra bởi ứng dụng 2FA của bạn</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Tự nhập mã:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Lỗi đặt lại 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Đặt lại thành công 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Quét ảnh sau bằng ứng dụng của bạn</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Lỗi thiết lập 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Thiết lập thành công 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Được xóa 2FA thành công</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Thiết lập 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Anh có chắc là muốn xóa 2FA cho người dùng không?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Nếu vấn đề này còn tiếp tục, vui lòng liên lạc với nhà quản trị web</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Có vẻ như có một lỗi bất ngờ xảy ra...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Có vẻ như anh không được phép xem trang đó...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Truy cập bị từ chối</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Chìa khóa bí mật là sai</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Khóa bí mật không hợp lệ</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Phòng trưng bày đã xác định không tồn tại và bạn không có quyền tạo nó</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Truy cập bị từ chối</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Bạn đã tới giới hạn tạo phòng trưng bày tối đa</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Hạn chế tới</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Gallery không hợp lệ</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>Có một vấn đề trong khi đang kiểm tra tài khoản của anh. Hãy đảm bảo liên kết xác thực là hợp lệ.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>Mở đích Liên kết</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>Có một vấn đề trong khi cố gắng đặt lại mật khẩu tài khoản của bạn. Hãy đảm bảo liên kết xác thực là hợp lệ.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>Đặt lại liên kết mật khẩu không hợp lệ</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Chấp nhận</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Lỗi kích hoạt tài khoản</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Tài khoản đã kích hoạt thành công</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Kích hoạt người dùng</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn kích hoạt tài khoản này</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Được chấp nhận</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Tăng dần</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>Người dùng đã đăng ký tài khoản</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>Người dùng đã kích hoạt</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Gỡ bỏ mọi bản xem xét đang chờ</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Gỡ bỏ mọi đánh giá đang chờ</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Tạo nơi trưng bày</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Tạo ra người dùng mới</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Đã xóa tài nguyên tự chọn</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Tài nguyên tự chọn tải lên</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Phòng trưng bày bị xoá</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Người dùng đã xoá</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>Người dùng đã kiểm tra địa chỉ email của họ</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Phát hiện việc đăng nhập thất bại</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Gặp lỗi khi thử đăng nhập lại</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>Người dùng yêu cầu đặt lại mật khẩu</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Người dùng Froze</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Nhập khẩu một bản sao lưu</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>xác nhận trong phòng trưng bày</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>đã xoá trong bộ trình bày</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>bị từ chối trong phòng trưng bày</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Có bao nhiêu bản ghi để hiển thị</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Giới hạn</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Không có danh sách kiểm toán</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Đã đăng xuất</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Bản ghi thử</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Thêm nhiều mục tiêu vào tài khoản</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Cung cấp hiệu bài đa chiều chính xác</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Đặt lại khoá đa mục tiêu</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Đặt lại nhiều tiêu đề cho người dùng</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>Người dùng đặt lại mật khẩu</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Bản ghi lọc dựa trên thuật ngữ tìm kiếm</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Cài đặt Phòng trưng bày đã cập nhật</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Người dùng không nhạy</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Phòng trưng bày đã cập nhật</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Người dùng đã cập nhật</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Người dùng đã đăng nhập</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Xóa mọi phòng trưng bày</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Phòng trưng bày đã xoá</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Ga - li - lê sẵn sàng</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Trình duyệt của bạn không hỗ trợ tính năng này</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Xem lại loạt</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Lỗi chấp nhận mọi mục</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Bạn có muốn phê chuẩn hoặc từ chối mọi món đồ đang chờ không?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Lỗi từ chối mọi mục</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Máy ảnh</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Thôi</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Lỗi kiểm tra tình trạng tài khoản</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Làm sạch</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Anh có chắc là muốn dọn dẹp phòng tranh này không?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Nhấn vào đây để chọn tập tin cần tải lên</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Bộ mã</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Vui lòng liên lạc với quản trị nơi Mạng để cung cấp truy cập</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Lỗi ghi lại thông điệp kiểm tra để được chấp thuận cookie</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Chính sách cookie</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Bằng cách sử dụng trang web này, bạn đồng ý sử dụng các cookie cơ bản theo điều khoản sử dụng cookie của chúng tôi. Để tìm hiểu thêm xin xem của chúng tôi</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Tạo</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Văn hóa</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Hãy chọn một nền văn hóa hiển thị</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Hiện tại bạn không có quyền truy cập</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Tài nguyên tự chọn</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Không thể lấy tài nguyên riêng</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Hãy chọn một tập tin ảnh cần tải lên</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Tải lên tài nguyên tự chọn</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Lỗi xoá tài nguyên tự chọn</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Lỗi tải lên tài nguyên tự chọn</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Vùng nguy hiểm</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xoá</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Bạn có chắc muốn xoá nơi trưng bày này không?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Xoá mục</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Lỗi xoá mục</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Sẽ không thể trống rỗng</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn xoá '{ name' không?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Đã xoá mục</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Đây là phiên bản thử nghiệm. Tất cả các cấu hình được xóa đi định kỳ để đảm bảo cho những người thử nghiệm trong tương lai.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Giảm dần</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Hành động phá huỷ được thực hiện</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Tải về</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Việc tải về nơi trưng bày thất bại</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Bạn không được phép tải về triển lãm này</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Kéo</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Phát hiện tập tin trùng</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Địa chỉ thư</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Xuất dữ liệu</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Lỗi xuất dữ liệu</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Anh có chắc là muốn tiếp tục không?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Dữ liệu xuất thành công</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Lỗi tạo nơi trưng bày</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Lỗi tạo người dùng</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Lỗi xoá nơi trưng bày</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Lỗi xoá người dùng</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Việc tải về nơi trưng bày thất bại</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Việc tải về nơi trưng bày bị lỗi. Khóa bí mật không hợp lệ</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Lỗi cập nhật phòng trưng bày</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Lỗi cập nhật người dùng</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Lỗi xuất dữ liệu</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Lỗi tìm tập tin</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Lỗi nhập dữ liệu</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Lỗi xem lại mục</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Lỗi cập nhật thiết lập</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Lỗi xoá các phòng trưng bày</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Lỗi xoá bộ trình bày</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Tính năng này vẫn còn đang được phát triển nhưng sẽ sớm có</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Việc tải FFMPEG xuống đường dẫn thất bại</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Cố tạo ra hình thu nhỏ phim nhưng FFMPEG chưa tải xong. Nếu đây là một cài đặt mới, vui lòng đợi đến khi tải về xong và bỏ sót hình thu nhỏ sẽ được tạo ra bởi máy quét nền</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Lỗi tải lên tập tin</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Một tập tin cùng tên đã có</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Lọc</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>Mật khẩu bị quên</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Mật khẩu bị quên</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>Hãy nhập địa chỉ email của tài khoản.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>Địa chỉ thư</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>Lỗi khi gửi thư mật khẩu đặt lại</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Mật khẩu đặt lại liên kết đã gửi. Vui lòng kiểm tra email của bạn</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Đứng yên</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Lỗi đóng băng tài khoản</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Tài khoản bị đóng băng thành công</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Người dùng đứng yên</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn đóng băng tài khoản</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galleries</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Tạo nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Lỗi tạo nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Phòng trưng bày thành công</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Xoá nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Lỗi xoá nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn xoá nơi trưng bày '{ name}' không?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Phòng trưng bày đã được xoá thành công</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Không tìm thấy nơi trưng bày đã yêu cầu hoặc không tồn tại</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Sửa nhà ở</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Lỗi cập nhật phòng trưng bày</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Phòng trưng bày đã cập nhật thành công</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Hiện tại không có ký ức nào được chia sẻ, tại sao bạn không tải lên phía trên của bạn!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Phòng trưng bày đầy đủ và đã vượt quá kích thước tối đa của</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>Nhận diện Phòng trưng bày</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>Hãy nhập vào bộ nhận diện của phòng trưng bày bạn muốn thăm.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>cái lò cưới của tôi</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Tên nơi trưng bày không hợp lệ hay phím bí mật, xin hãy thử lại</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Hãy ghi rõ một tên nơi trưng bày hợp lệ</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Phím bí mật không hợp lệ, xin hãy thử lại</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Phím Gallery</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Hãy nhập vào chìa khóa bí mật.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Nhập phím bí mật vào đây</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Số phòng trưng bày tối đa đã tới</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Không thể lấy danh sách phòng trưng bày</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Gallery Sẽ không thể trống rỗng</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Tên nơi trưng bày không thể rỗng</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Tên nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Tên nơi trưng bày đã có</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Hãy nhập tên nơi trưng bày mới</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Bí mật</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Xin vui lòng nhập một phím bí mật mới</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Trình chọn nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Thiết lập nơi trưng bày</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Lỗi xoá bộ trình bày</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Anh có chắc là muốn xóa "tên" phòng trưng bày không?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Phòng trưng bày đã được xoá thành công</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Tạo ra</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Đang tạo ra việc tải về</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Gặp lỗi khi tải trang chủ</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Tên khách</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Đổi tên khách</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Địa chỉ thư</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Hãy cho chúng tôi biết email của anh để chúng tôi có thể liên lạc với anh.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Email không hợp lệ</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Vui lòng ghi rõ một email hợp lệ</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Hãy ghi rõ một tên hợp lệ</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Nói cho chúng tôi biết cô là ai để chúng tôi biết ai đã tải kí ức lên.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, chú Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Lỗi khi đặt thông tin người dùng</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Đừng nói với chúng tôi</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Hãy cho chúng tôi biết</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Lỗi khi đặt phiên chạy nhân dạng người dùng</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Lỗi tải lên ảnh</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Nhập</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Nhập Dữ liệu</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Tập tin sao lưu</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Hãy chọn một đám cưới Chia sẻ kho lưu sao lưu</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Lỗi nhập dữ liệu</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Hãy chọn một tập tin nhập</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Dữ liệu nhập thành công</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Kiểu tập tin không hợp lệ</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Phòng trưng bày không hợp lệ Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Phím phòng trưng bày không hợp lệ</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Khóa:</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Nằm ngang</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Đổi ngôn ngữ</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Hãy chọn ngôn ngữ hiển thị</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Liên kết</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Đang nạp...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Lỗi đăng nhập người dùng</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Đã ghi rõ tên người dùng hay mật khẩu không hợp lệ</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Hãy nhập mật khẩu hợp lệ</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Hãy nhập tên người dùng hợp lệ</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Hãy nhập mật khẩu tài khoản.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Xin đăng nhập để hoàn tất hành động này</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Hãy nhập tên người dùng tài khoản.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Quản lý dữ liệu</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Cỡ tập tin tối đa</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>Vật chứa Kiểu</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Thành viên</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Lỗi thiết lập 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Tên nơi trưng bày không thể rỗng</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Kế</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Không có tài nguyên riêng được tải lên</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Không phát hiện tập tin nào để tải lên</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Chưa tạo phòng trưng bày</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Không có bản tải lên đang được xem xét</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Hoặc</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>Mật khẩu của bạn đã được đặt lại. Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng liên lạc với nhà quản trị ngay lập tức.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>Mật khẩu của bạn đã được cập nhật!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>Đã yêu cầu đặt lại mật khẩu trên tài khoản của bạn. Nếu bạn yêu cầu một thay đổi mật khẩu, vui lòng nhắp vào liên kết bên dưới để cập nhật nó.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>Khó khăn khi truy cập tài khoản của anh?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>&amp; Xác nhận khớp mật khẩu</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Ít nhất 8 ký tự</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Chữ thường</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Ký tự Đặc biệt</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Chữ hoa</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>Lỗi đặt lại mật khẩu tài khoản</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Mật khẩu của bạn đã được đặt lại thành công</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Vui lòng nâng cấp thành viên tài khoản của bạn để truy cập vào tính năng này</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Đang đợi</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Thất bại khi được tải lên bị hoãn</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Thẳng đứng</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Trình chiếu</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>Tài khoản đăng ký</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>Xác nhận mật khẩu của bạn</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>&amp; Xác nhận mật khẩu</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>Hãy nhập địa chỉ email của tài khoản.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>Địa chỉ thư</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>Mật khẩu nhập mật khẩu.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>Hãy nhập tên người dùng tài khoản.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>Xác nhận mật khẩu không khớp</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>Lỗi gửi email đăng ký cho người dùng.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>Lỗi đăng ký người dùng mới</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Xác nhận mật khẩu không khớp mật khẩu</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>Hãy xác định một địa chỉ thư điện tử hợp lệ</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>Hãy xác định một mật khẩu hợp lệ giữa 8 và 100 ký tự, chứa ít nhất 1 chữ cái trên chữ cái trên, 1 chữ cái chữ cái dưới, 1 và 1 ký tự đặc biệt</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>Hãy xác định tên người dùng hợp lệ giữa 5 và 50 ký tự</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>Có một vấn đề xử lý các liên kết kiểm tra email</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Tài khoản được tạo thành công</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>Tài khoản của bạn đã được đăng ký thành công và đang chờ cho bạn truy cập</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>Chào mừng!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Tài khoản của bạn đã được tạo ra nhưng địa chỉ email của bạn cần xác thực trước khi bạn có thể đăng nhập</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>Tài khoản của bạn đã được đăng ký nhưng cần được kiểm tra trước khi truy cập được. Hãy kích hoạt tài khoản bằng cách nhắp vào liên kết bên dưới.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>Tên người dùng đã có. Hãy chọn điều mới</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>Mật khẩu đã xác định dễ dàng đoán. Hãy chọn một mật khẩu bảo mật hơn.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Phiên bản Phóng</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Bỏ</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Thay tên</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Đặt lại</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Ôn lại</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Lỗi xem lại mục</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Không tìm thấy mục Id</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Lưu QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Lỗi lưu tài nguyên tự chọn</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Lỗi lưu ảnh vào bộ trình bày</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Quét mã QR với điện thoại của bạn để chia sẻ ảnh của bạn</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Thiết lập</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Bao nhiêu lần đăng nhập thất bại trước khi người dùng bị chặn</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Cố gắng khoá</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Người dùng sẽ bị chặn trong bao lâu</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Phút khoá</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Nếu biểu tượng hồ sơ xuất hiện trong đầu trang</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Biểu tượng hồ sơ</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>Khách có được phép đăng ký tài khoản không?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>Có cần thiết người dùng để kiểm tra email để kích hoạt tài khoản của họ không?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>Cần thiết kiểm tra thư điện tử</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Nên gửi cảnh báo khi tài khoản bị khóa</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Khoá tài khoản</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Nên báo động khi có hành động hủy diệt</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Hành động phá hủy</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Nên thông báo khi gặp lỗi khi cố đăng nhập</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Đăng nhập thất bại</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Nên thông báo nếu mục mới đang được xem xét</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Để ôn lại</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Dịch vụ nền</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Làm sạch tập tin tạm thời</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Làm sạch</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Lấy các tập tin thả trực tiếp vào thư mục nơi trưng bày</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Bộ quét thư mục</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>Báo cáo thư</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Cơ bản</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Base Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Nếu có báo cáo thư điện tử với thống kê phòng trưng bày</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>Báo cáo email</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Nên Người dùng Htp bị ép buộc vào https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Buộc Htps</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Cách người dùng chọn nơi trưng bày</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Trình chọn nơi trưng bày Kiểu</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Nếu bạn thấy tùy chọn nơi trưng bày mặc định</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Hiện nơi trưng bày mặc định</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Nếu khách được phép xây dựng phòng trưng bày mới</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Công trình sáng tạo của khách</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Nếu chìa khóa bí mật nằm trong mã QR</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Mã QR bất an</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Nên nhắp vào liên kết chính để chuyển tiếp người dùng</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Liên kết nhà có thể nhấp chuột</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Nếu liên kết mở trong thẻ mới</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Liên kết thẻ mới</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Biểu tượng cần hiển thị trong đầu trang và thẻ</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Bao nhiêu phòng trưng bày được phép tạo ra</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Số đếm phòng trưng bày tối đa</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Có nên có một hoặc nhiều phòng trưng bày</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Chế độ trưng bày</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Điểm ảnh tối đa theo chiều nào cho mẫu ảnh</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Độ phân giải mẫu ảnh</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Tên cần hiển thị trong đầu trang và thẻ</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Tựa</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Nội dung cần hiển thị trên trang thông tin CookiePolicy</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Chính sách cookie tự chọn</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Chính sách tự chọn</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Thiết lập thất bại</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Mặc định nơi trưng bày</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Loại tập tin nào được phép tải lên</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Kiểu tập tin đã cho phép</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Biểu ngữ ảnh</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Nếu khách có tùy chọn giữa bộ chọn tập tin hay máy ảnh</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Tải lên máy ảnh</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Số cột cần hiển thị</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Số đếm cột</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Bộ lọc phòng trưng bày mặc định là gì</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Lọc mặc định</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Nhóm phòng trưng bày mặc định là gì</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Nhóm mặc định</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Thứ tự mặc định</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Xem mặc định</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Nên cho phép khách tải về các mục</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Cho phép tải về</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Chiều rộng của phòng trưng bày</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Hiện kiểu</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Sau bao lâu phòng trưng bày mới có được nội dung mới</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Mins cập nhật Nghỉ</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Số mục tối đa cần hiển thị trên mỗi trang</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Mục trên mỗi trang</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Tập tin lớn nhất trong MB có thể được tải lên là gì</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Cỡ tập tin tối đa (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Phòng trưng bày được phép lớn đến mức nào</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Cỡ nơi trưng bày tối đa (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Nên tự động gỡ bỏ mục</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Ngăn chặn bản sao</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Một khi đã quét những gì thứ tự nên mục xuất hiện</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>GenericName Sắp xếp</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Một lần quét bố trí để người dùng thấy</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>GenericName Xem</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>Nếu hiển thị mã QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Hiện mã QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>Nếu mã QR chỉ ra ngôn ngữ hiển thị</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Bao gồm văn hóa trong QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Trích dẫn</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Có cần xem lại mục trước khi chúng xuất hiện không</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Cần ôn lại</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Nên từ chối các mục được cất giữ để dùng sau này</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Giữ lại mục đã từ chối</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Bộ xem lại sẽ được hiển thị</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Xem lại phản hồi</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Người dùng có thể lọc và truyền thông nhóm không?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Hiện bộ lọc</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>Nếu hiển thị tiêu đề ở trên cùng của phòng trưng bày</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Hiện tiêu đề</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Nếu khách được phép tải lên mục</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Cho phép tải lên</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Hạn chế tải lên một thời gian cụ thể</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Tải lên</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Đã nhận</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Cảnh báo Ntaf sẽ được gửi</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Điểm kết thúc</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Giá trị quan trọng của cảnh báo</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Ưu tiên</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Truy cập Token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Danh tính khách</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Nhắc người dùng cho tên của họ</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Nếu kiểm tra tên khách được hiển thị tại tải trang</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Nhắc tải trang</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Nếu người dùng cần thiết để nhập một địa chỉ thư điện tử</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Cần thiết địa chỉ thư</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>Nếu người dùng cần thiết nhập một tên</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>Cần thiết tên</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Nếu cần kiểm tra tên khách để tải lên phương tiện</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Nhắc tải lên</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Ngôn ngữ nơi Mạng mặc định nếu chưa chọn</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Cho phép người dùng thay đổi ngôn ngữ</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Cảnh báo Ntaf sẽ được gửi</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Điểm kết thúc</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Giá trị quan trọng của cảnh báo</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Ưu tiên</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Truy cập Token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Mục lục</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Người dùng có nên thấy sự bật lên kiểu GDPR không?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Chiếu ảnh</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Sự chuyển tiếp giữa các slide sẽ kéo dài bao lâu</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Bóng</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Bao lâu trong giây nên một trình chiếu trước khi di chuyển đến slide tiếp theo</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Khoảng cách</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Số lần thử lại:</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Giới hạn</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>Nếu mã QR bị xóa ở cuối cho khách truy cập</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Gồm Slide</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Tên bộ gửi thân thiện</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Hiện tên</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>Cảnh báo thư điện tử nên được gửi</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>Địa chỉ email báo động được gửi từ</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>Tên máy của nhà cung cấp SDP</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Máy</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Mật khẩu dùng để xác thực yêu cầu</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Cổng</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Người nhận</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>Nhà cung cấp SMP dùng SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Dùng SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Tên người dùng dùng dùng để xác thực yêu cầu</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Sắc thái</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Mặc định Sắc thái</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Cho phép người dùng thay đổi sắc thái</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Mã chia sẻ</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Đơn</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Chiếu ảnh</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Sử dụng</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Nhà tài trợ</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Nhà tài trợ</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Hiện tại không có nhà tài trợ. Sao anh không trở thành người đầu tiên!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Lỗi nạp danh sách nhà tài trợ</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Hình vuông</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gởi</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Chuyển đổi</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Nhãn thời gian</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Không sẵn sàng</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Bỏ tự do</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Lỗi trong tài khoản bỏ đóng băng</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Tài khoản un-frozen thành công</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Người dùng không tự do</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn bỏ băng tài khoản</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Không rõ hành động duyệt</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Thiết lập cập nhật</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Lỗi cập nhật thiết lập</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Không có thay đổi nào cần lưu</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Thiết lập cập nhật thành công</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Nâng cấp</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>Hiện tại bạn đang dùng phiên bản tự do. Để mở khóa nhiều phòng trưng bày hơn và các tính năng tuyệt vời khác xem xét nâng cấp tài khoản của bạn</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Tải lên</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Phòng trưng bày không hợp lệ Phát hiện I</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Không tìm thấy bản tải lên Url</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Tải lên phương tiện</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Hãy chọn phương pháp tải lên</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Không phát hiện tập tin cần tải lên</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Đang tải lên mục...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Mục đã được tải lên thành công</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Việc tải lên thành công mục [s] đang xem xét</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Tải lên bởi</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Trình tải lên</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>&amp; Xác nhận mật khẩu</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Xác nhận mật khẩu</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Mật khẩu đã cung cấp và cấu hình con chạy không khớp</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Tạo người dùng</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Lỗi tạo người dùng</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Người dùng đã tạo thành công</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Xoá người dùng</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Lỗi xoá người dùng</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Bạn có chắc muốn xoá người dùng « Tên} » không?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Đã xoá thành công người dùng</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Sửa người dùng</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Lỗi cập nhật người dùng</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Người dùng đã cập nhật thành công</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Mật khẩu và xác nhận mật khẩu không khớp</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Hãy xác định một địa chỉ thư điện tử hợp lệ</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Cấp người dùng đã chọn không hợp lệ</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Hãy ghi rõ một tên người dùng hợp lệ</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Hãy xác định một mật khẩu người dùng hợp lệ</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Trình độ</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Cấp truy cập người dùng</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Người dùng Sẽ không thể trống rỗng</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Tên người dùng không thể rỗng</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Thêm người dùng cùng tên đã có</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Tên người dùng mới</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Mật khẩu của người dùng mới</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Lỗi lấy danh sách người dùng</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Kiểm tra</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Thẩm tra</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Ảnh động</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Thăm</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Anh có chắc là anh muốn quét sạch tất cả các phòng trưng bày không?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Anh có chắc là muốn xóa cái phòng tranh này không?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Đang xoá dữ liệu</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Lỗi xóa dữ liệu</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Anh có chắc muốn xóa hết dữ liệu không?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Đã xóa thành công dữ liệu</value>
+  </data>
+</root>

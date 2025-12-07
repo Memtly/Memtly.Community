@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Моля, въведете кода, генериран от вашето приложение 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Ръчно въведете кода:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Грешка при нулиране на 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Успешно нулиране на 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Сканиране на следното изображение с приложението</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Грешка при създаване на 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Успешно създаден 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Успешно изтрито 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Настройка на 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Сигурна ли си, че искаш да изтриеш 2FA за потребителско име?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Ако този проблем продължи, моля свържете се с уеб администратор</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Действия</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Активиране</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Грешка при активиране на акаунта</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Сметката е активирана успешно</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Активиране на потребителя</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Сигурни ли сте, че искате да активирате този акаунт</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Добавяне</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Налични галерии</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Вашият браузър не поддържа тази функция</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Преглед на едро</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Грешка при одобряване на всички елементи</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Искате ли да одобрите или отхвърлите всички чакащи?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Грешка при отхвърляне на всички елементи</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмяна</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Грешка при проверка на състоянието на сметката</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Затваряне</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Моля, свържете се с администратор на сайта, за да предоставите достъп</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Създаване</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Култура</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Моля, изберете култура на показване</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>В момента нямате достъп</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Сигурен ли си, че искаш да изтриеш галерията?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Изтриване на елемент</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на елемент</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Не може да е празен</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да изтриеш името?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Успешно изтрит елемент</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Това е демо версия. Цялата конфигурация периодично се изтрива, за да се осигури ново начало за бъдещите тестери.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Извършване на разрушително действие</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Изтегляне</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Грешка при изтегляне на галерията</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Нямате право да сваляте тази галерия</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Адрес на електронна поща</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Грешки</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Експортиране</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Данни за износа</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Грешка при експортиране на данни</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да продължиш?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Успешно изнесени данни</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Грешка при създаване на галерия</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Грешка при изтриване на галерията</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Тази функция все още е в процес на разработка, но трябва да бъде достъпна скоро</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Грешка при изтеглянето на FFMPEG</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Грешка при изпращане на имейла за нулиране на паролата</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Изпратено е рестартиране на паролата. Моля, проверете вашия имейл</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Не мърдай</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Грешка при замразяване на сметка</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Сметката е замразена успешно</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Замразен потребител</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да замразиш сметката</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Галерии</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Галерия</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Създаване на галерия</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Грешка при създаване на галерия</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Успешно създадена галерия</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Изтриване на галерия</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на галерията</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да изтриеш галерията?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Успешно изтрита галерия</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Поисканата галерия не е открита или не съществува</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Редактиране на галерия</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Грешка при обновяване на галерията</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Успешно актуализирана галерия</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>В момента няма споделени спомени</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>моята сватбена галерия</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Невалидно име на галерия или таен ключ, моля опитайте отново</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Моля, посочете валидно име на галерията</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Невалиден таен ключ, моля опитайте отново</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Ключ за галерия</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Грешка при получаване на списъка с галерии</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Галерия Не може да е празен</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Името на галерията не може да бъде празно</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Име на галерията</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Името на галерията вече съществува</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Моля въведете ново име на галерия</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Тайен ключ</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Моля въведете нов таен ключ</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Избор на галерия</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Настройки на галерията</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Галерия за изтриване</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на галерията</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да изтриеш галерията?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Успешно изтрита галерия</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Генериране</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Генериране на изтегляне</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Група</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Грешка при зареждане на началната страница</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Проверка на самоличността</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Промяна</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Промяна на самоличността</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Адрес на електронна поща</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Кажи ни имейла си, за да се свържем с теб.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Например, jon.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Невалиден имейл</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Моля, посочете валиден имейл</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Невалидно име</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Моля, посочете валидно име</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Кажи ни кой си, за да знаем кой е качил спомените.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Например, Джейн Доу, Джими, чичо Боб</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Грешка при задаване на потребителска самоличност</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Останете анонимни</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Кажи ни</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Грешка при задаване на потребителска сесия - Име</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Внос</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Данни за вноса</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Резервен файл</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Моля, изберете сватба Сподели архива</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Грешка при внос на данни</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Моля, изберете файл за внос</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Успешно внесени данни</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Предоставеният знак за достъп е невалиден</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Пейзаж</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Промяна на езика</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Моля, изберете език на дисплея</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Връзка</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Зареждане...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Влизане</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Потребителят не може да влезе</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Невалидно потребителско име или парола</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Моля, въведете валидна парола</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Моля, въведете валидно потребителско име</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Моля, въведете паролата на акаунта.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Парола</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Моля, влезте, за да завършите това действие</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Моля, въведете потребителско име на акаунта.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Потребител</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Моля, проверете вашия имейл, за да активирате вашия акаунт</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Изход</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Нови елементи в очакване на преглед</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Следващият</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Не се качват потребителски ресурси</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Няма</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Или</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Паролата ти е рестартирана. Ако не сте поискали рестартиране на паролата, моля свържете се незабавно с администратор.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Проблеми с достъпа до сметката ти?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Потвърдете съвпаденията с паролата</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Най-малко 8 знака</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Долни букви</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Номера</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Специални знаци</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Горни букви</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Промяна на паролата</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Грешка при изпращане на имейл за нулиране на паролата.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Паролата ви беше успешно рестартирана</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Моля, надграждане членството си в акаунта, за да получите достъп до тази функция</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>В очакване</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Потребител</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Паролата за потвърждение не съвпада</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Грешка при регистриране на нов потребител</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Паролата за потвърждение не съвпада с паролата</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Моля, посочете валиден имейл адрес</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Имаше проблем с обработката на връзката за проверка на имейла</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Сметка, създадена успешно</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Акаунтът ви е регистриран успешно и ви чака за достъп</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Добре дошли!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Вашият акаунт е създаден, но вашия имейл адрес трябва да се валидира, преди да можете да влезете</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Вашият акаунт е регистриран, но трябва да бъде проверен преди да бъде достъпен. Моля, активирайте профила си, като кликнете върху линка по-долу.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Версия за освобождаване</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Премахване</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Преименуване</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Рестартиране</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Имаше проблем с обработката на връзката с паролата</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Преглед</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Грешка при преразглеждане на позиция</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Грешка при намиране на елемент Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Запис на QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Използване</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Спонсор</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Спонсори</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Поддръжници</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Превключване</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Времеви печат</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Общо</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Недостъпен</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Случи се неочаквана грешка</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Незамръзвам</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Грешка при размразяване на сметка</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Сметката не е замразена успешно</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Незамръзващ потребител</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Сигурна ли си, че искаш да размразиш акаунта</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Непознати действия за преразглеждане</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Обновяване</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Обновяване на настройките</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Грешка при обновяване на настройките</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Не са направени промени, за да се спаси</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Настройките се актуализират успешно</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Обновяване</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>В момента използвате безплатната версия. За да отключите повече съхранение галерия и други големи функции, помислете за подобряване на вашия акаунт</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Качване</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Имаше проблем с качването на някои файлове</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Невалидна галерия Засечен</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Грешка при качване Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Качване на медиите</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Моля, изберете метод за качване</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Не са открити файлове за качване</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Качване на елемент {index} на {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Успешно качени {count} артикул(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Успешно качени {count} точка(s) в очакване на преразглеждане</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Качване от</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Потребител</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Потвърдете паролата</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Потвърдете паролата</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Предоставената парола и конфрим парола не съвпадат</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Създаване на потребител</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Грешка при създаване на потребител</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Успешно създаден потребител</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Изтриване на потребител</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на потребител</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Сигурна ли си, че искаш да изтриеш потребителското име?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Успешно изтрит потребител</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Редактиране на потребител</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Грешка при обновяване на потребителя</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Успешно актуализиран потребител</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Е- поща</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Имейл адрес на потребителите</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Парола и потвърждение на паролата не съвпадат</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Моля, посочете валиден имейл адрес</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Избраното потребителско ниво е невалидно</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Моля, посочете валидно потребителско име</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Моля, посочете валидна потребителска парола</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Ниво</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Ниво на достъп на потребителите</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Потребител Не може да е празен</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Потребителското име не може да бъде празно</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Потребител</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Добавяне на потребител със същото име вече съществува</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Потребителско име на новия потребител</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Парола</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Паролата на новия потребител</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Потребител</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Грешка при получаване на списъка с потребители</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Валидиране</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Проверка</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Сигурен ли си, че искаш да изтриеш тази галерия?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Изтриване на данни</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на данните</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Сигурна ли си, че искаш да изтриеш всички данни?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Успешно изтрити данни</value>
   </data>
 </root>

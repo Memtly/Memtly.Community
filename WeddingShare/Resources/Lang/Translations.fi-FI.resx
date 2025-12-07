@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Anna 2FA-sovelluksen luoma koodi</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Anna koodi käsin:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Ei voitu nollata 2FA: ta</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Onnistui nollaamaan 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skannaa seuraava kuva sovelluksellasi</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>2FA:n perustaminen epäonnistui</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Onnistunut 2FA:n perustaminen</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Onnistuneesti pyyhitty 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA:n asetukset</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Haluatko varmasti pyyhkiä 2FA:n käyttäjän {name}?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Jos tämä ongelma jatkuu, ota yhteyttä verkkovastaavaan</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Toimet</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktivoi</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Tilin aktivointi epäonnistui</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Tili aktivoitu onnistuneesti</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivoi käyttäjä</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Haluatko varmasti aktivoida tämän tilin</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Lisää</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Saatavilla olevat galleriat</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Selaimesi ei tue tätä ominaisuutta</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Irtolastien uudelleentarkastelu</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Kaikkia kohtia ei hyväksytty</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Haluatteko hyväksyä vai hylätä kaikki vireillä olevat asiat?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Kaikkia kohteita ei voitu hylätä</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Tilin tilaa ei voitu tarkistaa</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Sulje</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Koodi</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Ota yhteyttä sivuston ylläpitäjään</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Luo</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kulttuuri</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Valitse näyttökulttuuri</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Sinulla ei tällä hetkellä ole pääsyä</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Haluatko varmasti poistaa tämän gallerian?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Poista kohde</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Kohteen poistaminen epäonnistui</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id ei voi olla tyhjä</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Haluatko varmasti poistaa '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Onnistuneesti poistettu kohde</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Tämä on demoversio. Kaikki konfiguraatiot pyyhitään ajoittain, jotta varmistetaan puhdas taulu tuleville testaajille.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Tuhoava toiminta suoritettu</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Yksityiskohdat</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Lataa</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Galleriaa ei voitu ladata</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Sinulla ei ole lupaa ladata tätä galleriaa</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Sähköpostiosoite</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Virhe</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Virheet</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Vie</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Vie tiedot</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Tietoja ei voitu viedä</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Haluatko varmasti jatkaa?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Onnistuneesti vietyjä tietoja</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Galleriaa ei voitu luoda</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Gallerian pyyhkiminen epäonnistui</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Tämä ominaisuus on vielä kehitteillä, mutta pitäisi olla saatavilla pian</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>FFMPEG-polkua ei voitu ladata</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Salasanan palautussähköpostia ei voitu lähettää</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Salasanan palautuslinkki lähetetty. Tarkista sähköpostisi</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Seis</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Tilin jäädyttäminen epäonnistui</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Tili jäädytetty onnistuneesti</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Pakene käyttäjä</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Haluatko varmasti jäädyttää tilin</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galleriat</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galleria</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Luo galleria</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Galleriaa ei voitu luoda</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Onnistuneesti luotu galleria</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Poista galleria</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Gallerian poistaminen epäonnistui</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Haluatko varmasti poistaa gallerian '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Onnistuneesti poistettu galleria</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Pyydettyä galleriaa ei löytynyt tai sitä ei ole olemassa</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Muokkaa galleriaa</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Gallerian päivitys epäonnistui</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Päivitetty galleria onnistuneesti</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Tällä hetkellä ei ole yhteisiä muistoja</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>minun häägalleriani</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Virheellinen gallerian nimi tai salainen avain, yritä uudelleen</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Määrittele kelvollinen gallerian name</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Virheellinen salainen avain, yritä uudelleen</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Gallerian avain</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Gallerialistaa ei voitu saada</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galleria Id ei voi olla tyhjä</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Gallerian name ei voi olla tyhjä</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Gallerian nimi</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Gallerian nimi on jo olemassa</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Anna uusi gallerian name</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Salainen avain</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Anna uusi salainen avain</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Gallerian valitsija</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Gallerian asetukset</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Pyyhi galleria</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Gallerian pyyhkiminen epäonnistui</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Haluatko varmasti pyyhkiä gallerian?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Onnistuneesti pyyhitty galleria</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Luo</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Luodaan latausta</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Ryhmä</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Tapahtui virhe ladattaessa kotisivua</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Henkilöllisyyden tarkistus</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Muutos</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Muuta henkilöllisyyttä</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Sähköpostiosoite</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Kerro meille sähköpostisi, jotta voimme ottaa yhteyttä sinuun.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Esimerkiksi, John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Virheellinen sähköposti</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Määrittele voimassa oleva sähköposti</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Virheellinen name</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Määrittele kelvollinen name</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Kerro kuka olet, niin tiedämme kuka latasi muistoja.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Esimerkiksi, Jane Doe, Jimmy, Bob-setä</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Käyttäjän henkilöllisyyden asettaminen epäonnistui</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Jää anonyymiksi</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Kerro meille</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Käyttäjän tunnisteistunnon asettaminen epäonnistui - Nimi</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Tuo</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Tuo tiedot</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Varatiedosto</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Valitse häät Jaa varmuuskopioarkisto</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Tuodut tiedot epäonnistuivat</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Valitse tuontitiedosto</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Onnistuneesti tuodut tiedot</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Annettu kulkutunnus oli virheellinen</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Maisema</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Vaihda kieltä</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Valitse näytön kieli</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Yhteystiedot</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ladataan...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Kirjaudu sisään</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Käyttäjän sisäänkirjautuminen epäonnistui</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Virheellinen käyttäjätunnus tai salasana määritetty</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Anna kelvollinen salasana</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Anna kelvollinen käyttäjätunnus</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Anna tilin salasana.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Salasana</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Kirjaudu sisään täydentääksesi tämän toimen</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Anna tilin käyttäjätunnus.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Käyttäjätunnus</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Varmista sähköpostisi aktivoidaksesi tilisi</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Kirjaudu ulos</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Uudet kohdat odottavat uudelleentarkastelua</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Ei mukautettuja resursseja ladattu</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Ei ole</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Tai</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Salasanasi on nyt nollattu. Jos et pyytänyt salasanan palauttamista, ota yhteyttä ylläpitäjään välittömästi.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Onko ongelmia päästä tilillesi?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Vahvista salasanan vastaavuus</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Vähintään 8 merkkiä</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Pienet kirjaimet</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Numerot</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Erikoismerkit</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Isot kirjaimet</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Salasanan palautus</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Salasanan palautusviestin lähettäminen epäonnistui.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Salasanasi on palautettu onnistuneesti</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Päivitä tilisi jäsenyys päästäksesi käsiksi tähän ominaisuuteen</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Odotetaan</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Käyttäjätunnus</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Rekisteröinti</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Vahvistus salasana ei täsmää</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Uuden käyttäjän rekisteröinti epäonnistui</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Vahvistus salasana ei vastaa salasanaa</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Määrittele voimassa oleva sähköpostiosoite</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Oli kysymys käsittelee sähköpostin todentamislinkki</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Tili luotiin onnistuneesti</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Tilisi on rekisteröity onnistuneesti ja odottaa pääsyä</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Tervetuloa!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Tilisi on luotu, mutta sähköpostiosoitteesi tarvitsee vahvistuksen ennen kuin voit kirjautua sisään</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Tilisi on rekisteröity, mutta se on tarkistettava ennen kuin se on käytettävissä. Aktivoi tilisi klikkaamalla alla olevaa linkkiä.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Julkaisuversio</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Poista</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Nimeä uudelleen</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Nollaa</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Oli kysymys käsittely salasanan reset linkin</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Uudelleentarkastelu</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Kohteen uudelleentarkastelu epäonnistui</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Kohteen tunnistetta ei löytynyt</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Tallenna QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Käyttö</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsori</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorit</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Tukijat</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Vaihda</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Aikaleima</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Yhteensä</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Ei saatavilla</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Tapahtui odottamaton virhe</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Liikkumatta</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Tilin jäädytys epäonnistui</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Tilin jäädyttämätön onnistuneesti</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Ei-jäädytetty käyttäjä</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Haluatko varmasti avata tilin</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Tuntematon tarkastelutoimi</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Päivitä</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Päivitä asetukset</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Asetusten päivitys epäonnistui</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Tallennukseen ei tehty muutoksia</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Asetukset päivitettiin onnistuneesti</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Päivitä</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Käytät tällä hetkellä ilmaista versiota. Avata enemmän galleria varastointi ja muut suuret ominaisuudet harkitse päivittää tilisi</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Lähetä</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Oli ongelma ladata joitakin tiedostoja</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Virheellinen galleria Havaittu</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Lähetystä ei löytynyt Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Lähetä media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Valitse lataustapa</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Ladattavia tiedostoja ei löytynyt</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Ladataan kohdetta {index} {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Onnistuneesti ladattu {count} kohta(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Onnistuneesti ladattu {count} kohta [s] odottamassa uudelleentarkastelua</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Lähettäjä</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Käyttäjä</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Vahvista salasana</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Vahvista salasana</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Annettu salasana ja konfrim salasana eivät täsmää</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Luo käyttäjä</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Käyttäjän luonti epäonnistui</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Onnistuneesti luotu käyttäjä</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Poista käyttäjä</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Käyttäjän poistaminen epäonnistui</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Haluatko varmasti poistaa käyttäjän '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Onnistuneesti poistettu käyttäjä</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Muokkaa käyttäjää</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Käyttäjän päivitys epäonnistui</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Päivitetty onnistuneesti</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Sähköposti</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Käyttäjän sähköpostiosoite</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Salasana ja vahvista salasana ei täsmää</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Määrittele voimassa oleva sähköpostiosoite</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Valittu käyttäjätaso on virheellinen</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Määrittele kelvollinen käyttäjäname</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Määrittele voimassa oleva käyttäjän salasana</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Taso</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Käyttäjät</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Käyttäjä Id ei voi olla tyhjä</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Käyttäjäname ei voi olla tyhjä</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Lisää sama käyttäjä jo olemassa</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Uuden käyttäjän käyttäjätunnus</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Salasana</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Uuden käyttäjän salasana</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Käyttäjätunnus</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Käyttäjäluetteloa ei voitu saada</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validointi</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Varmista</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Haluatko varmasti pyyhkiä tämän gallerian?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Pyyhi tiedot</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Tietoja ei voitu pyyhkiä</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Haluatko varmasti pyyhkiä kaikki tiedot?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Onnistuneesti pyyhityt tiedot</value>
   </data>
 </root>

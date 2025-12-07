@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Introduceți codul generat de aplicația 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Introduceți manual codul:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Resetarea 2FA a eșuat</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Resetează cu succes 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Scanează următoarea imagine cu aplicația ta</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Eșec la configurarea 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Stabilește cu succes 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA șters cu succes</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Configurare 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Sigur doriți să ștergeți 2FA pentru utilizator '{numele} '?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Dacă această problemă persistă vă rugăm să contactați administratorul web</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Acțiuni</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activează</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>A eșuat activarea contului</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Contul activat cu succes</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Activează utilizatorul</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Sigur doriți să activați acest cont</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Adaugă</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Galerii disponibile</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Browser-ul dvs. nu suportă această caracteristică</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Revizuire în vrac</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>A eșuat aprobarea tuturor elementelor</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Doriţi să aprobaţi sau să respingeţi toate obiectele aflate în aşteptare?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>A eșuat respingerea tuturor elementelor</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Renunță</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Starea contului de verificare a eșuat</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Închide</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Cod</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Vă rugăm să contactați un administrator de site pentru a oferi acces</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Creează</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Cultură</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Alegeți o cultură de afișare</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>În prezent nu aveți acces</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Sigur doriți să ștergeți această galerie?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Șterge elementul</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea elementului</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Nu poate fi gol</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Sigur doriți să ștergeți '{numele} '?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Punct eliminat cu succes</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Aceasta este o versiune demo. Toate configuraţiile sunt ştearse periodic pentru a asigura o tabla curată pentru viitorii testatori.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Acţiune distructivă efectuată</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descărcare</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>A eșuat descărcarea galeriei</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Nu sunteţi autorizat să descărcaţi această galerie</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Adresa de e-mail</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Erori</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Exportă</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Date de export</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>A eșuat exportul datelor</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Sigur vrei să continui?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Date exportate cu succes</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Crearea galeriei a eșuat</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Eșec la ștergerea galeriei</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Această caracteristică este încă în curs de dezvoltare, dar ar trebui să fie disponibile în curând</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>A eșuat descărcarea FFMPEG pe cale</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Eșec la trimiterea e-mailului de resetare a parolei</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Link-ul de resetare a parolei trimis. Vă rugăm să verificați email-ul</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Nu mişca</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Înghețarea contului a eșuat</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Cont îngheţat cu succes</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Îngheață utilizatorul</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Sigur doriți să înghețați contul</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerii</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerie</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Creează galerie</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Crearea galeriei a eșuat</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Galerie creată cu succes</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Șterge galeria</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea galeriei</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Sigur doriți să ștergeți galeria '{numele} '?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Galerie ștersă cu succes</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Galeria solicitată nu a fost găsită sau nu există</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Editează galeria</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Eroare la actualizarea galeriei</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Galerie actualizată cu succes</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>În prezent nu există amintiri comune</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>galeria mea de nuntă</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Nume de galerie nevalidă sau cheie secretă, vă rugăm să încercați din nou</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Vă rugăm să specificați un nume valid al galeriei</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Cheie secretă nevalidă, încercaţi din nou</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Cheie galerie</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Eșec la obținerea listei de galerii</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerie Nu poate fi gol</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Numele galeriei nu poate fi gol</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Numele galeriei</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Numele galeriei există deja</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Introduceți un nou nume de galerie</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Cheie secretă</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Introduceți o nouă cheie secretă</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Selector galerie</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Configurări galerie</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Şterge Galeria</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea galeriei</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Eşti sigur că vrei să ştergi galeria '{numele}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Galerie ștersă cu succes</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generează</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generare descărcare</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grup</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>A apărut o eroare la încărcarea paginii de start</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Verificarea identității</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Schimbă identitatea</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Adresa de e-mail</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Spune-ne e-mailul tău ca să putem ajunge la tine.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Email invalid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Vă rugăm să specificați un e-mail valid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Denumire nevalidă</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Vă rugăm să precizați un nume valabil</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Spune-ne cine eşti ca să ştim cine a încărcat amintirile.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>De exemplu, Jane Doe, Jimmy, unchiul Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Nu s-a stabilit identitatea utilizatorului</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Rămâi anonim</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Spune-ne</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Sesiunea de identitate a utilizatorului a eșuat - Nume</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importă</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importă date</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Fișier de rezervă</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Alegeți o nuntă Partajează arhiva de rezervă</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Datele importate au eșuat</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Alegeți un fișier de import</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Date importate cu succes</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Tokenul de acces furnizat a fost invalid</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Peisaj</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Limba</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Schimbă limba</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Alegeți un limbaj de afișare</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Legătură</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Se încarcă...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Autentificare</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Eșec la autentificarea utilizatorului în</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Nume de utilizator sau parolă nevalidă specificată</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Introduceți o parolă validă</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Introduceți un nume de utilizator valid</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Introduceți parola contului.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Parolă</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Te rog autentifică-te pentru a finaliza această acțiune</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Introduceți numele de utilizator al contului.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Nume utilizator</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Vă rugăm să verificați e-mail pentru a activa contul</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Deconectare</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Elemente noi în așteptare revizuire</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Înainte</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Nicio resursă personalizată încărcată</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Niciuna</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Sau</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Parola ta a fost resetată. Dacă nu ați solicitat o resetare a parolei, vă rugăm să contactați imediat un administrator.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Probleme cu accesarea contului?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Confirmă potrivirea parolei</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Cel puțin 8 caractere</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Litere de caz mai mici</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Numere</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Caractere speciale</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Litere de caz superioare</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Resetează parola</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Eșec la trimiterea unui e-mail de resetare a parolei.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Parola ta a fost resetată cu succes</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Vă rugăm să actualizați calitatea de membru al contului pentru a obține acces la această caracteristică</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>În așteptare</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Nume utilizator</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Înregistrarea</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Parola de confirmare nu se potrivește</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Nu s-a înregistrat un nou utilizator</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Parola de confirmare nu corespunde parolei</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Vă rugăm să specificați o adresă de e-mail validă</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>A existat o problemă de procesare link-ul de verificare e-mail</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Cont creat cu succes</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Contul dvs. a fost înregistrat cu succes şi vă aşteaptă accesul</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Bine ai venit!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Contul dvs. a fost creat, dar adresa dvs. de e-mail necesită validarea înainte de a vă putea conecta</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Contul dvs. a fost înregistrat, dar trebuie verificat înainte de a putea fi accesat. Vă rugăm să activați contul dumneavoastră făcând clic pe link-ul de mai jos.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Versiune de lansare</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Redenumește</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reinițializează</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>A existat o problemă de procesare link-ul de resetare parolă</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Revizuirea</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Nu a reușit să revizuiască elementul</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Nu s- a putut găsi elementul Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Salvează QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Utilizare</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsori</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Suporteri</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Comută</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Indisponibil</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>A apărut o eroare neaşteptată</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Dezgheață</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>A eșuat dezghețarea contului</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Cont necongelat cu succes</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Utilizator necongelat</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Sigur vrei să dezgheţi contul</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Acţiune de revizuire necunoscută</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Actualizează</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Actualizează configurări</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Actualizarea configurărilor a eșuat</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Nu s-au făcut modificări pentru a salva</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Configurări actualizate cu succes</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Actualizează</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>În prezent utilizați versiunea gratuită. Pentru a debloca mai multe depozite galerie și alte caracteristici mari ia în considerare modernizarea contului</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Încarcă</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Nu a fost o problemă încărcarea unor fișiere</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Galerie nevalidă Id detectat</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Nu am putut găsi upload Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Încarcă media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Alegeți o metodă de încărcare</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Nu au fost detectate fișiere pentru a încărca</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Încărcare element {index} de {număr}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Produs încărcat cu succes (număr}</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Încărcat cu succes {conte} element (s) în curs de revizuire</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Încărcat de</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Utilizator</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Confirmă parola</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Confirmă parola</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Parola furnizata si parola confrim nu se potrivesc</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Creează utilizator</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>A eșuat crearea utilizatorului</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Utilizator creat cu succes</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Șterge utilizatorul</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea utilizatorului</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Sigur doriți să ștergeți utilizatorul '{numele}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Utilizator șters cu succes</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Editează utilizatorul</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Eroare la actualizarea utilizatorului</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Utilizator actualizat cu succes</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Adresa de email a utilizatorilor</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Parola și confirma parola nu se potrivesc</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Vă rugăm să specificați o adresă de e-mail validă</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Nivelul de utilizator selectat este invalid</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Vă rugăm să specificați un nume de utilizator valabil</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Vă rugăm să specificați o parolă de utilizator validă</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Nivelul de acces al utilizatorilor</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Utilizator Nu poate fi gol</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Numele utilizatorului nu poate fi gol</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Nume utilizator</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Adaugă utilizator cu același nume există deja</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Utilizatorul noului utilizator</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Parola noului utilizator</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Nume utilizator</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Eșec la obținerea listei de utilizatori</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validare</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verificare</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Eşti sigur că vrei să ştergi galeria?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Șterge datele</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea datelor</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Sigur doriți să ștergeți toate datele?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Date șterse cu succes</value>
   </data>
 </root>

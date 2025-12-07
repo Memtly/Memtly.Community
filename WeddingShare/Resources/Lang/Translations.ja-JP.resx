@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>2FAアプリで生成されたコードを入力してください</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>手動でコードを入力する:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>2FAをリセットできなかった</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>成功したリセット2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>アプリで次の画像をスキャン</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>2FAをセットアップできなかった</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>2FAをうまく設定</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FAをしっかり拭く</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FAセットアップ</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>2FA をユーザの '{name}' で拭きたいですか?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>この問題が解決しない場合は、Web管理者に連絡してください</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>アクション</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>アカウントの有効化に失敗</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>有効なアカウント</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>ユーザーの活性化</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>このアカウントをアクティブにしたいと確信しています</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>追加する</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>利用できるギャラリー</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>お使いのブラウザは、この機能をサポートしていません</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>バルクレビュー</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>すべてのアイテムを承認できなかった</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>保留中のアイテムを承認または拒否したいですか?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>すべての項目を拒否する失敗</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>カメラ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>アカウントの状態の確認が失敗</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>ふりがな</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>コードコード</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>サイトの管理者に連絡してアクセスしてください</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>作成する</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>カルチャー</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>表示文化を選択してください</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>現在アクセスしていない</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>このギャラリーを削除したいですか?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>削除項目</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>アイテムを削除できない</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>空に入らない</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>'{name}'を削除したいですか?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>完全に削除された項目</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>デモ版です。 すべての構成は、将来のテスターのためのきれいなスレートを保証するために定期的に拭きます.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>破壊的な行動の実行</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>インフォメーション</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>ギャラリーのダウンロードに失敗</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>このギャラリーをダウンロードすることはできません</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>メールアドレス</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>エラー</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>エクスポート</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>エクスポートデータ</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>データをエクスポートできない</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>続行したいですか?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>データのエクスポート成功</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>ギャラリーを作成できない</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>ギャラリーを拭き取らない</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>この機能は開発中ですが、すぐに利用できるはずです</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>FFMPEGをパスにダウンロードできない</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>パスワードリセットメールの送信失敗</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>パスワードリセットリンクを送信しました。 メールでのお問い合わせ</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>フリーズ</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>アカウントを凍結する失敗</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>しっかりしたアカウント</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>凍結ユーザー</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>あなたがアカウントを凍結したいと確信しています</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>ギャラリー</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>ギャラリー</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>ギャラリー</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>ギャラリーを作成できない</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>完成したギャラリー</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>ギャラリー削除</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>ギャラリーを削除できない</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>ギャラリー「{name}'を削除したいですか?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>完全に削除されたギャラリー</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>リクエストされたギャラリーが見つかりませんでした</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>編集ギャラリー</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>更新ギャラリーに失敗</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>更新されたギャラリー</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>現在、共有された思い出はありません</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>ウェディングギャラリー</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>無効なギャラリー名または秘密鍵、もう一度お試しください</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>有効なギャラリー名を入力してください</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>無効な秘密鍵は、もう一度お試しください</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>ギャラリーキー</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>ギャラリーリストを取得する失敗</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>ギャラリー 空に入らない</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>ギャラリー名を空にすることはできません</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>ギャラリー名</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>既に存在するギャラリー名</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>新しいギャラリー名を入力してください</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>秘密鍵</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>新しい秘密鍵を入力してください</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>ギャラリーセレクター</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>ギャラリー設定</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>ワイプギャラリー</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>ギャラリーを拭き取らない</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>ギャラリー「{name}'を拭きたいですか?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>すっかり拭いたギャラリー</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>生成する</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>ダウンロードの生成</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>グループ</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>ホームページをロードするエラーが発生しました</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>アイデンティティチェック</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>アクセス</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>アイデンティティの変更</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>私達にあなたの電子メールを知らせて下さい従って私達はあなたに連絡してもいいです.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>例:john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>無効なメール</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>有効なメールアドレスを入力してください</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>無効な名前</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>有効な名前を入力してください</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>お名前 (必須)</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>思い出をアップロードしてくださった方を教えて下さい.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>例:Jane Doe、Jimmy、Uncle Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>ユーザ ID を設定できなかった</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>匿名のまま</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>お問い合わせ</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>ユーザ ID セッションを設定できなかった - 名前</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>インポート</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>インポートデータ</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>バックアップファイル</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>結婚式を選択してください バックアップアーカイブを共有する</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>インポートされたデータに失敗</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>インポートファイルを選択してください</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>徹底的にインポートされたデータ</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>提供されたアクセストークンは無効でした</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>展示風景</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>用語集</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>言語変更</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>表示言語を選択してください</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>サイトマップ</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>ローディング...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>ログイン</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>ユーザをログインできなかった</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>指定された無効なユーザー名またはパスワード</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>有効なパスワードを入力してください</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>有効なユーザー名を入力してください</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>パスワードを入力してください.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>パスワード</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>このアクションを完了するためにログインしてください</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>ユーザー名を入力してください.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>ユーザ名</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>あなたのメールアドレスがあなたのアカウントをアクティブにするために確認してください</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>ログイン</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>新しいアイテムのペンディングレビュー</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>次へ</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>アップロードされたカスタムリソースはありません</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>なし</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>または</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>パスワードがリセットされました。 パスワードリセットをリクエストしなかった場合は、管理者にすぐに連絡してください.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>アカウントへのアクセスのトラブル?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>パスワードマッチの確認</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>8文字以上</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>ケースの文字を下げる</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>ナンバー</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>スペシャルキャラクター</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>アッパーケース文字</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>パスワードリセット</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>パスワードリセットメールの送信に失敗しました.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>パスワードが正常にリセットされました</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>この機能にアクセスするためにアカウントのメンバーシップをアップグレードしてください</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>ペンディング</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>ユーザ名</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>参加登録</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>パスワードの確認は一致しません</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>新規登録失敗</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>パスワードの確認はパスワードと一致しません</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>有効なメールアドレスを入力してください</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>メール確認のリンクを処理する問題がありました</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>成功したアカウント</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>アカウントが正常に登録され、アクセスを待っています</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>お問い合わせ!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>アカウントが作成されましたが、メールアドレスはログインする前に検証が必要です</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>アカウントが登録されていますが、アクセス可能な前に確認する必要があります。 下記のリンクからアカウントを有効化してください.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>リリース版</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>リネーム</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>リセット</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>パスワードリセットリンクを処理する問題がありました</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>レビュー</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>アイテムのレビュー失敗</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>アイテムが見つかりませんでした</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>QRを保存</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>使用方法</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>スポンサー</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>スポンサー</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>サポーター</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>スイッチ</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>タイムスタンプ</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>合計:</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>ご利用案内</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>予期しないエラーが発生しました</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>非フリーズ</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>非フリーズアカウントに失敗</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>成功するアカウント</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>非フリーズ ユーザー</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>未フリーズアカウントを希望するかどうか</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>未知のレビューアクション</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>新着情報</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>更新設定</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>更新設定が失敗</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>変更は保存されません</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>正常に更新された設定</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>アップグレード</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>無料版を利用しています。 より多くのギャラリーストレージやその他の優れた機能のロックを解除するには、アカウントのアップグレードを検討してください</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>アップロード</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>いくつかのファイルをアップロードする問題がありました</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>無効なギャラリー 検出される Id</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>アップロードが見つかりませんでした ログイン</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>メディア掲載</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>アップロード方法を選択してください</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>アップロードするファイルが見つかりませんでした</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>{count} の項目 {index} をアップロード...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>うまくアップロードされた{count}項目</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>うまくアップロードされた {count} 項目(s) 終了レビュー</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>アップロード バイ</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>ユーザー登録</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>パスワードの確認</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>パスワードの確認</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>提供されたパスワードとパスワードが一致しない</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>ユーザーを作成する</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>ユーザーを作成する失敗</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>ユーザをうまく作成</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>ユーザー削除</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>ユーザを削除できない</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>ユーザ '{name}' を削除したいですか?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>完全に削除されたユーザー</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>ユーザーを編集する</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>ユーザを更新できなかった</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>更新されたユーザーの成功</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>ユーザーのメールアドレス</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>パスワードを確認し、パスワードが一致しない</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>有効なメールアドレスを入力してください</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>選択したユーザーレベルが無効です</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>有効なユーザー名を入力してください</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>有効なユーザー名を入力してください</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>ユーザーのアクセスレベル</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>ユーザー登録 空に入らない</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>ユーザー名は空にすることはできません</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>既に存在する同じ名前でユーザーを追加</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>新しいユーザーのユーザー名</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>新しいユーザーのパスワード</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>ユーザ名</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>ユーザーリストを取得する失敗</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>検証</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>検証</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>このギャラリーを拭くのは?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>ワイプデータ</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>データの消去が失敗</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>すべてのデータを消去したいですか?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>データの完全消去</value>
   </data>
 </root>

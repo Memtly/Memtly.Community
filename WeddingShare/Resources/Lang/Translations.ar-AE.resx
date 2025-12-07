@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>من فضلك أدخل الرمز المولد من تطبيقك</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>أدخل الرمز</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>فشل في إعادة ضبط 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>النجاح في إعادة ضبط 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>مسح الصورة التالية مع تطبيقك</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>فشل في إنشاء 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>النجاح في إنشاء 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>مبيد ناجح 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Setup</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد أن تمسح 2FA للمستعمل؟?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>إذا استمرت هذه المسألة، يرجى الاتصال بمدير الإنترنت</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>الإجراءات</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>النشاط</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>فشل في حساب التشغيل</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>تم تفعيل الحساب بنجاح</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>المستعمل النشط</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد تفعيل هذا الحساب</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>مضافا إليها</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>المتاح</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>منظفك لا يدعم هذه المميزة</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>استعراض شعبي</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>عدم الموافقة على جميع البنود</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>هل ترغب في الموافقة أو رفض جميع البنود المعلقة؟?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>عدم رفض جميع البنود</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>آلة تصوير</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>فشل في التحقق من حساب الولاية</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>اقترب</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>المدونة</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>يرجى الاتصال بمدير الموقع لتوفير إمكانية الوصول</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>الإبداع</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>الثقافة</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>الرجاء اختيار ثقافة العرض</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>أنت حالياً لا تستطيع الوصول</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>هل أنت متأكد أنك تريد حذف هذا المعرض؟?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>يحذف البند</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>عدم حذف البند</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>لا يمكن أن تكون فارغة</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف 'اسم' ؟?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>البند المحذف بنجاح</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>هذه نسخة تجريبية وتُمسح جميع التشكيلات بصورة دورية لضمان وضع قائمة نظيفة للمختبرين في المستقبل.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>الإجراءات المدمرة</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>فشل في تنزيل المعرض</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>لا يسمح لك بتحميل هذا المعرض</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>عنوان البريد الإلكتروني</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>الرعب</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>الأخطاء</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>الصادرات</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>بيانات التصدير</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>الفشل في الحصول على بيانات التصدير</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد الاستمرار؟?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>البيانات المصدرة بنجاح</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>فشل في خلق المعرض</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>فشل في محو المعرض</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>ولا تزال هذه السمة قيد التطوير ولكن ينبغي أن تكون متاحة قريبا</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>فشل في تحميل FFMPEG إلى الطريق</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>فشل في إرسال البريد الإلكتروني المعاد إرساله</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>إرسال وصلة إعادة تحديد كلمة السر. من فضلك تحقق من بريدك الإلكتروني</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>مكانك</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>فشل في تجميد الحساب</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>الحساب المجمّد بنجاح</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>مستعمل مجمد</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد تجميد الحساب</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galleries</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Gallery</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>فشل في خلق المعرض</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>صنع المعرض بنجاح</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>تحذف المدفعية</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>فشل في حذف المعرض</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف المعرض؟?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>معرض محو بنجاح</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>The requested gallery was not found or does not exist</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>فشل في تحديث المعرض</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>المعرض المستكمل بنجاح</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>لا توجد حاليا ذكريات مشتركة</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>حفل زفافي</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>اسم المعرض الفاشل أو المفتاح السري، يرجى محاولة مرة أخرى</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>يرجى تحديد اسم المعرض الصحيح</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>مفتاح سري لا يُصدّق، رجاءً حاولْ ثانيةً</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>مفتاح المعرض</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>فشل في الحصول على قائمة المعرض</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Gallery لا يمكن أن تكون فارغة</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>اسم المعرض لا يمكن أن يكون فارغا</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>اسم المعرض</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>اسم المعرض موجود بالفعل</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>من فضلك أدخل اسم المعرض الجديد</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>المفتاح السري</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>من فضلك أدخل مفتاح سر جديد</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Gallery Selector</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Gallery Settings</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>معرض الأرملة</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>فشل في محو المعرض</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد مسح المعرض؟?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>معرض مبيد بنجاح</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>الجيل</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>توليد الحمولة</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>المجموعة</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>وقع خطأ في تحميل الصفحة الرئيسية</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>التحقق من الهوية</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>التغيير</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>تغيير الهوية</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>أخبرنا بالبريد الإلكتروني لكي نتواصل معك.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Invalid Email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>يرجى تحديد البريد الإلكتروني الصحيح</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>الاسم غير الرسمي</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>يرجى تحديد اسم صحيح</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>أخبرنا من أنت حتى نعرف من حمل الذكريات.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jim, uncle Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>عدم تحديد هوية المستخدم</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>البقاء مجهولة الهوية</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>أخبرنا</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>عدم تحديد جلسة هوية المستخدمين - الاسم</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>الواردات</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>بيانات الاستيراد</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>صندوق الدعم</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>الرجاء اختيار الزفاف المحفوظات الاحتياطية</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>المفقودة إلى البيانات المستوردة</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>يرجى اختيار ملف الاستيراد</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>البيانات المستوردة بنجاح</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>The provided access token was invalid</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>الغطاء الأرضي</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>يرجى اختيار لغة العرض</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>التعبئة...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>فشل في تسجيل المستخدمين</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>الاسم غير الرسمي للمستعمل أو كلمة السر المحددة</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>من فضلك أدخل كلمة سر صحيحة</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>يرجى إدخال اسم المستخدم الصحيح</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>من فضلك أدخل كلمة السر.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>كلمة السر</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>يرجى الدخول لإكمال هذا العمل</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>من فضلك أدخل اسم المستخدم.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>المستعمل</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>يرجى التحقق من بريدك الإلكتروني لتفعيل حسابك</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>البنود الجديدة قيد الاستعراض</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>No custom resources uploaded</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>لا</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>أو</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>كلمة السر الخاصة بك قد أعيدت الآن. إذا لم تطلب إعادة صياغة كلمة السر يرجى الاتصال بمدير على الفور.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>مشكلة الدخول إلى حسابك؟?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>تطابق كلمة السر</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>على الأقل 8 شخصيات</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>حروف أقل</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>الأرقام</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>الشخصيات الخاصة</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>الرسائل</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>كلمة السر</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>فشلت في إرسال رسالة بريد إلكتروني.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>كلمة السر الخاصة بك تم إعادة صياغتها بنجاح</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>يرجى رفع مستوى عضوية حسابكم للحصول على هذه السمة</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>معلقة</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>المستعمل</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>التسجيل</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>كلمة مرور تأكيد لا تتطابق</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>عدم تسجيل مستعمل جديد</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>كلمة مرور تأكيد لا تتطابق مع كلمة السر</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>يرجى تحديد عنوان بريد إلكتروني صحيح</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>كانت هناك مشكلة في تجهيز وصلة التحقق بالبريد الإلكتروني</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>الحساب المنجز بنجاح</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>لقد تم تسجيلك بنجاح وانتظارك للدخول</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>مرحباً!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>تم إنشاء حسابك لكن عنوان بريدك الإلكتروني يحتاج إلى التحقق قبل أن تتمكن من الدخول</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>لقد تم تسجيل حسابك لكن يجب التحقق منه قبل أن يتم الوصول إليه يرجى تشغيل حسابك بالنقر الرابط أدناه.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>الإصدار</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>إزالة الألغام</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>الاسم</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>إعادة التوطين</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>كان هناك مشكلة في تجهيز وصلة إعادة صياغة كلمة السر</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>الاستعراض</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>عدم استعراض البند</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>لا يمكن العثور على بند</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>أنقذوا (كيو آر)</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Usage</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>الرعاة</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>الرعاة</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>المؤيدون</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Switch</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>المجموع</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>غير متاح</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>حدث خطأ غير متوقع</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>فشل في الحساب غير المتجمد</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>الحساب غير المتجمد بنجاح</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-Freeze User</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد أن تفرغ الحساب</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>إجراء استعراض غير معروف</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>آخر</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Update Settings</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>فشل في تحديث الأطر</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>لم تطرأ أي تغييرات لإنقاذ</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>تم استكمال الهيكل بنجاح</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>أعلى</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>أنت الآن تستخدم النسخة الحرة. لفتح المزيد من المخزن و السمات العظيمة الأخرى النظر في رفع حسابك</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>كان هناك مشكلة تحميل بعض الملفات</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>معرض غير رسمي Id detected</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>لا يمكن العثور على تحميل Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>تحميل وسائط الإعلام</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>يرجى اختيار طريقة تحميل</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>No files were detected to upload</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>تحميل البند {index} من {count}.</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Successfully uploaded {count} item(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>قيد الاستعراض</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>محمولة</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>مستخدم</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>تأكيد كلمة السر</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>كلمة السر المقدّمة وكلمة سر الكونفريم لا تتطابق</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>مستعمل مبتكر</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>فشل في خلق مستعمل</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>المستعمل الناجح</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>يحذف المستعمل</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>عدم حذف المستخدم</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف المستعمل؟?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>المستخدم المحذف بنجاح</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>لم يستكمل المستعمل</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>المستعمل المستكمل بنجاح</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>عنوان البريد الإلكتروني للمستعملين</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>كلمة السر وتأكيد كلمة السر لا تتطابق</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>يرجى تحديد عنوان بريد إلكتروني صحيح</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>مستوى المستعمل المختار غير صحيح</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>يرجى تحديد اسم المستخدم الصحيح</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>يرجى تحديد كلمة سر المستخدم الصحيحة</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>الرتبة</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>مستوى وصول المستخدمين</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>مستخدم لا يمكن أن تكون فارغة</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>اسم المستخدم لا يمكن أن يكون فارغا</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>المستعمل</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>يضاف المستخدم الذي يحمل نفس الاسم موجود بالفعل</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>اسم المستخدم الجديد</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>كلمة السر للمستعمل الجديد</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>المستعمل</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>فشل في الحصول على قائمة المستخدمين</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validate</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>التصديق</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>هل أنت متأكد أنك تريد مسح هذا المعرض؟?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>بيانات الأرملة</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>فشل في محو البيانات</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد مسح جميع البيانات؟?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>البيانات الممسحة بنجاح</value>
   </data>
 </root>

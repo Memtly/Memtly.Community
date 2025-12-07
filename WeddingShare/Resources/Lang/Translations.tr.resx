@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Lütfen 2FA uygulamanız tarafından yaratılan kodu girin</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Manually kodu girin:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>2FA'yı sıfırlamayı başaramadı</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Başarılı bir şekilde 2FA'yı sıfırlama</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Aşağıdaki görüntüyü uygulamanızla</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>2FA'yı kurmak için başarısız oldu</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Başarılı bir şekilde 2FA'yı kurdu</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Başarılı bir şekilde 2FA'yı sildi</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Kullanıcı için 2FA'yı silmek istediğinizden emin misiniz '{name}?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Bu konu devam ederse lütfen web yöneticisiyle iletişime geçin</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Eylemler</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Hesabı aktive etmek için başarısız oldu</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Muhasebe başarıyla başarıyla başarıyla başarıyla etkinleştirildi</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Activate User</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Bu hesabı aktive etmek istediğinizden emin misiniz</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Add</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Mevcut Galleries</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Tarayıcınız bu özelliği desteklemiyor</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Tüm eşyaları onaylamayı başaramadı</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Tüm bekleyen eşyaları onaylamak veya reddetmek ister misiniz?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Tüm eşyaları reddetmek için başarısız oldu</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Hesabı kontrol etmek için başarısız oldu</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Close</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kod Kodu</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Lütfen erişim sağlamak için bir site yöneticisiyle iletişime geçin</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Create</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kültür Kültürü</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Lütfen bir ekran kültürü seçin</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Şu anda erişiminiz yok</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Bu galeriyi silmek istediğinizden emin misiniz?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Öğeyi silmek için başarısız oldu</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Boş olamaz</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>‘{name} silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Başarılı silinmiş öğe</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Bu bir demo versiyonudur. Tüm konfigürasyonlar, gelecekteki testçiler için temiz bir kesme sağlamak için periyodik olarak silinir.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destructive Action Gerçekleştirildi</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaylar</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Galeri indirmek için başarısız oldu</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Bu galeriyi indirmek için yetkili değilsiniz</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hata hatası</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Hatalar</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>İhracat İhracatı</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>İhracat Data</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Veri ihraç etmek için başarısız oldu</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde ihraç edilen veriler</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Galeri oluşturmak için başarısız oldu</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Galeriyi yok etmek için başarısız oldu</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Bu özellik hala geliştirme altındadır, ancak yakında mevcut olmalıdır</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>FFMPEG'yi yollamak için başarısız oldu</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Şifre sıfırlama e-posta göndermek için başarısız oldu</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Şifre sıfırlama linki gönderildi. Lütfen e-postanızı kontrol edin</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Freeze</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Korumak için başarısız oldu</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Hesabı don başarıyla başarıyla başarıyla</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Freeze Kullanıcı</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Hesabı dondurmak istediğinizden emin misiniz</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galleries</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Gallery</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Create Gallery</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Galeri oluşturmak için başarısız oldu</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde galeri yarattı</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Delete Gallery</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Galeriyi silmek için başarısız oldu</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Galeriyi silmek istediğinizden emin misiniz ‘{name}?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Başarılı silinmiş galeri</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Talep edilen galeri bulunamadı veya mevcut değil</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Galeriyi güncellemek için başarısız oldu</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde güncellendi galeri</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Şu anda paylaşılan anılar yok</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>my-wedding-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Invalid galeri adı veya gizli anahtar, lütfen tekrar deneyin</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Lütfen geçerli bir galeri ismini belirtin</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Invalid gizli anahtarı, lütfen tekrar deneyin</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galeri Key</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Galeri listesini almak için başarısız oldu</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Gallery Gallery Boş olamaz</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galeri adı boş olamaz</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Gallery Name Gallery</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Gallery adı zaten var</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Lütfen yeni bir galeri adı girin</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Gizli Anahtar</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Lütfen yeni bir gizli anahtar girin</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Gallery Selector</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galeri Ayarlar</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Galeriyi yok etmek için başarısız oldu</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Galeriyi ‘{name} silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde galeriyi sildi</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Genrate</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Gening Download Download</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grup Grup Grup Grubu</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Bir hata ana sayfayı yükleme oldu</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Kimlik Kontrolü</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Kimlik Değişimi Değiştirin</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-posta Adresi</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Bize e-postanızı söyleyin, böylece size ulaşabiliriz.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Invalid Email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Lütfen geçerli bir e-postayı belirtin</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Invalid Name</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Lütfen geçerli bir adı belirtin</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Bize kim olduğunuzu söyleyin, böylece anıları kimin yüklediğini biliyoruz.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, Bob Amca</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Kullanıcı kimliğini belirlemek için başarısız oldu</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Stay Anonim</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Bize söyle</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Kullanıcı kimlik seansını ayarlamaya başarısız oldu - Ad</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>İthalat</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>İthalat Data</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Backup File</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Lütfen bir Düğünü seçin Paylaş yedekleme arşivi</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Ithal edilen verilere başarısız oldu</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Lütfen bir ithalat dosyasını seçin</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde ithal edilen veriler</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Sağlanan erişim geçersizydi</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Manzara</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil Dili</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Dil Değiştiri</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Lütfen bir ekran dili seçin</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Kullanıcı girişi başarısız oldu</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Invalid kullanıcı veya şifre belirtilmiş</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Lütfen geçerli bir şifre girin</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Lütfen geçerli bir kullanıcı adı girin</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Lütfen hesap şifresi girin.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Şifre</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Lütfen bu eylemi tamamlamak için oturum açma</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Lütfen hesap adı girin.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Username</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Lütfen hesabınızı aktive etmek için e-postanızı doğrulayın</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Yeni Maddeler</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Hiçbir özel kaynak yüklenmedi</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Hiçbir şey yok</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ya da</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Parolanız şimdi sıfırlandı. Bir parola sıfırlama talep etmediyseniz lütfen hemen bir yöneticiye ulaşın.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Hesabınıza erişmeye sorun?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Şifre maçlarını onaylayın</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>En az 8 karakter</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Alt vaka mektupları</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Sayı Sayısı</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Özel karakterler</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Üst vaka mektupları</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Şifre sıfırlama</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Şifre sıfırlama e-posta göndermek için başarısız oldu.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Şifreniz başarıyla sıfırlandı</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Lütfen bu özellike erişmek için hesap üyeliğinizi yükseltme</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Pending</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Username</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Kayıt</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Onaylama şifresi eşleşmez</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Yeni kullanıcı kaydetmeye başarısız oldu</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Onaylama parolası şifreyi eşleştirmez</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Lütfen geçerli bir e-posta adresini belirtin</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>E-posta doğrulama bağlantısını işleme konusu oldu</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Hesap başarıyla oluşturuldu</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>You account başarıyla kaydedildi ve erişim için sizi bekliyor</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Hoşgeldiniz!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Hesabınız oluşturuldu, ancak e-posta adresiniz giriş yapmadan önce doğrulamanız gerekiyor</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Hesabınız kayıtlıdır, ancak erişilebilir hale gelmeden önce doğrulanmalıdır. Lütfen aşağıdaki bağlantıya tıklayarak hesabınızı etkinleştirin.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Salı</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Kaldırın</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Rename</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Şifre sıfırlama bağlantısını işleme konusu oldu</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>İnceleme</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Öğeyi incelemeye başarısız oldu</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Can not find item Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Kurtarın QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Kullanımı</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorlar</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Destekçiler</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Anahtar anahtarı</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Times</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Toplam</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Un available</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Beklenmeyen bir hata oluştu</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Özgür olmayan</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Özgür olmayan hesap için başarısız oldu</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Hesap un-frozen başarıyla</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-Freeze Kullanıcı</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Özgür olmayan hesap için istediğinizden emin misiniz</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Bilinmeyen inceleme eylemi</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Güncelleme Ayarları</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Güncelleştirme ayarları başarısız oldu</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Kurtarmak için hiçbir değişiklik yapılmadı</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Ayarları başarıyla güncellendi</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Yükseltin</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Şu anda ücretsiz versiyonu kullanıyorsunuz. Daha fazla galeri depolamasını ve diğer büyük özellikleri hesabınızı geliştirmek için</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Bazı dosyaları yükleme konusu vardı</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Invalid galeri tespit edildim</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Yüklemeyi bulamaz Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Upload Media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Lütfen yükleme yöntemi seçin</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Yüklemek için hiçbir dosya tespit edilmedi</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>{index} {say}.</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde yüklenen {count} item(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Başarılı bir şekilde yüklenen {count} item(s) bekleme süresi</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Bölüm Adı</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Kullanıcı</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Şifreyi Onaylayın</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Şifreyi Onaylayın</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Sağlanmış şifre ve karşılıklı şifre eşleşmez</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Kullanıcı oluşturmak için başarısız oldu</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde yaratılan kullanıcı</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Delete Kullanıcı</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Kullanıcıyı silmek için başarısız oldu</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Kullanıcı '{name} silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde silindi kullanıcı</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Kullanıcıyı güncellemeye başarısız oldu</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde güncellendi kullanıcı</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E-posta e-posta e-posta</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Kullanıcılar e-posta adresi</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Şifre ve şifreyi onaylayın</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Lütfen geçerli bir e-posta adresini belirtin</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Seçilen kullanıcı seviyesi geçersizdir</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Lütfen geçerli bir kullanıcı adı belirt</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Lütfen geçerli bir kullanıcı şifresini belirtin</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Kullanıcıların erişim seviyesi</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Kullanıcı Boş olamaz</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Kullanıcı adı boş olamaz</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Username</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Aynı adı olan kullanıcı ekle zaten var</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Yeni kullanıcı adı</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Yeni kullanıcının şifresi</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Username</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Kullanıcıların listesini almak için başarısız oldu</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Geçerlilik</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verify</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Bu galeriyi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Verileri yok etmeye başarısız oldu</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Tüm verileri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Başarılı bir şekilde silinmiş veriler</value>
   </data>
 </root>

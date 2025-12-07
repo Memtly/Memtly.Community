@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Bonvolu eniri la kodon generitan per via 2FA app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Enmetu la kodon:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Malsukcesas rekomenci 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Sukcesa rekomenco 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skanu la sekvan bildon kun via app</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Malsukcesas starigi 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>La sukceso de 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Sukcesaj viŝis 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Aro</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Ĉu vi estas certa ke vi volas forviŝi 2FA por uzanto ''?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Se tiu temo daŭras bonvolu kontakti la retadministranton</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Agoj</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Malsukcesa aktivigi konton</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Konspone aktiva sukcese</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Activate Uzanto</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Vi certe volas aktivigi tiun konton</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Aldonu aldoni</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Havebla Galleries</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Via retumilo ne subtenas tiun trajton</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Malsukcesas aprobi ĉiujn erojn</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Ĉu vi ŝatus aprobi aŭ malakcepti ĉiujn aĵojn?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Malsukcesis malakcepti ĉiujn erojn</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Fotila fotilo</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Malsukcesas kontroli la ŝtatan staton</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Fermu proksime</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodo</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Bonvolu kontakti retejon administranto por provizi aliron</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Krei</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kulturo</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Bonvolu elekti ekranan kulturon</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Vi ne havas aliron</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Ĉu vi volas forigi tiun galerion?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Forigi ĝin</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Malsukcesita forigi objekton</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Mi ne povas esti malplena</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Ĉu vi scias, ke vi volas forigi la nomon?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Sukcese forigita objekto</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Tio estas demo versio. Ĉiu konfiguracio periode estas forviŝita por certigi puran ardezon por estontaj testistoj.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destruktura Ago rezultas</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaloj</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Elŝutu</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Malsukcesa por elŝuti galerion</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Vi ne estas aprobita por elŝuti tiun galerion</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Retpoŝto</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Eraro</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Eraroj</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksporto</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Eksporto de datumoj</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Malsukcesa eksporti datumojn</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Ĉu vi certas ke vi volas daŭrigi?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Sukcesaj datenoj</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Malsukcesas krei galerion</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Maltrankviligita por forviŝi galerion</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Tiu trajto daŭre estas sub evoluo sed devus esti havebla baldaŭ</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Malsukcesa por elŝuti FFMPEG al pado</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Malsukcesa sendi pasvorton reset retpoŝto</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Pasvorto rekomencas ligon sendita. Bonvolu kontroli vian retpoŝton</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Liberaĵoj</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Malsukcesas frostigi konton</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>La konto frostiĝis sukcese</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Libera Uzanto Uzanto</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Vi certe volas frostigi konton</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Gallery</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerio de galerio</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Krei galerion</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Malsukcesas krei galerion</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Sukcesa kreita galerio</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Delete galerio</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Malsukcesas forigi galerion</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Ĉu vi scias, ke vi volas forigi la galerion?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Sukcese forigita galerio</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>La petita galerio ne estis trovita aŭ ne ekzistas</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Malsukcesas ĝisdatigi galerion</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Sukcesa ĝisdatigita galerio</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Ekzistas nuntempe neniuj memoroj</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>mi-forlaso-galulo</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>La nomo aŭ sekreta ŝlosilo, bonvolu provi denove</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Bonvolu specifi validan galerion nomo</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>La sekreta ŝlosilo, bonvolu provi denove</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Ĉefa Galerio</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Malsukcesas ricevi galerioliston</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerio de galerio Mi ne povas esti malplena</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Kanaria nomo ne povas esti malplena</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galerionomo</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galerionomo jam ekzistas</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Bonvolu eniri novan galerion</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Sekretoj</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Bonvolu eniri novan sekretan ŝlosilon</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Elektu galerion</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galerio Settings</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Maltrankviligita por forviŝi galerion</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Ĉu vi estas certa ke vi volas forviŝi galerion ''?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Sukcese forviŝita galerio</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generita</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Mortigo</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupo de grupo</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Eraro okazis ŝarĝi la hejmpaĝon</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identeco Kontrolu</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Ŝanĝoj ŝanĝiĝas</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Ŝanĝo Identeco</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Retpoŝto</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Diru al ni vian retpoŝton, do ni povas atingi al vi.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Invalida retpoŝto</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Bonvolu specifi validan retpoŝton</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Invalida nomo</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Bonvolu specifi validan nomon</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nomo nomo</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Diru al ni, kiuj vi estas tiel ni scias, kiu alŝutis memorojn.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g, Jane Doe, Jimmy, Onklo Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Malsukcesas atribui uzantidentecon</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Resti anonima</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Diru al ni</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Malsukcesaj atribui uzantidentecan sesion - Nomo</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importado</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importa Datumoj</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Malantaŭa Dosiero</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Bonvolu elekti edziniĝon Dividi rezervarkivon</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Malsukcesa al importitaj datenoj</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Bonvolu elekti importan dosieron</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Sukcesaj datenoj</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>La provizita alirĵeto estis malvalida</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Landscape</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lingvo</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Ŝanĝi lingvon</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Bonvolu elekti ekranan lingvon</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Ligiloj</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Malsukcesa por logi uzanton en</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Invalida uzantnomo aŭ pasvorton precizigita</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Bonvolu eniri validan pasvorton</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Bonvolu eniri validan uzantnomon</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Bonvolu eniri konton pasvorton.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Pasvorto</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Bonvolu ensaluti por kompletigi tiun agon</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Bonvolu eniri konton uzantnomo.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Uzantnomo</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Bonvolu kontroli vian retpoŝton por aktivigi vian konton</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Diskuto</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>New Items Pending Review</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>La sekva</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Neniuj specialadaptitaj resursoj alŝutis</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Neniu</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Aŭ</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Via pasvorton nun estis remetita. Se vi ne petis pasvorton, bonvolu atingi administranton tuj.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Ĉu vi povas aliri vian konton?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Konfirma pasvorton matĉoj</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Almenaŭ 8 karakteroj</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Pli malalta kazo literoj</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Nombro da nombroj</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Specialaj karakteroj</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Supraj kazleteroj</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Pasvorto Reset</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Malsukcesita sendi pasvorton reset retpoŝto.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Via pasvorton estis sukcese reset</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Bonvolu ĝisdatigi vian konton membreco por akiri aliron al ĉi tiu trajto</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Atendante</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Uzantnomo</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registrado</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>La pasvorton ne kongruas</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Malsukcesis registri novan uzanton</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Confirmation pasvorton ne kongruas la pasvorton</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Bonvolu specifi validan retpoŝtan adreson</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Ekzistis temo prilaborado de la retpoŝta konfirmligo</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Raporto kreita sukcese</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Vi estas registrita sukcese kaj atendas vin aliri</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Bonvenon!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Via konto estis kreita sed via retpoŝta adreso bezonas konfirmi antaŭ ol vi povas ensaluti en</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Via konto estis registrita sed devas esti konfirmita antaŭ ol ĝi povas esti alirita. Bonvolu aktivigi vian konton per klakado de la ligo malsupre.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Liberigo versio</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Forigo</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Renomo</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Ekzistis temo prilaborado de la pasvorton reset ligo</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Revizio</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Malsukcesita por revizii objekton</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Mi ne povas trovi eron, kiun mi</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Savi QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Uzante la</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsors</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Subtenantoj</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Ŝaltilo</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>La tempo</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Totala</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Nehavebla</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Neatendita eraro okazis</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Ne-libereca</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Malfavora al senfrosta konto</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Ne-frosta sukcese</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Ne-libera Uzanto</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Vi estas certa ke vi volas sen-frostigi konton</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Nekonataĵa revizio</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Ĝisdatigo</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Ĝisdatigu la agordojn</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Malsukcesas ĝisdatigi agordojn</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Neniuj ŝanĝoj estis faritaj por ŝpari</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Settings ĝisdatigita sukcese</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Ĝisdatiĝi</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Nun vi uzas la liberan version. Malŝlosi pli da galerio stokado kaj aliaj grandaj ecoj pripensas ĝisdatigante vian raporton</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Ĝis la fino</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Ekzistis temo alŝutanta kelkajn dosierojn</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Invalida galerio Mi detektis</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Oni ne povas trovi la Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Upload Media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Bonvolu elekti alŝuti metodon</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Neniuj dosieroj estis detektitaj por alŝuti</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Alŝutante eron {index} de {count}.</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Sukcese alŝutita objekto (j)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Sukcese alŝutite {count} objekto (j) ne klarigita revizio</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Antaŭite fare de</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Uzanta Uzanto</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Konfirmu la pasvorton</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>La provizita pasvorton kaj konfrim pasvorton ne egalas</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Krei Uzante Uzanto</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Malsukcesita krei uzanton</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Sukcesa kreita uzanto</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Forigi Uzanton</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Malsukcesas forigi uzanton</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Ĉu vi estas certa ke vi volas forigi uzanton ''?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Sukcesa uzanto</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edit Uzanta Uzanto</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Malsukcesita ĝisdatigi uzanton</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Sukcesa ĝisdatigita uzanto</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Retpoŝto</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>La uzantoj retpoŝta adreso</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Pasvorto kaj konfirmi pasvorton ne egalas</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Bonvolu specifi validan retpoŝtan adreson</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>La elektita uzantnivelo estas malvalida</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Bonvolu specifi validan uzantnomon</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Bonvolu specifi valida uzanto pasvorton</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivelo</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>La uzantoj alirnivelo</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Uzanta Uzanto Mi ne povas esti malplena</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Uzantnomo ne povas esti malplena</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Uzantnomo</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Aldoni uzanto kun la sama nomo jam ekzistas</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>La uzantnomo de la nova uzanto</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Pasvorto</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>La pasvorton de la nova uzanto</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Uzantnomo</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Malsukcesis ricevi uzantoj listo</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valida</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Traduki</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Ĉu vi scias, ke vi volas forviŝi tiun galerion?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Malsukcesas forviŝi datumojn</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Ĉu vi scias, ke vi volas forviŝi ĉiujn datumojn?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Sukcesajn informojn</value>
   </data>
 </root>

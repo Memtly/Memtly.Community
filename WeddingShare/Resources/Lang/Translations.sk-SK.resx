@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Zadajte kód vygenerovaný vašou aplikáciou 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Ručne zadajte kód:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Zlyhalo obnovenie 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Úspešne reštartovať 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skenovať nasledujúci obrázok pomocou aplikácie</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Zlyhalo nastavenie 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Úspešné zriadenie 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Úspešne vymazaných 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Nastavenie 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Ste si istý, že chcete vymazať 2FA pre užívateľa '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Ak táto otázka pretrváva, prosím kontaktujte správcu webu</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Akcie</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktivovať</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Nepodarilo sa aktivovať účet</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Účet úspešne aktivovaný</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivovať užívateľa</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Ste si istý, že chcete aktivovať tento účet</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Pridať</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Dostupné galérie</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Váš prehliadač nepodporuje túto funkciu</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Nepodarilo sa schváliť všetky položky</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Chceli by ste schváliť alebo odmietnuť všetky nevybavené veci?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Nepodarilo sa odmietnuť všetky položky</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Nepodarilo sa skontrolovať stav účtu</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Zavrieť</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kód</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Prosím kontaktujte administrátora stránky, aby poskytol prístup</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Vytvoriť</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultúra</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Prosím, vyberte kultúru zobrazenia</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Momentálne nemáte prístup</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Naozaj chcete vymazať túto galériu?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Odstrániť položku</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť položku</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id nemôže byť prázdny</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Naozaj chcete vymazať '{name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Úspešne vymazaná položka</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Toto je demo verzia. Všetky konfigurácie sú pravidelne vymazané, aby sa zabezpečila čistá bridlica pre budúcich testerov.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Deštruktívne konanie</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Podrobnosti</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Stiahnuť</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Nepodarilo sa stiahnuť galériu</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Nie ste oprávnení stiahnuť si túto galériu</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-mailová adresa</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Chyby</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Vývoz</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Exportovať údaje</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Nepodarilo sa exportovať údaje</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Si si istý, že chceš pokračovať?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Úspešne vyvezené údaje</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Nepodarilo sa vytvoriť galériu</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Galéria zlyhala</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Táto funkcia je stále vo vývoji, ale mala by byť čoskoro k dispozícii</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Nepodarilo sa stiahnuť FFMPEG na cestu</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Nepodarilo sa poslať resetovanie hesla emailu</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Poslať odkaz na obnovenie hesla. Prosím skontrolujte si váš e-mail</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Ani hnúť</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Zmraziť účet</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Účet úspešne zmrazený</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Zmraziť užívateľa</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Určite chcete zmraziť účet</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galérie</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galéria</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Vytvoriť galériu</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Nepodarilo sa vytvoriť galériu</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Úspešne vytvorená galéria</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Odstrániť galériu</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť galériu</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Naozaj chcete vymazať galériu '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Úspešne vymazaná galéria</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Požadovaná galéria nebola nájdená alebo neexistuje</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Upraviť galériu</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať galériu</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Úspešne aktualizovaná galéria</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Momentálne nie sú žiadne spoločné spomienky</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>my-svadobné-galéria</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Neplatné meno galérie alebo tajný kľúč, skúste to znova</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Prosím zadajte platný názov galérie</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Neplatný tajný kľúč, prosím skúste to znova</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Kľúč k galérii</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Nepodarilo sa získať zoznam galérie</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galéria Id nemôže byť prázdny</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Názov galérie nemôže byť prázdny</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Názov galérie</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Názov galérie už existuje</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Zadajte názov novej galérie</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Tajný kľúč</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Prosím zadajte nový tajný kľúč</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Výber galérií</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Nastavenie galérie</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Galéria</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Galéria zlyhala</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Si si istý, že chceš vymazať galériu?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Úspešne vymazaná galéria</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generovať</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generujem sťahovanie</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Skupina</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Nastala chyba pri načítavaní domovskej stránky</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Kontrola totožnosti</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Zmena</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Zmeniť identitu</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-mailová adresa</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Povedzte nám váš e-mail, aby sme mohli osloviť vás.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Napr. John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Neplatný e-mail</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Prosím zadajte platný e-mail</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Neplatné meno</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Prosím, uveďte platný názov</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Povedz nám, kto si, aby sme vedeli, kto nahral spomienky.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Napr. Jane Doe, Jimmy, strýko Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Nepodarilo sa nastaviť identitu užívateľa</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Zostaňte Anonymní</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Povedz nám</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Nepodarilo sa nastaviť identitu užívateľa - meno</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Dovoz</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importovať údaje</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Záložný súbor</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Prosím vyberte svadbu Zdieľať zálohovací archív</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Nepodarilo sa importovať dáta</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Prosím vyberte importný súbor</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Úspešne dovezené údaje</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Poskytnutý prístup k tokenu bol neplatný</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Krajina</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Zmeniť jazyk</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Prosím vyberte jazyk zobrazenia</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Spojenie</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Načítava sa...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Prihlásenie</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Nepodarilo sa prihlásiť užívateľa</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Neplatné užívateľské meno alebo heslo zadané</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Zadajte platné heslo</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Prosím zadajte platné užívateľské meno</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Prosím zadajte heslo k účtu.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Heslo</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Prosím prihláste sa na dokončenie tejto akcie</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Prosím zadajte užívateľské meno účtu.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Užívateľské meno</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Overte si prosím váš e-mail na aktiváciu účtu</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Odhlásenie</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nové položky, ktoré čakajú na preskúmanie</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nasledujúci</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Žiadne nahrané vlastné zdroje</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Žiadne</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Alebo</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Vaše heslo bolo resetované. Ak ste nepožiadali o obnovenie hesla, okamžite kontaktujte administrátora.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Problémy s prístupom k vášmu účtu?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Potvrdiť zhodu hesla</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Minimálne 8 znakov</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Malé písmená</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Čísla</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Špeciálne znaky</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Veľké písmená</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Obnoviť heslo</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Nepodarilo sa poslať e-mail s resetom hesla.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Vaše heslo bolo úspešne resetované</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Prosím, upgrade členstva v konte získať prístup k tejto funkcii</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Čakanie</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Užívateľské meno</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registrácia</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Potvrdenie hesla nezodpovedá</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Nepodarilo sa zaregistrovať nového užívateľa</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Potvrdenie hesla nezodpovedá heslu</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Uveďte platnú e-mailovú adresu</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Tam bol problém spracovanie e-mailu overenie odkaz</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Účet vytvorený úspešne</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Vaše konto bolo úspešne registrované a čakáte na prístup</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Vitajte!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Váš účet bol vytvorený, ale vaša e-mailová adresa potrebuje potvrdiť pred prihlásením</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Váš účet bol registrovaný, ale musí byť overený pred jeho prístupom. Aktivujte svoj účet kliknutím na odkaz nižšie.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Verzia vydania</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Premenovať</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetovať</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Tam bol problém spracovanie hesla reset odkaz</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Preskúmanie</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Nepodarilo sa skontrolovať položku</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Nepodarilo sa nájsť položku ID</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Uložiť QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Použitie</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponzor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponzori</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Priaznivci</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Prepínač</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Časová pečiatka</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Spolu</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Nie je k dispozícii</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Nastala neočakávaná chyba</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Odmrazovanie</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Nepodarilo sa zmraziť účet</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Účet úspešne nezmrazený</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-Freeze Užívateľ</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Ste si istý, že chcete odmraziť účet</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Neznáme preskúmanie</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Aktualizácia</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Aktualizovať nastavenia</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať nastavenia</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Neboli vykonané žiadne zmeny na uloženie</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Nastavenia úspešne aktualizované</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Aktualizácia</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Momentálne používate bezplatnú verziu. Ak chcete odomknúť viac úložiska galérie a ďalšie skvelé funkcie zvážiť modernizáciu svoj účet</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Odoslať</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Tam bol problém nahrávanie niektoré súbory</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Neplatná galéria Id detekované</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Nepodarilo sa nájsť odosielanie Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Odoslať médiá</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Prosím vyberte metódu odosielania</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Neboli zistené žiadne súbory na nahrávanie</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Nahrávam položku {index} {počet}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Úspešne nahrané položky</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Úspešne nahrané {počítač} položky čakajúce na preskúmanie</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Nahrané</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Užívateľ</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Potvrdiť heslo</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Potvrdiť heslo</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Zadané heslo a confrim heslo nezodpovedá</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Vytvoriť užívateľa</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Zlyhalo vytvorenie užívateľa</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Úspešne vytvorený užívateľ</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Odstrániť užívateľa</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Nepodarilo sa odstrániť užívateľa</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Naozaj chcete vymazať užívateľské '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Úspešne vymazaný užívateľ</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Upraviť užívateľa</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Nepodarilo sa aktualizovať užívateľa</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Úspešne aktualizovaný užívateľ</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E- mail</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>E-mailová adresa používateľov</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Heslo a potvrdenie hesla nezodpovedá</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Uveďte platnú e-mailovú adresu</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Zvolená úroveň užívateľa je neplatná</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Prosím zadajte platné užívateľské meno</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Zadajte platné užívateľské heslo</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Úroveň</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Prístupová úroveň používateľov</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Užívateľ Id nemôže byť prázdny</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Užívateľské meno nemôže byť prázdne</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Užívateľské meno</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Pridať užívateľa s rovnakým názvom už existuje</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Meno nového užívateľa</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Heslo nového užívateľa</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Užívateľské meno</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Nepodarilo sa získať zoznam používateľov</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Overiť</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Overiť</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Si si istý, že chceš vymazať túto galériu?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Vymazať dáta</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Zlyhalo vymazanie dát</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Ste si istý, že chcete vymazať všetky dáta?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Úspešne vymazané dáta</value>
   </data>
 </root>

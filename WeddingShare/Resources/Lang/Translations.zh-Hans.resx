@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>请输入您 2FA 应用程序生成的代码</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>手动输入代码 :</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>重设 2FA 失败</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>成功重设 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>用您的应用程序扫描以下图像</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>设置 2FA 失败</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>成功设置 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>成功擦除 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA 设置</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>您确定要为用户“ {name} ” 擦去 2FA 吗 ?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>如果这个问题持续存在,请联系网络管理员</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>行动</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>激活账户失败</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>账户已成功激活</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>激活用户</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>您确定要激活此账户</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>添加</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>可用盖尔</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>您的浏览器不支持此特性</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>批量审查</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>所有项目的核准失败</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>您要批准还是拒绝所有待决项目?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>拒绝所有项目失败</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>检查账户状态失败</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>关闭</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>代码</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>请联系网站管理员提供访问</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>创建</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>文化</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>请选择显示文化</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>您目前无法访问</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>您确定要删除此画廊吗 ?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>删除项目</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>删除项目失败</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>无法为空</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>您确定要删除“ {name} ” 吗 ?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>成功删除项目</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>这是一个演示版。 所有配置都定期被擦去,以确保未来的测试者有一个干净的板块.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>已执行的破坏行动</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>细节</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>下载相册失败</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>您无权下载此画廊</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>电子邮件地址</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>错误</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>导出</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>导出数据</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>导出数据失败</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>你确定要继续吗?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>成功导出数据</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>创建相册失败</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>擦去画廊失败</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>这一功能仍在开发中,但应当很快提供</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>下载 FAMPEG 到路径失败</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>发送密码重设邮件失败</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>密码重置链接已发送 。 请检查您的电子邮件</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>别动</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>冻结账户失败</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>账户成功被冻结</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>冻结用户</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>你确定要冻结账户吗</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>盖尔</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>图片库</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>创建图片库</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>创建相册失败</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>成功创建了画廊</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>删除图片库</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>删除相册失败</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>您确定要删除相册“ {name} ” 吗 ?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>成功删除相册</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>请求的画廊未找到或不存在</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>编辑图片库</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>更新画廊失败</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>成功更新画廊</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>目前没有共享的记忆</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>我的婚礼彩礼</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>无效的画廊名称或密钥, 请再次尝试</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>请指定一个有效的画廊名称</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>无效的密钥, 请再次尝试</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>图片库密钥</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>获取画廊列表失败</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>图片库 无法为空</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>图片库名称不能为空</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>图片库名称</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>图片库名称已经存在</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>请输入新画廊名称</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>密钥</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>请输入新的密钥</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>图片库选择器</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>图片库设置</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>擦除图片库</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>擦去画廊失败</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>您确定要擦去画廊“ {name} ” 吗 ?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>成功擦除画廊</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>生成</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>生成下载</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>组</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>装入主页出错</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>身份检查</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>变动</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>更改身份</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>电子邮件地址</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>告诉我们你的邮件 这样我们才能联系你.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>例如,John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>无效的电子邮件</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>请指定有效的电子邮件</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>无效的名称</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>请指定一个有效名称</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>告诉我们你是谁 所以我们知道是谁上传了记忆.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>例如:'珍多','吉米','鲍勃叔叔'</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>设置用户身份失败</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>保持匿名状态</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>告诉我们</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>设置用户身份会话失败 - 名称</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>导入</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>导入数据</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>备份文件</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>请选择婚礼 共享备份归档</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>导入数据失败</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>请选择导入文件</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>成功导入数据</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>提供的访问令牌无效</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>风景</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>更改语言</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>请选择显示语言</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>链接</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>正在装入...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>登录</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>登录用户失败</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>指定无效的用户名或密码</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>请输入有效的密码</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>请输入有效的用户名</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>请输入账户密码 .</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>密码</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>请登录完成此动作</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>请输入账户用户名 .</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>用户名</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>请检查您的电子邮件以激活您的账户</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>注销</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>有待审查的新项目</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一个</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>没有上传自定义资源</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>无</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>或者说</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>您的密码现已重置 。 如果您没有请求重新设置密码, 请立即联系管理员 .</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>访问你的账户有问题吗?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>确认密码匹配</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>至少8个字符</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>小写字母</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>特殊字符</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>大写字母</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>密码重置</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>发送密码重置邮件失败 .</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>您的密码已成功重设</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>请升级您的账户会员,以便访问此功能</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>待决</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>用户名</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>登记</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>确认密码不匹配</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>注册新用户失败</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>确认密码与密码不符</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>请指定一个有效的电子邮件地址</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>有一个问题处理电子邮件验证链接</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>成功创建账户</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>您的账户已成功注册并等待您访问</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>欢迎光临!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>您的账户已经创建, 但是您的电子邮件地址需要验证才能登录</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>您的账户已经注册, 但需要核实才能访问 。 请点击以下链接激活您的账户 .</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>发布版本</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>重命名</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>重设</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>有一个问题处理密码重置链接</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>审查</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>审查项目失败</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>找不到项目 Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>保存 QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>使用量</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>发起人</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>发起人</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>支持者</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>切换</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>时间戳</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>共计</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>无法获取</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>发生了出乎意料的错误</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>解冻</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>解冻账户失败</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>账户解冻成功</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>解冻用户</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>你确定要解冻账户吗</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>未知的审查动作</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>更新</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>更新设置</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>更新设置失败</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>没有保存更改</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>成功更新设置</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>升级</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>您正在使用免费版本 。 要解锁更多画廊存储器 和其他伟大的功能 考虑更新您的账户</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>上传一些文件的问题</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>无效的相册 检测到</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>找不到上传 乌尔尔</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>上传媒体</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>请选择上传方法</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>没有检测到要上传的文件</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>正在上传 { index} 的 { counts}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>成功上传 { counts} 项</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>成功上传{计算}项待审查</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>上传于</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>用户</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>提供的密码和同源密码不匹配</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>创建用户</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>创建用户失败</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>成功创建用户</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>删除用户</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>删除用户失败</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>您确定要删除用户“ {name} ” 吗 ?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>成功删除用户</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>编辑用户</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>更新用户失败</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>成功更新用户</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>用户电子邮件地址</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>密码和确认密码不符</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>请指定一个有效的电子邮件地址</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>选中的用户级别无效</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>请指定一个有效的用户名</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>请指定有效的用户密码</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>职等</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>用户访问级别</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>用户 无法为空</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>用户名不能为空</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>用户名</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>添加同名用户已存在</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>新用户的用户名</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>新用户的密码</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>用户名</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>获取用户列表失败</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>校验</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>校验</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>你确定要抹去画廊吗?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>擦除数据</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>擦除数据失败</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>你确定要删除所有数据吗?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>成功擦除数据</value>
   </data>
 </root>

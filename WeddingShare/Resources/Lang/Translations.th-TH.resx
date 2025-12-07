@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>โปรดป้อนรหัสที่สร้างโดยโปรแกรม 2FA ของคุณ</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>ใส่รหัสด้วยตนเอง:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการรีเซ็ต 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>ตั้งค่าใหม่สําเร็จ 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>สแกนภาพต่อไปนี้ด้วยโปรแกรมของคุณ</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการตั้งค่า 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>ตั้งค่า 2FA สําเร็จ</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>ลบ 2FA เรียบร้อยแล้ว</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>ตั้งค่า 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะล้าง 2FA สําหรับผู้ใช้ '{0}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>หากเรื่องนี้ยืนยัน โปรดติดต่อผู้ดูแลระบบ</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>การกระทํา</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>เรียกทํางาน</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการเรียกใช้งานบัญชีผู้ใช้</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>บัญชีผู้ใช้ทํางานเรียบร้อยแล้ว</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>เปิดใช้งานผู้ใช้</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะเปิดใช้งานบัญชีนี้</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>เพิ่ม</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>แกล เล รี ที่ มี อยู่</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>เบราว์เซอร์ของคุณไม่รองรับคุณสมบัตินี้</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>การรีเฟรชของบิลล์</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการอนุมัติรายการทั้งหมด</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>คุณ อยาก เห็น ด้วย หรือ ปฏิเสธ สิ่ง ของ ทุก อย่าง ไหม?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการปฏิเสธรายการทั้งหมด</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>กล้อง</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>ล้มเหลวในการตรวจสอบสถานะบัญชีผู้ใช้</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>ปิด</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>รหัส</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>โปรดติดต่อผู้ดูแลเว็บไซต์เพื่อให้เข้าถึง</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>สร้าง</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>วัฒนธรรม</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>โปรดเลือกวัฒนธรรมการแสดงผล</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>คุณยังไม่มีสิทธิ์ในการใช้งาน</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>คุณแน่ใจหรือว่าต้องการจะลบคลังภาพนี้?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>ลบรายการ</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบรายการ</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>ไม่สามารถว่างได้</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะลบ '% {ชื่อ}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>ลบรายการเรียบร้อยแล้ว</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>นี่คือรุ่นเดโม การปรับแต่งทั้งหมด ถูกลบออกไปเป็นระยะ ๆ เพื่อตรวจสอบความสะอาดของตัวทดสอบในอนาคต.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>ปฏิบัติ การ สอน</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>รายละเอียด</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการดาวน์โหลดคลังภาพ</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>คุณไม่ได้รับอนุญาตให้ดาวน์โหลดคลังภาพนี้</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>ที่อยู่อีเมล</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>ผิดพลาด</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>ผิดพลาด</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>ส่งออก</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>ส่งออกข้อมูล</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการส่งออกข้อมูล</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะทําต่อไป?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>ส่งข้อมูลเรียบร้อยแล้ว</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>ล้มเหลวในการสร้างคลังภาพ</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>ล้มเหลวในการลบคลังภาพ</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>คุณสมบัตินี้ยังคงอยู่ระหว่างการพัฒนา แต่ควรจะใช้ได้ในไม่ช้า</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>ล้มเหลวในการดาวน์โหลด FMPEG ไปยังพาธ</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>ล้มเหลวในการส่งรหัสผ่านการตั้งค่าใหม่</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>การส่งรหัสผ่านใหม่ โปรดตรวจสอบอีเมลของคุณ</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>หยุด</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการหยุดบัญชีผู้ใช้</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>บัญชีผู้ใช้ถูกแช่แข็งเรียบร้อยแล้ว</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>หยุดผู้ใช้</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะหยุดบัญชี</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>แกล เล รี</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>คลังภาพ</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>สร้างคลังภาพ</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการสร้างคลังภาพ</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>คลังภาพที่ถูกสร้างสําเร็จแล้ว</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>ลบคลังภาพ</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบคลังภาพ</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะลบคลังภาพ '{0}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>ลบคลังภาพเรียบร้อยแล้ว</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>ไม่พบคลังภาพที่ร้องขอมา หรือยังไม่มีอยู่</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>แก้ไขคลังภาพ</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการอัปเดตคลังภาพ</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>ปรับปรุงคลังภาพเรียบร้อยแล้ว</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>ตอนนี้ไม่มีความทรงจําร่วมกัน</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>งานแต่งของฉัน</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>ชื่อคลังภาพหรือกุญแจลับไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>โปรดระบุชื่อของคลังภาพที่ถูกต้อง</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>กุญแจลับไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>กุญแจของแกลเลอรี</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>ล้มเหลวในการรับรายการของคลังภาพ</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>คลังภาพ ไม่สามารถว่างได้</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>ชื่อของคลังภาพไม่สามารถว่างไว้ได้</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>ชื่อแกลเลอรี</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>มีชื่อแกลเลอรีอยู่แล้ว</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>โปรดป้อนชื่อแกลเลอรีใหม่</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>กุญแจลับ</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>โปรดป้อนกุญแจลับตัวใหม่</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>เครื่องมือเลือกคลังภาพ</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>ตั้งค่าคลังภาพ</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>กวาดคลังภาพ</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบคลังภาพ</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะลบคลังภาพ '{0}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>ลบคลังภาพเรียบร้อยแล้ว</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>สร้าง</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>กําลังสร้างการดาวน์โหลด</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>กลุ่ม</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>เกิดข้อผิดพลาดระหว่างทําการโหลดหน้าเว็บหลัก</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>ตรวจสอบการแสดงตัว</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>เปลี่ยน</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>เปลี่ยนการแสดงตัว</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>ที่อยู่อีเมล</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>บอกอีเมล์มา เราจะได้ติดต่อคุณ.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>อีเมลไม่ถูกต้อง</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>โปรดระบุอีเมลที่ถูกต้อง</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>ชื่อไม่ถูกต้อง</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>โปรดระบุชื่อที่ถูกต้อง</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>บอกเราว่าคุณเป็นใคร เพื่อที่เราจะรู้ว่าใครอัพโหลดความทรงจํา.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>อี.ก., เจน โด, จิมมี่, ลุงบ๊อบ</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการตั้งค่าการแสดงตัวของผู้ใช้</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>ไม่มีชื่อเดิม</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>บอกเราสิ</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>ล้มเหลวในการตั้งค่าวาระการแสดงตัวของผู้ใช้ - ชื่อ</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>นําเข้า</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>นําเข้าข้อมูล</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>แฟ้มสํารองข้อมูล</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>กรุณาเลือกงานแต่งงาน แฟ้มจัดเก็บสํารองข้อมูลร่วมกัน</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการนําเข้าข้อมูล</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>โปรดเลือกแฟ้มนําเข้า</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>ข้อมูลนําเข้าสําเร็จแล้ว</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>ป้ายที่จัดให้ใช้ไม่ได้</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>แนวนอน</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>เปลี่ยนภาษา</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>โปรดเลือกภาษาที่ใช้แสดง</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>เชื่อมโยง</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>กําลังโหลด...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>ล็อกอิน</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>ล้มเหลวในการบันทึกผู้ใช้</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>ชื่อผู้ใช้หรือรหัสผ่านที่ระบุไม่ถูกต้อง</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>โปรดป้อนรหัสผ่านที่ถูกต้อง</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>โปรดป้อนชื่อผู้ใช้ที่ถูกต้อง</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>โปรดป้อนรหัสผ่านของบัญชีผู้ใช้.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>รหัสผ่าน</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>โปรดล็อกอินเพื่อทําการกระทํานี้ให้สมบูรณ์</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>โปรดป้อนชื่อผู้ใช้ของบัญชีผู้ใช้.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>โปรดตรวจสอบอีเมลของคุณเพื่อเปิดใช้งานบัญชีผู้ใช้</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>ออกจากระบบ</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>การทบทวนรายการใหม่</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>ต่อไป</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>ไม่มีการอัปโหลดทรัพยากรที่กําหนดเอง</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>ไม่มี</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>หรือ</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>รหัสผ่านของคุณได้ถูกรีเซ็ตแล้ว หากคุณไม่ได้ร้องขอตั้งรหัสผ่านใหม่อีกครั้ง โปรดติดต่อผู้ดูแลระบบทันที.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>ปัญหาการเข้าถึงบัญชีของคุณ?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>ยืนยันการจับคู่รหัสผ่าน</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>มีตัวอักษรอย่างน้อย 8 ตัว</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>อักษรตัวพิมพ์เล็ก</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>ตัวเลข</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>อักขระพิเศษ</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>อักษรตัวพิมพ์ใหญ่</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>ตั้งค่ารหัสผ่านใหม่</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>ล้มเหลวในการส่งรหัสผ่านใหม่.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>รหัสผ่านของคุณได้ทําการปรับค่าใหม่เรียบร้อยแล้ว</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>โปรดอัพเกรดสมาชิกบัญชีของคุณเพื่อเข้าถึงคุณสมบัตินี้</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>จํานวนครั้งที่เล่น</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>ชื่อผู้ใช้</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>การลงทะเบียน</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>ยืนยันรหัสผ่านไม่ตรงกัน</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>ล้มเหลวในการลงทะเบียนผู้ใช้ใหม่</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>ยืนยันรหัสผ่านไม่ตรงกับรหัสผ่าน</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>โปรดระบุที่อยู่อีเมลที่ถูกต้อง</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>มีปัญหาในการประมวลผลลิงก์ตรวจสอบอีเมล</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>สร้างบัญชีผู้ใช้สําเร็จแล้ว</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>บัญชีของคุณได้รับการลงทะเบียนเรียบร้อยแล้ว และกําลังรอให้คุณเข้าถึง</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>ยินดีต้อนรับ!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>บัญชีของคุณถูกสร้างขึ้น แต่ที่อยู่อีเมลของคุณต้องการการตรวจสอบสิทธิ์ ก่อนที่คุณจะล็อกอินเข้าไป</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>บัญชีของคุณได้ลงทะเบียนแล้ว แต่ต้องตรวจสอบก่อนจะเข้าถึงได้ โปรดเปิดใช้งานบัญชีผู้ใช้ของคุณด้วยการคลิกลิงก์ด้านล่างนี้.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>รุ่นที่ปล่อย</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>เปลี่ยนชื่อ</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>ตั้งค่าใหม่</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>มีปัญหาในการประมวลผลลิงก์ที่ตั้งค่ารหัสผ่านใหม่</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>ทบทวน</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการทบทวนรายการ</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>ไม่พบหมายเลขรายการ</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>บันทึก QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>วิธีใช้</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>ผู้สนับสนุน</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>สปอนเซอร์</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>ผู้สนับสนุน</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>สลับ</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>นาฬิกา</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>รวม</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>ไม่สามารถเรียกใช้งานได้</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดที่ไม่คาดคิดขึ้น</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>ไม่สงบ</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการปิดบัญชีผู้ใช้</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>บัญชีผู้ใช้ที่ล้มเหลว</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>ผู้ใช้ที่ไม่ได้ใช้</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่า ต้องการยกเลิกบัญชีผู้ใช้</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>ไม่รู้จักการกระทําทบทวน</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>ปรับปรุง</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>ปรับปรุงการตั้งค่า</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการปรับปรุงการตั้งค่า</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>ไม่มีการเปลี่ยนแปลงที่จะบันทึก</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>ปรับปรุงการตั้งค่าเรียบร้อยแล้ว</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>เพิ่มเติม</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>คุณกําลังใช้งานรุ่นอิสระอยู่ เพื่อปลดล็อคคลังเก็บแกลลอรี่ และคุณสมบัติอื่น ๆ ที่ดี พิจารณาการยกระดับบัญชีผู้ใช้ของคุณ</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>อัปโหลด</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>มีปัญหาในการอัปโหลดบางแฟ้ม</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>คลังภาพไม่ถูกต้อง พบหมายเลข</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>ไม่สามารถค้นพบการอัปโหลด Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>อัปโหลดสื่อ</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>โปรดเลือกวิธีอัปโหลด</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>ไม่พบแฟ้มที่จะอัปโหลด</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>กําลังอัปโหลดรายการ (index) ของ {จํานวน}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>การอัปโหลดเสร็จสมบูรณ์</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>การอัปโหลดเสร็จสมบูรณ์</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>อัปโหลดโดย</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>ผู้ใช้</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>รหัสผ่านและรหัสผ่านของ confrim ไม่ตรงกัน</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>สร้างผู้ใช้</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการสร้างผู้ใช้</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>ผู้ใช้ที่ถูกสร้างสําเร็จแล้ว</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>ลบผู้ใช้</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบผู้ใช้</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะลบผู้ใช้ '% {ชื่อ}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>ผู้ใช้ที่ถูกลบเรียบร้อยแล้ว</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>แก้ไขผู้ใช้</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการอัปเดตผู้ใช้</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>การปรับปรุงผู้ใช้เรียบร้อยแล้ว</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>อีเมล</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>ที่อยู่อีเมลของผู้ใช้</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>รหัสผ่านและรหัสผ่านไม่ตรงกัน</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>โปรดระบุที่อยู่อีเมลที่ถูกต้อง</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>ระดับผู้ใช้ที่เลือกไม่ถูกต้อง</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>โปรดระบุสิทธิ์ของผู้ใช้ที่ถูกต้อง</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>โปรดระบุรหัสผ่านของผู้ใช้ที่ถูกต้อง</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>ระดับ</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>ระดับการเข้าถึงผู้ใช้</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>ผู้ใช้ ไม่สามารถว่างได้</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>ชื่อผู้ใช้ไม่สามารถว่างได้</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>มีผู้ใช้ชื่อเดียวกันนี้อยู่แล้ว</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>ชื่อผู้ใช้ของผู้ใช้ใหม่</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>รหัสผ่านของผู้ใช้คนใหม่</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>ชื่อผู้ใช้</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>ล้มเหลวในการรับรายการผู้ใช้</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>ตรวจสอบความถูกต้อง</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>ตรวจสอบ</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>คุณแน่ใจหรือว่าต้องการจะล้างคลังภาพนี้?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>ลบข้อมูล</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบข้อมูล</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการจะลบข้อมูลทั้งหมด?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>ลบข้อมูลเรียบร้อยแล้ว</value>
   </data>
 </root>

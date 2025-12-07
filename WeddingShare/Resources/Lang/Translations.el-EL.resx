@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε τον κωδικό που δημιουργήθηκε από την εφαρμογή 2FA σας</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Χειροκίνητα εισάγετε τον κωδικό:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Αποτυχία επαναφοράς 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Επιτυχής επαναφορά 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Σαρώστε την ακόλουθη εικόνα με την εφαρμογή σας</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Επιτυχής δημιουργία 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Επιτυχής διαγραφή 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Set 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Σίγουρα θέλετε να σκουπίσετε το 2FA για το χρήστη '{name}'?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Εάν αυτό το θέμα επιμένει παρακαλώ επικοινωνήστε με το διαχειριστή ιστού</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Οπς, φαίνεται ότι συνέβη ένα απροσδόκητο λάθος...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Φαίνεται ότι δεν είστε εξουσιοδοτημένοι να δείτε αυτή τη σελίδα...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>Άρνηση πρόσβασης</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>Το παρεχόμενο μυστικό κλειδί ήταν λανθασμένο</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Μη έγκυρο μυστικό κλειδί</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>Το καθορισμένο Gellery δεν υπάρχει και δεν έχετε άδειες για τη δημιουργία του</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>Άρνηση πρόσβασης</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Έχετε φτάσει στο μέγιστο όριο δημιουργίας γκαλερί</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>Όριο που έχει επιτευχθεί</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>Η καθορισμένη συλλογή δεν υπάρχει</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Μη έγκυρη συλλογή</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>Υπήρχε ένα θέμα ενώ προσπαθούσα να επιβεβαιώσω το λογαριασμό σας. Παρακαλώ βεβαιωθείτε ότι ο σύνδεσμος επαλήθευσης είναι έγκυρος.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>Μη έγκυρη επαλήθευση Δεσμός</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>Υπήρξε ένα πρόβλημα κατά την προσπάθεια επαναφοράς του κωδικού πρόσβασης του λογαριασμού σας. Παρακαλώ βεβαιωθείτε ότι ο σύνδεσμος επαλήθευσης είναι έγκυρος.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>Μη έγκυρη σύνδεση επαναφοράς κωδικού πρόσβασης</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Αποδοχή</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Δράση</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Δράσεις</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Αποτυχία ενεργοποίησης λογαριασμού</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Ο λογαριασμός ενεργοποιήθηκε με επιτυχία</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Ενεργοποίηση χρήστη</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να ενεργοποιήσετε αυτόν τον λογαριασμό</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Όλα</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Εφαρμογή</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Έγκριση</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Αυξάνεται</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Έλεγχος</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>Καταχωρισμένος λογαριασμός χρήστη</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>Ενεργοποιημένος χρήστης</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Μαζική έγκριση όλων των εκκρεμών αναθεωρήσεων</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Η Bulk απέρριψε όλες τις εκκρεμείς κριτικές</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Ένας επισκέπτης έχει εγκρίνει τη χρήση cookies</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>Δημιουργία συλλογής</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>Δημιουργία νέου χρήστη</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>Διαγραφή προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>Αποστολή προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>Διαγράφεται συλλογή</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Διαγραφή χρήστη</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>Ο χρήστης επαλήθευσε τη διεύθυνση email του</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>Εξαγωγή αντιγράφου ασφαλείας</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>Αποτυχία ανίχνευσης προσπάθειας σύνδεσης</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>Αποτυχημένες προσπάθειες σύνδεσης</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>Ο χρήστης ζήτησε μια επαναφορά κωδικού πρόσβασης</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Χρήστης με αφρό</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>Εισαγωγή αντιγράφου ασφαλείας</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>εγκεκριμένη σε γκαλερί</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>διαγράφεται στη συλλογή</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>που απορρίφθηκαν στα θεωρεία</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Πόσα αρχεία καταγραφής να δείξει</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Όριο</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης της λίστας ελέγχου</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Καταγραφές ελέγχου</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>Προστέθηκε πολλαπλός συντελεστής στο λογαριασμό τους</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Με την προϋπόθεση της σωστής ένδειξης πολλαπλών συντελεστών</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Επαναφορά του κλειδιού πολλαπλών συντελεστών</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Επαναφορά πολλαπλού συντελεστή για το χρήστη</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>Ο χρήστης ζήτησε μια επαναφορά κωδικού πρόσβασης</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Καταγραφές φίλτρων με βάση έναν όρο αναζήτησης</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Όρος αναζήτησης</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>Ενημέρωση ρύθμισης για γκαλερί</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Αποπαγωμένος χρήστης</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>Ενημερωμένη συλλογή</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Ενημερωμένος χρήστης</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>Συνδεδεμένος χρήστης</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Σκούπισε όλες τις γκαλερί</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>Σκουπισμένη συλλογή</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Διαθέσιμες Γκαλερί</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Ο περιηγητής σας δεν υποστηρίζει αυτή τη λειτουργία</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Μαζική αναθεώρηση</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Αποτυχία έγκρισης όλων των αντικειμένων</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Θα θέλατε να εγκρίνετε ή να απορρίψετε όλα τα εκκρεμή θέματα?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Αποτυχία απόρριψης όλων των αντικειμένων</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Κάμερα</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Αποτυχία ελέγχου κατάστασης λογαριασμού</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Καθαρισμός</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Είσαι σίγουρος ότι θέλεις να καθαρίσεις την γκαλερί?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να επιλέξετε αρχεία για αποστολή</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Παρακαλούμε επικοινωνήστε με έναν διαχειριστή του site για να παρέχουν πρόσβαση</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Αποτυχία καταγραφής ενός μηνύματος ελέγχου για την έγκριση cookie</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Πολιτική για τα cookies</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Με τη χρήση αυτής της ιστοσελίδας συμφωνείτε με τη χρήση βασικών cookies σύμφωνα με τους όρους χρήσης των cookies. Για να μάθετε περισσότερα παρακαλώ δείτε μας</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Δημιουργία</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Προς το παρόν δεν έχετε πρόσβαση</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Προσαρμοσμένοι πόροι</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης προσαρμοσμένων πόρων</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε ένα αρχείο εικόνας για αποστολή</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Αποστολή προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Ζώνη κινδύνου</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Προκαθορισμένο</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Σίγουρα θέλετε να διαγράψετε αυτή την γκαλερί?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Διαγραφή αντικειμένου</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής αντικειμένου</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Δεν μπορεί να είναι άδειο</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Σίγουρα θέλετε να διαγράψετε το '{ name}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Επιτυχής διαγραφή αντικειμένου</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Αυτή είναι μια έκδοση επίδειξης. Όλες οι ρυθμίσεις σβήνονται περιοδικά για να εξασφαλιστεί μια καθαρή πλάκα για τους μελλοντικούς δοκιμαστές.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Φθίνουσα</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Εκτελείται Καταστροφική Δράση</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Λεπτομέρειες</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης συλλογής</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>Δεν είστε εξουσιοδοτημένοι να κατεβάσετε αυτή τη συλλογή</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Σύρσιμο</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>Ανιχνεύθηκε διπλό αρχείο</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Σφάλματα</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Εξαγωγή</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Εξαγωγή δεδομένων</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Αποτυχία εξαγωγής δεδομένων</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Είσαι σίγουρος ότι θέλεις να συνεχίσεις?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Επιτυχής εξαγωγή δεδομένων</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας συλλογής</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας του χρήστη</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Αποτυχία διαγραφής της συλλογής</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Αποτυχία διαγραφής του χρήστη</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Αποτυχία λήψης συλλογής</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Αποτυχία λήψης της συλλογής. Το μυστικό κλειδί δεν ήταν έγκυρο</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης της συλλογής</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης του χρήστη</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>Αποτυχία εξαγωγής δεδομένων</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>Αποτυχία εύρεσης αρχείου</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>Αποτυχία εισαγωγής δεδομένων</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Αποτυχία αναθεώρησης του αντικειμένου</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης ρυθμίσεων</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Αποτυχία διαγραφής στοών</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Αποτυχία διαγραφής της συλλογής</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Αυτό το χαρακτηριστικό είναι ακόμα υπό ανάπτυξη, αλλά θα είναι διαθέσιμο σύντομα</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης του FFMPEG στη διαδρομή</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>Αποπειράθηκε να δημιουργήσει μικρογραφία βίντεο, αλλά το FFMPEG δεν έχει ολοκληρώσει τη λήψη ακόμα. Εάν αυτή είναι μια νέα εγκατάσταση παρακαλώ περιμένετε για τη λήψη για να ολοκληρωθεί και οι χαμένες εικόνες επισκόπησης θα δημιουργηθούν από το σαρωτή φόντου</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής αρχείου</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Ένα αρχείο με το ίδιο όνομα υπάρχει ήδη</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Φίλτρο</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>Ξεχάσατε τον κωδικό πρόσβασης</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Ξεχάσατε τον κωδικό πρόσβασης</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε τη διεύθυνση email του λογαριασμού.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής email επαναφοράς κωδικού πρόσβασης</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης εστάλη. Παρακαλώ ελέγξτε το email σας</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Ακίνητος</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Αποτυχία δέσμευσης λογαριασμού</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Ο λογαριασμός έχει παγώσει επιτυχώς</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Πάγωμα χρήστη</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να παγώσετε το λογαριασμό</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Γκαλερί</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Πινακοθήκη</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Δημιουργία συλλογής</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας συλλογής</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Επιτυχής δημιουργία γκαλερί</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Διαγραφή συλλογής</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής της συλλογής</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Σίγουρα θέλετε να διαγράψετε το gallery '{name}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Επιτυχώς διαγραμμένη συλλογή</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>Η ζητούμενη συλλογή δεν βρέθηκε ή δεν υπάρχει</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Επεξεργασία συλλογής</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης της συλλογής</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Επιτυχής ενημέρωση συλλογής</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Προς το παρόν δεν υπάρχουν κοινές αναμνήσεις</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Προς το παρόν δεν υπάρχουν κοινές αναμνήσεις, γιατί δεν ανεβάζεις τις δικές σου πάνω!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>Η γκαλερί είναι γεμάτη και έχει ξεπεράσει το μέγιστο μέγεθος της</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>Αναγνωριστικό γκαλερί</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε το αναγνωριστικό της γκαλερί που θέλετε να επισκεφθείτε.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>η γάγγραινα μου</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Μη έγκυρο όνομα συλλογής ή μυστικό κλειδί, παρακαλώ προσπαθήστε ξανά</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε ένα έγκυρο όνομα συλλογής</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Μη έγκυρο μυστικό κλειδί, παρακαλώ προσπαθήστε ξανά</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Κλειδί συλλογής</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε το μυστικό κλειδί.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Εισάγετε εδώ το μυστικό κλειδί</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>Έχει επιτευχθεί ο μέγιστος επιτρεπόμενος αριθμός γκαλερί</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης λίστας συλλογής</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Πινακοθήκη Δεν μπορεί να είναι άδειο</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Το όνομα της συλλογής δεν μπορεί να είναι κενό</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Όνομα γκαλερί</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>Το όνομα της γκαλερί υπάρχει ήδη</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε ένα νέο όνομα συλλογής</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Μυστικό κλειδί</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε ένα νέο μυστικό κλειδί</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Επιλογέας συλλογής</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Settings συλλογής</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Γκαλερί σκουπίσματος</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής της συλλογής</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Είσαι σίγουρος ότι θέλεις να σκουπίσεις την γκαλερί '{όνομα}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Επιτυχής σκούπισμα γκαλερί</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Δημιουργία</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Δημιουργία λήψης</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Ομάδα</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Συνέβη ένα σφάλμα φόρτωσης της αρχικής σελίδας</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Έλεγχος ταυτότητας</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Αλλαγή</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Τροποποίηση ταυτότητας</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Πες μας το email σου για να επικοινωνήσουμε μαζί σου.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Π.χ., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Μη έγκυρο email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Παρακαλώ ορίστε ένα έγκυρο email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Μη έγκυρο όνομα</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε ένα έγκυρο όνομα</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Πες μας ποιος είσαι για να ξέρουμε ποιος ανέβασε αναμνήσεις.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Π.χ., Τζέιν Ντο, Τζίμι, θείος Μπομπ</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Αποτυχία ορισμού ταυτότητας χρήστη</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Μείνετε Ανώνυμοι</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Πες μας</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Αποτυχία ορισμού συνεδρίας ταυτότητας χρήστη - Name</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής εικόνων</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Εισαγωγή</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Εισαγωγή δεδομένων</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Αρχείο αντιγράφων ασφαλείας</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε ένα γάμο Κοινή χρήση αρχείου αντιγράφων ασφαλείας</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Αποτυχία εισαγωγής δεδομένων</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε ένα αρχείο εισαγωγής</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Επιτυχής εισαγωγή δεδομένων</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>Η παρεχόμενη πρόσβαση δεν ήταν έγκυρη</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>Ο τύπος αρχείου δεν είναι έγκυρος</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Μη έγκυρη συλλογή Ταυτότητα</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Μη έγκυρο κλειδί συλλογής</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>Μια αίτηση υποβλήθηκε με χρήση ενός μη έγκυρου μυστικού κλειδιού</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Κλειδί</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Τοπίο</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Αλλαγή γλώσσας</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μια γλώσσα εμφάνισης</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Δεσμός</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Φόρτωση...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Σύνδεση</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Αποτυχία σύνδεσης του χρήστη</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Μη έγκυρο όνομα χρήστη ή κωδικός πρόσβασης</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε έναν έγκυρο κωδικό πρόσβασης</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε ένα έγκυρο όνομα χρήστη</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε τον κωδικό πρόσβασης του λογαριασμού.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Παρακαλώ συνδεθείτε για να ολοκληρώσετε αυτή την ενέργεια</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε το όνομα χρήστη του λογαριασμού.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Παρακαλώ επιβεβαιώστε το email σας για να ενεργοποιήσετε το λογαριασμό σας</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Διαχείριση δεδομένων</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>Μέγιστο μέγεθος αρχείου</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>Μέσα ενημέρωσης Τύπος</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Μέλη</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>Το όνομα της συλλογής δεν μπορεί να είναι κενό</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Νέα αντικείμενα σε αναμονή αναθεώρησης</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>Δεν αναρτήθηκαν προσαρμοσμένοι πόροι</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Χωρίς δεδομένα</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>Δεν εντοπίστηκαν αρχεία για αποστολή</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Δεν έχει δημιουργηθεί ακόμα γκαλερί</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>Χωρίς αποστολή εν αναμονή αναθεώρησης</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Καμία</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ή</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>Ο κωδικός σας έχει πλέον επαναρυθμιστεί. Αν δεν ζητήσατε μια επαναφορά κωδικού πρόσβασης παρακαλώ επικοινωνήστε αμέσως με έναν διαχειριστή.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>Ο κωδικός σας έχει ενημερωθεί!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>Μια επαναφορά κωδικού πρόσβασης έχει ζητηθεί στο λογαριασμό σας. Αν ζητήσατε μια αλλαγή κωδικού παρακαλώ κάντε κλικ στο παρακάτω σύνδεσμο για να το ενημερώσετε.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>Πρόβλημα πρόσβασης στο λογαριασμό σας?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Επιβεβαίωση ταίριασμα κωδικού πρόσβασης</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Τουλάχιστον 8 χαρακτήρες</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Γράμματα πεζών πεζών/ κεφαλαίων</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Αριθμοί</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Ειδικοί χαρακτήρες</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Κεφαλαία γράμματα</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Επαναφορά κωδικού πρόσβασης</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής email επαναφοράς κωδικού πρόσβασης.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Ο κωδικός σας έχει επαναρυθμιστεί επιτυχώς</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Παρακαλώ αναβαθμίστε την εγγραφή σας στο λογαριασμό για να αποκτήσετε πρόσβαση σε αυτό το χαρακτηριστικό</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Σε αναμονή</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Εκκρεμείς αποστολές</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης αναρτήσεων σε εκκρεμότητα</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Πορτραίτο</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Παρουσίαση</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Τυχαίο</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Μητρώο</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>Λογαριασμός μητρώου</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού πρόσβασης</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού πρόσβασης</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε τη διεύθυνση email του λογαριασμού.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>Κωδικός πρόσβασης εισάγετε έναν κωδικό πρόσβασης.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε το όνομα χρήστη του λογαριασμού.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Καταχώριση</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>Ο κωδικός επιβεβαίωσης δεν ταιριάζει</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>Αποτυχία αποστολής email εγγραφής στο χρήστη.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>Ένας λογαριασμός με την καθορισμένη διεύθυνση email υπάρχει ήδη</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>Αποτυχία εγγραφής νέου χρήστη</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Ο κωδικός επιβεβαίωσης δεν ταιριάζει με τον κωδικό πρόσβασης</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε μια έγκυρη διεύθυνση email</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>Παρακαλείσθε να ορίσετε έναν έγκυρο κωδικό πρόσβασης μεταξύ 8 και 100 χαρακτήρων, που περιέχει τουλάχιστον 1 κεφαλαίο γράμμα, 1 πεζό γράμμα, 1 αριθμό και 1 ιδιαίτερο χαρακτήρα</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε ένα έγκυρο όνομα χρήστη μεταξύ 5 και 50 χαρακτήρων</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>Υπήρξε ένα θέμα επεξεργασίας του συνδέσμου επαλήθευσης ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Ο λογαριασμός δημιουργήθηκε με επιτυχία</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει καταχωρηθεί με επιτυχία και σας περιμένει για πρόσβαση</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>Καλώς ήρθατε!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει δημιουργηθεί αλλά η διεύθυνση ηλεκτρονικού ταχυδρομείου σας χρειάζεται επικύρωση πριν μπορέσετε να συνδεθείτε</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>Ο λογαριασμός σας έχει καταχωρηθεί αλλά πρέπει να ελεγχθεί πριν να είναι προσβάσιμος. Παρακαλώ ενεργοποιήστε το λογαριασμό σας κάνοντας κλικ στον παρακάτω σύνδεσμο.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>Το όνομα χρήστη υπάρχει ήδη. Παρακαλώ επιλέξτε ένα νέο</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης είναι εύκολα μαντεμένος. Παρακαλώ επιλέξτε έναν πιο ασφαλή κωδικό πρόσβασης.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Απόρριψη</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Έκδοση έκδοσης</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Αφαίρεση</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Μετονομασία</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>Υπήρξε μια επεξεργασία θέματος ο σύνδεσμος επαναφοράς κωδικού πρόσβασης</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Πόροι</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Αναθεώρηση</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Αποτυχία αναθεώρησης του αντικειμένου</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Αδύνατη η εύρεση της ταυτότητας του αντικειμένου</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Αποθήκευση QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Αποτυχία αποθήκευσης προσαρμοσμένου πόρου</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Αποτυχία αποθήκευσης της εικόνας στη συλλογή</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Σαρώστε τον κωδικό QR με το τηλέφωνό σας για να μοιραστείτε τις εικόνες σας</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Λογαριασμός</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Πόσες αποτυχημένες συνδέσεις πριν μπλοκαριστεί ένας χρήστης</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Προσπάθειες Κλείδωμα</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Πόσο θα πρέπει ένας χρήστης να μπλοκαριστεί</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Lockout λεπτά</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Αν το εικονίδιο προφίλ εμφανιστεί στην κεφαλίδα</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Εικονίδιο προφίλ</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>Επιτρέπεται στους επισκέπτες να καταχωρούν λογαριασμούς?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση εγγραφής</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>Απαιτείται από τους χρήστες να επαληθεύσουν το email τους προκειμένου να ενεργοποιήσουν το λογαριασμό τους?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>Απαίτηση επικύρωσης ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Συναγερμοί</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>Σε περίπτωση που οι καταχωρίσεις αποστέλλονται όταν οι λογαριασμοί κλειδώνονται έξω</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Κλείδωμα λογαριασμού</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>Σε περίπτωση αποστολής καταχωρίσεων όταν εκτελείται καταστροφική ενέργεια</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Καταστροφικές ενέργειες</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>Σε περίπτωση που οι καταχωρίσεις αποστέλλονται σε αποτυχημένες προσπάθειες σύνδεσης</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Αποτυχία σύνδεσης</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>Σε περίπτωση αποστολής καταχωρίσεων σε περίπτωση που ένα νέο στοιχείο εκκρεμεί επανεξέταση</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Εν αναμονή επανεξέτασης</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Υπηρεσίες ιστορικού</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Καθαρίζει τα προσωρινά αρχεία</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Καθαρισμός</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>Λαμβάνει αρχεία που απορρίπτονται απευθείας στο φάκελο γκαλερί</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Σαρωτής καταλόγου</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Στέλνει αναφορά στα στατιστικά της γκαλερί</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>Αναφορές ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Βασικό</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>Η βάση URL που θα χρησιμοποιηθεί σε συνδέσμους και κοινοποιήσεις</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>Βάση Url</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>Σε περίπτωση που μια αναφορά ηλεκτρονικού ταχυδρομείου να σταλεί με στατιστικά γκαλερί</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>Έκθεση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>Πρέπει. Οι χρήστες Http αναγκάζονται σε https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Εξαναγκασμός Https</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Πώς οι χρήστες επιλέγουν μια συλλογή</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Επιλογέας συλλογής Τύπος</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>Εάν η προεπιλεγμένη επιλογή συλλογής είναι ορατή</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Εμφάνιση προεπιλεγμένης συλλογής</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Σε περίπτωση που οι επισκέπτες επιτρέπεται να δημιουργήσουν νέες γκαλερί</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Δημιουργία Guest Gallery</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>Εάν το μυστικό κλειδί συμπεριληφθεί στον κωδικό QR</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Επισφαλείς κωδικοί QR</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>Θα πρέπει να κάνετε κλικ στο home link ανακατευθύνει το χρήστη</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Κλικ Home Link</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>Θα πρέπει οι σύνδεσμοι να ανοίγουν σε νέες καρτέλες</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Νέοι δεσμοί καρτέλας</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>Το εικονίδιο για εμφάνιση σε κεφαλίδες και καρτέλες</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Λογότυπο</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Πόσες γκαλερί επιτρέπεται στους χρήστες να δημιουργήσουν</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Μέγιστος αριθμός γκαλερί</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Θα πρέπει να υπάρχει μια ή περισσότερες γκαλερί</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Λειτουργία γκαλερί</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Μέγιστα εικονοστοιχεία προς οποιαδήποτε κατεύθυνση για τις εικόνες επισκόπησης</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Ανάλυση εικόνων επισκόπησης</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>Το όνομα που θα εμφανίζεται σε κεφαλίδες και καρτέλες</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>Το περιεχόμενο που θα εμφανιστεί στη σελίδα πληροφοριών της CookiePolicy</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Προσαρμοσμένη πολιτική cookies</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Προσαρμοσμένες πολιτικές</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης ρυθμίσεων</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Προκαθορισμένα συλλογής</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Ποιοι τύποι αρχείων επιτρέπεται στους επισκέπτες να ανεβάζουν</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Επιτρεπόμενοι τύποι αρχείων</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Μια εικόνα στην κορυφή της στοάς</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Εικόνα banner</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Σε περίπτωση που οι επισκέπτες έχουν την επιλογή μεταξύ επιλογέα αρχείων ή κάμερας</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Αποστολή φωτογραφικής μηχανής</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>Ο αριθμός των στηλών προς εμφάνιση</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Αριθμός στηλών</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Ποιο είναι το προκαθορισμένο φίλτρο συλλογής</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Προκαθορισμένο φίλτρο</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Ποια είναι η προεπιλεγμένη ομάδα συλλογής</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Προκαθορισμένη ομάδα</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Ποια είναι η προκαθορισμένη σειρά συλλογής</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Προκαθορισμένη σειρά</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Ποια είναι η προεπιλεγμένη προβολή γκαλερί</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Προκαθορισμένη προβολή</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>Σε περίπτωση που οι επισκέπτες επιτρέπεται να κατεβάσουν αντικείμενα</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Επίτρεψε λήψη</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>Το πλάτος της στοάς</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Τύπος εμφάνισης</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Μετά από πόσο καιρό θα πρέπει η γκαλερί να ανανεώσει για να πάρει νέο περιεχόμενο</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Ανεξάντλητο ανανεωμένο ελάχιστο</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>Ο μέγιστος αριθμός αντικειμένων που πρέπει να εμφανίζονται ανά σελίδα</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Αντικείμενα ανά σελίδα</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Ποιο είναι το μεγαλύτερο σε MB ένα φορτωμένο αρχείο μπορεί να είναι</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Μέγιστο μέγεθος αρχείου (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Πόσο μεγάλη σε MB είναι η γκαλερί επιτρέπεται να αυξηθεί σε</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Μέγιστο μέγεθος συλλογής (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Σε περίπτωση αυτόματης απόρριψης διπλών αντικειμένων</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Πρόληψη διπλών</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Μόλις σαρωτή τι εντολή θα εμφανίζονται τα αντικείμενα</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>Προκαθορισμένο QR Ταξινόμηση</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Μόλις σαρωθεί ποια διάταξη θα πρέπει να δει ο χρήστης</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>Προκαθορισμένο QR Προβολή</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>Σε περίπτωση εμφάνισης του κώδικα QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Εμφάνιση κώδικα QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>Εάν ο κωδικός QR καθορίσει τη γλώσσα εμφάνισης</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Συμπερίληψη της κουλτούρας στο QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Ένα απόσπασμα για εμφάνιση στην κορυφή της γκαλερί</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Τιμή</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Τα αντικείμενα πρέπει να επανεξεταστούν πριν εμφανιστούν στην ιστοσελίδα</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Απαίτηση επανεξέτασης</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>Τα αντικείμενα που απορρίπτονται αποθηκεύονται για μεταγενέστερη χρήση</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Διατήρηση απορριπτόμενων αντικειμένων</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>Σε περίπτωση εμφάνισης του μετρητή αναθεώρησης</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Μετρητής αναθεώρησης</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>Θα πρέπει ο χρήστης να μπορεί να φιλτράρει και να ομαδοποιήσει τα μέσα?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Εμφάνιση φίλτρων</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>Σε περίπτωση εμφάνισης του τίτλου στην κορυφή της συλλογής</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Εμφάνιση τίτλου</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Σε περίπτωση που επιτρέπεται στους επισκέπτες να ανεβάζουν αντικείμενα</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Επίτρεψε αποστολές</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Περιορισμός των αποστολών σε συγκεκριμένη περίοδο</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Μεταφόρτωση περιόδων</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Γκοτίφ</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>Σε περίπτωση αποστολής καταχωρίσεων Ntfy</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>Η διεύθυνση εξυπηρετητή Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Τελικό σημείο</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>Η αξία σημασίας των καταχωρίσεων</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Προτεραιότητα</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>Το σύμβολο που χρησιμοποιείται για την ταυτοποίηση</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Ένδειξη πρόσβασης</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Έλεγχος ταυτότητας</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Προτροπή των χρηστών για το όνομά τους</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>Σε περίπτωση που ο έλεγχος ταυτότητας εμφανίζεται στο φορτίο σελίδας</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Προτροπή φόρτωσης σελίδας</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Σε περίπτωση που απαιτείται από τους χρήστες να εισέλθουν μια διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Απαίτηση διεύθυνσης ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>Σε περίπτωση που απαιτείται από τους χρήστες να εισέλθουν ένα όνομα</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>Απαίτηση ονόματος</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Σε περίπτωση που απαιτείται έλεγχος ταυτότητας για την αποστολή μέσων</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Αποστολή προτροπής</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Γλώσσες</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>Η προεπιλεγμένη γλώσσα ιστοσελίδας αν δεν έχει επιλεγεί</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Προκαθορισμένη γλώσσα</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Επίτρεψε στους χρήστες να αλλάξουν τη γλώσσα</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>Σε περίπτωση αποστολής καταχωρίσεων Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>Η διεύθυνση εξυπηρετητή Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Τελικό σημείο</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>Η αξία σημασίας των καταχωρίσεων</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Προτεραιότητα</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>Το σύμβολο που χρησιμοποιείται για την ταυτοποίηση</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Ένδειξη πρόσβασης</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>Το θέμα για την αποστολή ειδοποιήσεων</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Θέμα</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>Πρέπει ο χρήστης να δει τα αναδυόμενα στυλ GDPR?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Προβολή σλάιντ</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Πόσο καιρό θα πρέπει η μετάβαση μεταξύ διαφάνειες</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Προσαρμοσμένη</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Πόσο καιρό σε δευτερόλεπτα θα πρέπει μια προβολή σλάιντ πριν προχωρήσουμε στην επόμενη σλάιντ</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Διάστημα</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>Ο μέγιστος αριθμός διαφανειών που πρέπει να περιλαμβάνονται</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Όριο</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>Αν ο κωδικός QR απενεργοποιηθεί στο τέλος για τους επισκέπτες να σαρώσουν</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Συμπερίληψη share slide</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>Ηλ. ταχυδρομείο</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>Το φιλικό προς το χρήστη όνομα αποστολέα</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Όνομα εμφάνισης</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>Σε περίπτωση αποστολής ειδοποιήσεων ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>Η διεύθυνση email η ειδοποίηση αποστέλλεται από</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>Το όνομα υπολογιστή του παρόχου SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Υπολογιστής</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης που χρησιμοποιείται για την ταυτοποίηση της αίτησης</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>Η θύρα που χρησιμοποιείται από τον πάροχο SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Θύρα</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Μια διαχωρισμένη λίστα με διευθύνσεις email</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Αποδέκτες</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>Χρησιμοποιεί ο πάροχος SMTP SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Χρήση SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>Το όνομα χρήστη που χρησιμοποιήθηκε για την ταυτοποίηση της αίτησης</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Θέματα</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>Το προκαθορισμένο θέμα ιστοσελίδας αν δεν έχει επιλεγεί</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Προκαθορισμένο Θέμα</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Επίτρεψε στους χρήστες να αλλάξουν το θέμα</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Κωδικός μετοχής</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Μονό</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Προβολή σλάιντ</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ταξινόμηση</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Χρήση</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Χορηγός</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Χορηγοί</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Προς το παρόν δεν υπάρχουν χορηγοί. Γιατί δεν γίνεσαι ο πρώτος!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης της λίστας χορηγών</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Πλατεία</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Υποβολή</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Υποστηρικτές</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Εναλλαγή</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Χρονοσφραγίδα</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Σύνολο</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Μη διαθέσιμο</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Συνέβη ένα μη αναμενόμενο σφάλμα</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Αποδέσμευση</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Αποτυχία αποπάγωσης λογαριασμού</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Ο λογαριασμός δεν καταψύχεται με επιτυχία</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Μη ελεύθερος χρήστης</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να ξεπαγώσετε λογαριασμό</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Άγνωστη ενέργεια αναθεώρησης</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Ενημέρωση</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Update ενημέρωσης</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης ρυθμίσεων</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Δεν έγιναν αλλαγές για την αποθήκευση</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Οι ρυθμίσεις ενημερώθηκαν με επιτυχία</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Αναβάθμιση</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>Αυτή τη στιγμή χρησιμοποιείτε την ελεύθερη έκδοση. Για να ξεκλειδώσετε περισσότερες αποθήκευση γκαλερί και άλλα μεγάλα χαρακτηριστικά θεωρούν αναβάθμιση του λογαριασμού σας</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Αποστολή</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Υπήρχε ένα θέμα που ανέβαζε κάποια αρχεία</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Μη έγκυρη συλλογή Εντοπίστηκε</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Αδυναμία εύρεσης αποστολής Ουρλ</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Αποστολή πολυμέσων</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μια μέθοδο αποστολής</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Δεν εντοπίστηκαν αρχεία για αποστολή</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Αποστολή αντικειμένου {index} του {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Επιτυχής αποστολή του αντικειμένου {count}</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Επιτυχής μεταφόρτωση {count} αντικειμένου( ων) εν αναμονή της αναθεώρησης</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Αποστολή από</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Αποστολή</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Χρήστης</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού πρόσβασης</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Επιβεβαίωση του κωδικού πρόσβασης</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>Ο παρεχόμενος κωδικός πρόσβασης και κωδικός confrim δεν ταιριάζουν</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Δημιουργία χρήστη</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Αποτυχία δημιουργίας του χρήστη</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Επιτυχής δημιουργία χρήστη</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Διαγραφή χρήστη</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής του χρήστη</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Επιθυμείτε σίγουρα τη διαγραφή του χρήστη '{ name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Επιτυχής διαγραφή του χρήστη</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Επεξεργασία χρήστη</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης του χρήστη</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Επιτυχής ενημέρωση χρήστη</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Ηλ. ταχυδρομείο</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Η διεύθυνση ηλεκτρονικού ταχυδρομείου των χρηστών</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Κωδικός πρόσβασης και επιβεβαίωση ο κωδικός πρόσβασης δεν ταιριάζει</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε μια έγκυρη διεύθυνση email</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Το επιλεγμένο επίπεδο χρήστη είναι άκυρο</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε ένα έγκυρο όνομα χρήστη</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Παρακαλώ προσδιορίστε έναν έγκυρο κωδικό πρόσβασης χρήστη</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Επίπεδο</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Επίπεδο πρόσβασης των χρηστών</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Χρήστης Δεν μπορεί να είναι άδειο</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Το όνομα χρήστη δεν μπορεί να είναι κενό</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Προσθήκη χρήστη με το ίδιο όνομα υπάρχει ήδη</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Το όνομα χρήστη του νέου χρήστη</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης του νέου χρήστη</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Χρήστες</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Αποτυχία λήψης λίστας χρηστών</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Επικύρωση</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Επαλήθευση</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Προβολή</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Επίσκεψη</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Σκουπίστε</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Σίγουρα θέλεις να σκουπίσεις όλες τις γκαλερί?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Σίγουρα θέλεις να σκουπίσεις αυτή την γκαλερί?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Καθαρισμός δεδομένων</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής δεδομένων</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Σίγουρα θέλετε να σβήσετε όλα τα δεδομένα?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Επιτυχής διαγραφή δεδομένων</value>
+  </data>
+</root>

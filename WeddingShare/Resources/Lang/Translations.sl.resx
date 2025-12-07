@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Prosim vnesite kodo, ki jo ustvari vaša aplikacija 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Ročno vnesite kodo:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Ponastavitev 2FA ni uspela</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Uspešno ponastavi 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>S svojo aplikacijo preglejte naslednjo sliko</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Nastavitev 2FA ni uspela</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Uspešno ustanovljena 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Uspešno izbrisani 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Nastavitve 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Ste prepričani, da želite zbrisati 2FA za uporabnika '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Če se to vprašanje nadaljuje, se obrnite na spletnega administratorja</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Dejanja</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktiviraj</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Ni uspelo aktivirati računa</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Račun se uspešno aktivira</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktiviraj uporabnika</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Ste prepričani, da želite aktivirati ta račun</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Dodaj</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Razpoložljive galerije</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Vaš brskalnik ne podpira te funkcije</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Pregled razsutega tovora</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Ni uspelo odobriti vseh predmetov</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Želite odobriti ali zavrniti vse nerešene stvari?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Ni uspelo zavrniti vseh postavk</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Preverjanje stanja računa ni uspelo</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Zapri</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Oznaka</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Prosimo, kontaktirajte skrbnika spletne strani za zagotavljanje dostopa</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Ustvari</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultura</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Izberite kulturo prikaza</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Trenutno nimate dostopa</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Ali res želite zbrisati to galerijo?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Zbriši postavko</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Ni uspelo zbrisati predmeta</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id ne more biti prazna</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Ali res želite zbrisati » {ime} «?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Uspešno izbrisana postavka</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>To je demo verzija. Vse konfiguracije se redno brišejo, da se zagotovi čist skrilavec za bodoče testerje.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Izvedeno destruktivno dejanje</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Podrobnosti</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Prenesi</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Ni moč prenesti galerije</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Nimate dovoljenja za prenos te galerije</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E- poštni naslov</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Napaka</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Napake</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Izvoz</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Izvozi podatke</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Podatki o izvozu niso bili uspešni</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Si prepričan, da želiš nadaljevati?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Uspešno izvoženi podatki</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Ustvarjanje galerije ni uspelo</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Ni uspelo brisati galerije</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Ta funkcija je še vedno v razvoju, vendar bi morala biti kmalu na voljo</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Ni moč prenesti FFMPEG na pot</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Ponastavitev gesla ni uspela</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Ponastavitev gesla poslana. Prosim preverite svojo e-pošto</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Stoj</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Zamrznitev računa ni uspela</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Račun uspešno zamrznjen</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Zamrzni uporabnika</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Ste prepričani, da želite zamrzniti račun</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerije</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerija</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Ustvari galerijo</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Ustvarjanje galerije ni uspelo</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Uspešno ustvarjena galerija</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Zbriši galerijo</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Ni uspelo zbrisati galerije</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Ste prepričani, da želite zbrisati galerijo » {ime} «?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Uspešno izbrisana galerija</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Zahtevana galerija ni bila najdena ali ne obstaja</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Uredi galerijo</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Ni moč posodobiti galerije</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Uspešno posodobljena galerija</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Trenutno ni skupnih spominov</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>moja-poročna-galerija</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Neveljavno ime galerije ali skrivni ključ, prosim poskusite znova</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Prosimo, navedite veljavno ime galerije</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Neveljaven skrivni ključ, prosim poskusite znova</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Ključ galerije</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Seznam galerije ni uspel</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerija Id ne more biti prazna</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Ime galerije ne more biti prazno</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Ime galerije</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Ime galerije že obstaja</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Vnesite novo ime galerije</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Skrivni ključ</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Prosim vnesite nov skrivni ključ</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Izbirnik galerije</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Nastavitve galerije</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Galerija obriši</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Ni uspelo brisati galerije</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Si prepričan, da želiš izbrisati galerijo 'Ime'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Uspešno izbrisana galerija</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Ustvari</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Ustvarjanje prejemanja</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Skupina</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Prišlo je do napake pri nalaganju domače strani</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Preverjanje identitete</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Sprememba</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Spremeni identiteto</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E- poštni naslov</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Povejte nam e-pošto, da vas pokličemo.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Npr., John.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Neveljavna e- pošta</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Prosimo, navedite veljavno e-pošto</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Neveljavno ime</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Prosimo, navedite veljavno ime</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Povej nam, kdo si, da bomo vedeli, kdo je naložil spomine.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Npr., neznanka, Jimmy, stric Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Nastavitev uporabniške identitete ni uspela</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Ostani anonimen</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Povej nam</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Nastavitev uporabniške identitete - Ime</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Uvozi</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Uvozi podatke</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Varnostna datoteka</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Prosim izberite poroko Deli arhiv za varnostno kopiranje</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Ni uspelo uvoženim podatkom</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Prosim izberite uvozno datoteko</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Uspešno uvoženi podatki</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Dostop do žetona je bil neveljaven</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Pokrajina</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Spremeni jezik</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Prosim izberite jezik prikaza</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Povezava</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Nalaganje...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Prijava</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Uporabnika ni moč prijaviti</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Neveljavno uporabniško ime ali navedeno geslo</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Prosim vnesite veljavno geslo</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Vnesite veljavno uporabniško ime</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Prosim vnesite geslo računa.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Geslo</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Prosimo, prijavite se za dokončanje tega dejanja</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Vnesite uporabniško ime računa.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Uporabniško ime</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Prosimo, preverite svojo e-pošto za aktiviranje svojega računa</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Odjava</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nove postavke v pričakovanju pregleda</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Naprej</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Naloženih ni nobenih virov po meri</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Brez</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ali</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Vaše geslo je bilo ponastavljeno. Če niste zahtevali ponastavitve gesla, se takoj obrnite na skrbnika.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Težave z dostopom do računa?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Potrdite ujemanje gesla</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Najmanj 8 znakov</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Majhne črke</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Število</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Posebni znaki</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Zgornje črke</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Ponastavitev gesla</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Ponastavitev gesla ni uspela.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Vaše geslo je bilo uspešno ponastavljeno</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Prosimo nadgradite svoje članstvo v računu, da bi dobili dostop do te funkcije</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Čakanje</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Uporabniško ime</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registracija</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Geslo za potrditev se ne ujema</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Ni moč registrirati novega uporabnika</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Geslo za potrditev se ne ujema z geslom</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Prosimo, navedite veljaven e-poštni naslov</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Prišlo je vprašanje obdelovanje e-pošte preverjanje povezavo</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Račun je bil uspešno ustvarjen</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Račun je bil uspešno registriran in čaka na vas za dostop</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Dobrodošli!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Vaš račun je bil ustvarjen, vendar vaš e-poštni naslov potrebuje potrditev, preden se lahko prijavite v</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Vaš račun je bil registriran, vendar ga je treba preveriti, preden lahko dostopate do njega. Aktivirajte svoj račun s klikom na spodnjo povezavo.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Različica izdaje</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Preimenuj</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Ponastavi</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Prišlo je vprašanje obdelovanje geslo reset povezavo</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Pregled</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Postavka ni bila pregledana</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Ni moč najti ID postavke</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Shrani QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Uporaba</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponzor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponzorji</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Podporniki</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Stikalo</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Časovni žig</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Skupaj</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Ni na voljo</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Prišlo je do nepričakovane napake</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Odmrzni</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Račun odmrznitve ni uspel</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Uspešno nezamrznjen račun</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Odkrij uporabnika</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Ste prepričani, da želite odmrzniti račun</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Neznan ukrep pregleda</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Posodobi</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Posodobi nastavitve</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Ni moč posodobiti nastavitev</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Ni bilo sprememb za shranjevanje</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Nastavitve so bile uspešno posodobljene</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Nadgradnja</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Trenutno uporabljate brezplačno različico. Če želite odkleniti več shranjevanje galerije in druge odlične funkcije menijo nadgradnjo svojega računa</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Pošlji</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Prišlo je do težave z nalaganjem nekaterih datotek</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Neveljavna galerija Id zaznano</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Ni moč najti vnosa Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Pošlji večpredstavnostne datoteke</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Prosim izberite način pošiljanja</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Ni bilo zaznanih datotek za pošiljanje</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Nalaganje predmeta {indeks} od {preštevanje}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Uspešno naložen( e) predmet( e) {preštevanje}</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Uspešno naložen( e) predmet( e)</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Poslano od</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Uporabnik</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Potrdi geslo</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Potrdi geslo</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Priloženo geslo in konfrim geslo se ne ujemata</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Ustvari uporabnika</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Ni uspelo ustvariti uporabnika</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Uspešno ustvarjen uporabnik</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Zbriši uporabnika</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Ni uspelo zbrisati uporabnika</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Ali zares želite zbrisati uporabniško » {ime} «?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Uspešno izbrisan uporabnik</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Uredi uporabnika</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Ni moč posodobiti uporabnika</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Uspešno posodobljen uporabnik</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E- pošta</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>E- poštni naslov uporabnikov</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Geslo in potrdi geslo se ne ujemata</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Prosimo, navedite veljaven e-poštni naslov</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Izbrana uporabniška raven ni veljavna</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Prosimo, navedite veljavno uporabniško ime</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Prosimo, navedite veljavno uporabniško geslo</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Stopnja</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Stopnja dostopa uporabnikov</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Uporabnik Id ne more biti prazna</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Uporabniško ime ne more biti prazno</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Uporabniško ime</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Dodaj uporabnika z istim imenom že obstaja</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Uporabniško ime novega uporabnika</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Geslo</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Geslo novega uporabnika</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Uporabniško ime</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Ni moč dobiti seznama uporabnikov</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Potrdi</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Preveri</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Si prepričan, da želiš obrisati to galerijo?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Briši podatke</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Ni uspelo izbrisati podatkov</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Si prepričan, da želiš izbrisati vse podatke?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Uspešno izbrisani podatki</value>
   </data>
 </root>

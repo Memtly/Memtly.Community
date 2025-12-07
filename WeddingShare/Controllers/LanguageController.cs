@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Localization;
 using WeddingShare.Constants;
 using WeddingShare.Helpers;
 using WeddingShare.Models;
+using static WeddingShare.Constants.Settings;
 
 namespace WeddingShare.Controllers
 {
@@ -27,26 +29,51 @@ namespace WeddingShare.Controllers
         }
 
         [HttpGet]
+        [ResponseCache(Duration = 300, Location = ResponseCacheLocation.Any)]
         public async Task<IActionResult> Index()
         {
-            var options = new List<SupportedLanguage>();
+            var options = new SupportedLanguageList();
 
             try
             {
-                var defaultLang = HttpContext.Session.GetString(SessionKey.SelectedLanguage);
-                if (string.IsNullOrWhiteSpace(defaultLang))
+                var selectedLang = HttpContext.Session.GetString(SessionKey.SelectedLanguage);
+                if (string.IsNullOrWhiteSpace(selectedLang))
                 {
-                    defaultLang = await _languageHelper.GetOrFallbackCulture(string.Empty, await _settings.GetOrDefault(Settings.Languages.Default, "en-GB"));
+                    selectedLang = await _languageHelper.GetOrFallbackCulture(string.Empty, await _settings.GetOrDefault(Settings.Languages.Default, "en-GB"));
                 }
 
-                options = (await _languageHelper.DetectSupportedCulturesAsync())
-                    .Select(x => new SupportedLanguage() { Key = x.Name, Value = $"{(x.EnglishName.Contains("(") ? x.EnglishName.Substring(0, x.EnglishName.IndexOf("(")) : x.EnglishName).Trim()} ({x.Name})", Selected = string.Equals(defaultLang, x.Name, StringComparison.OrdinalIgnoreCase) })
-                    .OrderBy(x => x.Value.ToLower())
-                    .ToList();
+                var detected = await _languageHelper.DetectSupportedCulturesAsync();
+                foreach (var item in detected)
+                {
+                    var match = Regex.Match(item.EnglishName, @"^(.+?)(\(|$)", RegexOptions.Compiled);
+                    if (match?.Groups != null && match.Groups.Count == 3)
+                    {
+                        var key = match.Groups[1].Value.Trim();
+
+                        var language = options.Languages.FirstOrDefault(language => language.Name.Equals(key, StringComparison.OrdinalIgnoreCase));
+                        if (language == null)
+                        {
+                            language = new SupportedLanguage(key);
+                            options.Languages.Add(language);
+                        }
+
+                        language.Cultures.Add(new SupportedCulture()
+                        {
+                            Name = item.Name,
+                            Selected = selectedLang.Equals(item.Name, StringComparison.OrdinalIgnoreCase)
+                        });
+                    }
+                }
+
+                options.Languages = options.Languages.OrderBy(lang => lang.Name).ToList();
+                options.Languages.ForEach(language => 
+                {
+                    language.Cultures = language.Cultures.OrderBy(lang => lang.Name).ToList();
+                });
             }
             catch { }
 
-            return Json(new { supported = options });
+            return Json(options);
         }
 
         [HttpGet]

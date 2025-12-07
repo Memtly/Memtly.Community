@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Ange koden som genereras av din 2FA-app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Ange manuellt koden:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Misslyckades med att återställa 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Framgångsrikt återställ 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skanna följande bild med din app</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Misslyckades med att ställa in 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Framgångsrikt inrätta 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Framgångsrikt utplånad 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA Setup</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Är du säker på att du vill torka 2FA för användaren '{namn}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Om detta problem kvarstår vänligen kontakta webbadministratören</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Aktiviteter</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Underlåten att aktivera konto</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Konto aktiverat framgångsrikt</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktivera användare</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Är du säker på att du vill aktivera detta konto</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Lägg till</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Tillgängliga gallerier</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Din webbläsare stöder inte denna funktion</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk Review</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Misslyckades med att godkänna alla objekt</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Vill du godkänna eller avvisa alla pågående föremål?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Misslyckades med att avvisa alla objekt</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbokning</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Underlåten att kontrollera kontostatus</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Nära</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodkod</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Kontakta en webbplatsadministratör för att ge åtkomst</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Skapa</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultur</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Vänligen välj en displaykultur</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Du har för närvarande inte tillgång</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Är du säker på att du vill ta bort detta galleri?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Ta bort objektet</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Underlåten att ta bort objektet</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id kan inte vara tom</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort '(namn)'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Framgångsrikt raderade objekt</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Detta är en demoversion. All konfiguration torkas regelbundet för att säkerställa en ren skiffer för framtida testare.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destruktiv åtgärd utförd</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Misslyckades med att ladda ner galleri</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Du får inte ladda ner detta galleri</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-postadress</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Fel</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Export</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Exportera data</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Underlåten att exportera data</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Är du säker på att du vill fortsätta?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Framgångsrikt exporterade data</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Misslyckades med att skapa galleri</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Misslyckades med att torka galleriet</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Denna funktion är fortfarande under utveckling men bör vara tillgänglig snart</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Misslyckades med att ladda ner FFMPEG på vägen</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Misslyckades med att skicka lösenord återställning e-post</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Lösenordsåterställningslänk skickad. Vänligen kontrollera din e-post</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Frysning</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Underlåten att frysa konto</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Konto fryst framgångsrikt</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Frys användaren</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Är du säker på att du vill frysa konto</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Gallerier</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galleriet</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Skapa Galleri</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Misslyckades med att skapa galleri</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Framgångsrikt skapat galleri</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Delete Gallery</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Misslyckades med att ta bort galleri</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort galleriet '{namn}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Framgångsrikt raderat galleri</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Det begärda galleriet hittades inte eller existerar inte</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edit Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Misslyckades med att uppdatera galleriet</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Framgångsrikt uppdaterat galleri</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Det finns för närvarande inga minnen delas</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>my-wedding-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Ogiltigt gallerinamn eller hemlig nyckel, försök igen</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Ange ett giltigt gallerinamn</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Ogiltig hemlig nyckel, försök igen</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galleri Key</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Misslyckades med att få gallerilista</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galleriet Id kan inte vara tom</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Gallerinamnet kan inte vara tomt</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galleri Namn</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galleriets namn finns redan</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Vänligen ange ett nytt gallerinamn</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Hemlig nyckel</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Ange en ny hemlig nyckel</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galleri Selector</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galleriinställningar</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Misslyckades med att torka galleriet</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Är du säker på att du vill torka galleriet '{namn}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Framgångsrikt torkat galleri</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generat</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generera nedladdning</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Gruppgrupp</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Ett fel inträffade ladda hemsidan</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identity Check</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Förändring</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Ändra identitet</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-postadress</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Berätta din e-post så att vi kan nå ut till dig.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Invalid Email</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Ange en giltig e-post</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Invalidt namn</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Ange ett giltigt namn</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Namnnamn</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Berätta vem du är så vi vet vem som laddade upp minnen.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Jane Doe, Jimmy, farbror Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Underlåten att ställa in användaridentitet</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Stanna Anonym</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Berätta för oss</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Underlåtenhet att ställa in användaridentitetssession - Namn</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importera import</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importera data</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Backup File</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Välj ett bröllop Dela backup arkiv</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Misslyckades med importerade data</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Välj en importfil</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Framgångsrikt importerade data</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Tillhandahållen åtkomsttoken var ogiltig</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Landskap</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språkspråk</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Ändra språk</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Vänligen välj ett displayspråk</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Länk</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Underlåten att logga in användaren</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Ogiltigt användarnamn eller lösenord specificerat</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Ange ett giltigt lösenord</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Ange ett giltigt användarnamn</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Ange kontolösenord.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Lösenord</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Vänligen logga in för att slutföra denna åtgärd</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Ange kontoanvändarnamn.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Användarnamn</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Kontrollera ditt e-postmeddelande för att aktivera ditt konto</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logout</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nya objekt väntande granskning</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Inga anpassade resurser laddade upp</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Ingen</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Eller</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Ditt lösenord har nu återställts. Om du inte begär en lösenordsåterställning, vänligen nå ut till en administratör omedelbart.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Fel åtkomst till ditt konto?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Bekräfta lösenordsmatcher</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Minst 8 tecken</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Lägre fall brev</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Specialkaraktärer</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Övre fall brev</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Lösenord Återställ</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Misslyckades med att skicka lösenord återställning e-post.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Ditt lösenord har framgångsrikt återställts</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Uppgradera ditt konto medlemskap för att få tillgång till denna funktion</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>I väntan</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Användarnamn</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Bekräftelse lösenord matchar inte</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Misslyckades med att registrera nya användare</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Bekräftelse lösenord matchar inte lösenordet</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Ange en giltig e-postadress</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Det fanns en problembehandling av e-postverifieringslänken</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Konto skapat framgångsrikt</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Du konto har registrerats framgångsrikt och väntar på att du ska komma åt</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Välkommen!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Ditt konto har skapats men din e-postadress behöver valideras innan du kan logga in</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Ditt konto har registrerats men måste verifieras innan det kan nås. Vänligen aktivera ditt konto genom att klicka på länken nedan.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Släpp version</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Rename</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Återställ</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Det fanns ett problem som bearbetade länken lösenordsåterställning</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Granska</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Underlåten att granska objektet</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Kunde inte hitta objekt Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Spara QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Användning</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorer</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Supporters</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Switch</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Totalt totalt</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Otillgänglig</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Ett oväntat fel har inträffat</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freeze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Misslyckats med un-Frys konto</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Konto un-frozen framgångsrikt</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Un-Freeze Användare</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Är du säker på att du vill frysa konto</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Okänd granskning åtgärd</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Uppdatering</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Uppdatera inställningar</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Underlåten att uppdatera inställningar</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Inga ändringar gjordes för att spara</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Inställningar uppdaterade framgångsrikt</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Uppgradera</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Du använder för närvarande gratisversionen. För att låsa upp mer gallerilagring och andra bra funktioner överväga att uppgradera ditt konto</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Det fanns ett problem med att ladda upp vissa filer</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Invalid galleri Id upptäckt</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Kunde inte hitta uppladdning Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Ladda upp media</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Vänligen välj en uppladdningsmetod</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Inga filer upptäcktes för att ladda upp</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Uppladdning av objekt {index} av {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Framgångsrikt uppladdad {count} objekt(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Framgångsrikt uppladdad {count} objekt(s) i väntan på granskning</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Uppladdad av</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Användare</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Bekräfta lösenord</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Bekräfta lösenord</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Det tillhandahållna lösenordet och kyllösenordet matchar inte</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Skapa användaren</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Misslyckats med att skapa användaren</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Framgångsrikt skapad användare</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Delete Användare</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Misslyckades med att ta bort användaren</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort användaren '{namn}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Framgångsrikt raderad användare</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Redigera användare</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Misslyckades med att uppdatera användaren</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Framgångsrikt uppdaterad användare</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Användarnas e-postadress</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Lösenord och bekräfta lösenord matchar inte</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Ange en giltig e-postadress</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Den valda användarnivån är ogiltig</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Ange ett giltigt användarnamn</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Ange ett giltigt användarlösenord</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Användarnas åtkomstnivå</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Användare Id kan inte vara tom</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Användarnamnet kan inte vara tomt</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Lägg till användare med samma namn redan finns</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Användarnamnet för den nya användaren</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Lösenordet för den nya användaren</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Användarnamn</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Misslyckades med att få användarlista</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validera</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Verifiera</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Är du säker på att du vill torka detta galleri?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Misslyckades med att torka data</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Är du säker på att du vill torka all data?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Framgångsrikt torkade data</value>
   </data>
 </root>

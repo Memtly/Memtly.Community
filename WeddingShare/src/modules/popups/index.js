@@ -21,7 +21,7 @@ function bindReloadButton() {
     });
 }
 
-export function displayPopup(options) {
+export function displayPopup(options, callbackFn) {
     let fields = '';
     (options?.Fields ?? [])?.forEach((field, index) => {
         let input = '';
@@ -110,6 +110,10 @@ export function displayPopup(options) {
     $('.popup-modal .modal-message').text(options?.Message ?? "");
     $('.popup-modal').show();
     $('.popup-modal input, .popup-modal textarea').first().focus();
+
+    if (callbackFn !== undefined && callbackFn !== null) {
+        callbackFn();
+    }
 }
 
 export function hidePopup() {

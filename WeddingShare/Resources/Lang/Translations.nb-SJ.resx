@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Vennligst skriv inn koden som genereres av din 2FA app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Skriv manuelt inn koden:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Klarte ikke å tilbakestille 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Vellykket tilbakestille 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Skann følgende bilde med appen din</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Kunne ikke sette opp 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Vellykket satt opp 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Vellykket tørket 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA-oppsett</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil tørke 2FA for brukeren «{name}»?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Hvis dette problemet varer, vennligst kontakt webadministratoren</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Handlinger</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Klarte ikke å aktivere kontoen</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Konto aktivert</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktiver bruker</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil aktivere denne kontoen</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Legg til</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Tilgjengelige Gallerier</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Nettleseren din støtter ikke denne funksjonen</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Bulk gjennomgang</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Kunne ikke godkjenne alle elementene</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Ønsker du å godkjenne eller avvise alle avventende elementer?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Klarte ikke å avvise alle elementene</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Klarte ikke å sjekke kontotilstand</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Lukk</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kode</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Vennligst kontakt en nettstedsadministrator for å gi tilgang</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Lag</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultur</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Velg en visningskultur</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Du har for tiden ikke tilgang til</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Er du sikker på at du vil slette dette galleriet?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Slett element</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Klarte ikke å slette element</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id kan ikke være tomt</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil slette \'{name}\'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Vellykket slettet element</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Dette er en demoversjon. All konfigurasjon slettes regelmessig for å sikre en ren skifer for fremtidige testere.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Destruktiv handling utført</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Last ned</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Klarte ikke å laste ned galleri</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Du har ikke tillatelse til å laste ned dette galleriet</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E-postadresse</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Feil</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksporter</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Eksporter data</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Klarte ikke å eksportere data</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil fortsette?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>God eksport av data</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Klarte ikke å opprette galleri</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Klarte ikke å tørke galleri</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Denne funksjonen er fortsatt under utvikling, men bør være tilgjengelig snart</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Klarte ikke å laste ned FFMPEG til banen</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Klarte ikke å sende tilbakestilt passord</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Link til tilbakestilling av passord sendt. Sjekk e-posten din</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Freeze</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Klarte ikke å fryse kontoen</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Konto frosset med suksess</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Frys bruker</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil fryse kontoen</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Gallerier</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galleri</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Lag galleri</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Klarte ikke å opprette galleri</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Vellykket opprettet galleri</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Slett galleri</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Klarte ikke slette galleri</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil slette galleriet «{name}»?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Vellykket slettet galleri</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Det forespurte galleriet ble ikke funnet eller eksisterer ikke</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Rediger galleri</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Klarte ikke å oppdatere galleri</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Vellykket oppdatert galleri</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>For tiden er det ingen minner delt</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>min wedding-gallery</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Ugyldig gallerinavn eller hemmelig nøkkel, prøv igjen</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Vennligst oppgi et gyldig gallerinavn</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Ugyldig hemmelig nøkkel, prøv igjen</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galleri Nøkkel</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Klarte ikke å hente galleriliste</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galleri Id kan ikke være tomt</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Gallerinavnet kan ikke være tomt</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Gallerinavn</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Gallerinavn eksisterer allerede</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Vennligst skriv inn et nytt gallerinavn</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Hemmelig nøkkel</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Vennligst skriv inn en ny hemmelig nøkkel</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galleriutvelger</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galleriinnstillinger</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Wipe Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Klarte ikke å tørke galleri</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil tørke galleri \'{name}\'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Vellykket slettet galleri</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Oppretter</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Opprette nedlasting</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Gruppe</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>En feil oppstod ved lasting av hjemmesiden</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Identifikasjonskontroll</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Endre</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Endre identitet</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E-postadresse</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Fortell oss din e-post slik at vi kan nå ut til deg.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>F.eks. john.doe@mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Ugyldig e- post</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Vennligst oppgi en gyldig e-post</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Ugyldig navn</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Angi et gyldig navn</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Fortell oss hvem du er, så vi vet hvem som lastet opp minner.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>F.eks. Jane Doe, Jimmy, onkel Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Klarte ikke å angi brukeridentitet</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Hold deg anonym</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Fortell oss</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Klarte ikke å sette brukerens identitetsøkt - Navn</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importer</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importere data</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Sikkerhetskopifil</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Velg et bryllup Del sikkerhetskopiarkiv</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Klarte ikke å importere data</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Velg en importfil</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Vellykket importert data</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Den gitte tilgang token var ugyldig</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Landskap</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Endre språk</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Velg et skjermspråk</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Link</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Laster...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Logg inn</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Kunne ikke logge inn brukeren</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Ugyldig brukernavn eller passord angitt</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Skriv inn et gyldig passord</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Vennligst skriv inn et gyldig brukernavn</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Vennligst skriv inn kontopassord.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Passord</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Logg inn for å fullføre denne handlingen</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Vennligst skriv inn brukernavn.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Brukernavn</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Bekreft e-posten din for å aktivere kontoen din</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logg ut</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Nye elementer som venter på anmeldelse</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Neste</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Ingen egne ressurser lastet opp</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Ingen</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Eller</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Passordet ditt er nå tilbakestilt. Hvis du ikke har bedt om tilbakestilling av passord, vennligst kontakt en administrator umiddelbart.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Problemer med å få tilgang til kontoen din?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Bekreft passordtilsvar</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Minst 8 tegn</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Små bokstaver</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Tal</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Spesialtegn</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Store bokstaver</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Passord Nullstill</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Klarte ikke å sende tilbakestilling av passord.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Passordet ditt har blitt tilbakestilt</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Vennligst oppgrader ditt kontomedlemskap for å få tilgang til denne funksjonen</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Venter</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Brukernavn</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Bekreftelsespassordet stemmer ikke</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Klarte ikke å registrere ny bruker</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Bekreftelsespassordet samsvarer ikke med passordet</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Vennligst oppgi en gyldig e-postadresse</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Det var et problem å behandle e-postverifiseringslenken</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Konto opprettet vellykket</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Din konto er registrert og venter på at du får tilgang til</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Velkommen!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Kontoen din er opprettet, men e-postadressen din trenger å validere før du kan logge på</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Kontoen din er registrert, men må verifiseres før den kan nås. Aktiver kontoen din ved å klikke på lenken nedenfor.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Utgivelsesversjon</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Endre navn</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Nullstill</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Det var et problem med å behandle tilbakestillingslenken for passord</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Anmeldelse</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Klarte ikke å se gjennom element</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Kunne ikke finne element ID</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Lagre QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Bruk</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Sponsorer</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Supportere</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Bytt</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Totalt</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Ikke tilgjengelig</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>En uventet feil har oppstått</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Un-Freze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Klarte ikke å frigjøre kontoen</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Konto un-frozen vellykket</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Ufrigjøre bruker</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Er du sikker på at du ønsker å un-freeze-konto</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Ukjend gjennomgangshandling</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Oppdater</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Oppdater innstillinger</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Klarte ikke å oppdatere innstillingene</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Ingen endringer ble gjort for å lagre</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Innstillinger oppdatert</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Oppgrader</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Du bruker for tiden den gratis versjonen. Å låse opp mer gallerilagring og andre flotte funksjoner vurdere å oppgradere kontoen din</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Last opp</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Det var et problem å laste opp noen filer</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Ugyldig galleri Id detektert</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Kunne ikke finne opplasting Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Last opp medier</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Vennligst velg en opplastingsmetode</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Ingen filer ble oppdaget for å laste opp</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Laster opp element {index} av {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Vellykket opplastet {count}-element(er)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Vellykket opplastet {count} element(er) avventende gjennomgang</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Lastet opp av</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Bruker</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Bekreft passord</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Bekreft passordet</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Det angitte passordet og konfrim-passordet stemmer ikke</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Opprett bruker</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Klarte ikke å opprette bruker</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Vellykket opprettet bruker</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Slett bruker</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Klarte ikke å slette bruker</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil slette brukeren «{name}»?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Vellykket slettet bruker</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Rediger bruker</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Klarte ikke å oppdatere brukeren</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Vellykket oppdatert bruker</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Brukerens e-postadresse</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Passord og bekrefte passord stemmer ikke</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Vennligst oppgi en gyldig e-postadresse</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Det valgte brukernivået er ugyldig</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Angi et gyldig brukernavn</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Vennligst oppgi et gyldig brukerpassord</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Brukernes tilgangsnivå</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Bruker Id kan ikke være tomt</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Brukernavn kan ikke være tomt</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Brukernavn</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Legg til bruker med samme navn allerede eksisterer</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Brukernavnet til den nye brukeren</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Passord</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Passordet til den nye brukeren</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Brukernavn</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Klarte ikke å skaffe brukerliste</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valider</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Bekreft</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Er du sikker på at du vil tørke dette galleriet?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Wipe Data</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Klarte ikke å slette data</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Er du sikker på at du vil slette alle data?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Vellykket slettede data</value>
   </data>
 </root>

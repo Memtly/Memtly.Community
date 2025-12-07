@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Si us plau, introduïu el codi generat per l' aplicació 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Introduïu manualment el codi:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Ha fallat en reinicialitzar 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>S' ha reiniciat correctament 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Escaneja la següent imatge amb l' aplicació</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Ha fallat en establir la 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>S' ha establert correctament 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>S' ha esborrat correctament 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Configuració 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar 2FA per l' usuari '{nom}'?</value>
+  </data>
+  <data name="400_Error_Message" xml:space="preserve">
+    <value>Si aquest problema persisteix, contacteu amb l' administrador del web</value>
+  </data>
+  <data name="400_Error_Title" xml:space="preserve">
+    <value>Opps, sembla que ha ocorregut un error inesperat...</value>
+  </data>
+  <data name="401_Error_Message" xml:space="preserve">
+    <value>Sembla que no esteu autoritzat a veure aquesta pàgina...</value>
+  </data>
+  <data name="401_Error_Title" xml:space="preserve">
+    <value>S' ha denegat l' accés</value>
+  </data>
+  <data name="402_Error_Message" xml:space="preserve">
+    <value>La clau secreta proporcionada no era vàlida</value>
+  </data>
+  <data name="402_Error_Title" xml:space="preserve">
+    <value>Clau secreta no vàlida</value>
+  </data>
+  <data name="403_Error_Message" xml:space="preserve">
+    <value>La litereria especificada no existeix i no teniu permisos per crear- la</value>
+  </data>
+  <data name="403_Error_Title" xml:space="preserve">
+    <value>S' ha denegat l' accés</value>
+  </data>
+  <data name="405_Error_Message" xml:space="preserve">
+    <value>Heu arribat al límit màxim de creació de la galeria</value>
+  </data>
+  <data name="405_Error_Title" xml:space="preserve">
+    <value>S' ha arribat al límit</value>
+  </data>
+  <data name="406_Error_Message" xml:space="preserve">
+    <value>La galeria especificada no existeix</value>
+  </data>
+  <data name="406_Error_Title" xml:space="preserve">
+    <value>Galeria no vàlida</value>
+  </data>
+  <data name="407_Error_Message" xml:space="preserve">
+    <value>Hi va haver un problema mentre intentava verificar el teu compte. Si us plau, assegureu- vos que l' enllaç de verificació és vàlid.</value>
+  </data>
+  <data name="407_Error_Title" xml:space="preserve">
+    <value>Verificació no vàlida Enllaç</value>
+  </data>
+  <data name="408_Error_Message" xml:space="preserve">
+    <value>Hi ha hagut un problema en intentar reiniciar la vostra contrasenya de comptes. Si us plau, assegureu- vos que l' enllaç de verificació és vàlid.</value>
+  </data>
+  <data name="408_Error_Title" xml:space="preserve">
+    <value>Contrasenya Reinicia l' enllaç</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accepta</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Acció</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Accions</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activa</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Ha fallat en activar el compte</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>El compte s' ha activat correctament</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Activa usuari</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Esteu segur que voleu activar aquest compte</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Afegeix</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tot</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Aprova</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Aprovada</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascendent</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Auditoria</value>
+  </data>
+  <data name="Audit_Account_Registered" xml:space="preserve">
+    <value>Compte registrat per l' usuari</value>
+  </data>
+  <data name="Audit_ActivateUser" xml:space="preserve">
+    <value>Usuari activat</value>
+  </data>
+  <data name="Audit_BulkApproveReviews" xml:space="preserve">
+    <value>Massa aprovat totes les revisions pendents</value>
+  </data>
+  <data name="Audit_BulkRejectReviews" xml:space="preserve">
+    <value>Massa rebutjat totes les revisions pendents</value>
+  </data>
+  <data name="Audit_CookieConsentApproved" xml:space="preserve">
+    <value>Un visitant ha aprovat l'ús de les galetesName</value>
+  </data>
+  <data name="Audit_CreatedGallery" xml:space="preserve">
+    <value>S' ha creat la galeria</value>
+  </data>
+  <data name="Audit_CreatedNewUser" xml:space="preserve">
+    <value>S' ha creat un usuari nou</value>
+  </data>
+  <data name="Audit_CustomResourceDeleted" xml:space="preserve">
+    <value>S' ha esborrat un recurs personalitzat</value>
+  </data>
+  <data name="Audit_CustomResourceUploaded" xml:space="preserve">
+    <value>S' ha pujat un recurs personalitzat</value>
+  </data>
+  <data name="Audit_DeletedGallery" xml:space="preserve">
+    <value>S' ha esborrat la galeria</value>
+  </data>
+  <data name="Audit_DeletedUser" xml:space="preserve">
+    <value>Eliminat d' usuari</value>
+  </data>
+  <data name="Audit_Email_Verified" xml:space="preserve">
+    <value>L' usuari ha verificat la seva adreça de correu electrònic</value>
+  </data>
+  <data name="Audit_ExportedBackup" xml:space="preserve">
+    <value>S' ha exportat una còpia de seguretat</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptDetected" xml:space="preserve">
+    <value>S' ha detectat un intent d' accés erroni</value>
+  </data>
+  <data name="Audit_FailedLoginAttemptReset" xml:space="preserve">
+    <value>El comptador de intents d' accés ha fallat ha reiniciat</value>
+  </data>
+  <data name="Audit_Forgot_Password" xml:space="preserve">
+    <value>L' usuari ha demanat reiniciar la contrasenya</value>
+  </data>
+  <data name="Audit_FrozeUser" xml:space="preserve">
+    <value>Usuari Froze</value>
+  </data>
+  <data name="Audit_ImportedBackup" xml:space="preserve">
+    <value>S' ha importat una còpia de seguretat</value>
+  </data>
+  <data name="Audit_ItemApprovedInGallery" xml:space="preserve">
+    <value>aprovada a la galeria</value>
+  </data>
+  <data name="Audit_ItemDeletedInGallery" xml:space="preserve">
+    <value>s' ha esborrat a la galeria</value>
+  </data>
+  <data name="Audit_ItemRejectedInGallery" xml:space="preserve">
+    <value>s' ha rebutjat a la galeria</value>
+  </data>
+  <data name="Audit_Limit_Help" xml:space="preserve">
+    <value>Quants registres mostrar</value>
+  </data>
+  <data name="Audit_Limit_Label" xml:space="preserve">
+    <value>Límit</value>
+  </data>
+  <data name="Audit_List_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir la llista d'auditories</value>
+  </data>
+  <data name="Audit_LoggedOut" xml:space="preserve">
+    <value>S' ha desactivat</value>
+  </data>
+  <data name="Audit_Logs" xml:space="preserve">
+    <value>Registres d' auditoria</value>
+  </data>
+  <data name="Audit_MultiFactorAdded" xml:space="preserve">
+    <value>S' ha afegit un factor multi al seu compte</value>
+  </data>
+  <data name="Audit_MultiFactorPassed" xml:space="preserve">
+    <value>Testimoni multi- factor correcte</value>
+  </data>
+  <data name="Audit_MultiFactorReset" xml:space="preserve">
+    <value>Reinicia la seva clau multi- factor</value>
+  </data>
+  <data name="Audit_MultiFactorResetUser" xml:space="preserve">
+    <value>Reinicia el factor multi per a l' usuari</value>
+  </data>
+  <data name="Audit_Password_Reset" xml:space="preserve">
+    <value>L' usuari ha demanat reiniciar la contrasenya</value>
+  </data>
+  <data name="Audit_SearchTerm_Help" xml:space="preserve">
+    <value>Filtra els registres basats en un terme de cerca</value>
+  </data>
+  <data name="Audit_SearchTerm_Label" xml:space="preserve">
+    <value>Terme de cerca</value>
+  </data>
+  <data name="Audit_SettingsUpdated" xml:space="preserve">
+    <value>S' ha actualitzat l' arranjament de la galeria</value>
+  </data>
+  <data name="Audit_UnfrozeUser" xml:space="preserve">
+    <value>Usuari unròze</value>
+  </data>
+  <data name="Audit_UpdatedGallery" xml:space="preserve">
+    <value>S' ha actualitzat la galeria</value>
+  </data>
+  <data name="Audit_UpdatedUser" xml:space="preserve">
+    <value>Usuari actualitzat</value>
+  </data>
+  <data name="Audit_UserLoggedIn" xml:space="preserve">
+    <value>S' ha connectat l' usuari</value>
+  </data>
+  <data name="Audit_WipeAllGalleries" xml:space="preserve">
+    <value>Esborrat totes les galeries</value>
+  </data>
+  <data name="Audit_WipedGallery" xml:space="preserve">
+    <value>S' ha esborrat la galeria</value>
+  </data>
+  <data name="Available_Galleries" xml:space="preserve">
+    <value>Galleries disponibles</value>
+  </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>El vostre navegador no permet aquesta característica</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Massa revisió</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Ha fallat en aprovar tots els elements</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Voleu aprovar o rebutjar tots els elements pendents?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Ha fallat en rebutjar tots els elements</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Càmera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel· la</value>
+  </data>
+  <data name="Check_Account_State_Failed" xml:space="preserve">
+    <value>Ha fallat en comprovar l' estat del compte</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Neteja</value>
+  </data>
+  <data name="Clean_Confirmation" xml:space="preserve">
+    <value>Segur que voleu netejar aquesta galeria?</value>
+  </data>
+  <data name="Click_To_Upload" xml:space="preserve">
+    <value>Cliqueu aquí per a seleccionar els fitxers a pujar</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Codi</value>
+  </data>
+  <data name="Contact_Admin_For_Access" xml:space="preserve">
+    <value>Si us plau, contacteu amb un administrador del lloc web per proporcionar accés</value>
+  </data>
+  <data name="Cookie_Audit_Error" xml:space="preserve">
+    <value>Ha fallat en registrar un missatge d'auditori per aprovar galetes</value>
+  </data>
+  <data name="CookiePolicy_Button_Text" xml:space="preserve">
+    <value>Política de galetes</value>
+  </data>
+  <data name="CookiePolicy_Message_Short" xml:space="preserve">
+    <value>Utilitzant aquest lloc web estàs d'acord amb el nostre ús de galetes bàsiques d'acord amb els nostres termes d'ús de galeta. Per descobrir-ne més si us plau, mireu la nostra</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="Currently_No_Access" xml:space="preserve">
+    <value>Actualment no teniu accés</value>
+  </data>
+  <data name="Custom_Resources" xml:space="preserve">
+    <value>Recursos personalitzats</value>
+  </data>
+  <data name="Custom_Resources_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir recursos personalitzats</value>
+  </data>
+  <data name="Custom_Resources_Upload_Help" xml:space="preserve">
+    <value>Seleccioneu un fitxer d' imatge a pujar</value>
+  </data>
+  <data name="Custom_Resources_Upload_Label" xml:space="preserve">
+    <value>Puja recurs personalitzat</value>
+  </data>
+  <data name="CustomResource_Delete_Failed" xml:space="preserve">
+    <value>Ha fallat en esborrar el recurs personalitzat</value>
+  </data>
+  <data name="CustomResource_Upload_Failed" xml:space="preserve">
+    <value>Ha fallat en pujar un recurs personalitzat</value>
+  </data>
+  <data name="Danger_Zone" xml:space="preserve">
+    <value>Zona perillosa</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Omissió</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Esborra</value>
+  </data>
+  <data name="Delete_Confirmation" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar aquesta galeria?</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Esborra element</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Ha fallat en esborrar l' element</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>No puc estar buida</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar '{nom}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>L' element s' ha esborrat correctament</value>
+  </data>
+  <data name="Demo_Message" xml:space="preserve">
+    <value>Aquesta és una versió demo. Tota la configuració està periòdicament esborrada per assegurar una pissarra neta per als futurs exàmens.</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descendent</value>
+  </data>
+  <data name="Destructive_Action_Performed" xml:space="preserve">
+    <value>Acció obsoleta realitzada</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalls</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descarrega</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Ha fallat en baixar la galeria</value>
+  </data>
+  <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
+    <value>No esteu autoritzat a descarregar aquesta galeria</value>
+  </data>
+  <data name="Drag_And_Drop" xml:space="preserve">
+    <value>Arrossega</value>
+  </data>
+  <data name="Duplicate_Item_Detected" xml:space="preserve">
+    <value>S' ha detectat un fitxer duplicat</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Adreça de correu electrònic</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exporta</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Exporta dades</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>No s' han pogut exportar les dades</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Esteu segur que voleu continuar?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Les dades exportades correctament</value>
+  </data>
+  <data name="Failed_Add_Gallery" xml:space="preserve">
+    <value>Ha fallat en crear la galeria</value>
+  </data>
+  <data name="Failed_Add_User" xml:space="preserve">
+    <value>Ha fallat en crear l' usuari</value>
+  </data>
+  <data name="Failed_Delete_Gallery" xml:space="preserve">
+    <value>Ha fallat en esborrar la galeria</value>
+  </data>
+  <data name="Failed_Delete_User" xml:space="preserve">
+    <value>Ha fallat en esborrar l' usuari</value>
+  </data>
+  <data name="Failed_Download_Gallery" xml:space="preserve">
+    <value>Ha fallat en baixar la galeria</value>
+  </data>
+  <data name="Failed_Download_Gallery_Invalid_Key" xml:space="preserve">
+    <value>Ha fallat en baixar la galeria. La clau secreta no era vàlida</value>
+  </data>
+  <data name="Failed_Edit_Gallery" xml:space="preserve">
+    <value>Ha fallat en actualitzar la galeria</value>
+  </data>
+  <data name="Failed_Edit_User" xml:space="preserve">
+    <value>Ha fallat en actualitzar l' usuari</value>
+  </data>
+  <data name="Failed_Export" xml:space="preserve">
+    <value>No s' han pogut exportar les dades</value>
+  </data>
+  <data name="Failed_Finding_File" xml:space="preserve">
+    <value>No s' ha pogut trobar el fitxer</value>
+  </data>
+  <data name="Failed_Import" xml:space="preserve">
+    <value>No s' han pogut importar les dades</value>
+  </data>
+  <data name="Failed_Reviewing_Media" xml:space="preserve">
+    <value>Ha fallat en revisar l' element</value>
+  </data>
+  <data name="Failed_Update_Setting" xml:space="preserve">
+    <value>Ha fallat en actualitzar l' arranjament</value>
+  </data>
+  <data name="Failed_Wipe_Galleries" xml:space="preserve">
+    <value>Ha fallat en netejar galeries</value>
+  </data>
+  <data name="Failed_Wipe_Gallery" xml:space="preserve">
+    <value>Ha fallat en esborrar la galeria</value>
+  </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Aquesta característica encara està sota el desenvolupament però hauria d' estar disponible aviat</value>
+  </data>
+  <data name="FFMPEG_Download_Failed" xml:space="preserve">
+    <value>Ha fallat en baixar el FFMPEG al camí</value>
+  </data>
+  <data name="FFMPEG_Downloading" xml:space="preserve">
+    <value>S' ha intentat generar una miniatura de vídeo però FFMPEG encara no ha completat la baixada. Si aquesta és una instal· lació nova, espereu que la baixada completi i que les miniatures perdudes es generaran per l' escàner de fons</value>
+  </data>
+  <data name="File_Upload_Failed" xml:space="preserve">
+    <value>No s' ha pogut pujar el fitxer</value>
+  </data>
+  <data name="Filename_Already_Exists" xml:space="preserve">
+    <value>Ja existeix un fitxer amb el mateix nom</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="Forgot_Password" xml:space="preserve">
+    <value>Contrasenya perduda</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Contrasenya perduda</value>
+  </data>
+  <data name="ForgotPassword_Email_Help" xml:space="preserve">
+    <value>Introduïu l' adreça de correu electrònic del compte.</value>
+  </data>
+  <data name="ForgotPassword_Email_Label" xml:space="preserve">
+    <value>Adreça de correu electrònic</value>
+  </data>
+  <data name="ForgotPassword_Failed" xml:space="preserve">
+    <value>Ha fallat en enviar el correu de reinici de la contrasenya</value>
+  </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>S' ha enviat l' enllaç de reinici de la contrasenya. Si us plau, comproveu el vostre correu electrònic</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Congela</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Ha fallat en congelar el compte</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>El compte s' ha congelat correctament</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Redueix l' usuari</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Esteu segur que voleu congelar el compte</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galleries</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galeria</value>
+  </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Crea galeria</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Ha fallat en crear la galeria</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>La galeria s' ha creat correctament</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Suprimeix la galeria</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Ha fallat en esborrar la galeria</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar la galeria '{nom}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>La galeria s' ha esborrat correctament</value>
+  </data>
+  <data name="Gallery_Does_Not_Exist" xml:space="preserve">
+    <value>No s' ha trobat la galeria demanada o no existeix</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Edita Gallery</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Ha fallat en actualitzar la galeria</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>S' ha actualitzat correctament la galeria</value>
+  </data>
+  <data name="Gallery_Empty" xml:space="preserve">
+    <value>Actualment no hi ha records compartits</value>
+  </data>
+  <data name="Gallery_Empty_Upload" xml:space="preserve">
+    <value>Ara mateix no hi ha records compartits, per què no puja les teves a dalt!</value>
+  </data>
+  <data name="Gallery_Full" xml:space="preserve">
+    <value>La galeria està plena i ha excedit la mida màxima de</value>
+  </data>
+  <data name="Gallery_Identifier" xml:space="preserve">
+    <value>Identificador de la galeria</value>
+  </data>
+  <data name="Gallery_Identifier_Help" xml:space="preserve">
+    <value>Si us plau, introduïu l' identificador de la galeria que voleu visitar.</value>
+  </data>
+  <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
+    <value>la meva passada d'un costat</value>
+  </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Nom de la galeria o clau secreta no vàlid, si us plau, torneu- ho a provar</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Si us plau, especifiqueu una galeria vàlida</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Clau secreta no vàlida, torneu- ho a provar</value>
+  </data>
+  <data name="Gallery_Key" xml:space="preserve">
+    <value>Clau de Gallery</value>
+  </data>
+  <data name="Gallery_Key_Help" xml:space="preserve">
+    <value>Si us plau, introduïu la clau secreta.</value>
+  </data>
+  <data name="Gallery_Key_Placeholder" xml:space="preserve">
+    <value>Introduïu aquí la clau secreta</value>
+  </data>
+  <data name="Gallery_Limit_Reached" xml:space="preserve">
+    <value>S' ha arribat al màxim nombre permès de galeries</value>
+  </data>
+  <data name="Gallery_List_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir la llista de la galeria</value>
+  </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galeria No puc estar buida</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>El nom de la galeria no pot estar buit</value>
+  </data>
+  <data name="Gallery_Name" xml:space="preserve">
+    <value>Nom de la galeria</value>
+  </data>
+  <data name="Gallery_Name_Already_Exists" xml:space="preserve">
+    <value>El nom de la galeria ja existeix</value>
+  </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Si us plau, introduïu una nova galeria</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Clau secreta</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Si us plau, introduïu una nova clau secreta</value>
+  </data>
+  <data name="Gallery_Selector_Title" xml:space="preserve">
+    <value>Selector de galeria</value>
+  </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Arranjament de la galeria</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Esborrat Gallery</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Ha fallat en esborrar la galeria</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar la galeria '{nom}'?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>S' ha esborrat correctament la galeria</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Genera</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>S' està generant la descàrrega</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="Homepage_Load_Error" xml:space="preserve">
+    <value>Hi ha hagut un error en carregar la pàgina web</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Comprovació d' identitat</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Canvia</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Canvia la identitat</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Adreça de correu electrònic</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Digue'ns el teu correu electrònic per poder arribar a tu.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E.g., John.doe@ mail. com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Correu electrònic no vàlid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Si us plau, especifiqueu un correu electrònic vàlid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Nom no vàlid</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Especifiqueu un nom vàlid</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Digues-nos qui ets per saber qui va pujar records.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>Ei, Jane, Jimmy, oncle Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Ha fallat en establir la identitat de l' usuari</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Queda't anònim</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Explica'ns</value>
+  </data>
+  <data name="Identity_Session_Error" xml:space="preserve">
+    <value>Ha fallat en establir la sessió d' identitat de l' usuari - Nom</value>
+  </data>
+  <data name="Image_Upload_Failed" xml:space="preserve">
+    <value>Ha fallat en pujar les imatges</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Imatges</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importa</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importa dades</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Fitxer de còpia de seguretat</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Seleccioneu una Noces Comparteix l' arxiu de còpia de seguretat</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>No s' han pogut importar les dades</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Seleccioneu un fitxer d' importació</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Les dades importades correctament</value>
+  </data>
+  <data name="Invalid_Access_Token" xml:space="preserve">
+    <value>El testimoni d' accés proporcionat no era vàlid</value>
+  </data>
+  <data name="Invalid_File_Type" xml:space="preserve">
+    <value>El tipus de fitxer no és vàlid</value>
+  </data>
+  <data name="Invalid_Gallery_Id" xml:space="preserve">
+    <value>Galeria no vàlida Id</value>
+  </data>
+  <data name="Invalid_Gallery_Key" xml:space="preserve">
+    <value>Clau de galeria no vàlida</value>
+  </data>
+  <data name="Invalid_Secret_Key_Warning" xml:space="preserve">
+    <value>S' ha fet una petició usant una clau secreta no vàlida</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Clau</value>
+  </data>
+  <data name="Landscape" xml:space="preserve">
+    <value>Apaïsat</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Canvia l' idioma</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Si us plau, seleccioneu un idioma de visualització</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Enllaç</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>S' està carregant...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="Login_Failed" xml:space="preserve">
+    <value>Ha fallat en iniciar l' usuari</value>
+  </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Nom d' usuari o contrasenya no vàlids</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Introduïu una contrasenya vàlida</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Si us plau, introduïu un nom d' usuari vàlid</value>
+  </data>
+  <data name="Login_Password_Help" xml:space="preserve">
+    <value>Introduïu la contrasenya del compte.</value>
+  </data>
+  <data name="Login_Password_Placeholder" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Si us plau, registre per completar aquesta acció</value>
+  </data>
+  <data name="Login_Username_Help" xml:space="preserve">
+    <value>Introduïu el nom d' usuari del compte.</value>
+  </data>
+  <data name="Login_Username_Placeholder" xml:space="preserve">
+    <value>Nom d' usuari</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Verifiqueu el vostre correu electrònic per activar el vostre compte</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Surt</value>
+  </data>
+  <data name="Manage_Data" xml:space="preserve">
+    <value>Gestiona les dades</value>
+  </data>
+  <data name="Max_File_Size" xml:space="preserve">
+    <value>La mida màx. de fitxer és</value>
+  </data>
+  <data name="MediaType" xml:space="preserve">
+    <value>Suport Tipus</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Membres</value>
+  </data>
+  <data name="MultiFactor_Token_Set_Failed" xml:space="preserve">
+    <value>Ha fallat en establir la 2FA</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Name_Cannot_Be_Blank" xml:space="preserve">
+    <value>El nom de la galeria no pot estar buit</value>
+  </data>
+  <data name="New_Items_Pending_Review" xml:space="preserve">
+    <value>Nova revisió d' elements pendents</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Següent</value>
+  </data>
+  <data name="No_Custom_Resources" xml:space="preserve">
+    <value>No s' ha pujat cap recurs personalitzat</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Sense dades</value>
+  </data>
+  <data name="No_Files_For_Upload" xml:space="preserve">
+    <value>No s' ha detectat cap fitxer per pujar</value>
+  </data>
+  <data name="No_Galleries" xml:space="preserve">
+    <value>Encara no s' han creat galeries</value>
+  </data>
+  <data name="No_Pending_Uploads" xml:space="preserve">
+    <value>No hi ha pujades pendents</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Password_Reset_Changed_Message" xml:space="preserve">
+    <value>La vostra contrasenya s' ha reiniciat ara. Si no heu demanat que es reiniciï una contrasenya, si us plau, torneu a l' administrador immediatament.</value>
+  </data>
+  <data name="Password_Reset_Changed_Title" xml:space="preserve">
+    <value>S' ha actualitzat la contrasenya!</value>
+  </data>
+  <data name="Password_Reset_Requested_Message" xml:space="preserve">
+    <value>S' ha reiniciat una contrasenya pel vostre compte. Si heu demanat un canvi de contrasenya, feu clic sobre l' enllaç de sota per actualitzar- lo.</value>
+  </data>
+  <data name="Password_Reset_Requested_Title" xml:space="preserve">
+    <value>Problemes per accedir al teu compte?</value>
+  </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Confirma les coincidències de contrasenya</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Com a mínim 8 caràcters</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Lletres majúscules</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Números</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Caràcters especials</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Lletres majúscules</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Reinicia la contrasenya</value>
+  </data>
+  <data name="PasswordReset_Failed" xml:space="preserve">
+    <value>Ha fallat en enviar el correu de reinici de la contrasenya.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>La vostra contrasenya s' ha reiniciat correctament</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Si us plau, actualitzeu l' afiliació del vostre compte per aconseguir accés a aquesta característica</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendent</value>
+  </data>
+  <data name="Pending_Uploads" xml:space="preserve">
+    <value>Pujades pendents</value>
+  </data>
+  <data name="Pending_Uploads_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir les pujades pendents</value>
+  </data>
+  <data name="Portrait" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Presentació</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Aleatori</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="Register_Account" xml:space="preserve">
+    <value>Registra compte</value>
+  </data>
+  <data name="Register_CPassword_Help" xml:space="preserve">
+    <value>Confirma la vostra contrasenya</value>
+  </data>
+  <data name="Register_CPassword_Label" xml:space="preserve">
+    <value>Confirma la contrasenya</value>
+  </data>
+  <data name="Register_Email_Help" xml:space="preserve">
+    <value>Introduïu l' adreça de correu electrònic del compte.</value>
+  </data>
+  <data name="Register_Email_Label" xml:space="preserve">
+    <value>Adreça de correu electrònic</value>
+  </data>
+  <data name="Register_Password_Help" xml:space="preserve">
+    <value>Contrasenya introduïu una contrasenya.</value>
+  </data>
+  <data name="Register_Password_Label" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="Register_Username_Help" xml:space="preserve">
+    <value>Introduïu el nom d' usuari del compte.</value>
+  </data>
+  <data name="Register_Username_Label" xml:space="preserve">
+    <value>Nom d' usuari</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registre</value>
+  </data>
+  <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
+    <value>La contrasenya de confirmació no concorda</value>
+  </data>
+  <data name="Registration_Email_Send_Failed" xml:space="preserve">
+    <value>Ha fallat en enviar el correu del registre a l' usuari.</value>
+  </data>
+  <data name="Registration_Email_Taken" xml:space="preserve">
+    <value>Ja existeix un compte amb l' adreça de correu electrònic especificadaName</value>
+  </data>
+  <data name="Registration_Failed" xml:space="preserve">
+    <value>Ha fallat el registre del nou usuari</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>La contrasenya de confirmació no concorda amb la contrasenya</value>
+  </data>
+  <data name="Registration_Invalid_Email" xml:space="preserve">
+    <value>Especifiqueu una adreça de correu vàlida</value>
+  </data>
+  <data name="Registration_Invalid_Password" xml:space="preserve">
+    <value>Si us plau, especifiqueu una contrasenya vàlida entre 8 i 100 caràcters, que conté com a mínim 1 majúscula, 1 lletra minúscula, 1 número i 1 caràcter especial</value>
+  </data>
+  <data name="Registration_Invalid_Username" xml:space="preserve">
+    <value>Especifiqueu un nom d' usuari vàlid entre 5 i 50 caràcters</value>
+  </data>
+  <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
+    <value>Hi ha hagut un problema en processar l' enllaç de verificació de correu electrònic</value>
+  </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>El compte s' ha creat correctament</value>
+  </data>
+  <data name="Registration_Success_Message" xml:space="preserve">
+    <value>S' ha registrat amb èxit el compte i s' està esperant que l' accési</value>
+  </data>
+  <data name="Registration_Success_Title" xml:space="preserve">
+    <value>Benvinguts!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>S' ha creat el vostre compte però cal validar l' adreça de correu abans de poder entrar</value>
+  </data>
+  <data name="Registration_Success_Verification" xml:space="preserve">
+    <value>El vostre compte s' ha registrat però cal verificar- lo abans que s' hi pugui accedir. Si us plau, activeu el vostre compte clicant l' enllaç a sota.</value>
+  </data>
+  <data name="Registration_Username_Taken" xml:space="preserve">
+    <value>El nom d' usuari ja existeix. Seleccioneu- ne una de nova</value>
+  </data>
+  <data name="Registration_Weak_Password" xml:space="preserve">
+    <value>La contrasenya especificada és fàcil de suposar. Si us plau seleccioneu una contrasenya més segura.</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Rebutja</value>
+  </data>
+  <data name="Release_Version" xml:space="preserve">
+    <value>Versió de versió</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Reanomena</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Inicialitza</value>
+  </data>
+  <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
+    <value>Hi ha hagut un problema en processar l' enllaç de reinici de la contrasenya</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Revisió</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Ha fallat en revisar l' element</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>No s' ha pogut trobar l' element Id</value>
+  </data>
+  <data name="Save_QR" xml:space="preserve">
+    <value>Desa QR</value>
+  </data>
+  <data name="Save_To_Custom_Resources_Failed" xml:space="preserve">
+    <value>Ha fallat en desar un recurs personalitzat</value>
+  </data>
+  <data name="Save_To_Gallery_Failed" xml:space="preserve">
+    <value>Ha fallat en desar la imatge a la galeria</value>
+  </data>
+  <data name="Scan_To_Share" xml:space="preserve">
+    <value>Escaneja el codi QR amb el telèfon per compartir les imatges</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Arranjament</value>
+  </data>
+  <data name="Settings_Account" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Help" xml:space="preserve">
+    <value>Quantes connexions ha fallat abans de bloquejar un usuari</value>
+  </data>
+  <data name="Settings_Account_Lockout_Attempts_Label" xml:space="preserve">
+    <value>Intents de bloqueig</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Help" xml:space="preserve">
+    <value>Quant de temps hauria de bloquejar un usuari</value>
+  </data>
+  <data name="Settings_Account_Lockout_Mins_Label" xml:space="preserve">
+    <value>Minuts de bloqueig</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Help" xml:space="preserve">
+    <value>Ha d' aparèixer la icona del perfil a la capçalera</value>
+  </data>
+  <data name="Settings_Account_Profile_Icon_Label" xml:space="preserve">
+    <value>Icona de perfil</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Help" xml:space="preserve">
+    <value>Els convidats estan autoritzats a registrar els comptes?</value>
+  </data>
+  <data name="Settings_Account_Registration_Enabled_Label" xml:space="preserve">
+    <value>Registre habilitat</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Help" xml:space="preserve">
+    <value>Es requereix usuaris per verificar el seu correu per tal d' activar el seu compte?</value>
+  </data>
+  <data name="Settings_Account_Registration_RequireEmailValidation_Label" xml:space="preserve">
+    <value>Requereix validació de correu electrònic</value>
+  </data>
+  <data name="Settings_Alerts" xml:space="preserve">
+    <value>Avisos</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Help" xml:space="preserve">
+    <value>S' han d' enviar les alerta quan els comptes estiguin bloquejats</value>
+  </data>
+  <data name="Settings_Alerts_Account_Lockout_Label" xml:space="preserve">
+    <value>Bloqueig del compte</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Help" xml:space="preserve">
+    <value>S' han d' enviar les alertacions quan es realitza una acció destructiva</value>
+  </data>
+  <data name="Settings_Alerts_Destructive_Action_Label" xml:space="preserve">
+    <value>Accions obsoletes</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Help" xml:space="preserve">
+    <value>S' han d' enviar les ordres en els intents d' accés erroni</value>
+  </data>
+  <data name="Settings_Alerts_Failed_Login_Label" xml:space="preserve">
+    <value>Ha fallat l' accés</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Help" xml:space="preserve">
+    <value>S' han d' enviar les ordres si un element nou està pendent de revisió</value>
+  </data>
+  <data name="Settings_Alerts_Pending_Review_Label" xml:space="preserve">
+    <value>Revisió pendentComment</value>
+  </data>
+  <data name="Settings_BackgroundServices" xml:space="preserve">
+    <value>Serveis de fons</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Help" xml:space="preserve">
+    <value>Neteja els fitxers temporals</value>
+  </data>
+  <data name="Settings_BackgroundServices_Cleanup_Label" xml:space="preserve">
+    <value>Neteja</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Help" xml:space="preserve">
+    <value>S' han deixat anar els fitxers directament a la carpeta de la galeria</value>
+  </data>
+  <data name="Settings_BackgroundServices_DirectoryScanner_Label" xml:space="preserve">
+    <value>Escàner de directori</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Help" xml:space="preserve">
+    <value>Envia un informe a les estadístiques de les galeria</value>
+  </data>
+  <data name="Settings_BackgroundServices_EmailReport_Label" xml:space="preserve">
+    <value>Informes de correu</value>
+  </data>
+  <data name="Settings_Basic" xml:space="preserve">
+    <value>Bàsic</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
+    <value>L' URL base a usar en enllaços i notificacions</value>
+  </data>
+  <data name="Settings_Basic_BaseUrl_Label" xml:space="preserve">
+    <value>URL base</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Help" xml:space="preserve">
+    <value>S' hauria d' enviar un informe de correu electrònic amb estadístiques de la galeria</value>
+  </data>
+  <data name="Settings_Basic_EmailReport_Label" xml:space="preserve">
+    <value>Informe de correu electrònic</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Help" xml:space="preserve">
+    <value>S' ha de Es veuen usuaris Htp a https</value>
+  </data>
+  <data name="Settings_Basic_ForceHttps_Label" xml:space="preserve">
+    <value>Força Htps</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Help" xml:space="preserve">
+    <value>Com els usuaris seleccionen una galeria</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorDropdown_Label" xml:space="preserve">
+    <value>Selector de galeria Tipus</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Help" xml:space="preserve">
+    <value>S' hauria de visualitzar l' opció per omissió de la galeria</value>
+  </data>
+  <data name="Settings_Basic_GallerySelectorHideDefault_Label" xml:space="preserve">
+    <value>Mostra la galeria per omissió</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Help" xml:space="preserve">
+    <value>Cal que els convidats crear nous galeries</value>
+  </data>
+  <data name="Settings_Basic_GuestGalleryCreation_Label" xml:space="preserve">
+    <value>Creació de la galeria d' invitats</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Help" xml:space="preserve">
+    <value>S' hauria d' incloure la clau secreta en el codi QR</value>
+  </data>
+  <data name="Settings_Basic_HideKeyFromQRCode_Label" xml:space="preserve">
+    <value>Codis QR insegurs</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Help" xml:space="preserve">
+    <value>S' ha de clicar a l' enllaç inici de redirecció de l' usuari</value>
+  </data>
+  <data name="Settings_Basic_HomeLink_Label" xml:space="preserve">
+    <value>Enllaç inici clicable</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Help" xml:space="preserve">
+    <value>S' han d' obrir els enllaços a pestanyes noves</value>
+  </data>
+  <data name="Settings_Basic_LinksOpenNewTab_Label" xml:space="preserve">
+    <value>Enllaços de pestanya nous</value>
+  </data>
+  <data name="Settings_Basic_Logo_Help" xml:space="preserve">
+    <value>La icona per mostrar en capçaleres i pestanyes</value>
+  </data>
+  <data name="Settings_Basic_Logo_Label" xml:space="preserve">
+    <value>Logotip</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Help" xml:space="preserve">
+    <value>Quantes galeries poden crear els usuaris</value>
+  </data>
+  <data name="Settings_Basic_MaxGalleryCount_Label" xml:space="preserve">
+    <value>Nombre Max Gallery</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Help" xml:space="preserve">
+    <value>Hi hauria d'haver una o més galeries</value>
+  </data>
+  <data name="Settings_Basic_SingleGalleryMode_Label" xml:space="preserve">
+    <value>Mode Gallery</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Help" xml:space="preserve">
+    <value>Màxim píxels en qualsevol direcció per a miniatures</value>
+  </data>
+  <data name="Settings_Basic_ThumbnailSize_Label" xml:space="preserve">
+    <value>Resolució de miniatures</value>
+  </data>
+  <data name="Settings_Basic_Title_Help" xml:space="preserve">
+    <value>El nom a mostrar en capçaleres i pestanyes</value>
+  </data>
+  <data name="Settings_Basic_Title_Label" xml:space="preserve">
+    <value>Títol</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Help" xml:space="preserve">
+    <value>El contingut que s'ha de mostrar a la pàgina d'informació de galeta</value>
+  </data>
+  <data name="Settings_CustomCookiePolicy_Label" xml:space="preserve">
+    <value>Política de galetes personalitzada</value>
+  </data>
+  <data name="Settings_CustomPolicies" xml:space="preserve">
+    <value>Polítiques personalitzades</value>
+  </data>
+  <data name="Settings_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir l' arranjament</value>
+  </data>
+  <data name="Settings_Gallery" xml:space="preserve">
+    <value>Omissió de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Help" xml:space="preserve">
+    <value>Quins tipus de fitxer es permeten als convidats pujar</value>
+  </data>
+  <data name="Settings_Gallery_AllowedFileTypes_Label" xml:space="preserve">
+    <value>Tipus de fitxer permesos</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Help" xml:space="preserve">
+    <value>Una imatge a mostrar a la part superior de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_BannerImage_Label" xml:space="preserve">
+    <value>Imatge cartell</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Help" xml:space="preserve">
+    <value>Els convidats haurien de tenir l'opció entre selecció de fitxers o càmera</value>
+  </data>
+  <data name="Settings_Gallery_CameraUploads_Label" xml:space="preserve">
+    <value>Pujades de la càmera</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Help" xml:space="preserve">
+    <value>El nombre de columnes a mostrar</value>
+  </data>
+  <data name="Settings_Gallery_Columns_Label" xml:space="preserve">
+    <value>Comptador de columnes</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Help" xml:space="preserve">
+    <value>Quin és el filtre de galeria per omissió</value>
+  </data>
+  <data name="Settings_Gallery_DefaultFilter_Label" xml:space="preserve">
+    <value>Filtre per omissió</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Help" xml:space="preserve">
+    <value>Quin és el grup de galeria per omissió</value>
+  </data>
+  <data name="Settings_Gallery_DefaultGroup_Label" xml:space="preserve">
+    <value>Grup per omissió</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Help" xml:space="preserve">
+    <value>Quin és l' ordre per omissió de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_DefaultOrder_Label" xml:space="preserve">
+    <value>Ordre per omissió</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Help" xml:space="preserve">
+    <value>Quina és la vista per omissió de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_DefaultView_Label" xml:space="preserve">
+    <value>Vista per omissió</value>
+  </data>
+  <data name="Settings_Gallery_Download_Help" xml:space="preserve">
+    <value>S' han de permetre als convidats baixar elements</value>
+  </data>
+  <data name="Settings_Gallery_Download_Label" xml:space="preserve">
+    <value>Permet la descàrrega</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Help" xml:space="preserve">
+    <value>L' amplada de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_FullWidth_Label" xml:space="preserve">
+    <value>Tipus de pantalla</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Help" xml:space="preserve">
+    <value>Després de quant de temps hauria de ser el refresc de la galeria per obtenir nous continguts</value>
+  </data>
+  <data name="Settings_Gallery_IdleRefreshMins_Label" xml:space="preserve">
+    <value>Mimes de refresc Idletra</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Help" xml:space="preserve">
+    <value>El nombre màxim d' elements a mostrar per pàgina</value>
+  </data>
+  <data name="Settings_Gallery_ItemsPerPage_Label" xml:space="preserve">
+    <value>Elements per pàgina</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Help" xml:space="preserve">
+    <value>Què és el més gran de MB un fitxer pujat pot ser</value>
+  </data>
+  <data name="Settings_Gallery_MaxFileSizeMb_Label" xml:space="preserve">
+    <value>Mida màxima de fitxer (MB)</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Help" xml:space="preserve">
+    <value>Com de gran és que la galeria es permet créixer</value>
+  </data>
+  <data name="Settings_Gallery_MaxSizeMb_Label" xml:space="preserve">
+    <value>Mida màx. de Gallery (MB)</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Help" xml:space="preserve">
+    <value>Els elements duplicats s' han de rebutjar automàticament</value>
+  </data>
+  <data name="Settings_Gallery_PreventDuplicates_Label" xml:space="preserve">
+    <value>Evita els duplicats</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Help" xml:space="preserve">
+    <value>Una vegada escàner quin ordre hauria d' aparèixer els elements</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultSort_Label" xml:space="preserve">
+    <value>QR per omissió Ordena</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Help" xml:space="preserve">
+    <value>Una vegada escanejat quina disposició hauria de veure l' usuari</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeDefaultView_Label" xml:space="preserve">
+    <value>QR per omissió Visualitza</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Help" xml:space="preserve">
+    <value>S' hauria de mostrar el codi QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeEnabled_Label" xml:space="preserve">
+    <value>Mostra el codi QR</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Help" xml:space="preserve">
+    <value>El codi QR especifica l' idioma del visor</value>
+  </data>
+  <data name="Settings_Gallery_QRCodeIncludeCulture_Label" xml:space="preserve">
+    <value>Inclou la cultura a QR</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Help" xml:space="preserve">
+    <value>Una cita per mostrar a dalt de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_Quote_Label" xml:space="preserve">
+    <value>Cita</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Help" xml:space="preserve">
+    <value>Cal que els elements es revisin abans d' aparèixer al lloc web</value>
+  </data>
+  <data name="Settings_Gallery_RequireReview_Label" xml:space="preserve">
+    <value>Requereix revisió</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Help" xml:space="preserve">
+    <value>S' han de rebutjar els elements per a l' ús posterior</value>
+  </data>
+  <data name="Settings_Gallery_RetainRejectedItems_Label" xml:space="preserve">
+    <value>Torna a rebutjar els elements</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Help" xml:space="preserve">
+    <value>S' hauria de mostrar el comptador de revisió</value>
+  </data>
+  <data name="Settings_Gallery_ReviewCounter_Label" xml:space="preserve">
+    <value>Comptador de revisió</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Help" xml:space="preserve">
+    <value>L' usuari hauria de filtrar i agrupar els suports?</value>
+  </data>
+  <data name="Settings_Gallery_ShowFilters_Label" xml:space="preserve">
+    <value>Mostra els filtres</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Help" xml:space="preserve">
+    <value>S' hauria de mostrar el títol a la part superior de la galeria</value>
+  </data>
+  <data name="Settings_Gallery_ShowTitle_Label" xml:space="preserve">
+    <value>Mostra el títol</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Help" xml:space="preserve">
+    <value>Cal que els convidats pugin elements</value>
+  </data>
+  <data name="Settings_Gallery_Upload_Label" xml:space="preserve">
+    <value>Permet les pujades</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Help" xml:space="preserve">
+    <value>Restringeix les pujades a un període específic</value>
+  </data>
+  <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
+    <value>Intervals de pujada</value>
+  </data>
+  <data name="Settings_Gotify" xml:space="preserve">
+    <value>Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Help" xml:space="preserve">
+    <value>S' han d' enviar les ordres Ntfy</value>
+  </data>
+  <data name="Settings_Gotify_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Help" xml:space="preserve">
+    <value>L' adreça del servidor Gotify</value>
+  </data>
+  <data name="Settings_Gotify_Endpoint_Label" xml:space="preserve">
+    <value>Punt final</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Help" xml:space="preserve">
+    <value>El valor important de les alertacions</value>
+  </data>
+  <data name="Settings_Gotify_Priority_Label" xml:space="preserve">
+    <value>Prioritat</value>
+  </data>
+  <data name="Settings_Gotify_Token_Help" xml:space="preserve">
+    <value>El testimoni usat per autenticació</value>
+  </data>
+  <data name="Settings_Gotify_Token_Label" xml:space="preserve">
+    <value>Accés Token</value>
+  </data>
+  <data name="Settings_IdentityCheck" xml:space="preserve">
+    <value>Comprovació d' identitat</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Help" xml:space="preserve">
+    <value>Demana als usuaris pel seu nom</value>
+  </data>
+  <data name="Settings_IdentityCheck_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Help" xml:space="preserve">
+    <value>S' hauria de mostrar la comprovació d' identitat a la càrrega de pàgina</value>
+  </data>
+  <data name="Settings_IdentityCheck_PageLoad_Label" xml:space="preserve">
+    <value>Pregunta a la càrrega de pàgina</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Help" xml:space="preserve">
+    <value>Cal als usuaris introduir una adreça de correu electrònic</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireEmail_Label" xml:space="preserve">
+    <value>Requereix l' adreça de correu electrònic</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Help" xml:space="preserve">
+    <value>Cal que els usuaris introduïu un nom</value>
+  </data>
+  <data name="Settings_IdentityCheck_RequireName_Label" xml:space="preserve">
+    <value>NomRequeriu</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Help" xml:space="preserve">
+    <value>Cal la comprovació d' identitat per pujar suports</value>
+  </data>
+  <data name="Settings_IdentityCheck_Upload_Label" xml:space="preserve">
+    <value>Pregunta de pujada</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Idiomes</value>
+  </data>
+  <data name="Settings_Languages_Default_Help" xml:space="preserve">
+    <value>El llenguatge web per omissió si no està seleccionat cap</value>
+  </data>
+  <data name="Settings_Languages_Default_Label" xml:space="preserve">
+    <value>Idioma per omissió</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Help" xml:space="preserve">
+    <value>Permet als usuaris canviar l' idioma</value>
+  </data>
+  <data name="Settings_Languages_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_Ntfy" xml:space="preserve">
+    <value>Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Help" xml:space="preserve">
+    <value>S' han d' enviar les ordres Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Help" xml:space="preserve">
+    <value>L' adreça del servidor Ntfy</value>
+  </data>
+  <data name="Settings_Ntfy_Endpoint_Label" xml:space="preserve">
+    <value>Punt final</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Help" xml:space="preserve">
+    <value>El valor important de les alertacions</value>
+  </data>
+  <data name="Settings_Ntfy_Priority_Label" xml:space="preserve">
+    <value>Prioritat</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Help" xml:space="preserve">
+    <value>El testimoni usat per autenticació</value>
+  </data>
+  <data name="Settings_Ntfy_Token_Label" xml:space="preserve">
+    <value>Accés Token</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Help" xml:space="preserve">
+    <value>El tema a enviar alerta a</value>
+  </data>
+  <data name="Settings_Ntfy_Topic_Label" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Help" xml:space="preserve">
+    <value>L' usuari hauria de veure els emergents d' estil R del PIB?</value>
+  </data>
+  <data name="Settings_PoliciesEnabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_Slideshow" xml:space="preserve">
+    <value>Passi de diapositives</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Help" xml:space="preserve">
+    <value>Quant de temps hauria de ser la transició entre diapositives</value>
+  </data>
+  <data name="Settings_Slideshow_Fade_Label" xml:space="preserve">
+    <value>Esvaïment</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Help" xml:space="preserve">
+    <value>Quant de temps en segons cal un passi de diapositives abans de moure a la següent diapositiva</value>
+  </data>
+  <data name="Settings_Slideshow_Interval_Label" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Help" xml:space="preserve">
+    <value>El nombre màxim de diapositives a incloure</value>
+  </data>
+  <data name="Settings_Slideshow_Limit_Label" xml:space="preserve">
+    <value>Límit</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Help" xml:space="preserve">
+    <value>El codi QR s' hauria d' ignorar al final per als convidats a explorar</value>
+  </data>
+  <data name="Settings_Slideshow_Share_Slide_Label" xml:space="preserve">
+    <value>Inclou la diapositiva de compartició</value>
+  </data>
+  <data name="Settings_Smtp" xml:space="preserve">
+    <value>Correu electrònic</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Help" xml:space="preserve">
+    <value>El nom del remitent amigable per l' usuari</value>
+  </data>
+  <data name="Settings_Smtp_Display_Name_Label" xml:space="preserve">
+    <value>Nom a mostrar</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Help" xml:space="preserve">
+    <value>S' han d' enviar les ordres de correu- e</value>
+  </data>
+  <data name="Settings_Smtp_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Settings_Smtp_From_Help" xml:space="preserve">
+    <value>L' adreça de correu- e de l' alerta s' envia</value>
+  </data>
+  <data name="Settings_Smtp_From_Label" xml:space="preserve">
+    <value>Des de</value>
+  </data>
+  <data name="Settings_Smtp_Host_Help" xml:space="preserve">
+    <value>El nom de màquina del proveïdor SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Host_Label" xml:space="preserve">
+    <value>Màquina</value>
+  </data>
+  <data name="Settings_Smtp_Password_Help" xml:space="preserve">
+    <value>La contrasenya usada per autenticar la petició</value>
+  </data>
+  <data name="Settings_Smtp_Password_Label" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="Settings_Smtp_Port_Help" xml:space="preserve">
+    <value>El port usat pel proveïdor SMTP</value>
+  </data>
+  <data name="Settings_Smtp_Port_Label" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Help" xml:space="preserve">
+    <value>Una llista separada per coma d' adreces de correu electrònic</value>
+  </data>
+  <data name="Settings_Smtp_Recipient_Label" xml:space="preserve">
+    <value>Destinataris</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Help" xml:space="preserve">
+    <value>El proveïdor SMTP usa SSL</value>
+  </data>
+  <data name="Settings_Smtp_Use_SSL_Label" xml:space="preserve">
+    <value>Usa SSL</value>
+  </data>
+  <data name="Settings_Smtp_Username_Help" xml:space="preserve">
+    <value>El nom d' usuari utilitzat per autenticar la petició</value>
+  </data>
+  <data name="Settings_Smtp_Username_Label" xml:space="preserve">
+    <value>Nom d' usuari</value>
+  </data>
+  <data name="Settings_Themes" xml:space="preserve">
+    <value>Temes</value>
+  </data>
+  <data name="Settings_Themes_Default_Help" xml:space="preserve">
+    <value>El tema web predeterminat si no està seleccionat cap</value>
+  </data>
+  <data name="Settings_Themes_Default_Label" xml:space="preserve">
+    <value>Omissió Tema</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Help" xml:space="preserve">
+    <value>Permet als usuaris canviar el tema</value>
+  </data>
+  <data name="Settings_Themes_Enabled_Label" xml:space="preserve">
+    <value>Habilitat</value>
+  </data>
+  <data name="Share_Code" xml:space="preserve">
+    <value>Codi de compartició</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Passi de diapositives</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordena</value>
+  </data>
+  <data name="Space_Percent_Used" xml:space="preserve">
+    <value>Ús</value>
+  </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Sponsor</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Espoons</value>
+  </data>
+  <data name="Sponsors_BecomeTheFirst" xml:space="preserve">
+    <value>Ara mateix no hi ha patrocinadors. Per què no et converteixes en el primer!</value>
+  </data>
+  <data name="Sponsors_Load_Error" xml:space="preserve">
+    <value>Ha fallat en carregar la llista de patrocinadors</value>
+  </data>
+  <data name="Square" xml:space="preserve">
+    <value>Quadrat</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Envia</value>
+  </data>
+  <data name="Supporters" xml:space="preserve">
+    <value>Suports</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Commuta</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Marca horària</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>No disponible</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Hi ha hagut un error inesperatName</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Sense lliureze</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>No s' ha pogut afegir l' assentament:</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>El compte no té èxit</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Usuari sense lliure</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar la programació seleccionada</value>
+  </data>
+  <data name="Unknown_Review_Action" xml:space="preserve">
+    <value>Acció de revisió desconeguda</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Actualitza els arranjaments</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Ha fallat en actualitzar l' arranjament</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>No s' ha fet cap canvi per desar</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>L' arranjament s' ha actualitzat correctament</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="Upgrade_Account_Message" xml:space="preserve">
+    <value>Actualment esteu usant la versió lliure. Per a desbloquejar més emmagatzematge de galeria i altres grans característiques consideren actualitzar el vostre compte</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Puja</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Hi ha hagut un problema en pujar alguns fitxers</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Galeria no vàlida S' ha detectat</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>No s' ha pogut trobar la pujada URL</value>
+  </data>
+  <data name="Upload_Media" xml:space="preserve">
+    <value>Puja suports</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Seleccioneu un mètode de pujada</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>No s' ha detectat cap fitxer per pujar</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>S' està pujant l' element {index} del {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>S' ha pujat '% count} element(s) correctament</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>S' ha pujat correctament {compost} element(s) pendent de revisió</value>
+  </data>
+  <data name="Uploaded_By" xml:space="preserve">
+    <value>Pujat per</value>
+  </data>
+  <data name="Uploader" xml:space="preserve">
+    <value>Pujador</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuari</value>
+  </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Confirma la contrasenya</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Confirma la contrasenya</value>
+  </data>
+  <data name="User_CPassword_Missmatch" xml:space="preserve">
+    <value>La contrasenya i contrasenya proporcionada no coincideixen</value>
+  </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Crea usuari</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Ha fallat en crear l' usuari</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>L' usuari s' ha creat correctament</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Elimina usuari</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Ha fallat en esborrar l' usuari</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar l' usuari '{nom}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>L' usuari s' ha esborrat correctament</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Edita l' usuari</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Ha fallat en actualitzar l' usuari</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>L' usuari s' ha actualitzat correctament</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Correu electrònic</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>L' adreça de correu electrònic dels usuaris</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>La contrasenya i la confirmació de contrasenya no coincideixen</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Especifiqueu una adreça de correu vàlida</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>El nivell d' usuari seleccionat no és vàlid</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Especifiqueu un nom d' usuari vàlid</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Si us plau, especifiqueu una contrasenya d' usuari vàlida</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Nivell</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>El nivell d' accés dels usuaris</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Usuari No puc estar buida</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>El nom d' usuari no pot estar buit</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Nom d' usuari</value>
+  </data>
+  <data name="User_Name_Already_Exists" xml:space="preserve">
+    <value>Afegeix usuari amb el mateix nom ja existeix</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>El nom d' usuari del nou</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>La contrasenya del nou usuari</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nom d' usuari</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Usuaris</value>
+  </data>
+  <data name="Users_List_Failed" xml:space="preserve">
+    <value>Ha fallat en obtenir la llista d' usuaris</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Valida</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Verifica</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Vídeos</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visualitza</value>
+  </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Visiteu</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avís</value>
+  </data>
+  <data name="Wipe" xml:space="preserve">
+    <value>Esborrat</value>
+  </data>
+  <data name="Wipe_All_Confirmation" xml:space="preserve">
+    <value>Segur que vols esborrar totes les galeries?</value>
+  </data>
+  <data name="Wipe_Confirmation" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar aquesta galeria?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Esborrat de dades</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>No s' han pogut esborrar les dades</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Esteu segur que voleu esborrar totes les dades?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>S' han esborrat correctament les dades</value>
+  </data>
+</root>

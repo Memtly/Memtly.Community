@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Cuir isteach an cód a ghineann do app 2FA</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Cuir isteach an cód de láimh:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Failed a athshocrú 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Athshocrú rathúil 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>Scan an íomhá seo a leanas le do app</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Failed a chur ar bun 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Le chéile ar bun 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>2FA wiped go rathúil</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>Socraigh 2FA</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat 2FA a wipe don úsáideoir ''?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>Má tá an cheist seo fós téigh i dteagmháil leis an riarthóir gréasáin</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Amharc ar gach eolas</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Achtú</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Failed chun cuntas a ghníomhachtú</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Cuntas i ngníomh go rathúil</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Úsáideora Gníomhach</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat a ghníomhachtú an cuntas seo</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Déan teagmháil linn</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>An tSraith Shinsearach</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Ní thacaíonn do bhrabhsálaí leis an ngné seo</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Athbhreithniú Bulc</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Failed a cheadú gach mír</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Ar mhaith leat a cheadú nó a dhiúltú gach mír ar feitheamh?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Failed a dhiúltú gach míreanna</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Ceamara gréasáin</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cealaigh</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Failed a sheiceáil stát cuntas</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Dún na nGall</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Cód an Chóid</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Téigh i dteagmháil le riarthóir suímh chun rochtain a sholáthar</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Tréimhse saoil: ilbhliantúil</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Cultúr agus Cultúr</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Roghnaigh cultúr taispeána</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Níl rochtain agat faoi láthair</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>An bhfuil tú cinnte gur mhaith leat an gailearaí seo a scriosadh?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Mír a scriosadh</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Failed a scriosadh mír</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Ní féidir liom a bheith folamh</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat a scriosadh ''?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Mír a scriosadh rathúil</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Is é seo an leagan taispeána. Déantar gach cumraíocht a ghlanadh go tréimhsiúil chun slinn ghlan a chinntiú do thástálaithe sa todhchaí.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>GnÃ omhaÃ ochta suaite</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Sonraí Teagmhála</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Íoslódáil</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Failed a íoslódáil gailearaí</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Níl tú údaraithe an gailearaí seo a íoslódáil</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>Seoladh Ríomhphoist</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>An tIarthar</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Amharc ar gach eolas</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Easpórtáil</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Sonraí a Scaoileadh</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Failed chun sonraí a onnmhairiú</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat leanúint ar aghaidh?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Sonraí a onnmhairíodh go rathúil</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Failed a chruthú gailearaí</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Failed chun wipe gailearaí</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Tá an ghné seo fós faoi fhorbairt ach ba chóir a bheith ar fáil go luath</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Failed a íoslódáil FFMPEG chun cosán</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>Failed a sheoladh do phasfhocal a athshocrú ríomhphost</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Pasfhocal nasc athshocrú sheoladh. Seiceáil do r-phost</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Reoite</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Failed chun cuntas a reoite</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Cuntas reoite go rathúil</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Úsáideoir reoite</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat cuntas a reo</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>An tSraith Shinsearach</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Amharc ar gach eolas</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Amharc ar gach eolas</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Failed a chruthú gailearaí</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Rathúil chruthaigh gailearaí</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Amharc ar gach eolas</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Failed a scriosadh gailearaí</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat gailearaí a scriosadh ''?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Rathúil scrios gailearaí</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Ní bhfuarthas an gailearaí iarrtha nó nach bhfuil ann</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Inis dúinn, le do thoil..</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Failed chun gailearaí cothrom le dáta</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Go rathúil cothrom le dáta gailearaí</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Níl aon cuimhní roinnte faoi láthair</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>mogallóireacht bainise-</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Ainm gailearaí luachmhar nó eochair rúnda, déan iarracht arís</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Sonraigh ainm bailí gailearaí</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Eochair rúnda luachmhar, déan iarracht arís</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Amharc ar gach eolas</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Failed a fháil liosta gailearaí</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Amharc ar gach eolas Ní féidir liom a bheith folamh</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Ní féidir ainm an Gailearaí folamh</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Naisc ábhartha eile</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Ainm an Gailearaí ann cheana féin</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Cuir isteach ainm gailearaí nua</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Gach ceart ar cosaint</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Cuir isteach eochair rúnda nua</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Clár na dToghthóirí</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Gearáin agus Cur i bhFeidhm</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Gailearaí Wipe</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Failed chun wipe gailearaí</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat a wipe gailearaí ''?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>Go rathúil wiped gailearaí</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Cineáltas</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Giniúint Íosluchtaigh</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grúpa an Ghrúpa</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Tharla earráid luchtú an leathanach baile</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Seiceáil Aitheantais</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Athraigh agus Athraigh</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Amharc ar gach eolas</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>Seoladh Ríomhphoist</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Inis dúinn do r-phost ionas gur féidir linn a bhaint amach duit.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>Seoladh ríomhphoist.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Ríomhphoist luachmhar</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Sonraigh ríomhphost bailí</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Ainm an chabhlaigh</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Sonraigh ainm bailí</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Ainm an ainm</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Inis dúinn a bhfuil tú mar sin tá a fhios againn a uaslódáil cuimhní.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E.g., Jane Doe, Jimmy, uncail Bob</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Failed a shocrú aitheantais úsáideora</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Fanacht gan ainm</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Déan teagmháil linn</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Failed a shocrú seisiún aitheantais úsáideora - Ainm</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Allmhairiú Allamuigh</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Sonraí a Scaoileadh</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Tacaíocht Comhad</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Roghnaigh bainise Cartlann cúltaca</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Failed chun sonraí a allmhairítear</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Roghnaigh comhad a allmhairiú</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Sonraí a allmhairítear go rathúil</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Bhí an dearbhán rochtana a soláthraíodh neamhbhailí</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Tírdhreach</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Teanga na Gaeilge</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Athraigh Teanga</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Roghnaigh teanga taispeántais</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Naisc ábhartha eile</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Taiseachas aeir: fliuch</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Failed chun logáil isteach úsáideoir i</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Ainm úsáideora neamhbhailí nó pasfhocal sonraithe</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Cuir isteach focal faire bailí</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Cuir isteach ainm úsáideora bailí</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Cuir focal faire san áireamh.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Post a fhógairt</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Logáil isteach chun an gníomh seo a chomhlánú</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Cuir ainm úsáideora san áireamh.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Ainm úsáideora</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Le do thoil a fhíorú do r-phost a ghníomhachtú do chuntas</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Logáil isteach</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>Míreanna Nua ar feitheamh Athbhreithniú</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Ar Aghaidh</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>Gan acmhainní saincheaptha a uaslódáil</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Gan a bheith ráite</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Nó</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Tá do phasfhocal a athshocrú anois. Murar iarr tú athshocrú phasfhocal le do thoil teacht amach chuig riarthóir láithreach.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Trioblóid rochtain ar do chuntas?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>Cóipeáil nasc leis an tweet</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Ar a laghad 8 carachtair</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Litreacha cás níos ísle</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Uimhreacha</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Carachtair speisialta</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Litreacha cás uachtair</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Pasfhocal Athshocraigh</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>Failed a sheoladh ríomhphoist athshocrú phasfhocal.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Do phasfhocal a athshocrú go rathúil</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Le do thoil uasghrádú do bhallraíocht cuntas rochtain a fháil ar an ghné seo</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Go dtí go</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Ainm úsáideora</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Clár na dToghthóirí</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Ní phasfhocal a dhaingniú mheaitseáil</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Failed a chlárú úsáideoir nua</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Ní focal faire Daingniú mheaitseáil leis an focal faire</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Sonraigh seoladh ríomhphoist bailí</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Bhí saincheist a phróiseáil an nasc fíoraithe r-phost</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Cuntas cruthaithe go rathúil</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Tá cuntas agat cláraithe go rathúil agus ag fanacht leat chun rochtain a fháil</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Fáilte!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Cruthaíodh do chuntas ach ní mór do sheoladh ríomhphoist a bhailíochtú sular féidir leat logáil isteach</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Tá do chuntas cláraithe ach ní mór é a fhíorú sular féidir é a rochtain. Cuir do chuntas i ngníomh trí chliceáil ar an nasc thíos.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Naisc ábhartha eile</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Bain úsáid as</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Amharc ar gach eolas</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Athshocraigh</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Bhí saincheist a phróiseáil an nasc athshocrú phasfhocal</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Athbhreithniú</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Failed a athbhreithniú mír</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Níorbh fhéidir teacht ar mhír Id</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Sábháil Q</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Uisce agus Séarachas</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Urraitheoirí</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Seirbhís do Chustaiméirí</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Ag tacú le</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Cineál gas: in airde</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Déan teagmháil linn</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Iomlán</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Gan a bheith ar fáil</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Tá earráid gan choinne tharla</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Saor in Aisce</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Failed chun cuntas unfreeze</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Cuntas un-reoite rathúil</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>Úsáideoir unfreeze</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat cuntas a un-freeze</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Gníomh athbhreithnithe aitheanta</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Tuilleadh eolais</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Naisc ábhartha eile</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Failed chun socruithe cothrom le dáta</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Rinneadh aon athruithe a shábháil</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>Socruithe suas chun dáta go rathúil</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Uasghrádú</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Tá tú ag baint úsáide as an leagan saor in aisce faoi láthair. A dhíghlasáil níos mó stórála gailearaí agus gnéithe mór eile a mheas uasghrádú do chuntas</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Uaslódáil</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Bhí ceist uaslódáil roinnt comhaid</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Gailearaí luachmhara Bhraith mé</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Níorbh fhéidir teacht ar uaslódáil irl - Library Service</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Uaslódáil Meáin</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Roghnaigh modh uaslódáil</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Níor aimsíodh aon chomhaid a uaslódáil</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Uaslódáil mír {innéacs} {count}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Uaslódáil rathúil {count} mír(s)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>Uaslódáil rathúil {count} mír(s) go dtí go ndéanfar athbhreithniú</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Uaslódáil ag</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Úsáideora</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Dídean Pasfhocal</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Daingniú an focal faire</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Ní dhéanann an focal faire ar fáil agus focal faire confrim mheaitseáil</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Taiseachas aeir: fliuch</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Failed a chruthú úsáideoir</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Úsáideoir cruthaithe rathúil</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Scrios Úsáideoir</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Failed a scriosadh úsáideoir</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat a scriosadh úsáideoir ''?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Úsáideoir scriosta rathúil</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Eagarthóireacht</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Failed a thabhairt cothrom le dáta úsáideoir</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Úsáideoir nuashonraithe go rathúil</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Naisc go dtí suíomhanna eile</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Seoladh ríomhphoist na n-úsáideoirí</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Pasfhocal agus a dhaingniú focal faire nach mheaitseáil</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Sonraigh seoladh ríomhphoist bailí</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>Tá an leibhéal úsáideora roghnaithe neamhbhailí</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Sonraigh ainm úsáideora bailí</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Sonraigh pasfhocal úsáideora bailí</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Leibhéal</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Leibhéal rochtana na n-úsáideoirí</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Úsáideora Ní féidir liom a bheith folamh</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Ní féidir ainm úsáideora a bheith folamh</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Ainm úsáideora</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Cuir úsáideoir leis an ainm céanna ann cheana féin</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Ainm úsáideora an úsáideora nua</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Post a fhógairt</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>An focal faire an úsáideora nua</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Ainm úsáideora</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Failed a fháil liosta úsáideoirí</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Bailí</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Fíoraigh</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>An bhfuil tú cinnte gur mhaith leat a wipe an gailearaí?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Sonraí Wipe</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Failed chun sonraí a wipe</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>An bhfuil tú cinnte gur mhaith leat na sonraí go léir a wipe?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Sonraí wiped rathúil</value>
   </data>
 </root>

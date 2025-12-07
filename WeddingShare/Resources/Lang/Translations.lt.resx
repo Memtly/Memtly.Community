@@ -46,18 +46,36 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <data name="2FA_Code_Hint" xml:space="preserve">
+    <value>Prašome įvesti kodą generuoja savo 2FA app</value>
+  </data>
+  <data name="2FA_Manually_Enter_Code" xml:space="preserve">
+    <value>Rankiniu būdu įvesti kodą:</value>
+  </data>
+  <data name="2FA_Reset_Failed" xml:space="preserve">
+    <value>Nepavyko atkurti 2FA</value>
+  </data>
+  <data name="2FA_Reset_Successfully" xml:space="preserve">
+    <value>Sėkmingai atstatyti 2FA</value>
+  </data>
+  <data name="2FA_Scan_With_App" xml:space="preserve">
+    <value>NAME OF TRANSLATORS</value>
+  </data>
+  <data name="2FA_Set_Failed" xml:space="preserve">
+    <value>Nepavyko sukurti 2FA</value>
+  </data>
+  <data name="2FA_Set_Successfully" xml:space="preserve">
+    <value>Sėkmingai sukurta 2FA</value>
+  </data>
+  <data name="2FA_Set_Wipe" xml:space="preserve">
+    <value>Sėkmingai nušluostė 2FA</value>
+  </data>
+  <data name="2FA_Setup" xml:space="preserve">
+    <value>2FA nustatymai</value>
+  </data>
+  <data name="2FA_Wipe_Message" xml:space="preserve">
+    <value>Jūs tikrai norite išvalyti 2FA vartotojui '{name}'?</value>
+  </data>
   <data name="400_Error_Message" xml:space="preserve">
     <value>NAME OF TRANSLATORS</value>
   </data>
@@ -114,6 +132,21 @@
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Veiksmai</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Aktyvuoti</value>
+  </data>
+  <data name="Activate_Failed" xml:space="preserve">
+    <value>Nepavyko aktyvuoti paskyros</value>
+  </data>
+  <data name="Activate_Successfully" xml:space="preserve">
+    <value>Sėkmingai aktyvuota paskyra</value>
+  </data>
+  <data name="Activate_User" xml:space="preserve">
+    <value>Aktyvuoti naudotoją</value>
+  </data>
+  <data name="Activate_User_Message" xml:space="preserve">
+    <value>Jūs tikrai norite aktyvuoti šią paskyrą</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Pridėti</value>
@@ -256,6 +289,27 @@
   <data name="Available_Galleries" xml:space="preserve">
     <value>Galerijos</value>
   </data>
+  <data name="Browser_Does_Not_Support" xml:space="preserve">
+    <value>Jūsų naršyklė nepalaiko šios funkcijos</value>
+  </data>
+  <data name="Bulk_Review" xml:space="preserve">
+    <value>Birių apžvalga</value>
+  </data>
+  <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
+    <value>Nepavyko patvirtinti visų elementų</value>
+  </data>
+  <data name="Bulk_Review_Message" xml:space="preserve">
+    <value>Norite patvirtinti arba atmesti visas nagrinėjamas prekes?</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
+    <value>Nepavyko atmesti visų elementų</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atsisakyti</value>
+  </data>
   <data name="Check_Account_State_Failed" xml:space="preserve">
     <value>Nepavyko patikrinti paskyros būsenos</value>
   </data>
@@ -271,6 +325,9 @@
   <data name="Close" xml:space="preserve">
     <value>Užverti</value>
   </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kodas</value>
+  </data>
   <data name="Contact_Admin_For_Access" xml:space="preserve">
     <value>Prašome susisiekti su svetainės administratoriumi, kad suteiktų prieigą</value>
   </data>
@@ -285,6 +342,12 @@
   </data>
   <data name="Create" xml:space="preserve">
     <value>Sukurti</value>
+  </data>
+  <data name="Culture" xml:space="preserve">
+    <value>Kultūra</value>
+  </data>
+  <data name="Culture_Name_Hint" xml:space="preserve">
+    <value>Pasirinkite ekrano kultūrą</value>
   </data>
   <data name="Currently_No_Access" xml:space="preserve">
     <value>Jūs šiuo metu neturite prieigos</value>
@@ -322,6 +385,21 @@
   <data name="Delete_Confirmation" xml:space="preserve">
     <value>Jūs tikrai norite ištrinti šią galeriją?</value>
   </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Trinti elementą</value>
+  </data>
+  <data name="Delete_Item_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti elemento</value>
+  </data>
+  <data name="Delete_Item_Id_Missing" xml:space="preserve">
+    <value>Id negali būti tuščias</value>
+  </data>
+  <data name="Delete_Item_Message" xml:space="preserve">
+    <value>Jūs tikrai norite ištrinti '{vardas}'?</value>
+  </data>
+  <data name="Delete_Item_Success" xml:space="preserve">
+    <value>Sėkmingai pašalintas elementas</value>
+  </data>
   <data name="Demo_Message" xml:space="preserve">
     <value>Čia demo versija. Visą konfigūraciją galima periodiškai nušluostyti, siekiant užtikrinti švarų šiferį būsimiems testeriams.</value>
   </data>
@@ -330,6 +408,15 @@
   </data>
   <data name="Destructive_Action_Performed" xml:space="preserve">
     <value>Naikinami veiksmai</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaliai</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="Download_Failed" xml:space="preserve">
+    <value>Nepavyko atsiųsti galerijos</value>
   </data>
   <data name="Download_Gallery_Not_Allowed" xml:space="preserve">
     <value>Jūs negalite atsisiųsti šios galerijos</value>
@@ -343,8 +430,26 @@
   <data name="EmailAddress" xml:space="preserve">
     <value>E. pašto adresas</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Klaida</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>Klaidos</value>
+  </data>
   <data name="Export" xml:space="preserve">
     <value>Eksportas</value>
+  </data>
+  <data name="Export_Data" xml:space="preserve">
+    <value>Eksportuoti duomenis</value>
+  </data>
+  <data name="Export_Data_Failed" xml:space="preserve">
+    <value>Nepavyko eksportuoti duomenų</value>
+  </data>
+  <data name="Export_Data_Message" xml:space="preserve">
+    <value>Tu tikrai nori tęsti?</value>
+  </data>
+  <data name="Export_Data_Success" xml:space="preserve">
+    <value>Sėkmingai eksportuoti duomenys</value>
   </data>
   <data name="Failed_Add_Gallery" xml:space="preserve">
     <value>Nepavyko sukurti galerijos</value>
@@ -391,6 +496,9 @@
   <data name="Failed_Wipe_Gallery" xml:space="preserve">
     <value>Nepavyko ištrinti galerijos</value>
   </data>
+  <data name="Feature_Coming_Soon" xml:space="preserve">
+    <value>Ši funkcija dar kuriama, bet turėtų būti galima netrukus</value>
+  </data>
   <data name="FFMPEG_Download_Failed" xml:space="preserve">
     <value>Nepavyko atsiųsti FFMPEG kelio</value>
   </data>
@@ -421,14 +529,62 @@
   <data name="ForgotPassword_Failed" xml:space="preserve">
     <value>@ info: status</value>
   </data>
+  <data name="ForgotPassword_Sent" xml:space="preserve">
+    <value>Siunčiama slaptažodžio nustatymo nuoroda. Prašome patikrinti savo elektroninio pašto adresą</value>
+  </data>
+  <data name="Freeze" xml:space="preserve">
+    <value>Šalti</value>
+  </data>
+  <data name="Freeze_Failed" xml:space="preserve">
+    <value>Nepavyko įšaldyti paskyros</value>
+  </data>
+  <data name="Freeze_Successfully" xml:space="preserve">
+    <value>Sėkmingai užšaldyta paskyra</value>
+  </data>
+  <data name="Freeze_User" xml:space="preserve">
+    <value>Šaldyti naudotoją</value>
+  </data>
+  <data name="Freeze_User_Message" xml:space="preserve">
+    <value>Jūs tikrai norite užšaldyti paskyrą</value>
+  </data>
   <data name="Galleries" xml:space="preserve">
     <value>Galerija</value>
   </data>
   <data name="Gallery" xml:space="preserve">
     <value>Galerija</value>
   </data>
+  <data name="Gallery_Create" xml:space="preserve">
+    <value>Sukurti galeriją</value>
+  </data>
+  <data name="Gallery_Create_Failed" xml:space="preserve">
+    <value>Nepavyko sukurti galerijos</value>
+  </data>
+  <data name="Gallery_Create_Success" xml:space="preserve">
+    <value>Sėkmingai sukurta galerija</value>
+  </data>
+  <data name="Gallery_Delete" xml:space="preserve">
+    <value>Trinti galeriją</value>
+  </data>
+  <data name="Gallery_Delete_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti galerijos</value>
+  </data>
+  <data name="Gallery_Delete_Message" xml:space="preserve">
+    <value>Jūs tikrai norite ištrinti galeriją '{vardas}'?</value>
+  </data>
+  <data name="Gallery_Delete_Success" xml:space="preserve">
+    <value>Sėkmingai pašalinta galerija</value>
+  </data>
   <data name="Gallery_Does_Not_Exist" xml:space="preserve">
     <value>Prašoma galerija nerasta arba neegzistuoja</value>
+  </data>
+  <data name="Gallery_Edit" xml:space="preserve">
+    <value>Keisti galeriją</value>
+  </data>
+  <data name="Gallery_Edit_Failed" xml:space="preserve">
+    <value>Nepavyko atnaujinti galerijos</value>
+  </data>
+  <data name="Gallery_Edit_Success" xml:space="preserve">
+    <value>Sėkmingai atnaujinta galerija</value>
   </data>
   <data name="Gallery_Empty" xml:space="preserve">
     <value>Dabar nėra bendrų prisiminimų</value>
@@ -448,6 +604,15 @@
   <data name="Gallery_Identifier_Placeholder" xml:space="preserve">
     <value>my-wedding- galerija</value>
   </data>
+  <data name="Gallery_Invalid_Gallery_Or_Secret_Key" xml:space="preserve">
+    <value>Blogas galerijos pavadinimas arba slaptas raktas, bandykite dar kartą</value>
+  </data>
+  <data name="Gallery_Invalid_Name" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį galerijos pavadinimą</value>
+  </data>
+  <data name="Gallery_Invalid_Secret_Key" xml:space="preserve">
+    <value>Blogas slaptas raktas, bandykite dar kartą</value>
+  </data>
   <data name="Gallery_Key" xml:space="preserve">
     <value>Galerija</value>
   </data>
@@ -463,23 +628,104 @@
   <data name="Gallery_List_Failed" xml:space="preserve">
     <value>Nepavyko gauti galerijos sąrašo</value>
   </data>
+  <data name="Gallery_Missing_Id" xml:space="preserve">
+    <value>Galerija Id negali būti tuščias</value>
+  </data>
+  <data name="Gallery_Missing_Name" xml:space="preserve">
+    <value>Galerija negali būti tuščia</value>
+  </data>
   <data name="Gallery_Name" xml:space="preserve">
     <value>Galerija</value>
   </data>
   <data name="Gallery_Name_Already_Exists" xml:space="preserve">
     <value>Galerija jau egzistuoja</value>
   </data>
+  <data name="Gallery_Name_Hint" xml:space="preserve">
+    <value>Prašome įvesti naują galerijos pavadinimą</value>
+  </data>
+  <data name="Gallery_Secret_Key" xml:space="preserve">
+    <value>Slaptas raktas</value>
+  </data>
+  <data name="Gallery_Secret_Key_Hint" xml:space="preserve">
+    <value>Prašome įvesti naują slaptą raktą</value>
+  </data>
   <data name="Gallery_Selector_Title" xml:space="preserve">
     <value>Galerija</value>
   </data>
+  <data name="Gallery_Settings" xml:space="preserve">
+    <value>Galerija</value>
+  </data>
+  <data name="Gallery_Wipe" xml:space="preserve">
+    <value>Šalinti galeriją</value>
+  </data>
+  <data name="Gallery_Wipe_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti galerijos</value>
+  </data>
+  <data name="Gallery_Wipe_Message" xml:space="preserve">
+    <value>Jūs tikrai norite ištrinti galeriją {vardas}?</value>
+  </data>
+  <data name="Gallery_Wipe_Success" xml:space="preserve">
+    <value>@ info: tooltip</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generuoti</value>
+  </data>
+  <data name="Generating_Download" xml:space="preserve">
+    <value>Generuojamas atsiuntimas</value>
   </data>
   <data name="Group" xml:space="preserve">
     <value>Grupė</value>
   </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>Įvyko klaida įkeliant pagrindinį puslapį</value>
+  </data>
+  <data name="Identity_Check" xml:space="preserve">
+    <value>Tapatybės patikrinimas</value>
+  </data>
+  <data name="Identity_Check_Change" xml:space="preserve">
+    <value>Pokytis</value>
+  </data>
+  <data name="Identity_Check_Change_Identity" xml:space="preserve">
+    <value>Keisti tapatybę</value>
+  </data>
+  <data name="Identity_Check_Email" xml:space="preserve">
+    <value>E. pašto adresas</value>
+  </data>
+  <data name="Identity_Check_Email_Hint" xml:space="preserve">
+    <value>Pasakykite savo el. paštą, kad galėtume susisiekti su Jumis.</value>
+  </data>
+  <data name="Identity_Check_Email_Placeholder" xml:space="preserve">
+    <value>E., john.doE @ mail.com</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email" xml:space="preserve">
+    <value>Klaidingas e. laiškas</value>
+  </data>
+  <data name="Identity_Check_Invalid_Email_Msg" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį el. laišką</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name" xml:space="preserve">
+    <value>Blogas vardas</value>
+  </data>
+  <data name="Identity_Check_Invalid_Name_Msg" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį pavadinimą</value>
+  </data>
+  <data name="Identity_Check_Name" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="Identity_Check_Name_Hint" xml:space="preserve">
+    <value>Pasakykite, kas Jūs, kad žinotume, kas įkels prisiminimus.</value>
+  </data>
+  <data name="Identity_Check_Name_Placeholder" xml:space="preserve">
+    <value>E., Jane Doe, Jimmy, Dėdė Bobas</value>
+  </data>
+  <data name="Identity_Check_Set_Failed" xml:space="preserve">
+    <value>Nepavyko nustatyti naudotojo tapatybės</value>
+  </data>
+  <data name="Identity_Check_Stay_Anonymous" xml:space="preserve">
+    <value>Lik anonimiškas</value>
+  </data>
+  <data name="Identity_Check_Tell_Us" xml:space="preserve">
+    <value>Pasakykite mums</value>
   </data>
   <data name="Identity_Session_Error" xml:space="preserve">
     <value>Nepavyko nustatyti naudotojo tapatybės sesijos - vardas</value>
@@ -492,6 +738,24 @@
   </data>
   <data name="Import" xml:space="preserve">
     <value>Importuoti</value>
+  </data>
+  <data name="Import_Data" xml:space="preserve">
+    <value>Importuoti duomenis</value>
+  </data>
+  <data name="Import_Data_Backup_File" xml:space="preserve">
+    <value>Kopijavimo failas</value>
+  </data>
+  <data name="Import_Data_Backup_Hint" xml:space="preserve">
+    <value>Prašome pasirinkti vestuves Name</value>
+  </data>
+  <data name="Import_Data_Failed" xml:space="preserve">
+    <value>Nepavyko importuoti duomenų</value>
+  </data>
+  <data name="Import_Data_Select_File" xml:space="preserve">
+    <value>Pasirinkite importo failą</value>
+  </data>
+  <data name="Import_Data_Success" xml:space="preserve">
+    <value>Sėkmingai importuoti duomenys</value>
   </data>
   <data name="Invalid_Access_Token" xml:space="preserve">
     <value>Name</value>
@@ -514,8 +778,20 @@
   <data name="Landscape" xml:space="preserve">
     <value>Kraštovaizdis</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="Language_Change" xml:space="preserve">
+    <value>Keisti kalbą</value>
+  </data>
+  <data name="Language_Name_Hint" xml:space="preserve">
+    <value>Pasirinkite ekrano kalbą</value>
+  </data>
   <data name="Link" xml:space="preserve">
     <value>Nuoroda</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Įkeliama...</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Prisijungimas</value>
@@ -523,17 +799,32 @@
   <data name="Login_Failed" xml:space="preserve">
     <value>Nepavyko prisijungti prie naudotojo</value>
   </data>
+  <data name="Login_Invalid_Details" xml:space="preserve">
+    <value>Nurodytas neteisingas naudotojo vardas arba slaptažodis</value>
+  </data>
+  <data name="Login_Invalid_Password" xml:space="preserve">
+    <value>Prašome įvesti galiojantį slaptažodį</value>
+  </data>
+  <data name="Login_Invalid_Username" xml:space="preserve">
+    <value>Prašome įvesti galiojantį naudotojo vardą</value>
+  </data>
   <data name="Login_Password_Help" xml:space="preserve">
     <value>Prašome įvesti paskyros slaptažodį.</value>
   </data>
   <data name="Login_Password_Placeholder" xml:space="preserve">
     <value>Slaptažodis</value>
   </data>
+  <data name="Login_To_Complete_Action" xml:space="preserve">
+    <value>Prašome prisijungti, kad užbaigtumėte šį veiksmą</value>
+  </data>
   <data name="Login_Username_Help" xml:space="preserve">
     <value>Prašome įvesti paskyros naudotojo vardą.</value>
   </data>
   <data name="Login_Username_Placeholder" xml:space="preserve">
     <value>Vartotojo vardas</value>
+  </data>
+  <data name="Login_Verify_Email" xml:space="preserve">
+    <value>Prašome patikrinti savo elektroninio pašto aktyvuoti savo paskyrą</value>
   </data>
   <data name="Logout" xml:space="preserve">
     <value>Comment</value>
@@ -562,6 +853,9 @@
   <data name="New_Items_Pending_Review" xml:space="preserve">
     <value>NAME OF TRANSLATORS</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Sekantis</value>
+  </data>
   <data name="No_Custom_Resources" xml:space="preserve">
     <value>@ info: whatsthis</value>
   </data>
@@ -580,6 +874,9 @@
   <data name="None" xml:space="preserve">
     <value>Nieko</value>
   </data>
+  <data name="Or" xml:space="preserve">
+    <value>Arba</value>
+  </data>
   <data name="Password_Reset_Changed_Message" xml:space="preserve">
     <value>Jūsų slaptažodis buvo atstatytas. @ info: tooltip.</value>
   </data>
@@ -592,11 +889,35 @@
   <data name="Password_Reset_Requested_Title" xml:space="preserve">
     <value>Bėda gauti paskyrą?</value>
   </data>
+  <data name="Password_Validation_Confirm" xml:space="preserve">
+    <value>@ action: button</value>
+  </data>
+  <data name="Password_Validation_Length" xml:space="preserve">
+    <value>Ne mažiau kaip 8 ženklai</value>
+  </data>
+  <data name="Password_Validation_Lower" xml:space="preserve">
+    <value>Blauzdos raidės</value>
+  </data>
+  <data name="Password_Validation_Numbers" xml:space="preserve">
+    <value>Skaičiai</value>
+  </data>
+  <data name="Password_Validation_Special" xml:space="preserve">
+    <value>Specialūs ženklai</value>
+  </data>
+  <data name="Password_Validation_Upper" xml:space="preserve">
+    <value>Viršūnės raidės</value>
+  </data>
   <data name="PasswordReset" xml:space="preserve">
     <value>Slaptažodis iš naujo</value>
   </data>
   <data name="PasswordReset_Failed" xml:space="preserve">
     <value>@ info: status.</value>
+  </data>
+  <data name="PasswordReset_Success" xml:space="preserve">
+    <value>Jūsų slaptažodis buvo sėkmingai atkurtas</value>
+  </data>
+  <data name="Paywall_Feature" xml:space="preserve">
+    <value>Prašome atnaujinti savo sąskaitą narystės gauti prieigą prie šios funkcijos</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Laukiama</value>
@@ -646,6 +967,9 @@
   <data name="Register_Username_Label" xml:space="preserve">
     <value>Vartotojo vardas</value>
   </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registracija</value>
+  </data>
   <data name="Registration_Confirm_Password_Missmatch" xml:space="preserve">
     <value>Patvirtinimo slaptažodis nesutampa</value>
   </data>
@@ -657,6 +981,9 @@
   </data>
   <data name="Registration_Failed" xml:space="preserve">
     <value>Nepavyko užregistruoti naujo naudotojo</value>
+  </data>
+  <data name="Registration_Invalid_CPassword" xml:space="preserve">
+    <value>Patvirtinimo slaptažodis neatitinka slaptažodžio</value>
   </data>
   <data name="Registration_Invalid_Email" xml:space="preserve">
     <value>Prašome nurodyti galiojantį el. pašto adresą</value>
@@ -670,11 +997,17 @@
   <data name="Registration_Invalid_Verification_Link" xml:space="preserve">
     <value>Ten buvo problema apdorojimo elektroninio pašto tikrinimo nuorodą</value>
   </data>
+  <data name="Registration_Success" xml:space="preserve">
+    <value>Sėkmingai sukurta paskyra</value>
+  </data>
   <data name="Registration_Success_Message" xml:space="preserve">
     <value>Jūsų paskyra buvo sėkmingai užregistruota ir laukia jūsų prieigos</value>
   </data>
   <data name="Registration_Success_Title" xml:space="preserve">
     <value>Sveiki atvykę!</value>
+  </data>
+  <data name="Registration_Success_Validation" xml:space="preserve">
+    <value>Jūsų paskyra buvo sukurta, bet jūsų elektroninio pašto adresas turi patvirtinti, prieš galite prisijungti</value>
   </data>
   <data name="Registration_Success_Verification" xml:space="preserve">
     <value>Jūsų paskyra buvo registruota, bet turi būti patikrinta, prieš ją galima pasiekti. Prašome aktyvuoti savo paskyrą paspaudę žemiau esančią nuorodą.</value>
@@ -691,8 +1024,14 @@
   <data name="Release_Version" xml:space="preserve">
     <value>Išleidimo versija</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Pašalinti</value>
+  </data>
   <data name="Rename" xml:space="preserve">
     <value>Pervadinti</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Atsistatyti</value>
   </data>
   <data name="ResetPassword_Invalid_Reset_Link" xml:space="preserve">
     <value>Name</value>
@@ -702,6 +1041,12 @@
   </data>
   <data name="Review" xml:space="preserve">
     <value>Peržiūra</value>
+  </data>
+  <data name="Review_Failed" xml:space="preserve">
+    <value>Nepavyko peržiūrėti elemento</value>
+  </data>
+  <data name="Review_Id_Missing" xml:space="preserve">
+    <value>Nepavyko rasti Id elemento</value>
   </data>
   <data name="Save_QR" xml:space="preserve">
     <value>Įrašyti QR</value>
@@ -1291,6 +1636,9 @@
   <data name="Space_Percent_Used" xml:space="preserve">
     <value>Naudojimas</value>
   </data>
+  <data name="Sponsor" xml:space="preserve">
+    <value>Rėmėjas</value>
+  </data>
   <data name="Sponsors" xml:space="preserve">
     <value>Rėmėjai</value>
   </data>
@@ -1309,11 +1657,35 @@
   <data name="Supporters" xml:space="preserve">
     <value>Rėmėjai</value>
   </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Pereiti</value>
+  </data>
   <data name="Timestamp" xml:space="preserve">
     <value>Laikas</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Iš viso</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Trūksta</value>
+  </data>
+  <data name="Unexpected_Error_Occurred" xml:space="preserve">
+    <value>Įvyko netikėta klaida</value>
+  </data>
+  <data name="Unfreeze" xml:space="preserve">
+    <value>Šaltis</value>
+  </data>
+  <data name="Unfreeze_Failed" xml:space="preserve">
+    <value>Nepavyko užšaldyti paskyros</value>
+  </data>
+  <data name="Unfreeze_Successfully" xml:space="preserve">
+    <value>Sėkmingai įšaldyta sąskaita</value>
+  </data>
+  <data name="Unfreeze_User" xml:space="preserve">
+    <value>@ info: tooltip</value>
+  </data>
+  <data name="Unfreeze_User_Message" xml:space="preserve">
+    <value>Jūs tikrai norite iššaldyti paskyrą</value>
   </data>
   <data name="Unknown_Review_Action" xml:space="preserve">
     <value>Nežinoma peržiūros priemonė</value>
@@ -1321,14 +1693,53 @@
   <data name="Update" xml:space="preserve">
     <value>Atnaujinti</value>
   </data>
+  <data name="Update_Settings" xml:space="preserve">
+    <value>Atnaujinti nustatymus</value>
+  </data>
+  <data name="Update_Settings_Failed" xml:space="preserve">
+    <value>Nepavyko atnaujinti nustatymų</value>
+  </data>
+  <data name="Update_Settings_No_Change" xml:space="preserve">
+    <value>Taupymui nepadaryta jokių pakeitimų</value>
+  </data>
+  <data name="Update_Settings_Success" xml:space="preserve">
+    <value>@ info: status</value>
+  </data>
   <data name="Upgrade" xml:space="preserve">
     <value>Modernizuoti</value>
   </data>
   <data name="Upgrade_Account_Message" xml:space="preserve">
     <value>Jūs šiuo metu naudojate nemokamą versiją. Atsirakinti daugiau galerijos saugojimo ir kitų puikių funkcijų apsvarstyti atnaujinti savo sąskaitą</value>
   </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="Upload_Failed" xml:space="preserve">
+    <value>Ten buvo problema įkelti kai kuriuos failus</value>
+  </data>
+  <data name="Upload_Invalid_Gallery_Detected" xml:space="preserve">
+    <value>Klaidinga galerija Id nustatytas</value>
+  </data>
+  <data name="Upload_Invalid_Upload_Url" xml:space="preserve">
+    <value>Nepavyko rasti įkėlimo Url</value>
+  </data>
   <data name="Upload_Media" xml:space="preserve">
     <value>Siųsti mediją</value>
+  </data>
+  <data name="Upload_Method" xml:space="preserve">
+    <value>Pasirinkite įkėlimo metodą</value>
+  </data>
+  <data name="Upload_No_Files_Detected" xml:space="preserve">
+    <value>Failų nebuvo aptikta</value>
+  </data>
+  <data name="Upload_Progress" xml:space="preserve">
+    <value>Siunčiamas {indeksas} iš {skaičius}...</value>
+  </data>
+  <data name="Upload_Success" xml:space="preserve">
+    <value>Sėkmingai įkeltas {skaičius} elementas (-ai)</value>
+  </data>
+  <data name="Upload_Success_Pending_Review" xml:space="preserve">
+    <value>@ info: status</value>
   </data>
   <data name="Uploaded_By" xml:space="preserve">
     <value>Nusiuntė</value>
@@ -1339,11 +1750,92 @@
   <data name="User" xml:space="preserve">
     <value>Naudotojas</value>
   </data>
+  <data name="User_Confirm_Password" xml:space="preserve">
+    <value>Trinti slaptažodį</value>
+  </data>
+  <data name="User_Confirm_Password_Hint" xml:space="preserve">
+    <value>Patikrinti slaptažodį</value>
+  </data>
   <data name="User_CPassword_Missmatch" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="User_Create" xml:space="preserve">
+    <value>Sukurti naudotoją</value>
+  </data>
+  <data name="User_Create_Failed" xml:space="preserve">
+    <value>Nepavyko sukurti naudotojo</value>
+  </data>
+  <data name="User_Create_Success" xml:space="preserve">
+    <value>Sėkmingai sukurtas naudotojas</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>Trinti naudotoją</value>
+  </data>
+  <data name="User_Delete_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti naudotojo</value>
+  </data>
+  <data name="User_Delete_Message" xml:space="preserve">
+    <value>Jūs tikrai norite ištrinti naudotoją '{name}'?</value>
+  </data>
+  <data name="User_Delete_Success" xml:space="preserve">
+    <value>Sėkmingai pašalintas naudotojas</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>Keisti naudotoją</value>
+  </data>
+  <data name="User_Edit_Failed" xml:space="preserve">
+    <value>Nepavyko atnaujinti naudotojo</value>
+  </data>
+  <data name="User_Edit_Success" xml:space="preserve">
+    <value>Sėkmingai atnaujintas naudotojas</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>E. paštas</value>
+  </data>
+  <data name="User_Email_Hint" xml:space="preserve">
+    <value>Vartotojo el. pašto adresas</value>
+  </data>
+  <data name="User_Invalid_CPassword" xml:space="preserve">
+    <value>Slaptažodis ir patvirtinti slaptažodį nesutampa</value>
+  </data>
+  <data name="User_Invalid_Email" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį el. pašto adresą</value>
+  </data>
+  <data name="User_Invalid_Level" xml:space="preserve">
+    <value>NAME OF TRANSLATORS</value>
+  </data>
+  <data name="User_Invalid_Name" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį naudotojo vardą</value>
+  </data>
+  <data name="User_Invalid_Password" xml:space="preserve">
+    <value>Prašome nurodyti galiojantį vartotojo slaptažodį</value>
+  </data>
+  <data name="User_Level" xml:space="preserve">
+    <value>Lygis</value>
+  </data>
+  <data name="User_Level_Hint" xml:space="preserve">
+    <value>Prieigos lygis</value>
+  </data>
+  <data name="User_Missing_Id" xml:space="preserve">
+    <value>Naudotojas Id negali būti tuščias</value>
+  </data>
+  <data name="User_Missing_Name" xml:space="preserve">
+    <value>Vartotojo vardas negali būti tuščias</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Vartotojo vardas</value>
+  </data>
   <data name="User_Name_Already_Exists" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="User_Name_Hint" xml:space="preserve">
+    <value>Naujojo naudotojo vardas</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="User_Password_Hint" xml:space="preserve">
+    <value>Naujojo naudotojo slaptažodis</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Vartotojo vardas</value>
@@ -1353,6 +1845,9 @@
   </data>
   <data name="Users_List_Failed" xml:space="preserve">
     <value>Nepavyko gauti naudotojų sąrašo</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validatas</value>
   </data>
   <data name="Verify" xml:space="preserve">
     <value>Patikrinti</value>
@@ -1377,5 +1872,17 @@
   </data>
   <data name="Wipe_Confirmation" xml:space="preserve">
     <value>Tu tikrai nori išvalyti šią galeriją?</value>
+  </data>
+  <data name="Wipe_Data" xml:space="preserve">
+    <value>Trinti duomenis</value>
+  </data>
+  <data name="Wipe_Data_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti duomenų</value>
+  </data>
+  <data name="Wipe_Data_Message" xml:space="preserve">
+    <value>Jūs tikrai norite ištrinti visus duomenis?</value>
+  </data>
+  <data name="Wipe_Data_Success" xml:space="preserve">
+    <value>Sėkmingai ištrinti duomenys</value>
   </data>
 </root>
