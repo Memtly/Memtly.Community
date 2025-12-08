@@ -4,25 +4,26 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
 EXPOSE 5000
 
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+ARG TARGETARCH
+ARG BUILD_CONFIGURATION=Release
+
 RUN apt-get update && \
     apt-get install -y curl && \
     curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
     rm -rf /var/lib/apt/lists/*
 
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-ARG TARGETARCH
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["WeddingShare/WeddingShare.csproj", "WeddingShare/"]
 RUN dotnet restore -a $TARGETARCH "./WeddingShare/./WeddingShare.csproj"
 COPY . .
 WORKDIR "/src/WeddingShare"
-RUN dotnet build "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build /p:CI=true
+RUN dotnet build "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false /p:CI=true
+RUN dotnet publish "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
