@@ -1,13 +1,13 @@
 ﻿@model WeddingShare.Views.MediaViewer.Popup
 
 <div id="media-viewer-popup" style="opacity: 0;">
-    <div class="media-viewer" data-media-viewer-index="1" data-media-viewer-collection="@Model.Collection">
+    <div class="media-viewer" data-media-viewer-index="1" data-media-viewer-collection="@Model.Collection" data-type="@Model.Type.ToLower()" data-source="@Model.Source">
         @if (!string.IsNullOrWhiteSpace(Model.Title))
         {
             <div class="media-viewer-title">@Model.Title</div>
         }
         <div class="media-viewer-content">
-            <img class="media-viewer-image" src="@(Model.Type.Equals("Image", StringComparison.OrdinalIgnoreCase) ? Model.Source : Model.Thumbnail)" onload="initMediaViewImage('@Model.Type.ToLower()', '@Model.Source');" />
+            <img class="media-viewer-image" src="@(Model.Type.Equals("Image", StringComparison.OrdinalIgnoreCase) ? Model.Source : Model.Thumbnail)" />
         </div>
         <div class="media-viewer-description mt-1 mx-0">
             <div class="row">
@@ -38,9 +38,9 @@
         <div class="media-viewer-options">
             @if (Model.DownloadEnabled)
             {
-                <i class="fa fa-download" onclick="download('@Model.Source');"></i>
+                <i class="media-viewer-download fas fa-download"></i>
             }
-            <i class="fa fa-close" onclick="hideMediaViewer();"></i>
+            <i class="media-viewer-close fas fa-close"></i>
         </div>
     </div>
 </div>

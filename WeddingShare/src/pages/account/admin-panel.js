@@ -41,7 +41,7 @@ function bindTabSelector() {
 
 function bindAccountLogoutCheck() {
     clearInterval(accountStateCheckInterval);
-    accountStateCheckInterval = setInterval(function () {
+    accountStateCheckInterval = setInterval(() => {
         checkAccountState();
     }, 60000);
 }

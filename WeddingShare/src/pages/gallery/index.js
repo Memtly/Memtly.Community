@@ -5,21 +5,23 @@ import { getTimestamp } from '@utilities/datetime';
 import { downloadBlob } from '@utilities/blobs';
 import { default as galleryUpload } from '@modules/upload-box';
 import MediaViewer from '@modules/media-viewer';
-import { default as slideshow } from '@modules/slideshow';
+import Slideshow from '@modules/slideshow';
 import { default as initSettings } from '@pages/account/partials/settings';
 
 let resizeTimeout = null;
 let idleTimeout = null;
 
-let slideshowSlideInterval = 10000;
-let slideshowFadeInterval = 1000;
+let slideshow = null;
 
 function init() {
-    slideshowSlideInterval = $('input#slideshowSlideInterval').val();
-    slideshowFadeInterval = $('input#slideshowFadeInterval').val();
+    const slideshowSlideInterval = $('input#slideshowSlideInterval').val();
+    const slideshowFadeInterval = $('input#slideshowFadeInterval').val();
 
     galleryUpload.init();
-    slideshow.init(slideshowSlideInterval, slideshowFadeInterval);
+
+    slideshow = new Slideshow('#gallery-slideshow', slideshowSlideInterval, slideshowFadeInterval);
+    slideshow.init();
+
     new MediaViewer().init();
     initSettings();
     bindEventHandlers();
@@ -35,10 +37,10 @@ function bindEventHandlers() {
 }
 
 function bindPageResizeEvent() {
-    $(window).on('resize', function () {
+    $(window).on('resize', () => {
         clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(function () {
-            slideshow.init(slideshowSlideInterval, slideshowFadeInterval);
+        resizeTimeout = setTimeout(() => {
+            slideshow.init();
         }, 200);
     });
 }
@@ -242,8 +244,8 @@ function bindIdleRefresh() {
 
 function setIdleRefresh(duration) {
     clearTimeout(idleTimeout);
-    idleTimeout = setTimeout(function () {
-        refreshGalleryPage(onIdle);
+    idleTimeout = setTimeout(() => {
+        refreshGalleryPage(bindIdleRefresh);
     }, duration);
 }
 

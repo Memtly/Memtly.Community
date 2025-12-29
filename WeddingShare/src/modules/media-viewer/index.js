@@ -11,7 +11,7 @@ class MediaViewer {
 
     init() {
         clearTimeout(this.playButtonTimeout);
-        this.playButtonTimeout = setTimeout(function () {
+        this.playButtonTimeout = setTimeout(() => {
             $('.media-viewer-item .media-viewer-play').each(function () {
                 const element = $(this);
                 const preview = element.parent();
@@ -47,6 +47,7 @@ class MediaViewer {
         this.bindRightClick();
         this.bindScroll();
         this.bindArrowKeys();
+        this.bindDownloadButton();
     }
 
     bindOpenPopup() {
@@ -57,6 +58,15 @@ class MediaViewer {
             const element = $(e.currentTarget);
 
             this.openMediaViewer(element);
+        });
+    }
+
+    bindLoadEvent() {
+        $('.media-viewer-image').on('load', (e) => {
+            const element = $(e.currentTarget).closest('.media-viewer');
+            const type = element.data('type');
+            const source = element.data('source');
+            this.initMediaViewImage(type, source);
         });
     }
 
@@ -138,9 +148,26 @@ class MediaViewer {
             this.hideMediaViewer();
         });
 
+        $(document).off('click', '.media-viewer-close').on('click', '.media-viewer-close', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            this.hideMediaViewer();
+        });
+
         $(document).off('click', 'div.media-viewer').on('click', 'div.media-viewer', (e) => {
             e.preventDefault();
             e.stopPropagation();
+        });
+    }
+
+    bindDownloadButton() {
+        $(document).off('click', '.media-viewer-download').on('click', '.media-viewer-download', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const element = $(e.currentTarget).closest('.media-viewer');
+            const source = element.data('source');
+            this.download(source);
         });
     }
 
@@ -148,11 +175,12 @@ class MediaViewer {
         let id = $(e).data('media-viewer-id');
         let index = $(e).data('media-viewer-index');
         let type = $(e).data('media-viewer-type');
+        let collection = $(e).data('media-viewer-collection');
 
-        this.displayMediaViewer(id, index, type);
+        this.displayMediaViewer(id, index, type, collection);
     }
 
-    displayMediaViewer(id, index, type) {
+    displayMediaViewer(id, index, type, collection) {
         this.hideMediaViewer();
 
         displayLoader(localization.translate('Loading'));
@@ -173,12 +201,15 @@ class MediaViewer {
                 url: url,
                 type: 'GET',
                 data: { id },
-                success: function (response) {
+                success: (response) => {
                     hideLoader();
                     $('body').append(response);
                     $('#media-viewer-popup .media-viewer').attr('data-media-viewer-index', `${index}`);
+                    $('#media-viewer-popup .media-viewer').attr('data-media-viewer-collection', `${collection}`);
+
+                    this.bindLoadEvent();
                 },
-                error: function (response) {
+                error: (response) => {
                     hideLoader();
                     console.log(response);
                 }
@@ -212,7 +243,7 @@ class MediaViewer {
             media.width(media.width() + 10);
 
             clearTimeout(this.resizePopupTimeout);
-            this.resizePopupTimeout = setTimeout(function () {
+            this.resizePopupTimeout = setTimeout(() => {
                 this.resizeMediaViewer(iteration + 1, popup, type, source);
             }, 5);
         } else {

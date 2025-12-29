@@ -8,11 +8,11 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
-  <Target Name="NpmBuildDev" BeforeTargets="Build" Condition="'$(Configuration)' == 'Debug'">
+  <!--<Target Name="NpmBuildDev" BeforeTargets="Build" Condition="'$(Configuration)' == 'Debug'">
     <Message Importance="high" Text="Running webpack in development mode..." />
     <Exec Command="npm ci" WorkingDirectory="$(ProjectDir)" />
     <Exec Command="npm run development" WorkingDirectory="$(ProjectDir)" />
-  </Target>
+  </Target>-->
 
   <Target Name="NpmBuildProd" BeforeTargets="Build" Condition="'$(Configuration)' == 'Release'">
     <Message Importance="high" Text="Running webpack in production mode..." />

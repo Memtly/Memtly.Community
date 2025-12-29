@@ -58,17 +58,17 @@ function initPage() {
 
 function bindEventHandlers() {
     if ($('div.navbar-options').length == 0) {
-        var presentationTimeout = setTimeout(function () {
+        var presentationTimeout = setTimeout(() => {
             $('.presentation-hidden').fadeOut(500);
             $('body').css('cursor', 'none');
         }, 1000);
 
-        $(document).off('mousemove').on('mousemove', function () {
+        $(document).off('mousemove').on('mousemove', () => {
             $('.presentation-hidden').fadeIn(200);
             $('body').css('cursor', 'default');
 
             clearTimeout(presentationTimeout);
-            presentationTimeout = setTimeout(function () {
+            presentationTimeout = setTimeout(() => {
                 $('.presentation-hidden').fadeOut(500);
                 $('body').css('cursor', 'none');
             }, 1000);

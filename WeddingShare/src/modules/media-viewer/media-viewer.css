@@ -95,13 +95,13 @@
             right: -20px;
         }
 
-            #media-viewer-popup .media-viewer .media-viewer-options i {
+            #media-viewer-popup .media-viewer .media-viewer-options i, #media-viewer-popup .media-viewer .media-viewer-options svg {
                 color: #333333;
                 background-color: #EEEEEE;
                 border: 1px solid #DDDDDD;
                 text-align: center;
-                width: 40px;
-                height: 40px;
+                width: 14px;
+                height: 14px;
                 font-size: 14pt;
                 margin: 0px 0px 0px 5px;
                 padding: 10px;
@@ -109,7 +109,7 @@
                 cursor: pointer;
             }
 
-                #media-viewer-popup .media-viewer .media-viewer-options i:hover {
+                #media-viewer-popup .media-viewer .media-viewer-options i:hover, #media-viewer-popup .media-viewer .media-viewer-options svg:hover {
                     color: #FFFFFF;
                     background-color: #0D6EFD;
                 }

@@ -6,12 +6,12 @@
 @{
     var slideshowSlideInterval = TimeSpan.FromSeconds(await _settings.GetOrDefault(Settings.Slideshow.Interval, 10)).TotalMilliseconds;
     var slideshowFadeInterval = await _settings.GetOrDefault(Settings.Slideshow.Fade, 500);
-    var slideLimit = 3; // await _settings.GetOrDefault(Settings.Slideshow.Limit, int.MaxValue);
+    var slideLimit = await _settings.GetOrDefault(Settings.Slideshow.Limit, int.MaxValue);
     var identityEnabled = await _settings.GetOrDefault(Settings.IdentityCheck.Enabled, true);
 
     if (Model?.Images != null)
     {
-        <div class="slideshow col-12">
+        <div id="gallery-slideshow" class="slideshow col-12">
             @foreach (var image in Model.Images.Take(slideLimit))
             {
                 <div class="slideshow-slide">

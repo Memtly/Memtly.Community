@@ -19,7 +19,7 @@ function bindAuditSearchBox() {
 
 export function searchAudit(term = '', limit = 100) {
     clearTimeout(auditSearchTimeout);
-    auditSearchTimeout = setTimeout(function () {
+    auditSearchTimeout = setTimeout(() => {
         updateAuditList(term, limit);
     }, 500);
 }

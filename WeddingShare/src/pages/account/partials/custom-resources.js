@@ -64,7 +64,7 @@ function bindUploadCustomResourceInput() {
                         xhr.upload.addEventListener("error", function (evt) {
                             console.log(evt);
                             if (retries < 5) {
-                                setTimeout(function () {
+                                setTimeout(() => {
                                     retries++;
                                     uploadCustomResource(i);
                                 }, 2000);
