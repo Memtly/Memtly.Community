@@ -29,14 +29,14 @@ cache:
   
 test:
   stage: test
-  image: docker:24
+  image: docker:24-dind
   script:
     - 'dotnet restore'
     - 'dotnet test'
     
 push_release:
   stage: push
-  image: docker:24
+  image: docker:24-dind
   variables:
     GIT_STRATEGY: none
   only:
@@ -50,7 +50,7 @@ push_release:
 
 push_latest:
   stage: push
-  image: docker:24
+  image: docker:24-dind
   variables:
     GIT_STRATEGY: none
   only:
@@ -64,7 +64,7 @@ push_latest:
     
 push_tag:
   stage: push
-  image: docker:24
+  image: docker:24-dind
   variables:
     GIT_STRATEGY: none
   only:
@@ -77,7 +77,7 @@ push_tag:
 
 push_docker_hub:
   stage: release
-  image: docker:24
+  image: docker:24-dind
   variables:
     GIT_STRATEGY: none
   only:
