@@ -28,13 +28,13 @@
                             var tooltip = _localizer["User_Edit"].Value;
                             @if (user.Id > 1)
                             {
-                                <button class="btnEditUser btn btn-outline-success" alt="@tooltip" title="@tooltip">
+                                <button class="btnEditUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-pen-to-square"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-pen-to-square"></i>
                                 </button>
                             }
@@ -46,13 +46,13 @@
                             var tooltip = _localizer["Change_Password"].Value;
                             @if (user.Id > 1)
                             {
-                                <button class="btnChangePassword btn btn-outline-success" alt="@tooltip" title="@tooltip">
+                                <button class="btnChangePassword btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-unlock-keyhole"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-unlock-keyhole"></i>
                                 </button>
                             }
@@ -64,14 +64,14 @@
                             if (user.Id > 1 && !string.IsNullOrWhiteSpace(user.MultiFactorToken))
                             {
                                 var tooltip = _localizer["Wipe_2FA"].Value;
-                                <button class="btnWipe2FA btn btn-outline-danger" alt="@tooltip" title="@tooltip">
+                                <button class="btnWipe2FA btn btn-danger" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-key"></i>
                                 </button>
                             }
                             else
                             {
                                 var tooltip = _localizer["2FA_Not_Set"].Value;
-                                <button class="btn btn-outline-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-lock-open"></i>
                                 </button>
                             }
@@ -85,21 +85,21 @@
                                 if (user.State == AccountState.PendingActivation)
                                 {
                                     var tooltip = _localizer["Activate"].Value;
-                                    <button class="btnActivateUser btn btn-outline-primary" alt="@tooltip" title="@tooltip">
+                                    <button class="btnActivateUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                         <i class="fas fa-hourglass-half"></i>
                                     </button>
                                 }
                                 else if (user.State == AccountState.Frozen)
                                 {
                                     var tooltip = _localizer["Unfreeze"].Value;
-                                    <button class="btnUnfreezeUser btn btn-outline-primary" alt="@tooltip" title="@tooltip">
+                                    <button class="btnUnfreezeUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                         <i class="fas fa-fire"></i>
                                     </button>
                                 }
                                 else
                                 {
                                     var tooltip = _localizer["Freeze"].Value;
-                                    <button class="btnFreezeUser btn btn-outline-danger" alt="@tooltip" title="@tooltip">
+                                    <button class="btnFreezeUser btn btn-danger" alt="@tooltip" title="@tooltip">
                                         <i class="fas fa-snowflake"></i>
                                     </button>
                                 }
@@ -109,21 +109,21 @@
                                 if (user.State == AccountState.PendingActivation)
                                 {
                                     var tooltip = _localizer["Activate"].Value;
-                                    <button class="btn btn-outline-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
+                                    <button class="btn btn-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
                                         <i class="fas fa-hourglass-half"></i>
                                     </button>
                                 }
                                 else if (user.State == AccountState.Frozen)
                                 {
                                     var tooltip = _localizer["Unfreeze"].Value;
-                                    <button class="btn btn-outline-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
+                                    <button class="btn btn-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
                                         <i class="fas fa-fire"></i>
                                     </button>
                                 }
                                 else
                                 {
                                     var tooltip = _localizer["Freeze"].Value;
-                                    <button class="btn btn-outline-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
+                                    <button class="btn btn-disabled" alt="@tooltip" title="@tooltip @tooltipDisabled">
                                         <i class="fas fa-snowflake"></i>
                                     </button>
                                 }
@@ -136,13 +136,13 @@
                             var tooltip = _localizer["Delete"].Value;
                             if (user.Id > 1)
                             {
-                                <button class="btnDeleteUser btn btn-outline-danger" alt="@tooltip" title="@tooltip">
+                                <button class="btnDeleteUser btn btn-danger" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-trash-can"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-trash-can"></i>
                                 </button>
                             }
@@ -155,7 +155,7 @@
 }
 else
 {
-    <div class="col-12 text-center border rounded py-3 py-lg-4">
+    <div class="col-12 text-center border border-primary-1 rounded py-3 py-lg-4">
         <h3 class="display-6">@_localizer["No_Data"].Value</h3>
     </div>
 }

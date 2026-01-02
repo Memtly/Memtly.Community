@@ -13,7 +13,7 @@
                     @if (Model?.PendingRequests != null && Model.PendingRequests.Any() && userPermissions.Review.HasFlag(ReviewPermissions.Approve) && userPermissions.Review.HasFlag(ReviewPermissions.Reject))
                     {
                         <span class="header-actions">
-                            <span class="action text-success pointer">
+                            <span class="action link-primary-2 pointer">
                                 <i class="btnBulkReview fas fa-thumbs-up" alt="@_localizer["Review"].Value"></i>
                                 <span>@_localizer["Review"].Value</span>
                             </span>

@@ -40,7 +40,7 @@ function showSetupPopup(secret, qrCode) {
             </div>`,
         Buttons: [{
             Text: localization.translate('Next'),
-            Class: 'btn-success',
+            Class: 'btn-primary-2',
             Callback: function () {
                 multiFactorAuthValidation(secret);
             }
@@ -92,7 +92,7 @@ function multiFactorAuthValidation(secret) {
         }],
         Buttons: [{
             Text: localization.translate('Validate'),
-            Class: 'btn-success',
+            Class: 'btn-primary-2',
             Callback: function () {
                 let secret = $('#popup-modal-field-2fa-secret').val();
                 let code = $('#popup-modal-field-2fa-code').val();

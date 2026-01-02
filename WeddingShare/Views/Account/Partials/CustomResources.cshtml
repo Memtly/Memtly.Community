@@ -20,7 +20,7 @@
                         <img src="/custom_resources/@resource?.FileName" class="review-tile" loading="lazy" />
                         @if (userPermissions.CustomResources.HasFlag(CustomResourcePermissions.Delete))
                         {
-                            <i class="fa fa-trash custom-resource-delete d-lg-none" data-id="@resource?.Id" data-name="@resource?.FileName"></i>
+                            <i class="fa fa-trash custom-resource-delete btn-delete-item d-lg-none" data-id="@resource?.Id" data-name="@resource?.FileName"></i>
                         }
                     </a>
                 </div>
@@ -29,7 +29,7 @@
     }
     else
     {
-        <div class="col-12 text-center border rounded py-3 py-lg-4">
+        <div class="col-12 text-center border border-primary-1 rounded py-3 py-lg-4">
             <h3 class="display-6">@_localizer["No_Custom_Resources"].Value</h3>
         </div>
     }

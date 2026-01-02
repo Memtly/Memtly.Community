@@ -16,7 +16,7 @@
     }
 
     return `
-        <span class="${identifier} ${hidden === true ? 'visually-hidden' : ''} border rounded ${padded === false ? 'mx-0' : 'mx-3 mx-lg-5'} my-2 px-3 py-1 d-block checklist-${type}">
+        <span class="${identifier} ${hidden === true ? 'visually-hidden' : ''} border border-primary-1 rounded ${padded === false ? 'mx-0' : 'mx-3 mx-lg-5'} my-2 px-3 py-1 d-block checklist-${type}">
             ${icon}${text}
         </span>
     `;

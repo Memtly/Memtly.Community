@@ -10995,10 +10995,12 @@ footer {
     right: 10px;
 }
 
-.custom-resource-delete {
-    color: #FFFFFF;
-    font-size: 12px;
-    background-color: rgba(var(--bs-danger-rgb), 1);
+.btn-delete-item {
+    color: rgba(var(--danger-text), 1.0);
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(var(--danger-bg), 1.0);
     padding: 8px;
     border-radius: 100px;
     position: absolute;
@@ -11006,16 +11008,10 @@ footer {
     right: 10px;
 }
 
-.btnDeletePhoto {
-    color: #FFFFFF;
-    font-size: 12px;
-    background-color: rgba(var(--bs-danger-rgb), 1);
-    padding: 8px;
-    border-radius: 100px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
+    .btn-delete-item:hover, .btn-delete-item:active {
+        color: rgba(var(--danger-hover-text), 1.0);
+        background-color: rgba(var(--danger-hover-bg), 1.0);
+    }
 
 .media-viewer-item:hover .custom-resource-delete, .media-viewer-item:hover .btnReviewApprove, .media-viewer-item:hover .btnReviewReject, .media-viewer-item:hover .btnDeletePhoto {
     display: block !important;

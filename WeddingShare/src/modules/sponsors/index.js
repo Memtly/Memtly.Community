@@ -27,7 +27,7 @@ function bindShowSponsorsButton() {
                     CustomHtml: data,
                     Buttons: [{
                         Text: localization.translate('Sponsor'),
-                        Class: 'btn-success',
+                        Class: 'btn-primary-2',
                         Callback: function () {
                             displayPopup({
                                 Title: localization.translate('Sponsors'),

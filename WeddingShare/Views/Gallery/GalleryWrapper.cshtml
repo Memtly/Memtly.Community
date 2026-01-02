@@ -34,7 +34,7 @@
     var quote = await _settings.GetOrDefault(Settings.Gallery.Quote, string.Empty, Model?.Gallery?.Id);
     if (!string.IsNullOrWhiteSpace(quote))
     {
-        <div class="row mb-3 mb-lg-4 border rounded">
+        <div class="row mb-3 mb-lg-4 border border-primary-1 rounded">
             <div class="col-12 quote">
                 <p class="my-4 mx-4 mx-lg-0 text-center">@quote</p>
             </div>

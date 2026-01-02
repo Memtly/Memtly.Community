@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row px-3 pb-3">
-                <div class="col-12 border rounded py-3 text-center">
+                <div class="col-12 border border-primary-1 rounded py-3 text-center">
                     <div class="mx-0 mx-sm-5 px-2 px-xl-5 d-inline-block">
                         <h5 class="mb-0">@(await _settings.GetReleaseVersion(4))</h5>
                     </div>
@@ -41,10 +41,10 @@
                     </div>
                 </div>
                 <div class="row px-3 pb-3">
-                    <div class="col-12 border rounded py-3 text-center">
+                    <div class="col-12 border border-primary-1 rounded py-3 text-center">
                         @if (userPermissions.Data.HasFlag(DataPermissions.Import))
                         {
-                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
+                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 link-primary-2 d-inline-block">
                                 <span class="btnImport pointer" alt="@_localizer["Import"].Value" title="@_localizer["Import"].Value">
                                     <i class=" fas fa-upload fa-2x"></i>
                                     <h6 class="mb-0">@_localizer["Import"].Value</h6>
@@ -53,7 +53,7 @@
                         }
                         @if (userPermissions.Data.HasFlag(DataPermissions.Export))
                         {
-                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 text-primary d-inline-block">
+                            <div class="mx-0 mx-sm-5 px-5 px-xl-5 link-primary-2 d-inline-block">
                                 <span class="btnExport pointer" alt="@_localizer["Export"].Value" title="@_localizer["Export"].Value">
                                     <i class="fas fa-download fa-2x"></i>
                                     <h6 class="mb-0">@_localizer["Export"].Value</h6>
@@ -78,8 +78,8 @@
                     </div>
                 </div>
                 <div class="row px-3 pb-3">
-                    <div class="col-12 border rounded py-3 text-center">
-                        <div class="mx-0 mx-sm-5 px-2 px-xl-5 text-danger d-inline-block">
+                    <div class="col-12 border border-primary-1 rounded py-3 text-center">
+                        <div class="mx-0 mx-sm-5 px-2 px-xl-5 link-danger d-inline-block">
                             <span class="btnWipeAllGalleries pointer" alt="@_localizer["Wipe"].Value" title="@_localizer["Wipe"].Value">
                                 <i class="fas fa-broom fa-2x"></i>
                                 <h6 class="mb-0">@_localizer["Wipe"].Value</h6>

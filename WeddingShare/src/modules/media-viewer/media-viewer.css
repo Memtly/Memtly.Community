@@ -80,13 +80,6 @@
             #media-viewer-popup .media-viewer .media-viewer-description .media-viewer-likes .like-button {
                 --bs-text-opacity: 1;
                 --bs-bg-opacity: 1;
-                color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-                background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
-            }
-
-            #media-viewer-popup .media-viewer .media-viewer-description .media-viewer-likes .like-button-active, #media-viewer-popup .media-viewer .media-viewer-description .media-viewer-likes .like-button:hover {
-                color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-                background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
             }
 
         #media-viewer-popup .media-viewer .media-viewer-options {

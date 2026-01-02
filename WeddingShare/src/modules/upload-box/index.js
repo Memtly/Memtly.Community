@@ -44,7 +44,7 @@ class UploadBox {
             Buttons: [
                 {
                     Text: localization.translate('Gallery'),
-                    Class: "btn-primary",
+                    Class: "btn-primary-2",
                     Callback: () => {
                         this.setGalleryMode(input);
                         input[0].click();
@@ -53,7 +53,7 @@ class UploadBox {
                 },
                 {
                     Text: localization.translate('Camera'),
-                    Class: "btn-primary",
+                    Class: "btn-primary-2",
                     Callback: () => {
                         this.setCameraMode(input);
                         input[0].click();

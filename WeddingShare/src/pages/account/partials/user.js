@@ -87,7 +87,7 @@ function bindAddUserButton() {
             FooterHtml: `${generatePasswordValidationContainer('input#popup-modal-field-user-password')}`,
             Buttons: [{
                 Text: localization.translate('Add'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 
@@ -219,7 +219,7 @@ function bindEditUserButton() {
             }],
             Buttons: [{
                 Text: localization.translate('Update'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 
@@ -300,7 +300,7 @@ function bindChangePasswordButton() {
             FooterHtml: `${generatePasswordValidationContainer('input#popup-modal-field-user-password')}`,
             Buttons: [{
                 Text: localization.translate('Update'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 

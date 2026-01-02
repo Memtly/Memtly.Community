@@ -11,7 +11,7 @@ function init() {
 
 function bindEventHandlers() {
     bindEscapeKey();
-    bindReloadButton();
+    bindCancelButton();
 }
 
 function bindEscapeKey() {
@@ -22,8 +22,8 @@ function bindEscapeKey() {
     });
 }
 
-function bindReloadButton() {
-    $(document).on('click', '.btn-reload', () => {
+function bindCancelButton() {
+    $(document).on('click', '.btn-cancel', () => {
         hideMessage();
     });
 }
@@ -41,7 +41,7 @@ export function displayMessage(title, message, errors, callbackFn) {
                     <div class="modal-body modal-message">${message}</div>
                     <div class="modal-body modal-error" display="none"></div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-sm btn-secondary btn-reload" data-dismiss="modal">${localization.translate('Close')}</button>
+                        <button type="button" class="btn btn-sm btn-cancel" data-dismiss="modal">${localization.translate('Close')}</button>
                     </div>
                 </div>
             </div>

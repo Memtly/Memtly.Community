@@ -7,7 +7,7 @@ function init() {
 
 function bindEventHandlers() {
     bindEscapeKey();
-    bindReloadButton();
+    bindCancelButton();
 }
 
 function bindEscapeKey() {
@@ -18,8 +18,8 @@ function bindEscapeKey() {
     });
 }
 
-function bindReloadButton() {
-    $(document).on('click', '.btn-reload', () => {
+function bindCancelButton() {
+    $(document).on('click', '.btn-cancel', () => {
         hideLoader();
     });
 }

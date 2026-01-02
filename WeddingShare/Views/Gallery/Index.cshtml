@@ -52,7 +52,7 @@
             <form class="file-uploader-form" data-identity-required="@((identityRequired && string.IsNullOrWhiteSpace(Context?.Session?.GetString(SessionKey.Viewer.Identity))).ToString().ToLower())">
                 @Html.AntiForgeryToken()
 
-                <fieldset class="upload_drop text-center p-4 text-center text-white">
+                <fieldset class="upload_drop text-center p-4 text-center">
                     <svg class="upload_svg" width="60" height="60" aria-hidden="true">
                         <use href="#icon-image-upload"></use>
                     </svg>

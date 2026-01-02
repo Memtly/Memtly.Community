@@ -805,7 +805,7 @@ namespace WeddingShare.Controllers
 
         [HttpPost]
         [RequiresRole(AuditPermission = AuditPermissions.View)]
-        public async Task<IActionResult> AuditList(string term = "", int limit = 100)
+        public async Task<IActionResult> AuditList(string term = "", int limit = 10)
         {
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             {

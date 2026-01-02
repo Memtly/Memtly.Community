@@ -34,7 +34,7 @@ export function bindGallerySettingsButton() {
                         CustomHtml: data,
                         Buttons: [{
                             Text: localization.translate('Save'),
-                            Class: 'btn-primary',
+                            Class: 'btn-primary-2',
                             Callback: function () {
                                 let updatedFields = $('.setting-field[data-updated="true"]');
                                 if (updatedFields.length > 0) {

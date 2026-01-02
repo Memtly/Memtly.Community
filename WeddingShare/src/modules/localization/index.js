@@ -83,7 +83,7 @@ function bindChangeLanguageButton() {
                         }],
                         Buttons: [{
                             Text: localization.translate('Switch'),
-                            Class: 'btn-success',
+                            Class: 'btn-primary-2',
                             Callback: function () {
                                 let culture = $('#popup-modal-field-culture-id').val().trim();
                                 changeSelectedLanguage(culture);

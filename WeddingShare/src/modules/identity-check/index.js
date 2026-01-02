@@ -19,7 +19,7 @@ function bindChangeIdentityButton() {
 export function displayIdentityCheck(required, callbackFn) {
     let buttons = [{
         Text: localization.translate('Identity_Check_Tell_Us'),
-        Class: 'btn-success',
+        Class: 'btn-primary-2',
         Callback: function () {
             let name = $('#popup-modal-field-identity-name').val().trim();
             let emailAddress = $('#popup-modal-field-identity-email').length > 0 ? $('#popup-modal-field-identity-email').val().trim() : '';
@@ -148,7 +148,7 @@ function displayIdentityCheckChangeIdentity(elem) {
         Fields: fields,
         Buttons: [{
             Text: localization.translate('Identity_Check_Change'),
-            Class: 'btn-success',
+            Class: 'btn-primary-2',
             Callback: function () {
                 let name = $('#popup-modal-field-identity-name').val().trim();
                 let emailAddress = $('#popup-modal-field-identity-email').length > 0 ? $('#popup-modal-field-identity-email').val().trim() : '';

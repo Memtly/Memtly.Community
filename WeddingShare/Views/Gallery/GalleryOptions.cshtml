@@ -50,14 +50,14 @@
                 @if (qrCodeEnabled)
                 {
                     <div class="btn-group w-100 mb-2">
-                        <button class="btnSaveQRCode btn btn-primary btn-sm" type="button" data-gallery-name="@Model?.Gallery?.Name">
+                        <button class="btnSaveQRCode btn btn-primary-2 btn-sm" type="button" data-gallery-name="@Model?.Gallery?.Name">
                             @_localizer["Save_QR"].Value
                         </button>
                     </div>
                 }
 
                 <div class="btn-group w-100 mb-2">
-                    <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-primary-2 btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         @_localizer["View"].Value
                     </button>
                     <div class="dropdown-menu">
@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="btn-group w-100 mb-2">
-                    <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-primary-2 btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         @_localizer["Group"].Value
                     </button>
                     <div class="dropdown-menu">
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="btn-group w-100 mb-2">
-                    <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-primary-2 btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         @_localizer["Sort"].Value
                     </button>
                     <div class="dropdown-menu">
@@ -105,7 +105,7 @@
                 </div>
 
                 <div class="btn-group w-100 mb-2">
-                    <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-primary-2 btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         @_localizer["Filter"].Value
                     </button>
                     <div class="dropdown-menu">
@@ -124,7 +124,7 @@
             @if (await _settings.GetOrDefault(Settings.Gallery.Download, true, Model?.Gallery?.Id) || (User?.Identity != null && User.Identity.IsAuthenticated))
             {
                 <div class="btn-group w-100 mb-2">
-                    <button class="btnDownloadGallery btn btn-primary btn-sm" type="button" data-gallery-id="@Model?.Gallery?.Id" data-gallery-name="@Model?.Gallery?.Name" data-gallery-key="@Model?.SecretKey">
+                    <button class="btnDownloadGallery btn btn-primary-2 btn-sm" type="button" data-gallery-id="@Model?.Gallery?.Id" data-gallery-name="@Model?.Gallery?.Name" data-gallery-key="@Model?.SecretKey">
                         @_localizer["Download"].Value
                     </button>
                 </div>

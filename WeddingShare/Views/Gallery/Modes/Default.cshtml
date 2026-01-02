@@ -116,7 +116,7 @@
                 {
                     <!-- ( TODO - Fix for "All" gallery ) -->
                     <span class="header-actions">
-                        <span class="btnDownloadGroup action text-success pointer" data-gallery-id="@Model?.Gallery?.Id" data-gallery-name="@Model?.Gallery?.Name" data-gallery-key="@Model?.SecretKey" data-group-name="@((int?)Model?.GroupBy)|@imageGroup.Key" alt="@_localizer["Download"].Value">
+                        <span class="btnDownloadGroup action link-primary-2 pointer" data-gallery-id="@Model?.Gallery?.Id" data-gallery-name="@Model?.Gallery?.Name" data-gallery-key="@Model?.SecretKey" data-group-name="@((int?)Model?.GroupBy)|@imageGroup.Key" alt="@_localizer["Download"].Value">
                             <i class="fas fa-download"></i>
                             <span>@_localizer["Download"].Value</span>
                         </span>
@@ -145,7 +145,7 @@
                                 }
                                 @if (User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.Review.HasFlag(ReviewPermissions.Delete))
                                 {
-                                    <i class="fa fa-trash btnDeletePhoto d-lg-none" data-photo-id="@image?.Id" data-photo-name="@image?.Name"></i>
+                                    <i class="fa fa-trash btnDeletePhoto btn-delete-item d-lg-none" data-photo-id="@image?.Id" data-photo-name="@image?.Name"></i>
                                 }
                             </a>
                         </div>

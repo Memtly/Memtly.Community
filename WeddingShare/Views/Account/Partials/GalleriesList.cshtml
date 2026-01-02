@@ -56,7 +56,7 @@
                         @if (userPermissions.Gallery.HasFlag(GalleryPermissions.View))
                         {
                             var tooltip = _localizer["Open"].Value;
-                            <button class="btnOpenGallery btn btn-outline-primary" data-url="@_url.GenerateFullUrl(Context?.Request, "/Gallery", append, new List<string>() { "partial" })" data-target="@(await _settings.GetOrDefault(Settings.Basic.LinksOpenNewTab, true) ? "_blank" : "_self")" alt="@tooltip" title="@tooltip">
+                            <button class="btnOpenGallery btn btn-primary-3" data-url="@_url.GenerateFullUrl(Context?.Request, "/Gallery", append, new List<string>() { "partial" })" data-target="@(await _settings.GetOrDefault(Settings.Basic.LinksOpenNewTab, true) ? "_blank" : "_self")" alt="@tooltip" title="@tooltip">
                                 <i class="fas fa-up-right-from-square"></i>
                             </button>
                         }
@@ -67,13 +67,13 @@
                             var tooltip = _localizer["Download"].Value;
                             if (gallery.TotalItems > 0)
                             {
-                                <button class="btnDownloadGallery btn btn-outline-primary" alt="@tooltip" title="@tooltip">
+                                <button class="btnDownloadGallery btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-download"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-download"></i>
                                 </button>
                             }
@@ -81,7 +81,7 @@
                         else if (userPermissions.Features.HasFlag(FeaturePermissions.UpgradeToUnlock))
                         {
                             var tooltip = $"{_localizer["Download"].Value} {tooltipUpgradeToUnlock}";
-                            <button class="btn btn-outline-disabled" disabled=disabled onclick="upgradeToUnlock();" alt="@tooltip" title="@tooltip">
+                            <button class="btn btn-disabled" disabled=disabled onclick="upgradeToUnlock();" alt="@tooltip" title="@tooltip">
                                 <i class="fas fa-download"></i>
                             </button>
                         }
@@ -92,13 +92,13 @@
                             var tooltip = _localizer["Edit"].Value;
                             if (gallery.TotalItems > 0)
                             {
-                                <button class="btnEditGallery btn btn-outline-success" alt="@tooltip" title="@tooltip">
+                                <button class="btnEditGallery btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-pen-to-square"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-pen-to-square"></i>
                                 </button>
                             }
@@ -110,13 +110,13 @@
                             var tooltip = _localizer["Wipe"].Value;
                             if (gallery.TotalItems > 0)
                             {
-                                <button class="btnWipeGallery btn btn-outline-danger" alt="@tooltip" title="@tooltip">
+                                <button class="btnWipeGallery btn btn-danger" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-broom"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-broom"></i>
                                 </button>
                             }
@@ -124,7 +124,7 @@
                         else if (userPermissions.Features.HasFlag(FeaturePermissions.UpgradeToUnlock))
                         {
                             var tooltip = $"{_localizer["Wipe"].Value} {tooltipUpgradeToUnlock}";
-                            <button class="btn btn-outline-disabled" disabled=disabled onclick="upgradeToUnlock();" alt="@tooltip" title="@tooltip">
+                            <button class="btn btn-disabled" disabled=disabled onclick="upgradeToUnlock();" alt="@tooltip" title="@tooltip">
                                 <i class="fas fa-broom"></i>
                             </button>
                         }
@@ -135,13 +135,13 @@
                             var tooltip = _localizer["Delete"].Value;
                             if (gallery.TotalItems > 0)
                             {
-                                <button class="btnDeleteGallery btn btn-outline-danger" alt="@tooltip" title="@tooltip">
+                                <button class="btnDeleteGallery btn btn-danger" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-trash-can"></i>
                                 </button>
                             }
                             else
                             {
-                                <button class="btn btn-outline-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
+                                <button class="btn btn-disabled" alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
                                     <i class="fas fa-trash-can"></i>
                                 </button>
                             }
@@ -154,7 +154,7 @@
 }
 else
 {
-    <div class="col-12 text-center border rounded py-3 py-lg-4">
+    <div class="col-12 text-center border border-primary-1 rounded py-3 py-lg-4">
         <h3 class="display-6">@_localizer["No_Data"].Value</h3>
     </div>
 }

@@ -19,10 +19,10 @@
                     {
                         <div class="float-end">
                             <div id="like-button" class="input-group input-group-xs">
-                                <div class="input-group-text text-primary bg-white border-primary">
+                                <div class="input-group-text text-primary-2 border-primary-2">
                                     <span class="lbl-like-count w-px-50 text-center">@Model.Likes.Count</span>
                                 </div>
-                                <button class="btn btn-outline-primary like-button @(Model.Likes.HasUserLiked ? "like-button-active" : string.Empty)" onclick="@(Model.Likes.CanUserLike ? $"like({Model.Id});" : "loginPrompt();")" data-action="@(Model.Likes.HasUserLiked ? "unlike" : "like")">
+                                <button class="btn btn-primary-2 like-button @(Model.Likes.HasUserLiked ? "like-button-active" : string.Empty)" onclick="@(Model.Likes.CanUserLike ? $"like({Model.Id});" : "loginPrompt();")" data-action="@(Model.Likes.HasUserLiked ? "unlike" : "like")">
                                     <i class="fa fa-thumbs-up"></i>
                                 </button>
                             </div>

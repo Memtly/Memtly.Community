@@ -4,7 +4,7 @@
 
 function bindEventHandlers() {
     bindEscapeKey();
-    bindReloadButton();
+    bindCancelButton();
 }
 
 function bindEscapeKey() {
@@ -15,8 +15,8 @@ function bindEscapeKey() {
     });
 }
 
-function bindReloadButton() {
-    $(document).on('click', '.btn-reload', function () {
+function bindCancelButton() {
+    $(document).on('click', '.btn-cancel', function () {
         hidePopup();
     });
 }
@@ -68,7 +68,7 @@ export function displayPopup(options, callbackFn) {
     let buttons = '';
     (options?.Buttons ?? [{ Text: localization.translate('Close') }])?.forEach((button, index) => {
         buttons += `<div class="col-${12 / options?.Buttons?.length ?? 1}">
-            <button type="button" id="popup-modal-button-${index}" class="btn btm-sm ${button?.Class ?? "btn-secondary"} col-12">${button?.Text ?? localization.translate('Close')}</button>
+            <button type="button" id="popup-modal-button-${index}" class="btn btm-sm ${button?.Class ?? "btn-cancel"} col-12">${button?.Text ?? localization.translate('Close')}</button>
         </div>`;
 
         $(document).off('click', `#popup-modal-button-${index}`).on('click', `#popup-modal-button-${index}`, function () {
