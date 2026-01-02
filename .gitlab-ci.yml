@@ -1,5 +1,3 @@
-image: mcr.microsoft.com/dotnet/sdk:latest
-
 stages:
   - test
   - push
@@ -9,7 +7,7 @@ variables:
   BUILD_DOCKERFILE: 'WeddingShare/Dockerfile'
   BUILD_CONFIGURATION: 'Release'
   BUILD_PLATFORMS: 'linux/arm/v7,linux/arm64/v8,linux/amd64'
-  BUILD_BUILDER_NAME: 'wedding-share-builder'
+  BUILD_BUILDER_NAME: 'wedding-share-builder-${CI_JOB_ID}'
   OBJECTS_DIRECTORY: 'obj'
   NUGET_PACKAGES_DIRECTORY: '.nuget'
   SOURCE_CODE_PATH: '*/*/'
@@ -21,69 +19,76 @@ cache:
     - '$SOURCE_CODE_PATH$OBJECTS_DIRECTORY/*.csproj.nuget.*'
     - '$NUGET_PACKAGES_DIRECTORY'
   policy: pull-push
-
-#before_script:
-#  - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
-##  - 'docker buildx rm --all-inactive --force'
-##  - 'docker buildx create --name $BUILD_BUILDER_NAME --driver=docker-container'
   
 test:
   stage: test
-  image: docker:24-dind
+  image: mcr.microsoft.com/dotnet/sdk:9.0
   script:
     - 'dotnet restore'
     - 'dotnet test'
-    
+
+.docker_buildx_gitlab: &docker_buildx_gitlab
+  image: docker:24
+  services:
+    - docker:24-dind
+  before_script:
+    - apk add --no-cache curl
+    - mkdir -p ~/.docker/cli-plugins
+    - curl -SL https://github.com/docker/buildx/releases/download/v0.12.0/buildx-v0.12.0.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+    - chmod +x ~/.docker/cli-plugins/docker-buildx
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
+
+.docker_buildx_dockerhub: &docker_buildx_dockerhub
+  image: docker:24
+  services:
+    - docker:24-dind
+  before_script:
+    - apk add --no-cache curl
+    - mkdir -p ~/.docker/cli-plugins
+    - curl -SL https://github.com/docker/buildx/releases/download/v0.12.0/buildx-v0.12.0.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+    - chmod +x ~/.docker/cli-plugins/docker-buildx
+    - docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_TOKEN
+    - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
+
 push_release:
+  <<: *docker_buildx_gitlab
   stage: push
-  image: docker:24-dind
-  variables:
-    GIT_STRATEGY: none
   only:
     - /^(feature\/|release\/).+/
     - /^(prerel|rc|release)-.+/
   script:
-    - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
-    - 'docker buildx build --tag $CI_REGISTRY_IMAGE:pre_release --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:pre_release --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
   needs:
     - test
 
 push_latest:
+  <<: *docker_buildx_gitlab
   stage: push
-  image: docker:24-dind
-  variables:
-    GIT_STRATEGY: none
   only:
     - main
     - master
   script:
-    - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
-    - 'docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
   needs:
     - test
     
 push_tag:
+  <<: *docker_buildx_gitlab
   stage: push
-  image: docker:24-dind
-  variables:
-    GIT_STRATEGY: none
   only:
     - tags
   script:
-    - 'docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY'
-    - 'docker buildx build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
   needs:
     - test
 
 push_docker_hub:
+  <<: *docker_buildx_dockerhub
   stage: release
-  image: docker:24-dind
-  variables:
-    GIT_STRATEGY: none
   only:
     - tags
   script:
-    - 'docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_TOKEN'
-    - 'docker buildx build --tag $DOCKERHUB_USERNAME/wedding_share:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/wedding_share:latest --platform $BUILD_PLATFORMS --builder $BUILD_BUILDER_NAME --push -f $BUILD_DOCKERFILE .'
+    - docker buildx build --tag $DOCKERHUB_USERNAME/wedding_share:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/wedding_share:latest --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
   needs:
     - push_tag
