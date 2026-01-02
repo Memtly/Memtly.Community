@@ -32,10 +32,6 @@ test:
   image: docker:27
   before_script:
     - docker info
-    - apk add --no-cache curl
-    - mkdir -p ~/.docker/cli-plugins
-    - curl -SL https://github.com/docker/buildx/releases/download/v0.12.0/buildx-v0.12.0.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
-    - chmod +x ~/.docker/cli-plugins/docker-buildx
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
 
@@ -43,10 +39,6 @@ test:
   image: docker:27
   before_script:
     - docker info
-    - apk add --no-cache curl
-    - mkdir -p ~/.docker/cli-plugins
-    - curl -SL https://github.com/docker/buildx/releases/download/v0.12.0/buildx-v0.12.0.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
-    - chmod +x ~/.docker/cli-plugins/docker-buildx
     - docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_TOKEN
     - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
 
