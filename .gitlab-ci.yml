@@ -31,6 +31,11 @@ test:
   image: docker:24
   services:
     - docker:24-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_TLS_VERIFY: 1
+    DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
   before_script:
     - apk add --no-cache curl
     - mkdir -p ~/.docker/cli-plugins
@@ -43,6 +48,11 @@ test:
   image: docker:24
   services:
     - docker:24-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2376
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_TLS_VERIFY: 1
+    DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
   before_script:
     - apk add --no-cache curl
     - mkdir -p ~/.docker/cli-plugins
@@ -50,6 +60,10 @@ test:
     - chmod +x ~/.docker/cli-plugins/docker-buildx
     - docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_TOKEN
     - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
+
+#
+#   PRE-RELEASE
+#
 
 push_release:
   <<: *docker_buildx_gitlab
@@ -62,6 +76,10 @@ push_release:
   needs:
     - test
 
+#
+#   RELEASE
+#
+
 push_latest:
   <<: *docker_buildx_gitlab
   stage: push
@@ -73,6 +91,10 @@ push_latest:
   needs:
     - test
     
+#
+#   DOCKERHUB RELEASE
+#
+
 push_tag:
   <<: *docker_buildx_gitlab
   stage: push
