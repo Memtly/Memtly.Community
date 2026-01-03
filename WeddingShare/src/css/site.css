@@ -113,6 +113,12 @@ tr td {
             fill: #E80046 !important;
         }
 
+.qrcode canvas {
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .upload_svg {
     fill: #FFFFFF;
 }

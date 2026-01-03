@@ -487,10 +487,6 @@ label {
 
 /* Misc */
 
-.file-uploader-form, .upload_drop {
-    outline-color: rgba(var(--primary-bg-1), 1.0) !important;
-}
-
 .media-viewer-options .media-viewer-download {
     color: rgba(var(--disabled-text), 1.0) !important;
     background-color: rgba(var(--disabled-bg), 0.8) !important;
@@ -511,8 +507,22 @@ label {
         background-color: rgba(var(--danger-bg), 0.8) !important;
     }
 
+.file-uploader-form, .upload_drop, .upload_drop .upload_svg {
+    outline-color: rgba(var(--primary-bg-2), 1.0) !important;
+    fill: rgba(var(--primary-hover-bg-2), 1.0) !important;
+}
+
+    .file-uploader-form fieldset {
+        color: rgba(var(--primary-bg-2), 1.0) !important;
+    }
+
 .upload_drop.highlight, .upload_drop.highlight.upload_svg {
     color: rgba(var(--primary-hover-bg-1)) !important;
     outline: 2px dashed rgba(var(--primary-hover-bg-1)) !important;
     outline-offset: -4px;
+}
+
+.quote {
+    color: rgba(var(--primary-bg-1), 1.0) !important;
+    background-color: rgba(var(--primary-bg-1), 0.05) !important;
 }

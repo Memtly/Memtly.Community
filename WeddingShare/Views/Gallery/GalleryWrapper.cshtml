@@ -43,7 +43,7 @@
 
     if (await _settings.GetOrDefault(Settings.Gallery.ReviewCounter, true, Model?.Gallery?.Id))
     {
-        <div class="row mb-3 mb-lg-4 review-counter">
+        <div class="row mb-3 mb-lg-4 review-counter text-contrast">
             <div class="col-4">
                 <h6 class="my-0 text-center">@_localizer["Total"].Value<br /><span class="review-counter-total">@(Model?.TotalCount ?? 0)</span></h6>
             </div>
