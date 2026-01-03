@@ -57,6 +57,12 @@ function initPage() {
 }
 
 function bindEventHandlers() {
+    bindPressentationMode();
+    bindNavigationScrollers();
+    bindPageResizeEvent();
+}
+
+function bindPressentationMode() {
     if ($('div.navbar-options').length == 0) {
         var presentationTimeout = setTimeout(() => {
             $('.presentation-hidden').fadeOut(500);
@@ -74,13 +80,33 @@ function bindEventHandlers() {
             }, 1000);
         });
     }
+}
 
+function bindNavigationScrollers() {
     if ($('.nav-horizontal-scroller').length > 0) {
         $('.nav-horizontal-scroller').each(function () {
             let pos = $(this).find('.active').position().left - 30;
             $('.nav-horizontal-scroller').scrollLeft(pos);
         });
     }
+}
+
+function bindPageResizeEvent() {
+    $(window).on('resize', function (e) {
+        alert(`Page Resize Detected - Window`);
+    });
+
+    $(document).on('resize', function (e) {
+        alert(`Page Resize Detected - Document`);
+    });
+
+    $('body').on('resize', function (e) {
+        alert(`Page Resize Detected - Body`);
+    });
+
+    $('div#main-wrapper').on('resize', function (e) {
+        alert(`Page Resize Detected - main-wrapper`);
+    });
 }
 
 function resizeLayout() {

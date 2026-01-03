@@ -3840,6 +3840,10 @@ textarea.form-control-lg {
   }
 
   @media only screen and (max-width: 700px) {
+    .navbar {
+        height: 45px;
+    }
+
     a.navbar-brand {
         margin-top: -10px !important;
     }

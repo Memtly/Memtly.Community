@@ -1767,9 +1767,6 @@
   <data name="User_Missing_Id" xml:space="preserve">
     <value>User Id cannot be empty</value>
   </data>
-  <data name="User_Missing_Id" xml:space="preserve">
-    <value>User Id cannot be empty</value>
-  </data>
   <data name="User_Missing_Name" xml:space="preserve">
     <value>User name cannot be empty</value>
   </data>
