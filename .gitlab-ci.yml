@@ -7,7 +7,7 @@ variables:
   BUILD_DOCKERFILE: 'WeddingShare/Dockerfile'
   BUILD_CONFIGURATION: 'Release'
   BUILD_PLATFORMS: 'linux/arm/v7,linux/arm64/v8,linux/amd64'
-  BUILD_BUILDER_NAME: 'wedding-share-builder-${CI_JOB_ID}'
+  BUILD_BUILDER_NAME: 'wedding-share-builder'
   DOCKER_DRIVER: overlay2
   OBJECTS_DIRECTORY: 'obj'
   NUGET_PACKAGES_DIRECTORY: '.nuget'
@@ -29,14 +29,14 @@ test:
     - 'dotnet test'
 
 .docker_buildx_gitlab: &docker_buildx_gitlab
-  image: docker:27
+  image: docker:29
   before_script:
     - docker info
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker buildx create --use --name $BUILD_BUILDER_NAME --driver docker-container || docker buildx use $BUILD_BUILDER_NAME
 
 .docker_buildx_dockerhub: &docker_buildx_dockerhub
-  image: docker:27
+  image: docker:29
   before_script:
     - docker info
     - docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_TOKEN
