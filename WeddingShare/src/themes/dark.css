@@ -171,6 +171,14 @@ footer {
         color: rgba(var(--primary-bg-1), 1.0) !important;
     }
 
+.modal .modal-body h5 {
+    color: rgba(var(--primary-bg-1), 1.0) !important;
+}
+
+.modal .modal-body p {
+    color: rgba(var(--white), 1.0) !important;
+}
+
 /* Text */
 
 .text-primary-1 {
