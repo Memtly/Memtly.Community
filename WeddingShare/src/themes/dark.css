@@ -80,7 +80,7 @@
 
 /* Wrapper */
 
-#main-wrapper {
+body {
     background: rgba(var(--navbar-bg), 0.9) !important;
 }
 
