@@ -44,7 +44,7 @@
                                 <input type="text" id="gallery-id" class="form-control" aria-describedby="gallery-id-help" placeholder="@_localizer["Gallery_Identifier_Placeholder"].Value" aria-label="@_localizer["Gallery_Name"].Value" />
                                 @if (await _settings.GetOrDefault(Settings.Basic.GuestGalleryCreation, false) || (User?.Identity != null && User.Identity.IsAuthenticated))
                                 {
-                                    <input type="button" id="btnGenerateGalleryName" class="btn btn-success" value="@_localizer["Generate"].Value" />
+                                    <input type="button" id="btnGenerateGalleryName" class="btn btn-primary-2" value="@_localizer["Generate"].Value" />
                                 }
                             }
                         </div>

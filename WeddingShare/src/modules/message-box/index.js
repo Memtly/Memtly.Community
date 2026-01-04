@@ -41,7 +41,11 @@ export function displayMessage(title, message, errors, callbackFn) {
                     <div class="modal-body modal-message">${message}</div>
                     <div class="modal-body modal-error" display="none"></div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-sm btn-cancel" data-dismiss="modal">${localization.translate('Close')}</button>
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-cancel col-6" data-dismiss="modal">${localization.translate('Close')}</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,7 +78,7 @@ export function displayMessage(title, message, errors, callbackFn) {
     clearTimeout(displayMessageTimeout);
     displayMessageTimeout = setTimeout(() => {
         if ($('#alert-message-modal').is(':visible')) {
-            hideMessage();
+            //hideMessage();
             if (callbackFn !== undefined && callbackFn !== null) {
                 callbackFn();
             }

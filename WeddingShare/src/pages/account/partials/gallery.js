@@ -157,7 +157,7 @@ function bindAddGalleryButton() {
                     }],
                     Buttons: [{
                         Text: localization.translate('Create'),
-                        Class: 'btn-success',
+                        Class: 'btn-primary-2',
                         Callback: function () {
                             displayLoader(localization.translate('Loading'));
 
@@ -230,7 +230,7 @@ function bindEditGalleryButton() {
             }],
             Buttons: [{
                 Text: localization.translate('Update'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 

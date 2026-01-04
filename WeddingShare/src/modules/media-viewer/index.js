@@ -163,8 +163,8 @@ class MediaViewer {
 
     bindLikeButton() {
         $(document).off('click', '.like-button').on('click', '.like-button', () => {
-            const id = $('#like-button button').attr('data-like-id');
-            const action = $('#like-button button').attr('data-action');
+            const id = $('.media-viewer-like-button button').attr('data-like-id');
+            const action = $('.media-viewer-like-button button').attr('data-action');
             this.like(id, action);
         });
     }
@@ -283,13 +283,13 @@ class MediaViewer {
             data: { id, action },
             success: function (response) {
                 if (response !== undefined && response.success) {
-                    $('#like-button .lbl-like-count').text(response.value);
+                    $('.media-viewer-like-button .lbl-like-count').text(response.value);
                     if (action.toLowerCase() === 'like') {
-                        $('#like-button button').addClass('like-button-active');
-                        $('#like-button button').attr('data-action', 'unlike')
+                        $('.media-viewer-like-button button').addClass('like-button-active');
+                        $('.media-viewer-like-button button').attr('data-action', 'unlike')
                     } else {
-                        $('#like-button button').removeClass('like-button-active');
-                        $('#like-button button').attr('data-action', 'like')
+                        $('.media-viewer-like-button button').removeClass('like-button-active');
+                        $('.media-viewer-like-button button').attr('data-action', 'like')
                     }
                 }
             }

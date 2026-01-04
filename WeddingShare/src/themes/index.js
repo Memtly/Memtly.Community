@@ -11,7 +11,7 @@ function init() {
 }
 
 export function getSelectedTheme() {
-    return document.body.dataset.theme.toLowerCase();
+    return document.body.dataset.theme !== undefined ? document.body.dataset.theme.toLowerCase() : 'default';
 }
 
 function changeSelectedTheme(theme) {

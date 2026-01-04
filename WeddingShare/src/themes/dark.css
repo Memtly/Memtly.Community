@@ -153,6 +153,10 @@ footer {
     background-color: rgba(var(--footer-bg), 0.9) !important;
 }
 
+    footer a, footer a:active, footer a:visited, footer a:hover {
+        color: rgba(var(--footer-text), 1.0) !important;
+    }
+
 /* Headers */
 
 .card .card-header {
@@ -244,6 +248,14 @@ footer {
 }
 
 /* Links */
+
+a, a:active, a:visited {
+    color: rgba(var(--primary-bg-1), 1.0) !important;
+}
+
+    a:hover {
+        color: rgba(var(--primary-hover-bg-1), 1.0) !important;
+    }
 
 .link-primary-1 {
     color: rgba(var(--primary-bg-1), 1.0) !important;
@@ -510,7 +522,7 @@ label {
 
 /* Misc */
 
-.modal-message {
+.modal-body {
     color: rgba(var(--white), 1.0) !important;
 }
 

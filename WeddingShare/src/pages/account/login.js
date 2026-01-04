@@ -53,7 +53,7 @@ function bindLoginForm() {
                             }],
                             Buttons: [{
                                 Text: localization.translate('Validate'),
-                                Class: 'btn-success',
+                                Class: 'btn-primary-2',
                                 Callback: function () {
                                     let code = $('#popup-modal-field-2fa-code').val();
 

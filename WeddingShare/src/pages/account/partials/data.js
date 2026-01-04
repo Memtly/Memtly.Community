@@ -31,7 +31,7 @@ function bindImportButton() {
             }],
             Buttons: [{
                 Text: localization.translate('Import'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 
@@ -109,7 +109,7 @@ function bindExportButton() {
             }],
             Buttons: [{
                 Text: localization.translate('Export'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Generating_Download'));
 

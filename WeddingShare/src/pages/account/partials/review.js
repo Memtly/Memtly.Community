@@ -41,7 +41,7 @@ function bindBulkReviewButton() {
             Message: localization.translate('Bulk_Review_Message'),
             Buttons: [{
                 Text: localization.translate('Approve'),
-                Class: 'btn-success',
+                Class: 'btn-primary-2',
                 Callback: function () {
                     displayLoader(localization.translate('Loading'));
 
