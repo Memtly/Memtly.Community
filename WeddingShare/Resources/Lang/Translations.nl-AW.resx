@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>Basis</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>Zijn galerijen toegestaan lege geheime sleutels</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Insecure-galerijen toestaan</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>De basis Url te gebruiken in links en meldingen</value>
   </data>

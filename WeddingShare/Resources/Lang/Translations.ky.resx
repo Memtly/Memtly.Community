@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>Негизги негизги негизги негизги</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>Галереяларга бош жашыруун ачкычтарга уруксат берилеби</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Коопсуз эмес галереяларга уруксат бериңиз</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>Байланыштарда жана билдирүүлөрдө колдонула турган базалык урл</value>
   </data>

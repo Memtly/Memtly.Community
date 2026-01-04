@@ -69,22 +69,19 @@ namespace WeddingShare.Helpers.Dbup
                 // Protect any galleries without a secret key by forcing a new one
                 if (galleries != null && galleries.Any())
                 {
-                    foreach (var gallery in galleries.Where(gallery => string.IsNullOrWhiteSpace(gallery.SecretKey)))
-                    {
-                        try
+                    var allowInsecureGalleries = config.GetOrDefault(Settings.Basic.AllowInsecureGalleries, false);
+                    if (!allowInsecureGalleries)
+                    { 
+                        foreach (var gallery in galleries.Where(gallery => string.IsNullOrWhiteSpace(gallery.SecretKey)))
                         {
-                            if (gallery.Identifier.Equals("default", StringComparison.OrdinalIgnoreCase))
+                            try
                             {
-                                gallery.SecretKey = config.GetOrDefault(Settings.Basic.DefaultGallerySecretKey, PasswordHelper.GenerateGallerySecretKey());
-                            }
-                            else
-                            {
-                                gallery.SecretKey = PasswordHelper.GenerateGallerySecretKey();
-                            }
+                                gallery.SecretKey = config.GetOrDefault(Settings.Basic.DefaultGallerySecretKey, allowInsecureGalleries ? string.Empty : PasswordHelper.GenerateGallerySecretKey());
                             
-                            await database.EditGallery(gallery);
+                                await database.EditGallery(gallery);
+                            }
+                            catch { }
                         }
-                        catch { }
                     }
                 }
             }

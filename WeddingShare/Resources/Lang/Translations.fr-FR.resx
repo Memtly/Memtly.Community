@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>Données de base</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>Les galeries sont autorisées à vider les clés secrètes</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Autoriser les galeries non sécurisées</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>La base Url à utiliser dans les liens et les notifications</value>
   </data>

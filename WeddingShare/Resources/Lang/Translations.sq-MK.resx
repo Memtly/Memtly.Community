@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>Bazë</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>A janë galeritë të lejuara për çelsa sekret bosh</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Lejoni t'u nënshtroheni të pasigurtve</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>Url bazë për t'u përdorur në lidhje dhe njoftime</value>
   </data>

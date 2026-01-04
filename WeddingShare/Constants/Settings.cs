@@ -40,6 +40,7 @@
             public const string Logo = "Settings:Logo";
             public const string BaseUrl = "Settings:Base_Url";
             public const string DefaultGallerySecretKey = "Settings:Gallery_Secret_Key";
+            public const string AllowInsecureGalleries = "Settings:Allow_Insecure_Galleries";
             public const string ForceHttps = "Settings:Force_Https";
             public const string SingleGalleryMode = "Settings:Single_Gallery_Mode";
             public const string MaxGalleryCount = "Settings:Max_Gallery_Count";

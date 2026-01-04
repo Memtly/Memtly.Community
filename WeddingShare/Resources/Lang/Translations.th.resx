@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>พื้นฐาน</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>เปิดใช้งานคลังสื่อ</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>อนุญาต ให้ เครื่อง มือ ที่ มี ประสิทธิภาพ</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>ตัวดําเนินการพื้นฐานที่จะใช้ในการเชื่อมโยงและการแจ้งให้ทราบ</value>
   </data>

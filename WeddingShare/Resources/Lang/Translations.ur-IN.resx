@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>بنیادی</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>گیلریاں خالی خفیہ کلیدوں کی اجازت دیتی ہیں۔</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>گلّہ‌بانی کی اجازت</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>بنیاد اورل کو تعلقات اور اطلاعات میں استعمال کیا جاتا ہے۔</value>
   </data>

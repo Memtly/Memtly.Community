@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>প্রাথমিক</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>সাজানোর কি ফাঁকা</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>অনিরাপদ খেলাসমূহ অনুমোদন করো</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>লিঙ্ক এবং বিজ্ঞপ্তির মধ্যে ব্যবহৃত বেস-ব্যবস্থা</value>
   </data>

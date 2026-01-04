@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>Βασικό</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>Οι γκαλερί επιτρέπονται άδεια μυστικά κλειδιά</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Επίτρεψε ανασφαλείς Γκαλερί</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>Η βάση URL που θα χρησιμοποιηθεί σε συνδέσμους και κοινοποιήσεις</value>
   </data>

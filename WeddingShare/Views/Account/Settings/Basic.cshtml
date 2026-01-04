@@ -93,6 +93,26 @@
 
     <div class="row mb-4 mb-lg-4">
         <div class="col-12">
+            <label>@_localizer["Settings_Basic_AllowInsecureGalleries_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.Basic.AllowInsecureGalleries">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.Settings.GetValue(Settings.Basic.AllowInsecureGalleries.ToUpper(), "false").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_Basic_AllowInsecureGalleries_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4">
+        <div class="col-12">
             <label>@_localizer["Settings_Basic_MaxGalleryCount_Label"].Value</label>
             <input class="setting-field form-control" data-setting-name="@Settings.Basic.MaxGalleryCount" placeholder="1000000" value="@Model.Settings.GetValue(Settings.Basic.MaxGalleryCount.ToUpper(), "1000000")" type="number" min="1" max="@(int.MaxValue.ToString())" step="10" />
             <div class="form-text">@_localizer["Settings_Basic_MaxGalleryCount_Help"].Value</div>

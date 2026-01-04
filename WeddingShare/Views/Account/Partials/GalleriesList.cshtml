@@ -90,7 +90,7 @@
                         @if (userPermissions.Gallery.HasFlag(GalleryPermissions.Update))
                         {
                             var tooltip = _localizer["Edit"].Value;
-                            if (!gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) && gallery.TotalItems > 0)
+                            if (!gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase))
                             {
                                 <button class="btnEditGallery btn btn-primary-3" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-pen-to-square"></i>
@@ -133,7 +133,7 @@
                         @if (userPermissions.Gallery.HasFlag(GalleryPermissions.Delete))
                         {
                             var tooltip = _localizer["Delete"].Value;
-                            if (!gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) && gallery.TotalItems > 0)
+                            if (!gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase))
                             {
                                 <button class="btnDeleteGallery btn btn-danger" alt="@tooltip" title="@tooltip">
                                     <i class="fas fa-trash-can"></i>

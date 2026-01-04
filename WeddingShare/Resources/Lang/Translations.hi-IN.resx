@@ -1174,6 +1174,12 @@
   <data name="Settings_Basic" xml:space="preserve">
     <value>मूल</value>
   </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Help" xml:space="preserve">
+    <value>क्या दीर्घाओं को खाली गुप्त कुंजी की अनुमति है</value>
+  </data>
+  <data name="Settings_Basic_AllowInsecureGalleries_Label" xml:space="preserve">
+    <value>Insecure दीर्घाओं की अनुमति दें</value>
+  </data>
   <data name="Settings_Basic_BaseUrl_Help" xml:space="preserve">
     <value>आधार Url लिंक और अधिसूचनाओं में इस्तेमाल किया जा करने के लिए</value>
   </data>
