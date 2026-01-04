@@ -35,6 +35,7 @@ export function updateAuditList(term = '', limit = 10) {
         data: { term: term?.trim(), limit: limit },
         success: function (data) {
             $('#audit-list').html(data);
+            bindEventHandlers();
         }
     });
 }

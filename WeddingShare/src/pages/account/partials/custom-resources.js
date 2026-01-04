@@ -151,6 +151,7 @@ export function updateCustomResources() {
         url: `/Account/CustomResources`,
         success: function (data) {
             $('#custom-resources').html(data);
+            bindEventHandlers();
         }
     });
 }

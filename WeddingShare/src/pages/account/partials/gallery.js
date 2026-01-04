@@ -434,6 +434,7 @@ export function updateGalleryList() {
         url: `/Account/GalleriesList`,
         success: function (data) {
             $('#galleries-list').html(data);
+            bindEventHandlers();
         }
     });
 }

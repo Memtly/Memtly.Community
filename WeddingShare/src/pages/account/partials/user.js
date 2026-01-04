@@ -632,6 +632,7 @@ export function updateUsersList() {
         url: `/Account/UsersList`,
         success: function (data) {
             $('#users-list').html(data);
+            bindEventHandlers();
         }
     });
 }

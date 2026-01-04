@@ -55,6 +55,7 @@ export function updateSettings() {
         url: `/Account/SettingsPartial`,
         success: function (data) {
             $('#settings-list').html(data);
+            bindEventHandlers();
         }
     });
 }

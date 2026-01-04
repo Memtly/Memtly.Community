@@ -102,6 +102,7 @@ export function updatePendingReviews() {
         url: `/Account/PendingReviews`,
         success: function (data) {
             $('#pending-reviews').html(data);
+            bindEventHandlers();
         }
     });
 }
