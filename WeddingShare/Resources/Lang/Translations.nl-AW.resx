@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Uploadperiodes</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Moet de galerie-eigenaar getoond worden in het keuzevakje galerie</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Galerijeigenaren tonen</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Verbinden</value>
   </data>

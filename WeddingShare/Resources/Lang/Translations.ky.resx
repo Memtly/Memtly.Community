@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Жүк ташуу мөөнөттөрү</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Галереянын ээси галереяны тандоочунун ылдый түшүүсүндө көрсөтүлүшү керекпи</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Галерея ээлерин көрсөтүү</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Готифи</value>
   </data>

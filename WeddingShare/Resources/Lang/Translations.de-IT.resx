@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Ladezeiträume</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Sollte der Galeriebesitzer in der Galerie Selector Dropdown angezeigt werden</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Galerie Eigentümer anzeigen</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Erwischt</value>
   </data>

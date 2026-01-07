@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>دوبارہ شروع کریں</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>اگر گیلری کے مالک کو گیلری گراوٹ میں دکھایا جائے تو</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>گیلری صاحب دکھائیں</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>غیر متصل</value>
   </data>

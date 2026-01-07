@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Feltöltési időszakok</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Ha a galéria tulajdonosa megjelenik a galéria selector dropdown</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>A galéria tulajdonosainak megjelenítése</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Fórum</value>
   </data>

@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>ช่วงเวลาอัปโหลด</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>ควรให้แสดงเจ้าของคลังภาพในคลังภาพเลือกลง</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>แสดงเจ้าของคลังภาพ</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>รับทราบ</value>
   </data>

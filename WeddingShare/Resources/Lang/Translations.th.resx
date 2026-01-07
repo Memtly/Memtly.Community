@@ -703,6 +703,9 @@
   <data name="Group" xml:space="preserve">
     <value>กลุ่ม</value>
   </data>
+  <data name="Hide_Advanced_Settings" xml:space="preserve">
+    <value>ซ่อนค่าที่ตั้งไว้เพิ่มเติม</value>
+  </data>
   <data name="Homepage_Load_Error" xml:space="preserve">
     <value>เกิดข้อผิดพลาดระหว่างทําการโหลดหน้าเว็บหลัก</value>
   </data>
@@ -1443,6 +1446,12 @@
   </data>
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>ช่วงเวลาอัปโหลด</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>ควรให้แสดงเจ้าของคลังภาพในคลังภาพเลือกลง</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>แสดงเจ้าของคลังภาพ</value>
   </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>รับทราบ</value>

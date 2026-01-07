@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Périodes de chargement</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Si le propriétaire de la galerie s'affiche dans le menu déroulant du sélecteur de galerie</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Afficher les propriétaires de la galerie</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gotifier</value>
   </data>

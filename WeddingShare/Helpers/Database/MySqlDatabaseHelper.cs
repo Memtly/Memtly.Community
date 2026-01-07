@@ -103,7 +103,7 @@ namespace WeddingShare.Helpers.Database
             return result ?? 0;
         }
         
-        public async Task<IDictionary<string, string>> GetGalleryNames()
+        public async Task<IDictionary<string, string>> GetGalleryNames(bool showUsernames = false)
         {
             var result = new Dictionary<string, string>();
 
@@ -127,7 +127,7 @@ namespace WeddingShare.Helpers.Database
                                     var identifier = !await reader.IsDBNullAsync("identifier") ? reader.GetString("identifier") : null;
                                     var name = !await reader.IsDBNullAsync("name") ? reader.GetString("name") : null;
                                     var owner = !await reader.IsDBNullAsync("owner") ? reader.GetString("owner") : null;
-                                    if (!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(owner))
+                                    if (showUsernames && !string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(owner))
                                     {
                                         result.Add(identifier, $"{name} ({owner})");
                                     }

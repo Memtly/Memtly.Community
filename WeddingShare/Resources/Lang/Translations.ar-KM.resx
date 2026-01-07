@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>فترات تحميل</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>إذا كان مالك المعرض يُعرض في مختار المعرض</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>مالكو معرض</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>التحصيل</value>
   </data>

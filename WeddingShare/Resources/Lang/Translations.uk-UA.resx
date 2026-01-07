@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Завантаження періодів</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Якщо власник галереї буде відображено в галереї</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Показати власника галереї</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Про нас</value>
   </data>

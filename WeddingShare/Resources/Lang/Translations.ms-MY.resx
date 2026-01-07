@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Periode Muat Naik</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Haruskah pemilik galeri ditampilkan di galeri pemilih dropdown</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Galeri Galeri</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Membenarkan</value>
   </data>

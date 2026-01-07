@@ -54,7 +54,8 @@ namespace WeddingShare.Controllers
                 }
 
                 var isDropdownMode = await _settings.GetOrDefault(Settings.GallerySelector.Dropdown, false);
-                var galleryNames = isDropdownMode ? (await _database.GetGalleryNames()).Where(x => !x.Value.Equals("all", StringComparison.OrdinalIgnoreCase)) : new Dictionary<string, string>();
+                var showUsernames = await _settings.GetOrDefault(Settings.GallerySelector.ShowUsernames, false);
+                var galleryNames = isDropdownMode ? (await _database.GetGalleryNames(showUsernames)).Where(x => !x.Value.Equals("all", StringComparison.OrdinalIgnoreCase)) : new Dictionary<string, string>();
                 if (await _settings.GetOrDefault(Settings.GallerySelector.HideDefaultOption, false))
                 {
                     galleryNames = galleryNames.Where(x => !x.Key.Equals("default", StringComparison.OrdinalIgnoreCase));

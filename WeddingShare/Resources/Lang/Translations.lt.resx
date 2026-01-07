@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Nusiųsti laikotarpius</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>@ info: whatsthis</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Rodyti galerijos valdytojus</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gėlytė</value>
   </data>

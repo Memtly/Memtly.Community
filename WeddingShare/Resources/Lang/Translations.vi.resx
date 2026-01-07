@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Tải lên</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Nếu người sở hữu nơi trưng bày được hiển thị trong bộ chọn giao diện</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Hiện tên người sở hữu nơi trưng bày</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Đã nhận</value>
   </data>

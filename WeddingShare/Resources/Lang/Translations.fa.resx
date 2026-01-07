@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>دوره های آپلود</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>اگر صاحب گالری در انتخاب کننده گالری نمایش داده شود</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>نشان دادن صاحبان گالری</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>برگرفته از</value>
   </data>

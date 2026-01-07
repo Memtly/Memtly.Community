@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Upload periods</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Galeri sahibi galeride gösterilmeli mi</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Show Gallery Owners</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gotify</value>
   </data>

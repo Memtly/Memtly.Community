@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>アップロード期間</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>画廊の所有者がギャラリーセレクターのドロップダウンに表示されるべき</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>ギャラリーの所有者を表示</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>ゴッファイ</value>
   </data>

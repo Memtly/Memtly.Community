@@ -161,6 +161,26 @@
 
     <div class="row mb-4 mb-lg-4 advanced-setting">
         <div class="col-12">
+            <label>@_localizer["Settings_GallerySelector_ShowUsernames_Label"].Value</label>
+            <select class="setting-field form-control" data-setting-name="@Settings.GallerySelector.ShowUsernames">
+                @foreach (var option in ViewOptions.YesNo)
+                {
+                    if (Model.Settings.GetValue(Settings.GallerySelector.ShowUsernames.ToUpper(), "false").Equals(option.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <option value="@option.Value" selected="selected">@option.Key</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Value">@option.Key</option>
+                    }
+                }
+            </select>
+            <div class="form-text">@_localizer["Settings_GallerySelector_ShowUsernames_Help"].Value</div>
+        </div>
+    </div>
+
+    <div class="row mb-4 mb-lg-4 advanced-setting">
+        <div class="col-12">
             <label>@_localizer["Settings_Basic_HomeLink_Label"].Value</label>
             <select class="setting-field form-control" data-setting-name="@Settings.Basic.HomeLink">
                 @foreach (var option in ViewOptions.YesNo)

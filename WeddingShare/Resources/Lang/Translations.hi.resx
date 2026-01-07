@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>अपलोड अवधि</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>क्या गैलरी के मालिक को गैलरी चयनकर्ता ड्रॉपडाउन में प्रदर्शित किया जाना चाहिए</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>गैलरी मालिकों दिखाएँ</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>गौतम</value>
   </data>

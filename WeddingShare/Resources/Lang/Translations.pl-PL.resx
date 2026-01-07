@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Okresy wysyłania</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Czy właściciel galerii powinien być wyświetlony w rozwijanej galerii</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Pokaż właścicieli galerii</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gotify</value>
   </data>

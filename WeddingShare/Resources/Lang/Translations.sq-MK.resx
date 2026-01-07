@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Ngarko pikët</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Nëse pronari i galerisë shfaqet në hedhjen poshtë të zgjedhësit të koleksionit</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Shfaq pronarët e galerive</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Gotifikimi</value>
   </data>

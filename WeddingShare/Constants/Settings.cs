@@ -104,6 +104,7 @@
             public const string BaseKey = "Settings:Gallery_Selector:";
             public const string Dropdown = "Settings:Gallery_Selector:Dropdown";
             public const string HideDefaultOption = "Settings:Gallery_Selector:Hide_Default_Option";
+            public const string ShowUsernames = "Settings:Gallery_Selector:Show_Usernames";
         }
 
         public class IdentityCheck

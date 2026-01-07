@@ -119,7 +119,6 @@
     <Content Include="src\pages\gallery\index.js" />
     <Content Include="src\pages\homepage\index.js" />
     <Content Include="src\themes\dark.css" />
-    <Content Include="src\themes\default.css" />
     <Content Include="src\themes\index.js" />
     <Content Include="src\modules\utilities\blobs.js" />
     <Content Include="src\modules\utilities\datetime.js" />

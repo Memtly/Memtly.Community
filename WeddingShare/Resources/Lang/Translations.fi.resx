@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Lähetysajat</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>Jos gallerian omistaja näytetään gallerian valitsin pudotus</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Näytä gallerian omistajat</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>Kiinni</value>
   </data>

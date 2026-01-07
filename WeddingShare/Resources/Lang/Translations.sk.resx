@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>Obdobie odosielania</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>V prípade, že majiteľ galérie bude zobrazený v rozpade voliča galérie</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>Zobraziť majiteľov galérie</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>GotifyName</value>
   </data>

@@ -1447,6 +1447,12 @@
   <data name="Settings_Gallery_UploadPeriod_Label" xml:space="preserve">
     <value>上传周期</value>
   </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Help" xml:space="preserve">
+    <value>如果畫廊主人被展出 在畫廊選取器倒下</value>
+  </data>
+  <data name="Settings_GallerySelector_ShowUsernames_Label" xml:space="preserve">
+    <value>顯示相簿擁有者</value>
+  </data>
   <data name="Settings_Gotify" xml:space="preserve">
     <value>歌迪丝</value>
   </data>
