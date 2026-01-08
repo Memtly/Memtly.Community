@@ -90,7 +90,6 @@ export function searchSettings() {
 
         $('#settings-accordion .accordion-item, #settings-accordion .accordion-item .setting-container').removeClass('d-none');
 
-
         if (term !== undefined && term.length > 0) {
             $('.setting-container').each(function () {
                 const label = $(this).find('.setting-label').text();
