@@ -31,6 +31,7 @@ function bindCancelButton() {
 export function displayMessage(title, message, errors, callbackFn) {
     hideLoader();
 
+    $('#alert-message-modal').remove();
     $('body').append(`
         <div id="alert-message-modal" class="modal pt-lg-4" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">

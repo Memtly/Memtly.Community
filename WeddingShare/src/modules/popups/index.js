@@ -68,16 +68,8 @@ export function displayPopup(options, callbackFn) {
     let buttons = '';
     (options?.Buttons ?? [{ Text: localization.translate('Close') }])?.forEach((button, index) => {
         buttons += `<div class="col-${12 / options?.Buttons?.length ?? 1}">
-            <button type="button" id="popup-modal-button-${index}" class="btn btm-sm ${button?.Class ?? "btn-cancel"} col-12">${button?.Text ?? localization.translate('Close')}</button>
+            <button type="button" id="popup-modal-button-${index}" class="btn btm-sm ${button?.Class ?? "btn-cancel"} popup-modal-button col-12">${button?.Text ?? localization.translate('Close')}</button>
         </div>`;
-
-        $(document).off('click', `#popup-modal-button-${index}`).on('click', `#popup-modal-button-${index}`, function () {
-            hidePopup();
-
-            if (button?.Callback) {
-                button?.Callback();
-            }
-        });
     });
 
     $('body').loading({
@@ -88,6 +80,7 @@ export function displayPopup(options, callbackFn) {
     });
 
     $('.popup-modal').remove();
+    $('.popup-modal-button').off('click');
     $('body').append(`<div class="modal popup-modal pt-lg-4" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -108,8 +101,18 @@ export function displayPopup(options, callbackFn) {
     </div>`);
     $('.popup-modal .modal-title').text(options.Title);
     $('.popup-modal .modal-message').text(options?.Message ?? "");
+
+    (options?.Buttons ?? [{ Text: localization.translate('Close') }])?.forEach((button, index) => {
+        $(`#popup-modal-button-${index}`).off('click').on('click', function () {
+            hidePopup();
+
+            if (button?.Callback) {
+                button?.Callback();
+            }
+        });
+    });
+
     $('.popup-modal').show();
-    $('.popup-modal input, .popup-modal textarea').first().focus();
 
     if (callbackFn !== undefined && callbackFn !== null) {
         callbackFn();

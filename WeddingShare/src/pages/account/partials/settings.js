@@ -90,13 +90,12 @@ export function searchSettings() {
 
         $('#settings-accordion .accordion-item, #settings-accordion .accordion-item .setting-container').removeClass('d-none');
 
-
         if (term !== undefined && term.length > 0) {
             $('.setting-container').each(function () {
                 const label = $(this).find('.setting-label').text();
                 const hint = $(this).find('.setting-hint').text();
 
-                if ((label === undefined && hint === undefined) || (label.toLowerCase().indexOf(term.toLowerCase()) === -1 || hint.toLowerCase().indexOf(term.toLowerCase()) === -1)) {
+                if ((label === undefined && hint === undefined) || (label.toLowerCase().indexOf(term.toLowerCase()) === -1 && hint.toLowerCase().indexOf(term.toLowerCase()) === -1)) {
                     $(this).addClass('d-none');
                 } else {
                     $(this).removeClass('d-none');
