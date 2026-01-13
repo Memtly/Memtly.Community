@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Termo de busca</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Enviar unha notificación de proba</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Actualización da galería</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Falta de revisión do artigo</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Non enviar notificación de proba</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Non se puido actualizar a configuración</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Ningunha</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Notificación Test</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notificacións</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Escanea o código QR co teu móbil para compartir as túas imaxes</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Envío</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Configuración</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Presentación</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>A notificación enviada con éxito</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Supporters</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Switch</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Esta é unha mensaxe de proba</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

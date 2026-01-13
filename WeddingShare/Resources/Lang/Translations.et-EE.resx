@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Otsingutermin</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Saadeti katseteatis</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Galerii uuendamine</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Elemendi läbivaatamine nurjus</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Katseteatise saatmine nurjus</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Seadistuste uuendamine nurjus</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Mitte ükski</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Teatamiskatse</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Teatised</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Skaneerige oma telefoniga QR-koodi, et jagada oma pilte</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Saadan</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Seadistused</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Esita</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Katseteade saadeti edukalt</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Toetajad</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Lülita</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testi</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>See on testteade</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Teema</value>

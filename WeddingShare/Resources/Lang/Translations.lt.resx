@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Paieškos terminas</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Pranešimas apie bandymą</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Atnaujinta informacija apie galeriją</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Nepavyko peržiūrėti elemento</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Nepavyko išsiųsti pranešimo apie bandymą</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Nepavyko atnaujinti nustatymų</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Nieko</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Pranešimo bandymas</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Pranešimai</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Skaitykite QR kodą su savo telefonu, kad bendrintumėte savo paveikslėlius</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Siunčiama</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Nustatymai</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Siųsti</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Sėkmingai išsiųstas testo pranešimas</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Rėmėjai</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Pereiti</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Bandymas</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>@ info: status</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>البحث</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Sent a test notification</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>تحديث نظام المعرض</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>عدم استعراض البند</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>عدم إرسال إخطار بالاختبار</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>فشل في تحديث الأطر</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>لا</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>الإخطار</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>الإخطارات</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>قوموا بمسح شفرة (كيو آر) بهواتفكم لتشاركوا صوركم</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>إرسال</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>الترتيبات</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>إخطار اختبار تم إرساله بنجاح</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>المؤيدون</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Switch</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>الاختبار</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>هذه رسالة اختبار</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>الموضوع</value>

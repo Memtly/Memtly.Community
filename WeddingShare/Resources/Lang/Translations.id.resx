@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Term Pencarian</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Mengirim pemberitahuan tes</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Pemutakhiran pengaturan untuk galeri</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Gagal mengulas butir</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Gagal mengirim notifikasi tes</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Gagal memutakhirkan pengaturan</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Nihil</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Tes Pemberitahuan</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Pemberitahuan</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Pindai kode QR dengan ponsel Anda untuk berbagi gambar Anda</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Mengirim</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Pengaturan</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Kirim</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Uji pemberitahuan dikirim dengan sukses</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Pendukung</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Tukar</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Uji</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Ini adalah pesan tes</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

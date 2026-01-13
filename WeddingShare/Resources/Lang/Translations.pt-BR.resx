@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Termo de pesquisa</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Enviei uma notificação de teste</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Configuração atualizada para galeria</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Falhado para rever o item</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Não foi possível enviar a notificação de teste</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Falhado em atualizar as configurações</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Nenhuma</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Teste de Notificação</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notificações</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Digitalize o código QR com seu telefone para compartilhar suas imagens</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Enviando</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Configurações</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Submeter-me</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Notificação de teste enviada com sucesso</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Suportes</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Interruptor</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Teste</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Esta é uma mensagem de teste</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

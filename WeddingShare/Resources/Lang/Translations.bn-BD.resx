@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>অনুসন্ধানের স্থান</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>একটি পরীক্ষা সূচনা প্রাপ্ত হয়েছে</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>সংকলনের বৈশিষ্ট্য আপডেট করা হয়েছে</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>হেডার পুনরায় লোড করতে ব্যর্থ</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>সূচনাবার্তা পরীক্ষা করতে ব্যর্থ</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>বৈশিষ্ট্য আপডেট করতে ব্যর্থ</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>শূণ্য</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>বিজ্ঞপ্তির পরীক্ষা</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>সূচনাবার্তা</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>আপনার ছবি শেয়ার করার জন্য RQR কোড স্ক্যান করুন</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>ছোট থেকে বড়</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>বৈশিষ্ট্য</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>জমা করুন</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>সাফল্যের সাথে পরীক্ষা করা হয়েছে</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Hula সহায়তা</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>পরিবর্তন</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>পরীক্ষা</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>এটি একটি পরীক্ষামূলক বার্তা</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>থিম</value>

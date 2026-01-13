@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Bilaketa-aldia</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Bidali probako jakinarazpena</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Galeriaren ezarpen eguneratua</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Huts egin du elementua aztertzean</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Huts egin du probako jakinarazpena bidaltzean</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Huts egin du ezarpenak eguneratzean</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Bat ere ez</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Jakinarazpen-proba</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Jakinarazpenak</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Eskaneatu QR kodea telefonoarekin irudiak partekatzeko</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Bidaltzea</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Ezarpenak</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Bidali</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Jakinarazpena ongi bidali da</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Laguntzaileak</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Aldatu</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Proba</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Hau probako mezua da</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Gaia</value>

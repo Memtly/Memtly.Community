@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Tìm kiếm</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Cài đặt Phòng trưng bày đã cập nhật</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Lỗi xem lại mục</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Lỗi gửi thông báo thử</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Lỗi cập nhật thiết lập</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Không có</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Comment</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Thông báo Hệ thốngComment</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Quét mã QR với điện thoại của bạn để chia sẻ ảnh của bạn</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Đang gửi</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Thiết lập</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Gởi</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Hỗ trợ</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Chuyển đổi</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Thử</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Đây là tin nhắn thử</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Sắc thái</value>

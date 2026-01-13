@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Terme de recherche</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Envoyé une notification d'essai</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Réglage mis à jour pour la galerie</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Échec de l ' examen</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Échec de l'envoi de la notification d'essai</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Impossible de mettre à jour les paramètres</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Aucune</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Essai de notification</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notifications</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Scannez le code QR avec votre téléphone pour partager vos images</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Envoi</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Paramètres</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Soumettre</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Notification d'essai envoyée avec succès</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Supporteurs</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Commutateur</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Essai</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Ceci est un message de test</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Thème</value>

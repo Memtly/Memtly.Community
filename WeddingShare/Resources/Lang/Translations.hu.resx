@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Keresési kifejezés</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Elküldött egy vizsgálati értesítést</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Frissített beállítás galéria</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>A felülvizsgálat nem sikerült</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Nem sikerült elküldeni a vizsgálati értesítést</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Nem sikerült frissíteni a beállításokat</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Nincs</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Bejelentési vizsgálat</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Értesítések</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Keresse meg a QR kódot a telefonjával a képek megosztásához</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Küldés</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Beállítások</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Küldés</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Sikeresen küldött vizsgálati értesítés</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Támogatók</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Váltás</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Vizsgálat</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Ez egy teszt üzenet</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Téma</value>

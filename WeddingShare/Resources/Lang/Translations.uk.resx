@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Термін дії</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Встановіть тестове повідомлення</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Оновлена установка для галереї</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Не вдалося переглянути пункт</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Відхилений для відправки тестових повідомлень</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Заборонено оновлювати налаштування</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Ні</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Тест повідомлення</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Повідомлення</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Скануйте QR-код з вашим телефоном, щоб поділитися фотографіями</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Відправити</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Налаштування</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Подати заявку</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Тестове повідомлення відправлено успішно</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Підприємці</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Перемикач</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Тестування</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Це тестове повідомлення</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Головна</value>

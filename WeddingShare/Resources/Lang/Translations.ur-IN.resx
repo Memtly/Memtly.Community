@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>تلاش</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>آزمائشی اطلاع</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>گیلری کے لیے دوبارہ نصب کی گئی</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>آئٹمس کا جائزہ لینے میں ناکامی</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>ٹیسٹ بھیجنے میں ناکامی</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>ترتیبات دوبارہ شروع کرنے میں ناکامی</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>کچھ نہیں</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>جگہ</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>غیر متصل</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>اپنے فون کے ساتھ کیو آر کوڈ کو اپنی تصاویر شیئر کرنے کے لئے</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>بھیجے گئے ہیں</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>ترتیبات</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>غیر متصل</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>آزمائشی اطلاع کامیاب بھیجی</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>غیر متصل</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>سوئچ</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>جانچ</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>یہ ایک امتحانی پیغام ہے۔</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>تھیم</value>

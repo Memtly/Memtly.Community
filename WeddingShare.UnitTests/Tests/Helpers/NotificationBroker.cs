@@ -23,10 +23,8 @@ namespace WeddingShare.UnitTests.Tests.Helpers
         [SetUp]
         public void Setup()
         {
-            var client = new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK));
-            client.BaseAddress = new Uri("https://unit.test.com/");
-
-            _clientFactory.CreateClient(Arg.Any<string>()).Returns(client);
+            _clientFactory.CreateClient("NtfyClient").Returns(new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK)));
+            _clientFactory.CreateClient("GotifyClient").Returns(new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK)));
 
             _smtp.SendMailAsync(Arg.Any<SmtpClient>(), Arg.Any<MailMessage>()).Returns(Task.FromResult(true));
 

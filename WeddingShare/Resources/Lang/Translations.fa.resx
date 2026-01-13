@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>جستجو</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>تشخیص یک اعلان تست</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>به روز رسانی برای گالری</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>شکست در بررسی آیتم</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>شکست برای ارسال اعلان آزمون</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>شکست در به روز رسانی تنظیمات</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>هیچ</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>آزمون اعلان</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>اعلان ها</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>کد QR را با تلفن خود اسکن کنید تا تصاویر خود را به اشتراک بگذارید</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>ارسال</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>تنظیمات</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>ارسال</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>هشدار تست ارسال شده با موفقیت</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>حامیان</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Switch</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>آزمون تست</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>این یک پیام آزمایشی است</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Theme</value>

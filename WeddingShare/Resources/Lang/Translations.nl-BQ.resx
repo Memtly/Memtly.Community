@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Zoekterm</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Een testbericht verzonden</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Bijgewerkte instelling voor galerij</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Kon item niet bekijken</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Kon testmelding niet versturen</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Bijwerken van instellingen is mislukt</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Geen</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Kennisgevingstest</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Kennisgevingen</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Scan de QR-code met uw telefoon om uw afbeeldingen te delen</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Verzenden</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Instellingen</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Verzenden</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Testmelding met succes verzonden</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Aanhang</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Omschakelen</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Dit is een testbericht</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Thema</value>

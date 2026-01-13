@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>खोज अवधि</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>एक परीक्षण अधिसूचना भेजा</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>गैलरी के लिए अद्यतन सेटिंग</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>आइटम की समीक्षा करने में विफल</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>परीक्षण अधिसूचना भेजने में विफल</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>सेटिंग्स अद्यतन करने में विफल</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>कोई नहीं</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>अधिसूचना टेस्ट</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>अधिसूचनाएं</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>अपनी छवियों को साझा करने के लिए अपने फोन के साथ QR कोड स्कैन करें</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>भेजना</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>सेटिंग्स</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>जमा करना</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>टेस्ट अधिसूचना सफलतापूर्वक भेजी गई</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>समर्थक</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>स्विच</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>टेस्ट</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>यह एक परीक्षण संदेश है</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>विषय</value>

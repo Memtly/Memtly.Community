@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>검색 기간</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>테스트 알림 보내기</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>갤러리에 대한 업데이트</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>상품 리뷰 실패</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>테스트 알림을 보낼 실패</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>설정 업데이트 실패</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>이름 *</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>공지사항</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>공지사항</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>QR 코드를 휴대폰으로 스캔하여 이미지를 공유</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>제품정보</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>계정 설정</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>제출하기</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>시험 통보는 성공적으로 보냈습니다</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>지원자</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>기타 제품</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>제품정보</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>이것은 테스트 메시지입니다</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>이름 *</value>

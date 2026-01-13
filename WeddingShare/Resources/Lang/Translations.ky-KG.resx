@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Издөө мөөнөтү</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Сыноо жөнүндө билдирүү жөнөтүлдү</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Галереяны жаңыртуу</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Кайра карап чыгуудан баш тартты</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Сыноо жөнүндө билдирүүнү жөнөтпөгөн</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Орнотууларды жаңыртуу мүмкүн эмес</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Эч ким жок</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Билдирүү сыноосу</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Билдирүүлөр</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Сүрөттөрүңүздү бөлүшүү үчүн телефонуңуз менен QR кодун текшериңиз</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Жеткирүү</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Орнотуулар</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Субмитациялоо</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Сыноо жөнүндө билдирүү ийгиликтүү жөнөтүлдү</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Колдоочулар</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Өчүргүч</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Сыноо сыноосу</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Бул сыноо билдирүүсү</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Темасы</value>

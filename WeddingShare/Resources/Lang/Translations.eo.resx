@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Serĉi</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Sento testo sciigo</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Ĝisdatigita scenaro por galerio</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Malsukcesita por revizii objekton</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Malsukcesas sendi testan sciigon</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Malsukcesas ĝisdatigi agordojn</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Neniu</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Notification Test</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notifications</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>La QR-kodo kun via telefono dividi viajn bildojn</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Sendu</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Necesa sciigo sukcese</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Subtenantoj</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Ŝaltilo</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testoj</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Tio estas testa mesaĝo</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>La</value>

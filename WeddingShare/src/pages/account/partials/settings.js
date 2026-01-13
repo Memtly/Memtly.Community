@@ -10,6 +10,7 @@ function init() {
 function bindEventHandlers() {
     bindUpdateSettingActions();
     bindSaveSettingsButton();
+    bindTestNotificationButtons();
     bindAdvancedSettingsButtons();
     bindSettingsSearchBox();
 }
@@ -50,6 +51,89 @@ function bindSaveSettingsButton() {
         } else {
             displayMessage(localization.translate('Update_Settings'), localization.translate('Update_Settings_No_Change'));
         }
+    });
+}
+
+function bindTestNotificationButtons() {
+    $(document).off('click', '.btn-send-smtp-test').on('click', '.btn-send-smtp-test', function (e) {
+        displayLoader(localization.translate('Sending'));
+        $.ajax({
+            url: '/Notification/SendTestEmailNotification',
+            method: 'POST',
+            data: {
+                recipients: $('input[data-setting-name="Notifications:Smtp:Recipient"]').val(),
+                host: $('input[data-setting-name="Notifications:Smtp:Host"]').val(),
+                port: $('input[data-setting-name="Notifications:Smtp:Port"]').val(),
+                username: $('input[data-setting-name="Notifications:Smtp:Username"]').val(),
+                password: $('input[data-setting-name="Notifications:Smtp:Password"]').val(),
+                from: $('input[data-setting-name="Notifications:Smtp:From"]').val(),
+                display_name: $('input[data-setting-name="Notifications:Smtp:DisplayName"]').val(),
+                enable_ssl: $('input[data-setting-name="Notifications:Smtp:Use_SSL"]').val(),
+            }
+        })
+            .done(data => {
+                if (data.success === true) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Success_Send_Test_Notification'));
+                } else if (data.message) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [data.message]);
+                } else {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'));
+                }
+            })
+            .fail((xhr, error) => {
+                displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [error]);
+            });
+    });
+
+    $(document).off('click', '.btn-send-ntfy-test').on('click', '.btn-send-ntfy-test', function (e) {
+        displayLoader(localization.translate('Sending'));
+        $.ajax({
+            url: '/Notification/SendTestNtfyNotification',
+            method: 'POST',
+            data: {
+                endpoint: $('input[data-setting-name="Notifications:Ntfy:Endpoint"]').val(),
+                token: $('input[data-setting-name="Notifications:Ntfy:Token"]').val(),
+                topic: $('input[data-setting-name="Notifications:Ntfy:Topic"]').val(),
+                priority: $('input[data-setting-name="Notifications:Ntfy:Priority"]').val(),
+            }
+        })
+            .done(data => {
+                if (data.success === true) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Success_Send_Test_Notification'));
+                } else if (data.message) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [data.message]);
+                } else {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'));
+                }
+            })
+            .fail((xhr, error) => {
+                displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [error]);
+            });
+    });
+
+    $(document).off('click', '.btn-send-gotify-test').on('click', '.btn-send-gotify-test', function (e) {
+        displayLoader(localization.translate('Sending'));
+        $.ajax({
+            url: '/Notification/SendTestGotifyNotification',
+            method: 'POST',
+            data: {
+                endpoint: $('input[data-setting-name="Notifications:Gotify:Endpoint"]').val(),
+                token: $('input[data-setting-name="Notifications:Gotify:Token"]').val(),
+                priority: $('input[data-setting-name="Notifications:Ntfy:Priority"]').val(),
+            }
+        })
+            .done(data => {
+                if (data.success === true) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Success_Send_Test_Notification'));
+                } else if (data.message) {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [data.message]);
+                } else {
+                    displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'));
+                }
+            })
+            .fail((xhr, error) => {
+                displayMessage(localization.translate('Notification_Test'), localization.translate('Failed_Send_Test_Notification'), [error]);
+            });
     });
 }
 

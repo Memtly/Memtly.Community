@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>検索条件</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>テスト通知の送信</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>ギャラリーの設定を更新しました</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>アイテムのレビュー失敗</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>テスト通知を送信する失敗</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>更新設定が失敗</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>なし</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>通知テスト</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>お知らせ</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>お使いの携帯電話でQRコードをスキャンして画像をシェア</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>送信する</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>コンテンツ</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>送信する</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>正常に送信されたテスト通知</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>サポーター</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>スイッチ</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>これはテストメッセージです</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>テーマ:</value>

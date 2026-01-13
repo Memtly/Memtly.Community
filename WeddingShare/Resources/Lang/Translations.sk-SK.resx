@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Hľadaný výraz</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Poslané oznámenie o skúške</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Aktualizované nastavenie galérie</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Nepodarilo sa skontrolovať položku</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Nepodarilo sa poslať skúšobné oznámenie</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Nepodarilo sa aktualizovať nastavenia</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Žiadne</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Oznamovacia skúška</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Oznámenia</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Skenovanie QR kódu telefónom zdieľať obrázky</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Posielam</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Nastavenie</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Predložiť</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Úspešne odoslaná testovacia notifikácia</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Priaznivci</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Prepínač</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Skúška</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Toto je testovacia správa</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Téma</value>

@@ -1,5 +1,6 @@
 using System.IO.Compression;
 using System.Net;
+using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
@@ -19,6 +20,7 @@ using WeddingShare.Helpers.Database;
 using WeddingShare.Helpers.Notifications;
 using WeddingShare.Models;
 using WeddingShare.Models.Database;
+using WeddingShare.Models.Notifications;
 using WeddingShare.Resources.Templates.Email;
 using WeddingShare.Views.Account;
 
@@ -38,6 +40,7 @@ namespace WeddingShare.Controllers
         private readonly Helpers.IUrlHelper _url;
         private readonly IAuditHelper _audit;
         private readonly ILoggerFactory _loggerFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger _logger;
         private readonly IStringLocalizer<Lang.Translations> _localizer;
 
@@ -48,7 +51,7 @@ namespace WeddingShare.Controllers
 
         private const string DefaultUserGalleryName = "Default";
 
-        public AccountController(IWebHostEnvironment hostingEnvironment, ISettingsHelper settings, IDatabaseHelper database, IDeviceDetector deviceDetector, IFileHelper fileHelper, IEncryptionHelper encryption, INotificationHelper notificationHelper, ISmtpClientWrapper smtpClientWrapper, Helpers.IUrlHelper url, IAuditHelper audit, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer)
+        public AccountController(IWebHostEnvironment hostingEnvironment, ISettingsHelper settings, IDatabaseHelper database, IDeviceDetector deviceDetector, IFileHelper fileHelper, IEncryptionHelper encryption, INotificationHelper notificationHelper, ISmtpClientWrapper smtpClientWrapper, Helpers.IUrlHelper url, IAuditHelper audit, IHttpClientFactory httpClientFactory, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer)
             : base()
         {
             _hostingEnvironment = hostingEnvironment;
@@ -61,6 +64,7 @@ namespace WeddingShare.Controllers
             _smtpClientWrapper = smtpClientWrapper;
             _url = url;
             _audit = audit;
+            _httpClientFactory = httpClientFactory;
             _loggerFactory = loggerFactory;
             _logger = loggerFactory.CreateLogger<AccountController>();
             _localizer = localizer;

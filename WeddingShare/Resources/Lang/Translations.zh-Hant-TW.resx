@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>搜索期限</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>已發出測試通知</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>图片库的更新设置</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>审查项目失败</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>送出測試通知失敗</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>更新设置失败</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>无</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>通知測試</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>通知</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>用手机扫描 QR 代码以共享图像</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>正在送出</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>设置</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>提交</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>測試通知已成功傳出</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>支持者</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>切换</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>這是一通測試訊息</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>主題</value>

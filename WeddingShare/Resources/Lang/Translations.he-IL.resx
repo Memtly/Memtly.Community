@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>תוצאות חיפוש</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>הודעה במבחן</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>הגדרה מעודכנת לגלריה</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>נכשל בבדיקת הפריט</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>נכשל לשלוח הודעת מבחן</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>נכשל לעדכן הגדרות</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>אף אחד לא</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>מבחן זיהוי</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>זיהוי</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>לסרוק את קוד QR עם הטלפון שלך כדי לשתף את התמונות שלך</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>שלח</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>הגדרות</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>הגשת</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>הודעת מבחן שנשלחה בהצלחה</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>תומכים</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Switch</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>מבחן</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>זהו הודעת מבחן</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>נושא</value>

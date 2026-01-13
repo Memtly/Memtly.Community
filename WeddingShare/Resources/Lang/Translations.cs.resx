@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Vyhledávání</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Odeslat oznámení o zkoušce</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Aktualizované nastavení pro galerii</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Selhalo přezkoumání položky</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Nepodařilo se odeslat oznámení o zkoušce</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Chyba při aktualizaci nastavení</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Žádné</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Oznamovací zkouška</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Oznámení</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Proskenujte QR kód svým telefonem pro sdílení obrázků</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Odesílání</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Nastavení</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Odeslat</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Úspěšně odeslané oznámení o zkoušce</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Podpora</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Přepínač</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Zkouška</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Toto je zpráva o zkoušce</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Téma</value>

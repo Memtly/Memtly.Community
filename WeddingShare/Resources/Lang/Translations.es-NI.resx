@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Search Term</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Se envió una notificación de prueba</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Ajuste actualizado para la galería</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Failed to review item</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Failed to send test notification</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Failed to update settings</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Ninguno</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Prueba de notificación</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notificaciones</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Analice el código QR con su teléfono para compartir sus imágenes</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Enviar</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Ajustes</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Aviso de prueba enviado con éxito</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Supporters</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Cambio</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Prueba</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Este es un mensaje de prueba</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

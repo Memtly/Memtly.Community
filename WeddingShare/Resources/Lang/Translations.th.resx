@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>_จํานวนงวด:</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>ส่งการแจ้งเตือนการทดสอบ</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>ปรับปรุงการตั้งค่าสําหรับคลังภาพ</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>ล้มเหลวในการทบทวนรายการ</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>ล้มเหลวในการส่งการแจ้งเตือน</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>ล้มเหลวในการปรับปรุงการตั้งค่า</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>ไม่มี</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>ทดสอบการแจ้งเตือน</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>การแจ้งให้ทราบComment</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>สแกนรหัส QR ด้วยโทรศัพท์ของคุณเพื่อแบ่งปันภาพต่าง ๆ ของคุณ</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>กําลังส่ง</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>ตั้งค่า</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>ส่ง</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>ส่งการแจ้งเหตุทดสอบสําเร็จแล้ว</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>ผู้สนับสนุน</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>สลับ</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>ทดสอบ</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>นี่เป็นข้อความทดสอบ</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>ชุดตกแต่ง</value>

@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Termen căutare</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>A trimis o notificare de încercare</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Configurări actualizate pentru galerie</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Nu a reușit să revizuiască elementul</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>A eșuat trimiterea notificării de încercare</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Actualizarea configurărilor a eșuat</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Niciuna</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Test de notificare</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notificări</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Scanați codul QR cu telefonul pentru a partaja imaginile</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Trimitere</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Configurări</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Trimite</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Notificarea de încercare trimisă cu succes</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Suporteri</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Comută</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Acesta este un mesaj de test</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tematică</value>

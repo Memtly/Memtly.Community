@@ -1,7 +1,6 @@
 using System.Net.Mail;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
-using NSubstitute;
 using WeddingShare.Helpers;
 using WeddingShare.Helpers.Notifications;
 

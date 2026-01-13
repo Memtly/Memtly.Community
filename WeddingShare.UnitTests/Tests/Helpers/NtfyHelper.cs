@@ -1,5 +1,4 @@
 using System.Net;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using WeddingShare.Helpers;
 using WeddingShare.Helpers.Notifications;
@@ -54,9 +53,9 @@ namespace WeddingShare.UnitTests.Tests.Helpers
         [TestCase("https://unittest.com", true)]
         public async Task NtfyHelper_Endpoint(string? endpoint, bool expected)
         {
+            _settings.GetOrDefault(Constants.Notifications.Ntfy.Endpoint, Arg.Any<string>()).Returns(endpoint);
+            
             var client = new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK));
-            client.BaseAddress = endpoint != null ? new Uri(endpoint) : null;
-
             _clientFactory.CreateClient(Arg.Any<string>()).Returns(client);
 
             var actual = await new NtfyHelper(_settings, _clientFactory, _logger).Send("unit", "test");

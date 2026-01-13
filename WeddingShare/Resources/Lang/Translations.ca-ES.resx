@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Terme de cerca</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Envia una notificació de prova</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>S' ha actualitzat l' arranjament de la galeria</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Ha fallat en revisar l' element</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Ha fallat en enviar la notificació de prova</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Ha fallat en actualitzar l' arranjament</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Cap</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Prova de notificació</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Notificacions</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Escaneja el codi QR amb el telèfon per compartir les imatges</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Enviament</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Arranjament</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Envia</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>La notificació de prova s' ha enviat correctament</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Suports</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Commuta</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Prova</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Aquest és un missatge de prova</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

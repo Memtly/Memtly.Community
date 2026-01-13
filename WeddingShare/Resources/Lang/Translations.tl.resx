@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Paghahanap</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Maglagay ng test notification</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Binagong lugar para sa galerya</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Sawi sa pagrepaso ng balita</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Bigo ang pagpapadala ng test notification</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Sawi sa update settings</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Wala</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Pagsubok sa Pagbibigay - Pansin</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Mga Kapansin - pansin</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Ang QR code kasama ang iyong telepono upang ibahagi ang iyong mga larawan</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Pagpadala</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Mga Pagtatakda</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Pagpapasakop</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Matagumpay na ipinadala ang notipikasyon ng pagsusuri</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Mga Tagataguyod</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Stwitch</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Pagsubok</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Ito ay isang pagsubok na mensahe</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

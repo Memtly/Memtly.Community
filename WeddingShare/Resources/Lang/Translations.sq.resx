@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Termi i kërkimit</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Dërgoi një njoftim testimi</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Vendosja e rifreskuar për galeri</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>I pamundur shqyrtimi i elementit</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Dërgimi i njoftimit të provës dështoi</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>I pamundur rifreskimi i rregullimeve</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Asnjë</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Prova e njoftimit</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Njoftime</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Kontrollo kodin QR me telefonin tënd për të ndarë imazhet e tua</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Në ngjitje</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Rregullimet</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Dërgo</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Njoftimi i kontrollit u dërgua me sukses</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Përkrahësit</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Kalo</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Prova</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Ky është një mesazh prove</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>

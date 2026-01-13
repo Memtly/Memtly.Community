@@ -52,9 +52,9 @@ namespace WeddingShare.UnitTests.Tests.Helpers
         [TestCase("https://unittest.com", true)]
         public async Task GotifyHelper_Endpoint(string? endpoint, bool expected)
         {
-            var client = new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK));
-            client.BaseAddress = endpoint != null ? new Uri(endpoint) : null;
+            _settings.GetOrDefault(Constants.Notifications.Gotify.Endpoint, Arg.Any<string>()).Returns(endpoint);
 
+            var client = new HttpClient(new MockHttpMessageHandler(HttpStatusCode.OK));
             _clientFactory.CreateClient(Arg.Any<string>()).Returns(client);
 
             var actual = await new GotifyHelper(_settings, _clientFactory, _logger).Send("unit", "test");

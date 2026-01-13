@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Термин за търсене</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Изпращане на уведомление за изпитване</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Обновена настройка за галерия</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Грешка при преразглеждане на позиция</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Грешка при изпращане на уведомление за изпитване</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Грешка при обновяване на настройките</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Няма</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Изпитване за уведомяване</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Уведомления</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Сканирайте QR кода с телефона си, за да споделите изображенията си</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Изпращане</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Настройки</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Подаване</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Изпратено успешно уведомление за изпитване</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Поддръжници</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Превключване</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Изпитване</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Това е тестово съобщение</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Тема</value>

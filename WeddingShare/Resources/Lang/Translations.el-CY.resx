@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Όρος αναζήτησης</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Αποστολή ειδοποίησης δοκιμής</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Ενημέρωση ρύθμισης για γκαλερί</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Αποτυχία αναθεώρησης του αντικειμένου</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Αποτυχία αποστολής ειδοποίησης δοκιμής</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Αποτυχία ενημέρωσης ρυθμίσεων</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Καμία</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Δοκιμή κοινοποίησης</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Κοινοποιήσεις</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Σαρώστε τον κωδικό QR με το τηλέφωνό σας για να μοιραστείτε τις εικόνες σας</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Αποστολή</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Υποβολή</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Η ειδοποίηση δοκιμής εστάλη επιτυχώς</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Υποστηρικτές</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Εναλλαγή</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Δοκιμή</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Αυτό είναι ένα δοκιμαστικό μήνυμα</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Θέμα</value>

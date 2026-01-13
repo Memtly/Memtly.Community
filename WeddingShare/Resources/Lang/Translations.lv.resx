@@ -280,6 +280,9 @@
   <data name="Audit_SearchTerm_Label" xml:space="preserve">
     <value>Meklēšanas termins</value>
   </data>
+  <data name="Audit_Sent_Test_Notification" xml:space="preserve">
+    <value>Nosūtīts testa paziņojums</value>
+  </data>
   <data name="Audit_SettingsUpdated" xml:space="preserve">
     <value>Atjaunināts galerijas iestatījums</value>
   </data>
@@ -528,6 +531,9 @@
   </data>
   <data name="Failed_Reviewing_Media" xml:space="preserve">
     <value>Neizdevās pārskatīt ierakstu</value>
+  </data>
+  <data name="Failed_Send_Test_Notification" xml:space="preserve">
+    <value>Neizdevās nosūtīt testa paziņojumu</value>
   </data>
   <data name="Failed_Update_Setting" xml:space="preserve">
     <value>Neizdevās atjaunināt iestatījumus</value>
@@ -937,6 +943,9 @@
   <data name="None" xml:space="preserve">
     <value>Nav</value>
   </data>
+  <data name="Notification_Test" xml:space="preserve">
+    <value>Paziņošanas tests</value>
+  </data>
   <data name="Notifications" xml:space="preserve">
     <value>Paziņojumi</value>
   </data>
@@ -1137,6 +1146,9 @@
   </data>
   <data name="Scan_To_Share" xml:space="preserve">
     <value>Skenējiet QR kodu ar tālruni, lai kopīgotu attēlus</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>Sūtīšana</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Iestatījumi</value>
@@ -1762,11 +1774,20 @@
   <data name="Submit" xml:space="preserve">
     <value>Nosūtīt</value>
   </data>
+  <data name="Success_Send_Test_Notification" xml:space="preserve">
+    <value>Veiksmīgi nosūtīts testa paziņojums</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Atbalstītāji</value>
   </data>
   <data name="Switch" xml:space="preserve">
     <value>Slēdzis</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Pārbaude</value>
+  </data>
+  <data name="Test_Message" xml:space="preserve">
+    <value>Šis ir testa ziņojums</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tēma</value>
