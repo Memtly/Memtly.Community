@@ -827,7 +827,7 @@
     <value>Backup fil</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Vælg et bryllup Del backup arkiv</value>
+    <value>Vælg et backup arkiv</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Mislykkedes at importere data</value>

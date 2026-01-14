@@ -827,7 +827,7 @@
     <value>Backup File</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Välj ett bröllop Dela backup arkiv</value>
+    <value>Vänligen välj ett backup arkiv</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Misslyckades med importerade data</value>

@@ -827,7 +827,7 @@
     <value>Sikkerhetskopifil</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Velg et bryllup Del sikkerhetskopiarkiv</value>
+    <value>Velg sikkerhetskopiarkiv</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Klarte ikke å importere data</value>

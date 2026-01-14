@@ -827,7 +827,7 @@
     <value>Backup File</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Ju lutem zgjidhni një dasmë Shpërnda arkivin backup</value>
+    <value>Zgjidhni arkivin e backup</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>I pamundur importimi i të dhënave</value>

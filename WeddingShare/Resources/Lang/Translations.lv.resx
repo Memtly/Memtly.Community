@@ -827,7 +827,7 @@
     <value>Rezerves kopijas fails</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Lūdzu izvēlieties kāzas Kopīgot rezerves kopiju arhīvu</value>
+    <value>Lūdzu izvēlieties rezerves kopiju arhīvu</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Neizdevās importēt datus</value>

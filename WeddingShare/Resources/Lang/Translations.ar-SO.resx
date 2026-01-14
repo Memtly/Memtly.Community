@@ -827,7 +827,7 @@
     <value>صندوق الدعم</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>الرجاء اختيار الزفاف المحفوظات الاحتياطية</value>
+    <value>يرجى اختيار المحفوظات الاحتياطية</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>المفقودة إلى البيانات المستوردة</value>

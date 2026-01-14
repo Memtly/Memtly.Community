@@ -827,7 +827,7 @@
     <value>バックアップファイル</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>結婚式を選択してください バックアップアーカイブを共有する</value>
+    <value>バックアップアーカイブを選択してください</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>インポートされたデータに失敗</value>

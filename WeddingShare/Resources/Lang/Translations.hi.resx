@@ -827,7 +827,7 @@
     <value>बैकअप फ़ाइल</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>कृपया एक शादी का चयन करें शेयर बैकअप संग्रह</value>
+    <value>कृपया एक बैकअप संग्रह का चयन करें</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>आयातित डेटा में विफल</value>

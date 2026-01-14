@@ -827,7 +827,7 @@
     <value>Packup file</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Pumili ng Kasal Ibahagi ang arkibong backup</value>
+    <value>Pumili ng arkibong backup</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Sawi ang pag-angkat ng datos</value>

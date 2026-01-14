@@ -827,7 +827,7 @@
     <value>Резервен файл</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Моля, изберете сватба Сподели архива</value>
+    <value>Изберете архив за архивиране</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Грешка при внос на данни</value>

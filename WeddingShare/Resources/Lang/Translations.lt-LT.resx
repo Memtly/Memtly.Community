@@ -827,7 +827,7 @@
     <value>Kopijavimo failas</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Prašome pasirinkti vestuves Name</value>
+    <value>Pasirinkite atsarginių kopijų archyvą</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Nepavyko importuoti duomenų</value>

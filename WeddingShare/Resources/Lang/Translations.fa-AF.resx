@@ -827,7 +827,7 @@
     <value>فایل پشتیبان</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>یک عروسی را انتخاب کنید Share Backup</value>
+    <value>لطفا یک آرشیو پشتیبان را انتخاب کنید</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>شکست داده های وارداتی</value>

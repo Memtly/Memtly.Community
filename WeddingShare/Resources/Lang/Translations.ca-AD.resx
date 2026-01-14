@@ -827,7 +827,7 @@
     <value>Fitxer de còpia de seguretat</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Seleccioneu una Noces Comparteix l' arxiu de còpia de seguretat</value>
+    <value>Seleccioneu un arxiu de còpia de seguretat</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>No s' han pogut importar les dades</value>

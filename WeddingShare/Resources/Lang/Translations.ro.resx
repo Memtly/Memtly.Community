@@ -827,7 +827,7 @@
     <value>Fișier de rezervă</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Alegeți o nuntă Partajează arhiva de rezervă</value>
+    <value>Alegeți o arhivă de rezervă</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Datele importate au eșuat</value>

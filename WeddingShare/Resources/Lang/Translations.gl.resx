@@ -827,7 +827,7 @@
     <value>Backup File</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Seleccione unha boda Compartir arquivo backup</value>
+    <value>Selecciona un arquivo de backup</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Non importan datos</value>

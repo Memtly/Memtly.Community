@@ -827,7 +827,7 @@
     <value>Plik kopii zapasowej</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Proszę wybrać ślub Podziel się archiwum kopii zapasowej</value>
+    <value>Proszę wybrać archiwum kopii zapasowej</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Brak danych importowanych</value>

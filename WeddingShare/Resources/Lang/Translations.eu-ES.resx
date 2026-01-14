@@ -827,7 +827,7 @@
     <value>Babeskopia-fitxategia</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Hautatu ezkontza bat Partekatu babeskopiaren artxiboa</value>
+    <value>Hautatu babeskopiaren artxiboa</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Huts egin du datuak inportatzean</value>

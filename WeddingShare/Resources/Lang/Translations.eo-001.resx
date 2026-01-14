@@ -827,7 +827,7 @@
     <value>Malantaŭa Dosiero</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Bonvolu elekti edziniĝon Dividi rezervarkivon</value>
+    <value>Bonvolu elekti rezervo arkivo</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Malsukcesa al importitaj datenoj</value>

@@ -827,7 +827,7 @@
     <value>Varnostna datoteka</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Prosim izberite poroko Deli arhiv za varnostno kopiranje</value>
+    <value>Izberite arhiv za varnostno kopiranje</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Ni uspelo uvoženim podatkom</value>

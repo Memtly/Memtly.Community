@@ -827,7 +827,7 @@
     <value>แฟ้มสํารองข้อมูล</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>กรุณาเลือกงานแต่งงาน แฟ้มจัดเก็บสํารองข้อมูลร่วมกัน</value>
+    <value>โปรดเลือกแฟ้มจัดเก็บสํารองข้อมูล</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>ล้มเหลวในการนําเข้าข้อมูล</value>

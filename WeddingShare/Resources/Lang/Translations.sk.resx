@@ -827,7 +827,7 @@
     <value>Záložný súbor</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Prosím vyberte svadbu Zdieľať zálohovací archív</value>
+    <value>Prosím vyberte záložný archív</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Nepodarilo sa importovať dáta</value>

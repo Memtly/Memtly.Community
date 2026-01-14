@@ -827,7 +827,7 @@
     <value>Файл резервного копіювання</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Будь ласка, оберіть весілля Статус на сервери</value>
+    <value>Виберіть архів резервного копіювання</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Заборонено імпортувати дані</value>

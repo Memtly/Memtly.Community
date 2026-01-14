@@ -827,7 +827,7 @@
     <value>Varatiedosto</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Valitse häät Jaa varmuuskopioarkisto</value>
+    <value>Valitse varmuuskopio- arkisto</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Tuodut tiedot epäonnistuivat</value>

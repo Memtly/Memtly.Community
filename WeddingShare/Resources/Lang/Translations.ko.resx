@@ -827,7 +827,7 @@
     <value>백업 파일</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>자주 묻는 질문 백업 아카이브</value>
+    <value>백업 아카이브 선택하기</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>수입된 자료에 실패</value>

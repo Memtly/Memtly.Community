@@ -827,7 +827,7 @@
     <value>Αρχείο αντιγράφων ασφαλείας</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Παρακαλώ επιλέξτε ένα γάμο Κοινή χρήση αρχείου αντιγράφων ασφαλείας</value>
+    <value>Παρακαλώ επιλέξτε ένα αρχείο αντιγράφων ασφαλείας</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Αποτυχία εισαγωγής δεδομένων</value>

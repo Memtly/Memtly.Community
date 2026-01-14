@@ -827,7 +827,7 @@
     <value>Tacaíocht Comhad</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Roghnaigh bainise Cartlann cúltaca</value>
+    <value>Roghnaigh cartlann cúltaca</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Failed chun sonraí a allmhairítear</value>

@@ -827,7 +827,7 @@
     <value>ব্যাক-আপ ফাইল</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>অনুগ্রহ করে একটি বিয়ে নির্বাচন করুন ব্যাক-আপ আর্কাইভ শেয়ার করা হবে</value>
+    <value>অনুগ্রহ করে একটি ব্যাক-আপ ফাইল নির্বাচন করুন</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>ডাটা ইম্পোর্ট করতে ব্যর্থ</value>

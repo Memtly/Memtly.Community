@@ -827,7 +827,7 @@
     <value>Tập tin sao lưu</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Hãy chọn một đám cưới Chia sẻ kho lưu sao lưu</value>
+    <value>Vui lòng chọn kho lưu</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Lỗi nhập dữ liệu</value>

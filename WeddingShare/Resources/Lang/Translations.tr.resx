@@ -827,7 +827,7 @@
     <value>Backup File</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Lütfen bir Düğünü seçin Paylaş yedekleme arşivi</value>
+    <value>Lütfen yedek bir arşiv seçin</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Ithal edilen verilere başarısız oldu</value>

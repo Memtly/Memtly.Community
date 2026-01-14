@@ -827,7 +827,7 @@
     <value>Varukoopiafail</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Palun vali pulm Varukoopia arhiivi jagamine</value>
+    <value>Palun vali varukoopia arhiiv</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Imporditud andmed nurjusid</value>

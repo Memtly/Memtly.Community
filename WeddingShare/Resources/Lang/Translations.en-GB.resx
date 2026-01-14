@@ -827,7 +827,7 @@
     <value>Backup File</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Please select a WeddingShare backup archive</value>
+    <value>Please select a backup archive</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Failed to imported data</value>

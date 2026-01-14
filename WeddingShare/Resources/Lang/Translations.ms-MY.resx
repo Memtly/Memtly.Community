@@ -827,7 +827,7 @@
     <value>Berkas Sandar Coup</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>Tolong pilihkan Pernikahan Kongsi arsip cadangan</value>
+    <value>Sila pilih arkib cadangan</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>Gagal mengimpor data</value>

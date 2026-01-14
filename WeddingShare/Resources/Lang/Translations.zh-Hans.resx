@@ -827,7 +827,7 @@
     <value>备份文件</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>请选择婚礼 共享备份归档</value>
+    <value>请选择备份归档</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>导入数据失败</value>

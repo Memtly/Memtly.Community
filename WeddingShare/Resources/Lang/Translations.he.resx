@@ -827,7 +827,7 @@
     <value>קובץ גיבוי</value>
   </data>
   <data name="Import_Data_Backup_Hint" xml:space="preserve">
-    <value>בחר חתונה ארכיון הגיבוי</value>
+    <value>אנא בחר קובץ גיבוי</value>
   </data>
   <data name="Import_Data_Failed" xml:space="preserve">
     <value>נכשל בנתונים מיובאים</value>
