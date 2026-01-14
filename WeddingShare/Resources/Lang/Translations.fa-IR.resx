@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>مرورگر شما از این ویژگی پشتیبانی نمی کند</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>دانلود بازی های Bulk</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>شکست برای حذف موارد</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>موفق به حذف موارد</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>نقد و بررسی</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>شکست در تایید همه موارد</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>شکست در تایید موارد انتخاب شده</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>آیا دوست دارید همه موارد را تایید یا رد کنید؟?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>آیا دوست دارید موارد مورد نظر را تایید یا رد کنید؟?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>شکست در رد کردن همه چیز</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>شکست در رد کردن موارد انتخاب شده</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>دوربین</value>

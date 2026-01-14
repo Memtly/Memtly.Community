@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Votre navigateur ne supporte pas cette fonctionnalité</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Supprimer les éléments en vrac</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Impossible de supprimer des éléments</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Éléments supprimés avec succès</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Révision en vrac</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Échec de l'approbation de tous les éléments</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Échec de l'approbation des éléments sélectionnés</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Souhaitez-vous approuver ou rejeter tous les points en suspens?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Souhaitez-vous approuver ou rejeter les éléments en attente sélectionnés?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Échec du rejet de tous les éléments</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Impossible de rejeter les éléments sélectionnés</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Caméra</value>

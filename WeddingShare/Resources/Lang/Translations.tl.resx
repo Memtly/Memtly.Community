@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Hindi sinusuportahan ng iyong browser ang bahaging ito</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Mga Bulk Delete Item</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Sawi sa pagtanggal ng mga bagay</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Matagumpay na inalis ang mga bagay</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Repaso sa Bulk</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Sawi sa pagsang - ayon sa lahat ng bagay</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Sawi sa pagsang - ayon sa napiling mga bagay</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Nais mo bang sang - ayunan o tanggihan ang lahat ng mga bagay na naghihintay?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Nais mo bang sang - ayunan o tanggihan ang napiling mga bagay na naghihintay?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Sawi sa pagtanggi sa lahat ng bagay</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Sawi sa pagtanggi sa napiling mga bagay</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Seu navegador não suporta este recurso</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete Itens</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Não conseguiu apagar itens</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Itens deletados com sucesso</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Revisão em massa</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Falha ao aprovar todos os itens</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Não aprovou os itens selecionados</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Gostaria de aprovar ou rejeitar todos os itens pendentes?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Gostaria de aprovar ou rejeitar os itens pendentes selecionados?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Falha ao rejeitar todos os itens</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Não conseguiu rejeitar os itens selecionados</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Câmara</value>

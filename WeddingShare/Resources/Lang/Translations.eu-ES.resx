@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Zure nabigatzaileak ez du eginbide hau onartzen</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Ezabatu elementuak</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Huts egin du elementuak ezabatzean</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Ongi ezabatutako elementuak</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Huts egin du elementu guztiak onartzean</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Huts egin du hautatutako elementuak onartzean</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Onartu edo baztertu nahi dituzu falta diren elementu guztiak?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Hautatutako elementuak onartu edo baztertu nahi dituzu?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Huts egin du elementu guztiak baztertzean</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Huts egin du hautatutako elementuak baztertzean</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

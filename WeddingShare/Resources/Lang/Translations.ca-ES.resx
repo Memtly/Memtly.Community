@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>El vostre navegador no permet aquesta característica</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Massa esborrar elements</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>No s' han pogut esborrar els elements</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>S' han esborrat correctament els elements</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Massa revisió</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Ha fallat en aprovar tots els elements</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Ha fallat en aprovar els elements seleccionats</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Voleu aprovar o rebutjar tots els elements pendents?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Voleu aprovar o rebutjar els elements seleccionats?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Ha fallat en rebutjar tots els elements</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Ha fallat en rebutjar els elements seleccionats</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Càmera</value>

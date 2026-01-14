@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Your browser does not support this feature</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete Items</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Failed to delete items</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Successfully deleted items</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Failed to approve all items</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Failed to approve the selected items</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Would you like to approve or reject all pending items?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Would you like to approve or reject the selected pending items?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Failed to reject all items</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Failed to reject the selected items</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Camera</value>

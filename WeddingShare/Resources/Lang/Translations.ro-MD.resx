@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Browser-ul dvs. nu suportă această caracteristică</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Șterge elementele</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Eșec la ștergerea elementelor</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Articole șterse cu succes</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Revizuire în vrac</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>A eșuat aprobarea tuturor elementelor</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>A eșuat aprobarea elementelor selectate</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Doriţi să aprobaţi sau să respingeţi toate obiectele aflate în aşteptare?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Doriţi să aprobaţi sau să respingeţi elementele în aşteptare selectate?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>A eșuat respingerea tuturor elementelor</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>A eșuat respingerea elementelor selectate</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Camera</value>

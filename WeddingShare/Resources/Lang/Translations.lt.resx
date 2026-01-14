@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Jūsų naršyklė nepalaiko šios funkcijos</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Trinti elementus</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Nepavyko ištrinti elementų</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Sėkmingai pašalinti elementai</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Birių apžvalga</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Nepavyko patvirtinti visų elementų</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Nepavyko patvirtinti pasirinktų elementų</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Norite patvirtinti arba atmesti visas nagrinėjamas prekes?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Norite patvirtinti arba atmesti pažymėtus lauktus elementus?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Nepavyko atmesti visų elementų</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Nepavyko atmesti pasirinktų elementų</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

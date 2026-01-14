@@ -7030,7 +7030,7 @@ textarea.form-control-lg {
 
 .text-truncate {
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis !important;
   white-space: nowrap;
 }
 
@@ -11013,7 +11013,7 @@ footer {
     padding: 8px;
     border-radius: 100px;
     position: absolute;
-    top: 10px;
+    top: 160px;
     left: 10px;
     width: 12px;
     height: 12px;
@@ -11026,11 +11026,28 @@ footer {
     padding: 8px;
     border-radius: 100px;
     position: absolute;
-    top: 10px;
+    top: 160px;
     right: 10px;
     width: 12px;
     height: 12px;
 }
+
+.btn-multi-select {
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: rgba(var(--primary-bg-3), 1);
+    padding: 1px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+    .btn-multi-select:hover {
+        background-color: rgba(var(--primary-bg-2), 1);
+    }
 
 .btn-delete-item {
     color: rgba(var(--danger-text), 1.0);

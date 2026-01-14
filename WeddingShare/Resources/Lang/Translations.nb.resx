@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Nettleseren din støtter ikke denne funksjonen</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Slett elementer</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Klarte ikke å slette elementer</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Vellykket slettede elementer</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk gjennomgang</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Kunne ikke godkjenne alle elementene</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Kunne ikke godkjenne de valgte elementene</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Ønsker du å godkjenne eller avvise alle avventende elementer?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Vil du godkjenne eller avvise de valgte avventende elementene?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Klarte ikke å avvise alle elementene</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Klarte ikke å avvise de valgte elementene</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

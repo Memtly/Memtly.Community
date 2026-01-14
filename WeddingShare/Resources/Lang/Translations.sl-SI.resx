@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Vaš brskalnik ne podpira te funkcije</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Izbriši predmete</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Ni uspelo zbrisati predmetov</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Uspešno izbrisane postavke</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Pregled razsutega tovora</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Ni uspelo odobriti vseh predmetov</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Ni uspelo odobriti izbranih postavk</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Želite odobriti ali zavrniti vse nerešene stvari?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Želite odobriti ali zavrniti izbrane postavke?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Ni uspelo zavrniti vseh postavk</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Ni moč zavrniti izbranih predmetov</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

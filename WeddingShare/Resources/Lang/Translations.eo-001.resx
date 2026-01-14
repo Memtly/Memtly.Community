@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Via retumilo ne subtenas tiun trajton</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete Items</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Malsukcesas forigi erojn</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Sukcesaj aĵoj</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Malsukcesas aprobi ĉiujn erojn</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Malsukcesas aprobi la elektitajn erojn</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Ĉu vi ŝatus aprobi aŭ malakcepti ĉiujn aĵojn?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Ĉu vi ŝatus aprobi aŭ malakcepti la elektitajn erojn?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Malsukcesis malakcepti ĉiujn erojn</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Malsukcesas malakcepti la elektitajn erojn</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Fotila fotilo</value>

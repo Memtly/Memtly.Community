@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Váš prohlížeč tuto funkci nepodporuje</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Smazat položky</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Nepodařilo se odstranit položky</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Úspěšně vymazány položky</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Nepodařilo se schválit všechny položky</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Nepodařilo se schválit vybrané položky</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Chcete schválit nebo zamítnout všechny dosud nevyřízené položky?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Chcete schválit nebo odmítnout vybrané položky?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Selhalo odmítnutí všech položek</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Selhalo odmítnutí vybraných položek</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

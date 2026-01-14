@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Teie brauser ei toeta seda funktsiooni</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Suured kustutamiselemendid</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Elementide kustutamine nurjus</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Edukalt kustutatud elemendid</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Kõigi elementide kinnitamine nurjus</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Valitud elementide heakskiitmine nurjus</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Kas soovite kõik pooleliolevad küsimused heaks kiita või tagasi lükata?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Kas soovite valitud küsimused heaks kiita või tagasi lükata?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Kõigi elementide tagasilükkamine nurjus</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Valitud elementide tagasilükkamine nurjus</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kaamera</value>

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Shfletuesi juaj nuk suporton këtë funksion</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Fshi elementët</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Fshirja e elementëve dështoi</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Elementë</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Rishikim</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>I pamundur miratimi i të gjithë elementëve</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>I pamundur miratimi i elementëve të zgjedhur</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Dëshironi të miratoni apo të refuzoni të gjithë elementët në pritje?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Dëshironi të miratoni apo të hidhni poshtë elementët e zgjedhur në pritje?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>I pamundur krijimi i kontestit të kodifikuesit</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>I pamundur kundërshtimi tek elementët e zgjedhur</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamer</value>

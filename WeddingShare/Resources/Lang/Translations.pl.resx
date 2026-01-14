@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Twoja przeglądarka nie obsługuje tej funkcji</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Luzem Usuń elementy</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Nie udało się usunąć elementów</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Udane usunięcie elementów</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Przegląd luzem</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Nie udało się zatwierdzić wszystkich pozycji</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Nie udało się zatwierdzić wybranych elementów</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Czy chcesz zatwierdzić lub odrzucić wszystkie oczekujące przedmioty?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Czy chcesz zatwierdzić lub odrzucić wybrane oczekujące elementy?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Nie można odrzucić wszystkich elementów</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Nie można odrzucić wybranych elementów</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

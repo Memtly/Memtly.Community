@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Сиздин браузериңиз бул өзгөчөлүктү колдобойт</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Бөлмөлөрдү өчүрүү</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Буюмдарды өчүрө алган жок</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Ийгилик менен алынып салынган буюмдар</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Көптүктүү карап чыгуу</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Бардык пункттарды бекитүү мүмкүн эмес</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Тандалган пункттарды бекитпеген</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Сиз бардык чечилбеген маселелерди жактыргыңыз келеби же четке кагууну каалайсызбы?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Сиз тандалган чечилбеген буюмдарды жактыргыңыз келеби же четке кагууну каалайсызбы?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Бардык буюмдарды четке кагуудан баш тарткан</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Тандалган пункттарды четке кагуудан баш тарткан</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Камера</value>

@@ -37,27 +37,32 @@
                                     {
                                         <i class="fa fa-thumbs-down btnReviewReject d-lg-none" data-id="@review?.Id" data-name="@review?.Name"></i>
                                     }
+                                    <i class="fa fa-square btn-multi-select" data-id="@review?.Id"></i>
                                 </a>
                                 <div class="card-header my-0 py-0">
                                     <div class="row card-title text-capitalize border-top py-0 pt-2">
                                         @if (identityEnabled)
                                         {
-                                            <div class="col-12 col-lg-6 text-lg-center">
+                                            var uploaderName = !string.IsNullOrWhiteSpace(review?.UploadedBy) ? review.UploadedBy : "Anonymous";
+
+                                            <div class="col-12 col-lg-6 text-lg-center text-truncate" alt="@gallery.Gallery.Name" title="@gallery.Gallery.Name">
                                                 <b>@_localizer["Gallery"].Value:</b> @gallery.Gallery.Name
                                             </div>
-                                            <div class="col-12 col-lg-6 text-lg-center">
-                                                <b>@_localizer["Uploader"].Value:</b> @(!string.IsNullOrWhiteSpace(review?.UploadedBy) ? review.UploadedBy : "Anonymous")
+                                            <div class="col-12 col-lg-6 text-lg-center text-truncate" alt="@uploaderName" title="@uploaderName">
+                                                <b>@_localizer["Uploader"].Value:</b> @uploaderName
                                             </div>
                                             @if (requireEmailEnabled)
                                             {
-                                                <div class="col-12 text-lg-center mt-lg-1">
-                                                    <b>@_localizer["EmailAddress"].Value:</b> <span class="text-lowercase">@(!string.IsNullOrWhiteSpace(review?.UploaderEmailAddress) ? review.UploaderEmailAddress : "Anonymous")</span>
+                                                var emailAddress = !string.IsNullOrWhiteSpace(review?.UploaderEmailAddress) ? review.UploaderEmailAddress : "Anonymous";
+
+                                                <div class="col-12 text-lg-center mt-lg-1 text-truncate" alt="@emailAddress" title="@emailAddress">
+                                                    <b>@_localizer["EmailAddress"].Value:</b> <span class="text-lowercase">@emailAddress</span>
                                                 </div>
                                             }
                                         }
                                         else
                                         {
-                                            <div class="col-12">
+                                            <div class="col-12 text-truncate">
                                                 <b>@_localizer["Gallery"].Value:</b> @gallery.Gallery.Name
                                             </div>
                                         }

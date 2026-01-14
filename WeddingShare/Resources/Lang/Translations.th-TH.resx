@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>เบราว์เซอร์ของคุณไม่รองรับคุณสมบัตินี้</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>ลบรายการ</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>ล้มเหลวในการลบรายการ</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>ลบรายการเรียบร้อยแล้ว</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>การรีเฟรชของบิลล์</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>ล้มเหลวในการอนุมัติรายการทั้งหมด</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>ล้มเหลวในการอนุมัติรายการที่เลือก</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>คุณ อยาก เห็น ด้วย หรือ ปฏิเสธ สิ่ง ของ ทุก อย่าง ไหม?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>คุณต้องการจะยอมรับหรือปฏิเสธการรอรายการที่เลือกไว้?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>ล้มเหลวในการปฏิเสธรายการทั้งหมด</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>ล้มเหลวในการปฏิเสธรายการที่เลือกไว้</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>กล้อง</value>

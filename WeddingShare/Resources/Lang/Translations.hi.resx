@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>आपका ब्राउज़र इस सुविधा का समर्थन नहीं करता है</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>बल्क डिलीट आइटम</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>आइटम हटाने में विफल</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>सफलतापूर्वक हटाए गए आइटम</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>बल्क समीक्षा</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>सभी वस्तुओं को मंजूरी देने में विफल</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>चयनित वस्तुओं को मंजूरी देने में विफल</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>क्या आप सभी लंबित वस्तुओं को स्वीकार या अस्वीकार करना चाहते हैं?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>क्या आप चयनित लंबित वस्तुओं को स्वीकार या अस्वीकार करना चाहते हैं?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>सभी वस्तुओं को अस्वीकार करने में विफल</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>चयनित वस्तुओं को अस्वीकार करने में विफल</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>कैमरा</value>

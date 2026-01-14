@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Ní thacaíonn do bhrabhsálaí leis an ngné seo</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Míreanna a Scriosadh</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Failed chun míreanna a scriosadh</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Míreanna a scriosadh go rathúil</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Athbhreithniú Bulc</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Failed a cheadú gach mír</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Failed a cheadú na míreanna roghnaithe</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Ar mhaith leat a cheadú nó a dhiúltú gach mír ar feitheamh?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Ar mhaith leat a cheadú nó diúltú na míreanna atá roghnaithe ar feitheamh?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Failed a dhiúltú gach míreanna</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Failed a dhiúltú na míreanna roghnaithe</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Ceamara gréasáin</value>

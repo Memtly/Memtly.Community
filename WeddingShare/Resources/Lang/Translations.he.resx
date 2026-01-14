@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>הדפדפן שלך אינו תומך בתכונה זו</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete פריטים</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>נכשל למחוק פריטים</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>פריטים נמחקים בהצלחה</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>ביקורת: Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>נכשל לאשר את כל הפריטים</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>נכשל לאשר את הפריטים שנבחרו</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>רוצים לאשר או לדחות את כל הפריטים?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>אתה רוצה לאשר או לדחות את הפריטים שנבחרו?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>נכשל לדחות את כל הפריטים</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>נכשל לדחות את הפריטים שנבחרו</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>מצלמה</value>

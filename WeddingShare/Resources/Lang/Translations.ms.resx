@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Pelayar Anda tidak mendukung fitur ini</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Penghapusan Bulk</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Gagal memadam item</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Memupuk item yang dihapus secara sukses</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Tinjauan Bolak</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Gagal disahkan semua item</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Gagal disahkan dengan item dipilih</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Apakah Anda ingin menyetujui atau menolak semua item yang tertunda?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Apakah anda ingin menyetujui atau menolak item tertangguh yang dipilih?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Gagal menolak semua item</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Gagal menolak item yang dipilih</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

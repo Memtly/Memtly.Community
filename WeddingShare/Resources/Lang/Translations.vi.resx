@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Trình duyệt của bạn không hỗ trợ tính năng này</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Xóa mục</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Lỗi xoá mục</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Đã xoá mục</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Xem lại loạt</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Lỗi chấp nhận mọi mục</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Lỗi chấp nhận các mục đã chọn</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Bạn có muốn phê chuẩn hoặc từ chối mọi món đồ đang chờ không?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Bạn có muốn phê chuẩn hoặc từ chối những mục đang đợi không?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Lỗi từ chối mọi mục</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Lỗi từ chối các mục đã chọn</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Máy ảnh</value>

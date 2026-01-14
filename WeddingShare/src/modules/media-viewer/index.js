@@ -45,6 +45,7 @@ class MediaViewer {
         this.bindOpenPopup();
         this.bindClosePopup();
         this.bindRightClick();
+        this.bindMultiSelectButton();
         this.bindScroll();
         this.bindArrowKeys();
         this.bindLikeButton();
@@ -75,6 +76,19 @@ class MediaViewer {
         $(document).off('contextmenu', '.image-tile').on('contextmenu', '.image-tile', (e) => {
             e.preventDefault();
             e.stopPropagation();
+        });
+    }
+
+    bindMultiSelectButton() {
+        $(document).off('click', '.btn-multi-select').on('click', '.btn-multi-select', function (e) {
+            preventDefaults(e);
+            $(this).toggleClass('fa-square').toggleClass('fa-square-check');
+
+            if ($('.btn-multi-select.fa-square-check').length > 0) {
+                $('.btn-bulk-delete-resources').removeClass('d-none');
+            } else {
+                $('.btn-bulk-delete-resources').addClass('d-none');
+            }
         });
     }
 

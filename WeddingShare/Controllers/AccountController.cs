@@ -939,13 +939,13 @@ namespace WeddingShare.Controllers
 
         [HttpPost]
         [RequiresRole(ReviewPermission = ReviewPermissions.View)]
-        public async Task<IActionResult> BulkReview(ReviewAction action)
+        public async Task<IActionResult> BulkReview(ReviewAction action, int[] ids)
         {
             if (User?.Identity != null && User.Identity.IsAuthenticated)
             {
                 try
                 {
-                    var items = await _database.GetPendingGalleryItems();
+                    var items = (await _database.GetPendingGalleryItems())?.Where(x => ids == null || ids.Length == 0 || ids.Contains(x.Id));
                     if (items != null && items.Any())
                     {
                         foreach (var galleryGroup in items.GroupBy(x => x.GalleryId))
@@ -1795,6 +1795,50 @@ namespace WeddingShare.Controllers
                 catch (Exception ex)
                 {
                     _logger.LogError(ex, $"{_localizer["CustomResource_Delete_Failed"].Value} - {ex?.Message}");
+                }
+            }
+
+            return Json(new { success = false });
+        }
+
+        [HttpDelete]
+        [RequiresRole(CustomResourcePermission = CustomResourcePermissions.Delete)]
+        public async Task<IActionResult> BulkRemoveCustomResource(int[] ids)
+        {
+            Response.StatusCode = (int)HttpStatusCode.BadRequest;
+
+            if (User?.Identity != null && User.Identity.IsAuthenticated)
+            {
+                var success = true;
+
+                foreach (var id in ids)
+                { 
+                    try
+                    {
+                        var resource = await _database.GetCustomResource(id);
+                        if (resource != null && User.Identity.CanEdit(CustomResourcePermissions.Delete, resource.Owner))
+                        {
+                            if (await _database.DeleteCustomResource(resource))
+                            {
+                                if (!string.IsNullOrWhiteSpace(resource.FileName))
+                                {
+                                    _fileHelper.DeleteFileIfExists(Path.Combine(CustomResourcesDirectory, resource.FileName));
+                                }
+
+                                await _audit.LogAction(User?.Identity?.Name, $"{_localizer["Audit_CustomResourceDeleted"].Value} '{resource?.FileName}'");
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError(ex, $"{_localizer["CustomResource_Delete_Failed"].Value} - {ex?.Message}");
+                        success = false;
+                    }
+                }
+
+                if (success) { 
+                    Response.StatusCode = (int)HttpStatusCode.OK;
+                    return Json(new { success });
                 }
             }
 

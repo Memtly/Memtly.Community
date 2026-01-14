@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Ihr Browser unterstützt diese Funktion nicht</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Artikel löschen</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Nicht zu löschen Artikel</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Erfolgreich gelöschte Artikel</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Nichtigerklärung aller Artikel</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Nicht zu genehmigen die ausgewählten Elemente</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Möchten Sie alle anhängigen Artikel billigen oder ablehnen?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Möchten Sie die ausgewählten anhängigen Artikel genehmigen oder ablehnen?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Nichtigerklärung aller Artikel</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Zurückweisung der ausgewählten Gegenstände</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

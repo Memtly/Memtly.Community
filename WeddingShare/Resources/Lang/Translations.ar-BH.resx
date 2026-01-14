@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>منظفك لا يدعم هذه المميزة</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>البنود المنشورة</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>عدم حذف البنود</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>البنود المحذوفة بنجاح</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>استعراض شعبي</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>عدم الموافقة على جميع البنود</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>عدم الموافقة على البنود المختارة</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>هل ترغب في الموافقة أو رفض جميع البنود المعلقة؟?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>هل ترغب في الموافقة على البنود المختارة المعلقة أو رفضها؟?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>عدم رفض جميع البنود</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>عدم رفض البنود المختارة</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>آلة تصوير</value>

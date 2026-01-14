@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Ваш браузер не підтримує цю функцію</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Булк Видалити елементи</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Не вдалося видалити елементи</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Успішно вилучені елементи</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Огляд</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Заборонено затвердити всі товари</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Не вдалося затвердити вибрані елементи</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Бажаєте затвердити або відхиляти всі заставні елементи?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Бажаєте затвердити або відхилити вибрані елементи?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Покинути всі товари</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Не вдалося відхилити вибрані елементи</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Камери</value>

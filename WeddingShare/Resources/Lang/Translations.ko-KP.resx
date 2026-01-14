@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>귀하의 브라우저는이 기능을 지원하지 않습니다</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>대량 삭제 항목</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>상품 삭제</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>성공적으로 삭제 된 항목</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>대량 검토</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>모든 항목을 승인</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>선택한 항목에 실패</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>모든 항목을 승인하거나 거부하시겠습니까?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>선택된 항목을 approve 또는 거부하시겠습니까?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>모든 항목을 거부 할 실패</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>선택한 항목을 거부 할 실패</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>관련 기사</value>

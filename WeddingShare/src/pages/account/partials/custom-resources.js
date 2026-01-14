@@ -11,6 +11,7 @@ function init() {
 function bindEventHandlers() {
     bindUploadCustomResourceInput();
     bindDeleteCustomResourceButton();
+    bindBulkDeleteCustomResourceButton();
 }
 
 function bindUploadCustomResourceInput() {
@@ -136,6 +137,68 @@ function bindDeleteCustomResourceButton() {
                         })
                         .fail((xhr, error) => {
                             displayMessage(localization.translate('Delete_Item'), localization.translate('Delete_Item_Failed'), [error]);
+                        });
+                }
+            }, {
+                Text: localization.translate('Close')
+            }]
+        });
+    });
+}
+
+function bindBulkDeleteCustomResourceButton() {
+    $(document).off('click', '.btn-bulk-delete-resources').on('click', '.btn-bulk-delete-resources', function (e) {
+        preventDefaults(e);
+
+        if ($(this).attr('disabled') == 'disabled') {
+            return;
+        }
+
+        const items = $('div#custom-resources .btn-multi-select.fa-square-check');
+        let ids = items.map(function () { return $(this).data('id'); }).get();
+
+        displayPopup({
+            Title: `${localization.translate('Bulk_Delete_Items')} (${items.length})`,
+            Message: localization.translate('Delete_Are_You_Sure'),
+            Fields: [{
+                Id: 'custom-resource-ids',
+                Value: ids.join(),
+                Type: 'hidden'
+            }],
+            Buttons: [{
+                Text: localization.translate('Delete'),
+                Class: 'btn-danger',
+                Callback: function () {
+                    displayLoader(localization.translate('Loading'));
+
+                    let ids = $('#popup-modal-field-custom-resource-ids').val().split(',');
+                    if (ids == undefined || ids.length == 0) {
+                        displayMessage(localization.translate('Delete_Item'), localization.translate('Delete_Item_Id_Missing'));
+                        return;
+                    }
+
+                    $.ajax({
+                        url: '/Account/BulkRemoveCustomResource',
+                        method: 'DELETE',
+                        data: { ids }
+                    })
+                        .done(data => {
+                            if (data.success === true) {
+                                displayMessage(localization.translate('Bulk_Delete_Items'), localization.translate('Bulk_Delete_Items_Success'));
+
+                                updateCustomResources();
+                                //updateSettings();
+
+                                $('div#custom-resources .btn-multi-select.fa-square-check').remove();
+                                $('.btn-bulk-delete-resources').addClass('d-none');
+                            } else if (data.message) {
+                                displayMessage(localization.translate('Bulk_Delete_Items'), localization.translate('Bulk_Delete_Items_Failed'), [data.message]);
+                            } else {
+                                displayMessage(localization.translate('Bulk_Delete_Items'), localization.translate('Bulk_Delete_Items_Failed'));
+                            }
+                        })
+                        .fail((xhr, error) => {
+                            displayMessage(localization.translate('Bulk_Delete_Items'), localization.translate('Bulk_Delete_Items_Failed'), [error]);
                         });
                 }
             }, {

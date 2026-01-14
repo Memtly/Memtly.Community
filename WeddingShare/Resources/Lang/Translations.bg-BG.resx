@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Вашият браузър не поддържа тази функция</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Изтрити елементи</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Грешка при изтриване на елементи</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Успешно изтрити елементи</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Преглед на едро</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Грешка при одобряване на всички елементи</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Грешка при одобряване на избраните елементи</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Искате ли да одобрите или отхвърлите всички чакащи?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Бихте ли искали да одобрите или отхвърлите избраните в очакване елементи?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Грешка при отхвърляне на всички елементи</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Грешка при отхвърляне на избраните елементи</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Камера</value>

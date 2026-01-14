@@ -36,36 +36,40 @@ function bindBulkReviewButton() {
             return;
         }
 
-        displayPopup({
-            Title: localization.translate('Bulk_Review'),
-            Message: localization.translate('Bulk_Review_Message'),
-            Buttons: [{
-                Text: localization.translate('Approve'),
-                Class: 'btn-primary-2',
-                Callback: function () {
-                    displayLoader(localization.translate('Loading'));
+        const items = $('div#pending-reviews .btn-multi-select.fa-square-check');
+        let ids = items.map(function () { return $(this).data('id'); }).get();
 
-                    $.ajax({
-                        url: '/Account/BulkReview',
-                        method: 'POST',
-                        data: { action: 1 }
-                    })
-                        .done(data => {
-                            if (data.success === true) {
-                                updatePendingReviews();
-                                hideLoader();
-                            } else if (data.message) {
-                                displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'), [data.message]);
-                            } else {
-                                displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'));
-                            }
+        if (ids === undefined || ids.length === 0) {
+            displayPopup({
+                Title: localization.translate('Bulk_Review'),
+                Message: localization.translate('Bulk_Review_Message'),
+                Buttons: [{
+                    Text: localization.translate('Approve'),
+                    Class: 'btn-primary-2',
+                    Callback: function () {
+                        displayLoader(localization.translate('Loading'));
+
+                        $.ajax({
+                            url: '/Account/BulkReview',
+                            method: 'POST',
+                            data: { action: 1, ids: [] }
                         })
-                        .fail((xhr, error) => {
-                            displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'), [error]);
-                        });
-                }
-            }, {
-                Text: localization.translate('Reject'),
+                            .done(data => {
+                                if (data.success === true) {
+                                    updatePendingReviews();
+                                    hideLoader();
+                                } else if (data.message) {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'), [data.message]);
+                                } else {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'));
+                                }
+                            })
+                            .fail((xhr, error) => {
+                                displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed'), [error]);
+                            });
+                    }
+                }, {
+                    Text: localization.translate('Reject'),
                     Class: 'btn-danger',
                     Callback: function () {
                         displayLoader(localization.translate('Loading'));
@@ -73,7 +77,7 @@ function bindBulkReviewButton() {
                         $.ajax({
                             url: '/Account/BulkReview',
                             method: 'POST',
-                            data: { action: 2 }
+                            data: { action: 2, ids: [] }
                         })
                             .done(data => {
                                 if (data.success === true) {
@@ -90,9 +94,68 @@ function bindBulkReviewButton() {
                             });
                     }
                 }, {
-                Text: localization.translate('Close')
-            }]
-        });
+                    Text: localization.translate('Close')
+                }]
+            });
+        } else {
+            displayPopup({
+                Title: `${localization.translate('Bulk_Review')} (${ids.length})`,
+                Message: localization.translate('Bulk_Review_Message_MultiSelect'),
+                Buttons: [{
+                    Text: localization.translate('Approve'),
+                    Class: 'btn-primary-2',
+                    Callback: function () {
+                        displayLoader(localization.translate('Loading'));
+
+                        $.ajax({
+                            url: '/Account/BulkReview',
+                            method: 'POST',
+                            data: { action: 1, ids: ids }
+                        })
+                            .done(data => {
+                                if (data.success === true) {
+                                    updatePendingReviews();
+                                    hideLoader();
+                                } else if (data.message) {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed_MultiSelect'), [data.message]);
+                                } else {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed_MultiSelect'));
+                                }
+                            })
+                            .fail((xhr, error) => {
+                                displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Approve_Failed_MultiSelect'), [error]);
+                            });
+                    }
+                }, {
+                    Text: localization.translate('Reject'),
+                    Class: 'btn-danger',
+                    Callback: function () {
+                        displayLoader(localization.translate('Loading'));
+
+                        $.ajax({
+                            url: '/Account/BulkReview',
+                            method: 'POST',
+                            data: { action: 2, ids: ids }
+                        })
+                            .done(data => {
+                                if (data.success === true) {
+                                    updatePendingReviews();
+                                    hideLoader();
+                                } else if (data.message) {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Reject_Failed_MultiSelect'), [data.message]);
+                                } else {
+                                    displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Reject_Failed_MultiSelect'));
+                                }
+                            })
+                            .fail((xhr, error) => {
+                                displayMessage(localization.translate('Bulk_Review'), localization.translate('Bulk_Review_Reject_Failed_MultiSelect'), [error]);
+                            });
+                    }
+                }, {
+                    Text: localization.translate('Close')
+                }]
+            });
+        }
     });
 }
 

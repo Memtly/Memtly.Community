@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>您的浏览器不支持此特性</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>分批刪除項目</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>刪除項目失敗</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>已成功刪除項目</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>批量审查</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>所有项目的核准失败</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>無法批准所選取的項目</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>您要批准还是拒绝所有待决项目?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>您要批准或拒絕所選取的未决項目嗎 ?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>拒绝所有项目失败</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>拒絕所選項目失敗</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>相机</value>

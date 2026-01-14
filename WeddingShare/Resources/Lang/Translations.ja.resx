@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>お使いのブラウザは、この機能をサポートしていません</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>バルク削除項目</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>アイテムを削除できない</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>完全に削除された項目</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>バルクレビュー</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>すべてのアイテムを承認できなかった</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>選択した項目を承認できなかった</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>保留中のアイテムを承認または拒否したいですか?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>選択した保留中のアイテムを承認または拒否しますか?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>すべての項目を拒否する失敗</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>選択した項目を拒否できなかった</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>カメラ</value>

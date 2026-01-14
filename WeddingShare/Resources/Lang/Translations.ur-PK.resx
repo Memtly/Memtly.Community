@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>آپ کا براڈ بینڈ اس خصوصیت کی حمایت نہیں کرتا</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>بلخ نے ایتھنز</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>آئٹمس حذف کرنے میں ناکامی</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>کامیاب طور پر ختم ہونے والی چیزیں</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>بلک اعادہ</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>تمام چیزوں کو منظور کرنے میں ناکامی</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>منتخب آئٹمس کو منظور کرنے میں ناکامی</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>کیا آپ ہر طرح کی چیزوں کو پسند کریں گے ؟?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>کیا آپ اِن چیزوں کو پسند کریں گے ؟?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>تمام چیزوں کو مسترد کرنے میں ناکامی</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>منتخب عناصر کو رد کرنے میں ناکامی</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>کیمرون</value>

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Din webbläsare stöder inte denna funktion</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete objekt</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Underlåten att ta bort objekt</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Framgångsrikt raderade objekt</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Misslyckades med att godkänna alla objekt</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Underlåten att godkänna de valda objekten</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Vill du godkänna eller avvisa alla pågående föremål?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Vill du godkänna eller avvisa de valda pågående objekten?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Misslyckades med att avvisa alla objekt</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Underlåtenhet att avvisa de valda objekten</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

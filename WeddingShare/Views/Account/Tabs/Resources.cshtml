@@ -9,7 +9,17 @@
     <div class="container px-3 px-lg-1 my-3 my-lg-0">
         <div class="row">
             <div class="col-12">
-                <h1 class="display-6">@_localizer["Custom_Resources"].Value</h1>
+                <h1 class="display-6">@_localizer["Custom_Resources"].Value
+                    <span class="header-actions">
+                        @if (userPermissions.CustomResources.HasFlag(CustomResourcePermissions.Delete))
+                        {
+                            <span class="btn-bulk-delete-resources action link-danger pointer d-none" alt="@_localizer["Delete"].Value" title="@_localizer["Delete"].Value">
+                                <i class="fas fa-trash"></i>
+                                <span>@_localizer["Delete"].Value</span>
+                            </span>
+                        }
+                    </span>
+                </h1>
             </div>
         </div>
         @if (userPermissions.CustomResources.HasFlag(CustomResourcePermissions.Create))

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Tarayıcınız bu özelliği desteklemiyor</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Delete Elements</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Eşyaları silmek için başarısız oldu</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Başarılı silinmiş öğeler</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Tüm eşyaları onaylamayı başaramadı</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Seçilen eşyaları onaylamayı başaramadı</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Tüm bekleyen eşyaları onaylamak veya reddetmek ister misiniz?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Seçilmiş bekleyen eşyaları onaylamak veya reddetmek ister misiniz?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Tüm eşyaları reddetmek için başarısız oldu</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Seçilen eşyaları reddetmeye başarısız oldu</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

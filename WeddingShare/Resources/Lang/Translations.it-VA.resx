@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Il browser non supporta questa funzionalità</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Elimina articoli</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Non riuscito a eliminare gli elementi</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Oggetti eliminati con successo</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Revisione in Blocco</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Non approvare tutti gli elementi</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Non approvare gli elementi selezionati</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Vuoi approvare o rifiutare tutti gli elementi in sospeso?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Vuoi approvare o rifiutare gli elementi in sospeso selezionati?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Impossibile rifiutare tutti gli elementi</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Rifiuto di rifiutare gli elementi selezionati</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Telecamera</value>

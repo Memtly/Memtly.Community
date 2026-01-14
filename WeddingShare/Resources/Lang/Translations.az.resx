@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Sizin browser bu xüsusiyyət dəstəyir</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Qeyd Delete</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Maddələri silmək</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Müxtəlif silinmiş maddələr</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Axtarış</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Bütün maddələri tətbiq etməyə çalışıb</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Seçilmiş maddələrin qəbul edilməsi</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Bütün gözəlli maddələri təyin etmək və ya redaktə istəyirsiniz?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Seçdiyi məhsulları təyin etmək və ya redaktə etmək istəyirsiniz?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Bütün maddələri qarşılaşdırmaq</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Seçilmiş maddələri redaktə etmək</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Avtomobil</value>

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Ο περιηγητής σας δεν υποστηρίζει αυτή τη λειτουργία</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Μαζική διαγραφή αντικειμένων</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Αποτυχία διαγραφής αντικειμένων</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Επιτυχής διαγραφή αντικειμένων</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Μαζική αναθεώρηση</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Αποτυχία έγκρισης όλων των αντικειμένων</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Αποτυχία έγκρισης των επιλεγμένων αντικειμένων</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Θα θέλατε να εγκρίνετε ή να απορρίψετε όλα τα εκκρεμή θέματα?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Θέλετε να εγκρίνετε ή να απορρίψετε τα επιλεγμένα εκκρεμή στοιχεία?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Αποτυχία απόρριψης όλων των αντικειμένων</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Αποτυχία απόρριψης των επιλεγμένων αντικειμένων</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Κάμερα</value>

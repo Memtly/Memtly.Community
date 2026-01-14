@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Uw browser ondersteunt deze functie niet</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Items in bulk verwijderen</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Verwijderen van items is mislukt</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Met succes verwijderde items</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Evaluatie in bulk</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Kon alle items niet goedkeuren</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Kon de geselecteerde items niet goedkeuren</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Wilt u alle hangende zaken goedkeuren of verwerpen?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Wilt u de geselecteerde items goedkeuren of weigeren?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Alle items weigeren is mislukt</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Kon de geselecteerde items niet weigeren</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Camera</value>

@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>Din browser understøtter ikke denne funktion</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>Bulk Slet elementer</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>Kunne ikke slette elementer</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>Succesfuldt slettede elementer</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>Bulk Review</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>Kunne ikke godkende alle elementer</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>Kunne ikke godkende de markerede elementer</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>Vil De godkende eller afvise alle udestående punkter?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>Vil du godkende eller afvise de valgte verserende punkter?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>Kunne ikke afvise alle elementer</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>Kunne ikke afvise de markerede elementer</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>Kamera</value>

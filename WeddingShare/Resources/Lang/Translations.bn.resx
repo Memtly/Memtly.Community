@@ -313,17 +313,35 @@
   <data name="Browser_Does_Not_Support" xml:space="preserve">
     <value>আপনার ব্রাউজার সমর্থন করে না</value>
   </data>
+  <data name="Bulk_Delete_Items" xml:space="preserve">
+    <value>প্রতিটি বস্তু মুছে ফেলুন</value>
+  </data>
+  <data name="Bulk_Delete_Items_Failed" xml:space="preserve">
+    <value>বস্তু মুছে ফেলতে ব্যর্থ</value>
+  </data>
+  <data name="Bulk_Delete_Items_Success" xml:space="preserve">
+    <value>সাফল্যের সাথে সামগ্রী মুছে ফেলা হয়েছে</value>
+  </data>
   <data name="Bulk_Review" xml:space="preserve">
     <value>বুকমার্ক পর্যালোচনা</value>
   </data>
   <data name="Bulk_Review_Approve_Failed" xml:space="preserve">
     <value>সকল বস্তু প্রাপ্ত করতে ব্যর্থ</value>
   </data>
+  <data name="Bulk_Review_Approve_Failed_MultiSelect" xml:space="preserve">
+    <value>নির্বাচিত বস্তুগুলি মুছে ফেলতে ব্যর্থ</value>
+  </data>
   <data name="Bulk_Review_Message" xml:space="preserve">
     <value>আপনি কি সব কিছু অনুমোদন বা প্রত্যাখ্যান করতে চান?</value>
   </data>
+  <data name="Bulk_Review_Message_MultiSelect" xml:space="preserve">
+    <value>আপনি কি নির্বাচিত সামগ্রীগুলোকে অনুমোদন বা প্রত্যাখ্যান করতে চান?</value>
+  </data>
   <data name="Bulk_Review_Reject_Failed" xml:space="preserve">
     <value>বস্তুটি হালনাগাদ করা সম্ভব হয়নি</value>
+  </data>
+  <data name="Bulk_Review_Reject_Failed_MultiSelect" xml:space="preserve">
+    <value>নির্বাচিত সামগ্রী মুছে ফেলতে ব্যর্থ</value>
   </data>
   <data name="Camera" xml:space="preserve">
     <value>ক্যামেরা</value>
