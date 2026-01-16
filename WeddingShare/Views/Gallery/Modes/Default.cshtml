@@ -142,9 +142,16 @@
                                 {
                                     <img src="/images/play-button.svg" class="media-viewer-play" loading="lazy" />
                                 }
-                                @if (User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.Review.HasFlag(ReviewPermissions.Delete))
+                                @if (User?.Identity != null && User.Identity.IsAuthenticated)
                                 {
-                                    <i class="fa fa-trash btnDeletePhoto btn-delete-item d-lg-none" data-photo-id="@image?.Id" data-photo-name="@image?.Name"></i>
+                                    if (userPermissions.Gallery.HasFlag(GalleryPermissions.Download))
+                                    {
+                                        <i class="fa fa-square btn-multi-select" data-id="@image?.Name"></i>
+                                    }
+                                    if (userPermissions.Review.HasFlag(ReviewPermissions.Delete))
+                                    {
+                                        <i class="fa fa-trash btnDeletePhoto btn-delete-item d-lg-none" data-photo-id="@image?.Id" data-photo-name="@image?.Name"></i>
+                                    }
                                 }
                             </a>
                         </div>

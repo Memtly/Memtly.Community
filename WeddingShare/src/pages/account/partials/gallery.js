@@ -109,7 +109,7 @@ function bindDownloadGalleryButton() {
         $.ajax({
             url: '/Gallery/DownloadGallery',
             method: 'POST',
-            data: { Id: id, SecretKey: secretKey },
+            data: { Id: id, SecretKey: secretKey, FileFilter: [] },
             xhrFields: {
                 responseType: 'blob'
             },

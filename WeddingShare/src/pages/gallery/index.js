@@ -80,10 +80,13 @@ function bindDownloadGroup() {
         const secretKey = $(e.currentTarget).data('gallery-key');
         const group = $(e.currentTarget).data('group-name');
 
+        const items = $('div#main-gallery .btn-multi-select.fa-square-check');
+        let ids = items.map(function () { return $(this).data('id'); }).get();
+
         $.ajax({
             url: '/Gallery/DownloadGallery',
             method: 'POST',
-            data: { Id: id, SecretKey: secretKey, Group: group },
+            data: { Id: id, SecretKey: secretKey, Group: group, FileFilter: ids },
             xhrFields: {
                 responseType: 'blob'
             },
@@ -124,10 +127,13 @@ function bindDownloadGallery() {
         const name = $(e.currentTarget).data('gallery-name');
         const secretKey = $(e.currentTarget).data('gallery-key');
 
+        const items = $('div#main-gallery .btn-multi-select.fa-square-check');
+        let ids = items.map(function () { return $(this).data('id'); }).get();
+
         $.ajax({
             url: '/Gallery/DownloadGallery',
             method: 'POST',
-            data: { Id: id, SecretKey: secretKey },
+            data: { Id: id, SecretKey: secretKey, FileFilter: ids },
             xhrFields: {
                 responseType: 'blob'
             },

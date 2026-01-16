@@ -512,7 +512,7 @@ namespace WeddingShare.Controllers
 
         [HttpPost]
         [RequestTimeout("timeout_1h")]
-        public async Task<IActionResult> DownloadGallery(int id, string? secretKey, string? group)
+        public async Task<IActionResult> DownloadGallery(int id, string? secretKey, string? group, List<string>? fileFilter)
         {
             try
             {
@@ -531,13 +531,17 @@ namespace WeddingShare.Controllers
                         var galleryDir = id > 0 ? Path.Combine(UploadsDirectory, gallery.Identifier) : UploadsDirectory;
                         if (_fileHelper.DirectoryExists(galleryDir))
                         {
-                            var fileFilter = new List<string>();
+                            fileFilter = fileFilter ?? new List<string>();
+
                             if (!string.IsNullOrWhiteSpace(group))
                             {
                                 var groupParts = group.Split('|', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
                                 if (groupParts != null && groupParts.Length == 2)
                                 {
-                                    var items = await _database.GetAllGalleryItems(id, GalleryItemState.Approved);
+                                    var tempFilter = fileFilter;
+                                    fileFilter = new List<string>();
+
+                                    var galleryItems = await _database.GetAllGalleryItems(id, GalleryItemState.Approved);
                                     foreach (GalleryGroup type in Enum.GetValues(typeof(GalleryGroup)))
                                     {
                                         if (((int)type).ToString().Equals(groupParts[0]))
@@ -548,13 +552,13 @@ namespace WeddingShare.Controllers
                                                 switch (type)
                                                 {
                                                     case GalleryGroup.Date:
-                                                        filtered = items?.GroupBy(x => x.UploadedDate != null ? x.UploadedDate.Value.ToString("dddd, d MMMM yyyy") : "Unknown");
+                                                        filtered = galleryItems?.GroupBy(x => x.UploadedDate != null ? x.UploadedDate.Value.ToString("dddd, d MMMM yyyy") : "Unknown");
                                                         break;
                                                     case GalleryGroup.MediaType:
-                                                        filtered = items?.GroupBy(x => x.MediaType.ToString());
+                                                        filtered = galleryItems?.GroupBy(x => x.MediaType.ToString());
                                                         break;
                                                     case GalleryGroup.Uploader:
-                                                        filtered = items?.GroupBy(x => x.UploadedBy ?? "Anonymous");
+                                                        filtered = galleryItems?.GroupBy(x => x.UploadedBy ?? "Anonymous");
                                                         break;
                                                 }
 
@@ -566,7 +570,7 @@ namespace WeddingShare.Controllers
                                                         {
                                                             if (f.Any())
                                                             {
-                                                                fileFilter.AddRange(f.Select(x => x.Title));
+                                                                fileFilter.AddRange(f.Select(x => x.Title).Where(x => tempFilter == null || !tempFilter.Any() || tempFilter.Contains(x)));
                                                             }
 
                                                             break;
