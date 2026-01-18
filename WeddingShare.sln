@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeddingShare", "WeddingShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeddingShare.UnitTests", "WeddingShare.UnitTests\WeddingShare.UnitTests.csproj", "{B1BAAF2F-454D-4B57-AD6B-9701D73EB8C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeddingShare.Lang", "weddingshare.lang\WeddingShare.Lang\WeddingShare.Lang.csproj", "{3A4406EE-7A5F-5315-260A-43CFA2BF29FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1BAAF2F-454D-4B57-AD6B-9701D73EB8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BAAF2F-454D-4B57-AD6B-9701D73EB8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1BAAF2F-454D-4B57-AD6B-9701D73EB8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4406EE-7A5F-5315-260A-43CFA2BF29FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4406EE-7A5F-5315-260A-43CFA2BF29FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4406EE-7A5F-5315-260A-43CFA2BF29FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4406EE-7A5F-5315-260A-43CFA2BF29FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
