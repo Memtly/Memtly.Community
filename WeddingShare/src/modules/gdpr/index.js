@@ -1,4 +1,6 @@
-﻿function init() {
+﻿import { getCookie } from '@modules/cookies';
+
+function init() {
     if ($('div.cookie-consent-alert').length === 0) {
         acceptCookieConcent();
     }
@@ -18,15 +20,18 @@ function bindAcceptCookiePolicyButton() {
 }
 
 function acceptCookieConcent() {
-    document.cookie = $('.cookie-consent').data('cookie-string');
+    let consent = getCookie('.AspNet.Consent');
+    if (consent === undefined || consent.toLowerCase() === 'no') {
+        document.cookie = $('.cookie-consent').data('cookie-string');
 
-    $('.cookie-consent-wrapper').remove();
-    $('.cookie-consent-alert').remove();
+        $('.cookie-consent-wrapper').remove();
+        $('.cookie-consent-alert').remove();
 
-    $.ajax({
+        $.ajax({
         url: '/Home/LogCookieApproval',
         method: 'POST'
     });
+    }
 }
 
 export default init;
