@@ -1,1 +1,0 @@
-UPDATE `gallery_items` SET `uploaded_date`=NULL;

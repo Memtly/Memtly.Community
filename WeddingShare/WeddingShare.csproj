@@ -37,39 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="SqlScripts\000 - Initialize Database.sql" />
-    <None Remove="SqlScripts\MySQL\000 - Initialize Database.sql" />
-    <None Remove="SqlScripts\MySQL\001 - Add Failed Login Tracking.sql" />
-    <None Remove="SqlScripts\MySQL\002 - Add MediaType.sql" />
-    <None Remove="SqlScripts\MySQL\003 - Add Checksum.sql" />
-    <None Remove="SqlScripts\MySQL\004 - Add 2FA.sql" />
-    <None Remove="SqlScripts\MySQL\005 - Add ImageOrientation.sql" />
-    <None Remove="SqlScripts\MySQL\006 - Add Uploaded Date.sql" />
-    <None Remove="SqlScripts\MySQL\007 - Wipe DateTimes for Rescan.sql" />
-    <None Remove="SqlScripts\MySQL\008 - Add File Size.sql" />
-    <None Remove="SqlScripts\MySQL\010 - Add CustomResources Table.sql" />
-    <None Remove="SqlScripts\MySQL\011 - Add Audit Table.sql" />
-    <None Remove="SqlScripts\MySQL\011b - Add User Freezing.sql" />
-    <None Remove="SqlScripts\MySQL\012 - Add Resource Owners.sql" />
-    <None Remove="SqlScripts\MySQL\013 - Rename Account Settings Keys.sql" />
-    <None Remove="SqlScripts\MySQL\014 - Rename Background Service Settings Keys.sql" />
-    <None Remove="SqlScripts\SQLite\001 - Add Failed Login Tracking.sql" />
-    <None Remove="SqlScripts\SQLite\002 - Add MediaType.sql" />
-    <None Remove="SqlScripts\SQLite\003 - Add Checksum.sql" />
-    <None Remove="SqlScripts\SQLite\004 - Add 2FA.sql" />
-    <None Remove="SqlScripts\SQLite\005 - Add ImageOrientation.sql" />
-    <None Remove="SqlScripts\SQLite\006 - Add Uploaded Date.sql" />
-    <None Remove="SqlScripts\SQLite\007 - Wipe DateTimes for Rescan.sql" />
-    <None Remove="SqlScripts\SQLite\008 - Add File Size.sql" />
-    <None Remove="SqlScripts\SQLite\010 - Add CustomResources Table.sql" />
-    <None Remove="SqlScripts\SQLite\011 - Add Audit Table.sql" />
-    <None Remove="SqlScripts\SQLite\011b - Add User Freezing.sql" />
-    <None Remove="SqlScripts\SQLite\012 - Add Resource Owners.sql" />
-    <None Remove="SqlScripts\SQLite\013 - Rename Account Settings Keys.sql" />
-    <None Remove="SqlScripts\SQLite\014 - Rename Background Service Settings Keys.sql" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="src\css\main.css" />
     <Content Include="src\css\site.css" />
     <Content Include="src\css\template.css" />
@@ -129,59 +96,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="SqlScripts\MySQL\018 - Add User Secret.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\017 - Add Uploader Email.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\010 - Add CustomResources Table.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\009b - Add Gallery Settings Table.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\009 - Add Settings Table.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\000 - Initialize Database.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\001 - Add Failed Login Tracking.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\002 - Add MediaType.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\003 - Add Checksum.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\004 - Add 2FA.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\007 - Wipe DateTimes for Rescan.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\006 - Add Uploaded Date.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\008 - Add File Size.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\005 - Add ImageOrientation.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\011 - Add Audit Table.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\011b - Add User Freezing.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\014 - Rename Background Service Settings Keys.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\013 - Rename Account Settings Keys.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\012 - Add Resource Owners.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\016 - Add All Gallery.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\015 - Add Gallery Identifier.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\022 - Add audit log severity.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\021 - Add GalleryId to likes table.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\020 - Add Free User Level.sql" />
-    <EmbeddedResource Include="SqlScripts\MySQL\019 - Add Likes Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\004 - Add 2FA.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\003 - Add Checksum.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\002 - Add MediaType.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\001 - Add Failed Login Tracking.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\000 - Initialize Database.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\005 - Add ImageOrientation.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\006 - Add Uploaded Date.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\007 - Wipe DateTimes for Rescan.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\008 - Add File Size.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\009 - Add Settings Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\009b - Add Gallery Settings Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\011b - Add User Freezing.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\011 - Add Audit Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\010 - Add CustomResources Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\012 - Add Resource Owners.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\013 - Rename Account Settings Keys.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\015 - Add Gallery Identifier.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\014 - Rename Background Service Settings Keys.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\016 - Add All Gallery.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\017 - Add Uploader Email.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\019 - Add Likes Table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\018 - Add User Secret.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\020 - Add Free User Level.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\021 - Add GalleryId to likes table.sql" />
-    <EmbeddedResource Include="SqlScripts\SQLite\022 - Add audit log severity.sql" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="dbup-mysql" Version="6.0.4" />
     <PackageReference Include="dbup-sqlite" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.10" />
@@ -189,6 +103,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.10" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -198,6 +114,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
     <PackageReference Include="MySql.Data" Version="9.5.0" />
     <PackageReference Include="NCrontab" Version="3.4.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
     <PackageReference Include="Razor.Templating.Core" Version="2.1.0" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
     <PackageReference Include="TwoFactorAuth.Net" Version="1.4.0" />
@@ -207,6 +125,7 @@
 
   <ItemGroup>
     <Folder Include="config\" />
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\custom_resources\" />
     <Folder Include="wwwroot\thumbnails\" />
     <Folder Include="wwwroot\uploads\" />

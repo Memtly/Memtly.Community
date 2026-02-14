@@ -1,6 +1,5 @@
 ﻿using System.Reflection;
 using System.Text;
-using WeddingShare.Constants;
 using WeddingShare.Helpers.Database;
 using WeddingShare.Models.Database;
 
@@ -23,13 +22,13 @@ namespace WeddingShare.Helpers
 
     public class SettingsHelper : ISettingsHelper
     {
-        private readonly IDatabaseHelper _databaseHelper;
+        private readonly IServiceScopeFactory _scopeFactory;
         private readonly IConfigHelper _configHelper;
         private readonly ILogger _logger;
 
-        public SettingsHelper(IDatabaseHelper databaseHelper, IConfigHelper configHelper, ILogger<SettingsHelper> logger)
+        public SettingsHelper(IServiceScopeFactory scopeFactory, IConfigHelper configHelper, ILogger<SettingsHelper> logger)
         { 
-            _databaseHelper = databaseHelper;
+            _scopeFactory = scopeFactory;
             _configHelper = configHelper;
             _logger = logger;
         }
@@ -42,10 +41,15 @@ namespace WeddingShare.Helpers
                 {
                     try
                     {
-                        var dbValue = galleryId != null ? await _databaseHelper.GetSetting(key, galleryId.Value) : await _databaseHelper.GetSetting(key);
-                        if (dbValue != null)
+                        using (var scope = _scopeFactory.CreateScope())
                         {
-                            return dbValue;
+                            var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
+
+                            var dbValue = galleryId != null ? await db.GetSetting(key, galleryId.Value) : await db.GetSetting(key);
+                            if (dbValue != null)
+                            {
+                                return dbValue;
+                            }
                         }
                     }
                     catch (Exception ex)
@@ -181,11 +185,16 @@ namespace WeddingShare.Helpers
         {
             if (!string.IsNullOrWhiteSpace(key))
             {
-                return await _databaseHelper.SetSetting(new SettingModel() 
+                using (var scope = _scopeFactory.CreateScope())
                 {
-                    Id = key,
-                    Value = value
-                }, galleryId);
+                    var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
+
+                    return await db.SetSetting(new SettingModel()
+                    {
+                        Id = key,
+                        Value = value
+                    }, galleryId);
+                }
             }
 
             return null;
@@ -195,18 +204,30 @@ namespace WeddingShare.Helpers
         {
             if (!string.IsNullOrWhiteSpace(key))
             {
-                return await _databaseHelper.DeleteSetting(new SettingModel()
+                using (var scope = _scopeFactory.CreateScope())
                 {
-                    Id = key.ToUpper()
-                }, galleryId);
+                    var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
+
+                    await db.DeleteSetting(new SettingModel()
+                    {
+                        Id = key.ToUpper()
+                    }, galleryId);
+                }
+
+                return true;
             }
 
             return false;
         }
 
-        public async Task<bool> DeleteAllSettings(int? galleryId = null)
+        public async Task DeleteAllSettings(int? galleryId = null)
         {
-            return await _databaseHelper.DeleteAllSettings(galleryId);
+            using (var scope = _scopeFactory.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
+
+                await db.DeleteAllSettings(galleryId);
+            }
         }
 
         public string GetReleaseVersion(int places = 3)

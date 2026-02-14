@@ -125,7 +125,7 @@ namespace WeddingShare.Helpers
 
         public async Task<ImageOrientation> GetOrientation(string path)
         {
-            var orientation = ImageOrientation.None;
+            var orientation = ImageOrientation.Unknown;
 
             if (_fileHelper.FileExists(path))
             {
@@ -163,7 +163,7 @@ namespace WeddingShare.Helpers
                 }
             }
 
-            return ImageOrientation.None;
+            return ImageOrientation.Unknown;
         }
 
         public async Task<bool> DownloadFFMPEG(string path)

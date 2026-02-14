@@ -213,7 +213,7 @@ namespace WeddingShare.Controllers
                         }
                     }
 
-                    var orientation = ImageOrientation.None;
+                    var orientation = ImageOrientation.Unknown;
                     switch (galleryFilter)
                     {
                         case GalleryFilter.Landscape:
@@ -226,13 +226,13 @@ namespace WeddingShare.Controllers
                             orientation = ImageOrientation.Square;
                             break;
                         default:
-                            orientation = ImageOrientation.None;
+                            orientation = ImageOrientation.Unknown;
                             break;
                     }
 
                     var itemsPerPage = await _settings.GetOrDefault(Settings.Gallery.ItemsPerPage, 50, gallery?.Id);
                     var allowedFileTypes = (await _settings.GetOrDefault(Settings.Gallery.AllowedFileTypes, ".jpg,.jpeg,.png,.mp4,.mov", gallery?.Id)).Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
-                    var items = (await _database.GetAllGalleryItems(gallery?.Id, GalleryItemState.Approved, mediaType, orientation, galleryGroup, galleryOrder, itemsPerPage, currentPage))?.Where(x => allowedFileTypes.Any(y => string.Equals(Path.GetExtension(x.Title).Trim('.'), y.Trim('.'), StringComparison.OrdinalIgnoreCase)));
+                    var items = (await _database.GetGalleryItems(null, gallery?.Id, GalleryItemState.Approved, mediaType, orientation, galleryGroup, galleryOrder, itemsPerPage, currentPage))?.Where(x => allowedFileTypes.Any(y => string.Equals(Path.GetExtension(x.Title).Trim('.'), y.Trim('.'), StringComparison.OrdinalIgnoreCase)));
 
                     var isGalleryAdmin = User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.Gallery.HasFlag(GalleryPermissions.Upload);
                     
@@ -541,7 +541,7 @@ namespace WeddingShare.Controllers
                                     var tempFilter = fileFilter;
                                     fileFilter = new List<string>();
 
-                                    var galleryItems = await _database.GetAllGalleryItems(id, GalleryItemState.Approved);
+                                    var galleryItems = await _database.GetGalleryItems(null, id, GalleryItemState.Approved);
                                     foreach (GalleryGroup type in Enum.GetValues(typeof(GalleryGroup)))
                                     {
                                         if (((int)type).ToString().Equals(groupParts[0]))

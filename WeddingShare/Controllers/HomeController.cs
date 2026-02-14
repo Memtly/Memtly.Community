@@ -122,7 +122,7 @@ namespace WeddingShare.Controllers
             {
                 var ipAddress = Request.HttpContext.TryGetIpAddress();
 
-                return Json(new { success = await _audit.LogAction("Visitor", $"{_localizer["Audit_CookieConsentApproved"].Value}: {ipAddress}", AuditSeverity.Verbose) });
+                return Json(new { success = await _audit.LogAction($"{_localizer["Audit_CookieConsentApproved"].Value}: {ipAddress}", AuditSeverity.Verbose) });
             }
             catch (Exception ex)
             {

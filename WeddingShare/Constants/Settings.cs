@@ -52,15 +52,6 @@
             public const string EmailReport = "Settings:Email_Report";
         }
 
-        public class Database
-        {
-            public const string BaseKey = "Settings:Database:";
-            public const string Type = "Settings:Database:Type";
-            public const string ConnectionString = "Settings:Database:Connection_String";
-            public const string DatabaseName = "Settings:Database:Database_Name";
-            public const string SyncFromConfig = "Settings:Database:Sync_From_Config";
-        }
-
         public class Gallery
         {
             public const string BaseKey = "Settings:Gallery:";

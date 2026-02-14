@@ -2,9 +2,10 @@
 {
     public enum ImageOrientation
     {
-        None,
+        Unknown,
         Square,
         Portrait,
-        Landscape
+        Landscape,
+        All
     }
 }

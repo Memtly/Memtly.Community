@@ -44,11 +44,11 @@ namespace WeddingShare.Controllers
 
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        result = await _database.GetAuditLogs(term, severity, limit);
+                        result = await _database.GetAuditLogs(null, term, severity, limit);
                     }
                     else
                     {
-                        result = await _database.GetUserAuditLogs(user.Id, term, severity, limit);
+                        result = await _database.GetAuditLogs(user.Id, term, severity, limit);
                     }
                 }
             }

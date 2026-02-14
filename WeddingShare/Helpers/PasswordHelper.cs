@@ -15,6 +15,11 @@ namespace WeddingShare.Helpers
             return EncodingHelper.Base64Encode(GenerateTempPassword(lower: true, upper: true, numbers: true, symbols: true, length: 20));
         }
 
+        public static string GenerateTempPassword()
+        {
+            return GenerateTempPassword(lower: true, upper: true, numbers: true, symbols: true);
+        }
+
         public static string GenerateTempPassword(bool lower, bool upper, bool numbers, bool symbols, int length = 12)
         {
             var rand = new Random();

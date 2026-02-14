@@ -8,7 +8,7 @@ using WeddingShare.Helpers.Notifications;
 
 namespace WeddingShare.BackgroundWorkers
 {
-    public sealed class NotificationReport(ISettingsHelper settingsHelper, IDatabaseHelper databaseHelper, ISmtpClientWrapper smtpHelper, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer) : BackgroundService
+    public sealed class NotificationReport(IServiceScopeFactory scopeFactory, ISettingsHelper settingsHelper, ISmtpClientWrapper smtpHelper, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer) : BackgroundService
     {
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -54,32 +54,37 @@ namespace WeddingShare.BackgroundWorkers
             {
                 await Task.Run(async () =>
                 {
-                    var pendingItems = await databaseHelper.GetPendingGalleryItems();
-                    if (pendingItems != null && pendingItems.Any())
+                    using (var scope = scopeFactory.CreateScope())
                     {
-                        var builder = new StringBuilder();
-                        builder.AppendLine($"<h1>You have items pending review!</h1>");
+                        var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
 
-                        foreach (var item in pendingItems.GroupBy(x => x.GalleryId).OrderByDescending(x => x.Count()))
+                        var pendingItems = await db.GetGalleryItems();
+                        if (pendingItems != null && pendingItems.Any())
                         {
-                            var gallery = await databaseHelper.GetGallery(item.Key);
-                            if (gallery != null)
+                            var builder = new StringBuilder();
+                            builder.AppendLine($"<h1>You have items pending review!</h1>");
+
+                            foreach (var item in pendingItems.GroupBy(x => x.GalleryId).OrderByDescending(x => x.Count()))
                             {
-                                try
+                                var gallery = await db.GetGallery(item.Key);
+                                if (gallery != null)
                                 {
-                                    builder.AppendLine($"<p style=\"font-size: 16pt;\">{gallery.Name} - Pending Items ({item.Count()})</p>");
-                                }
-                                catch (Exception ex)
-                                {
-                                    loggerFactory.CreateLogger<NotificationReport>().LogError(ex, $"Failed to build gallery report for '{gallery.Name}' - {ex?.Message}");
+                                    try
+                                    {
+                                        builder.AppendLine($"<p style=\"font-size: 16pt;\">{gallery.Name} - Pending Items ({item.Count()})</p>");
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        loggerFactory.CreateLogger<NotificationReport>().LogError(ex, $"Failed to build gallery report for '{gallery.Name}' - {ex?.Message}");
+                                    }
                                 }
                             }
-                        }
 
-                        var sent = await new EmailHelper(settingsHelper, smtpHelper, loggerFactory.CreateLogger<EmailHelper>(), localizer).Send("Pending Items Report", builder.ToString());
-                        if (!sent)
-                        {
-                            loggerFactory.CreateLogger<NotificationReport>().LogWarning($"Failed to send notification report");
+                            var sent = await new EmailHelper(settingsHelper, smtpHelper, loggerFactory.CreateLogger<EmailHelper>(), localizer).Send("Pending Items Report", builder.ToString());
+                            if (!sent)
+                            {
+                                loggerFactory.CreateLogger<NotificationReport>().LogWarning($"Failed to send notification report");
+                            }
                         }
                     }
                 });

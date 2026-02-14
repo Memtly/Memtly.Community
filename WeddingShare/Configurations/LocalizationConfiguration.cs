@@ -9,13 +9,14 @@ namespace WeddingShare.Configurations
     {
         public static string CurrentCulture = "en-GB";
 
-        public static void AddLocalizationConfiguration(this IServiceCollection services, SettingsHelper settings)
+        public static void AddLocalizationConfiguration(this IServiceCollection services)
         {
             services.AddLocalization(options =>
             {
                 options.ResourcesPath = "Resources";
             });
 
+            var settings = services.BuildServiceProvider().GetRequiredService<ISettingsHelper>();
             services.Configure<RequestLocalizationOptions>(options => {
                 var supportedCultures = new LanguageHelper().DetectSupportedCultures();
 

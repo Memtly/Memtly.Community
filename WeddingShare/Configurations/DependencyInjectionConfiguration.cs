@@ -7,8 +7,8 @@ namespace WeddingShare.Configurations
         public static void AddDependencyInjectionConfiguration(this IServiceCollection services)
         {
             services.AddSingleton<IConfigHelper, ConfigHelper>();
-            services.AddSingleton<IEnvironmentWrapper, EnvironmentWrapper>();
             services.AddSingleton<ISettingsHelper, SettingsHelper>();
+            services.AddSingleton<IEnvironmentWrapper, EnvironmentWrapper>();
             services.AddSingleton<IImageHelper, ImageHelper>();
             services.AddSingleton<IFileHelper, FileHelper>();
             services.AddSingleton<IDeviceDetector, DeviceDetector>();

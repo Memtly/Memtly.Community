@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using WeddingShare.Attributes;
 using WeddingShare.Enums;
+using WeddingShare.Extensions;
 using WeddingShare.Helpers;
 using WeddingShare.Helpers.Notifications;
 using WeddingShare.Models.Notifications;
@@ -47,7 +48,7 @@ namespace WeddingShare.Controllers
                         creds = new NetworkCredential(config.Username, config.Password);
                     }
 
-                    await _audit.LogAction(User?.Identity?.Name, $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Email"].Value}", AuditSeverity.Verbose);
+                    await _audit.LogAction(User?.Identity?.GetUserId(), $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Email"].Value}", AuditSeverity.Verbose);
                     return Json(new
                     {
                         success = await new EmailHelper(_settings, _smtpClientWrapper, _loggerFactory.CreateLogger<EmailHelper>(), _localizer).SendTo(config?.Host ?? string.Empty, config?.Port ?? 587, config?.From ?? string.Empty, config?.DisplayName ?? string.Empty, config?.EnableSSL ?? true, creds, config?.Recipients ?? string.Empty, _localizer["Test"].Value, _localizer["Test_Message"].Value)
@@ -71,7 +72,7 @@ namespace WeddingShare.Controllers
             {
                 try
                 {
-                    await _audit.LogAction(User?.Identity?.Name, $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Ntfy"].Value}", AuditSeverity.Verbose);
+                    await _audit.LogAction(User?.Identity?.GetUserId(), $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Ntfy"].Value}", AuditSeverity.Verbose);
                     return Json(new {
                         success = await new NtfyHelper(_settings, _httpClientFactory, _loggerFactory.CreateLogger<NtfyHelper>()).Send(config?.Endpoint ?? string.Empty, config?.Topic ?? string.Empty, config?.Token ?? string.Empty, config?.Priority ?? 4, _localizer["Test"].Value, _localizer["Test_Message"].Value)
                     });
@@ -94,7 +95,7 @@ namespace WeddingShare.Controllers
             {
                 try
                 {
-                    await _audit.LogAction(User?.Identity?.Name, $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Gotify"].Value}", AuditSeverity.Verbose);
+                    await _audit.LogAction(User?.Identity?.GetUserId(), $"{_localizer["Audit_Sent_Test_Notification"].Value} - {_localizer["Gotify"].Value}", AuditSeverity.Verbose);
                     return Json(new
                     {
                         success = await new GotifyHelper(_settings, _httpClientFactory, _loggerFactory.CreateLogger<GotifyHelper>()).Send(config?.Endpoint ?? string.Empty, config?.Token ?? string.Empty, config?.Priority ?? 4, _localizer["Test"].Value, _localizer["Test_Message"].Value)

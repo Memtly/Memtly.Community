@@ -5,7 +5,7 @@ namespace WeddingShare.Models.Database
     public class GalleryItemModel
     {
         public GalleryItemModel()
-            : this(0, 0, string.Empty, null, null, null, null, MediaType.Unknown, ImageOrientation.None, GalleryItemState.Pending, 0)
+            : this(0, 0, string.Empty, null, null, null, null, MediaType.Unknown, ImageOrientation.Unknown, GalleryItemState.Pending, 0)
         {
         }
 

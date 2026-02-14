@@ -1,5 +1,4 @@
-﻿using WeddingShare.Helpers;
-using WeddingShare.Helpers.Notifications;
+﻿using WeddingShare.Helpers.Notifications;
 
 namespace WeddingShare.Configurations
 {
@@ -7,14 +6,14 @@ namespace WeddingShare.Configurations
     {
         private const int CLIENT_DEFAULT_TIMEOUT = 10;
 
-        public static void AddNotificationConfiguration(this IServiceCollection services, SettingsHelper settings)
+        public static void AddNotificationConfiguration(this IServiceCollection services)
         {
             services.AddSingleton<INotificationHelper, NotificationBroker>();
-            services.AddNtfyConfiguration(settings);
-            services.AddGotifyConfiguration(settings);
+            services.AddNtfyConfiguration();
+            services.AddGotifyConfiguration();
         }
 
-        public static void AddNtfyConfiguration(this IServiceCollection services, SettingsHelper settings)
+        public static void AddNtfyConfiguration(this IServiceCollection services)
         {
             services.AddHttpClient("NtfyClient", (serviceProvider, httpClient) =>
             {
@@ -22,7 +21,7 @@ namespace WeddingShare.Configurations
             });
         }
 
-        public static void AddGotifyConfiguration(this IServiceCollection services, SettingsHelper settings)
+        public static void AddGotifyConfiguration(this IServiceCollection services)
         {
             services.AddHttpClient("GotifyClient", (serviceProvider, httpClient) =>
             {

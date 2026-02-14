@@ -5,7 +5,7 @@ using WeddingShare.Helpers.Database;
 
 namespace WeddingShare.BackgroundWorkers
 {
-    public sealed class CleanupService(IWebHostEnvironment hostingEnvironment, ISettingsHelper settingsHelper, IDatabaseHelper databaseHelper, IFileHelper fileHelper, ILogger<CleanupService> logger) : BackgroundService
+    public sealed class CleanupService(IServiceScopeFactory scopeFactory, IWebHostEnvironment hostingEnvironment, ISettingsHelper settingsHelper, IFileHelper fileHelper, ILogger<CleanupService> logger) : BackgroundService
     {
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -83,18 +83,23 @@ namespace WeddingShare.BackgroundWorkers
             {
                 await Task.Run(async () =>
                 {
-                    var staleLikes = await databaseHelper.GetUnassignedGalleryItemLikes();
-                    if (staleLikes != null && staleLikes.Any())
+                    using (var scope = scopeFactory.CreateScope())
                     {
-                        foreach (var staleLike in staleLikes.Where(x => x?.GalleryItemId != null && x.GalleryItemId > 0))
-                        {
-                            await databaseHelper.UnLikeGalleryItem(staleLike);
+                        var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
 
-                            var galleryItem = await databaseHelper.GetGalleryItem(staleLike.GalleryItemId);
-                            if (galleryItem?.GalleryId != null && galleryItem?.GalleryId > 0)
+                        var staleLikes = await db.GetUnassignedGalleryItemLikes();
+                        if (staleLikes != null && staleLikes.Any())
+                        {
+                            foreach (var staleLike in staleLikes.Where(x => x?.GalleryItemId != null && x.GalleryItemId > 0))
                             {
-                                staleLike.GalleryId = galleryItem.GalleryId;
-                                await databaseHelper.LikeGalleryItem(staleLike);
+                                await db.UnLikeGalleryItem(staleLike);
+
+                                var galleryItem = await db.GetGalleryItem(staleLike.GalleryItemId);
+                                if (galleryItem?.GalleryId != null && galleryItem?.GalleryId > 0)
+                                {
+                                    staleLike.GalleryId = galleryItem.GalleryId;
+                                    await db.LikeGalleryItem(staleLike);
+                                }
                             }
                         }
                     }
@@ -113,7 +118,12 @@ namespace WeddingShare.BackgroundWorkers
                 var days = await settingsHelper.GetOrDefault(Audit.Retention, 30);
                 if (days > 0)
                 {
-                    await databaseHelper.FlushLogsOlderThan(days);
+                    using (var scope = scopeFactory.CreateScope())
+                    {
+                        var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
+
+                        await db.FlushLogsOlderThan(days);
+                    }
                 }
             }
             catch (Exception ex)

@@ -4,6 +4,6 @@
     {
         Active = 0,
         Frozen = 1,
-        PendingActivation = 3
+        PendingActivation = 2
     }
 }

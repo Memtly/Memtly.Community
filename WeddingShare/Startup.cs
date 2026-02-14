@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Microsoft.Extensions.Localization;
 using WeddingShare.BackgroundWorkers;
 using WeddingShare.Configurations;
 using WeddingShare.Constants;
@@ -13,37 +12,26 @@ namespace WeddingShare
 {
     public class Startup
     {
-        private readonly ILoggerFactory _loggerFactory;
-        private readonly ILogger _logger;
-
         public static bool Ready = false;
         
-        public Startup(IConfiguration configuration, ILoggerFactory loggerFactory)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            _loggerFactory = loggerFactory;
-            _logger = loggerFactory.CreateLogger<Startup>();
         }
 
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var config = new ConfigHelper(new EnvironmentWrapper(), Configuration, _loggerFactory.CreateLogger<ConfigHelper>());
-
             services.AddExceptionHandler<GlobalExceptionHandler>();
             services.AddProblemDetails();
 
             services.AddDependencyInjectionConfiguration();
-            services.AddWebClientConfiguration(config);
-
-            var dbHelper = services.AddDatabaseConfiguration(config, _loggerFactory);
-
-            var settings = new SettingsHelper(dbHelper, config, _loggerFactory.CreateLogger<SettingsHelper>());
-            _logger.LogInformation($"Release Version - '{settings.GetReleaseVersion(4)}'");
-
-            services.AddNotificationConfiguration(settings);
-            services.AddLocalizationConfiguration(settings);
+            services.AddDatabaseConfiguration();
+            services.AddWebClientConfiguration();
+            services.AddNotificationConfiguration();
+            services.AddLocalizationConfiguration();
+            services.AddFfmpegConfiguration();
 
             services.AddHostedService<DirectoryScanner>();
             services.AddHostedService<NotificationReport>();
@@ -97,15 +85,6 @@ namespace WeddingShare
                 options.AddPolicy("timeout_1h", TimeSpan.FromHours(1));
             });
 
-            var localizer = services.BuildServiceProvider().GetRequiredService<IStringLocalizer<Lang.Translations>>();
-            var ffmpegPath = config.GetOrDefault(FFMPEG.InstallPath, "/ffmpeg");
-            var imageHelper = new ImageHelper(new FileHelper(_loggerFactory.CreateLogger<FileHelper>()), _loggerFactory.CreateLogger<ImageHelper>(), localizer);
-            var downloaded = imageHelper.DownloadFFMPEG(ffmpegPath).Result;
-            if (!downloaded)
-            {
-                _logger.LogWarning($"{localizer["FFMPEG_Download_Failed"].Value} '{ffmpegPath}'");
-            }
-
             Ready = true;
         }
 
@@ -113,6 +92,9 @@ namespace WeddingShare
         {
             var config = app.ApplicationServices.GetRequiredService<IConfigHelper>();
             var settings = app.ApplicationServices.GetRequiredService<ISettingsHelper>();
+            var logger = app.ApplicationServices.GetRequiredService<ILogger<Startup>>();
+
+            logger.LogInformation($"Release Version - '{settings.GetReleaseVersion(4)}'");
 
             app.UseExceptionHandler();
 
@@ -123,7 +105,7 @@ namespace WeddingShare
             }
 
             if (settings.GetOrDefault(Settings.Basic.ForceHttps, false).Result)
-            { 
+            {
                 app.UseHttpsRedirection();
             }
 
@@ -136,7 +118,7 @@ namespace WeddingShare
                     var baseUrl = settings.GetOrDefault(Settings.Basic.BaseUrl, string.Empty).Result;
                     var baseUrlCSP = "http://localhost:* ws://localhost:*";
                     if (!string.IsNullOrWhiteSpace(baseUrl))
-                    { 
+                    {
                         try
                         {
                             var uri = new Uri(baseUrl);

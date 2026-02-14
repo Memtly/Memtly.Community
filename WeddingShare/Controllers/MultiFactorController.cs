@@ -72,7 +72,7 @@ namespace WeddingShare.Controllers
                                 var set = await _database.SetMultiFactorToken(userId, secret);
                                 if (set)
                                 {
-                                    await _audit.LogAction(User?.Identity?.Name, _localizer["Audit_MultiFactorAdded"].Value, AuditSeverity.Verbose);
+                                    await _audit.LogAction(User?.Identity?.GetUserId(), _localizer["Audit_MultiFactorAdded"].Value, AuditSeverity.Verbose);
 
                                     HttpContext.Session.SetString(SessionKey.MultiFactor.TokenSet, "true");
                                     return Json(new { success = true });
@@ -98,7 +98,7 @@ namespace WeddingShare.Controllers
             {
                 try
                 {
-                    await _audit.LogAction(User?.Identity?.Name, _localizer["Audit_MultiFactorReset"].Value, AuditSeverity.Information);
+                    await _audit.LogAction(User?.Identity?.GetUserId(), _localizer["Audit_MultiFactorReset"].Value, AuditSeverity.Information);
 
                     return await ResetForUser(User.Identity.GetUserId());
                 }
@@ -133,7 +133,7 @@ namespace WeddingShare.Controllers
                                     HttpContext.Session.SetString(SessionKey.MultiFactor.TokenSet, "false");
                                 }
 
-                                await _audit.LogAction(User?.Identity?.Name, $"{_localizer["Audit_MultiFactorResetUser"].Value} '{user?.Username}'", AuditSeverity.Information);
+                                await _audit.LogAction(User?.Identity?.GetUserId(), $"{_localizer["Audit_MultiFactorResetUser"].Value} '{user?.Username}'", AuditSeverity.Information);
 
                                 return Json(new { success = true });
                             }
