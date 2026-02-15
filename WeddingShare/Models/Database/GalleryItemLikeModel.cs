@@ -3,11 +3,11 @@
     public class GalleryItemLikeModel
     {
         public GalleryItemLikeModel()
-            : this(0, 0, 0, 0, null)
+            : this(0, 0, 0, 0, new DateTime(0, DateTimeKind.Utc))
         {
         }
 
-        public GalleryItemLikeModel(int id, int galleryItemId, int galleryId, int userId, DateTime? timestamp)
+        public GalleryItemLikeModel(int id, int galleryItemId, int galleryId, int userId, DateTimeOffset timestamp)
         {
             Id = id;
             GalleryItemId = galleryItemId;
@@ -20,6 +20,6 @@
         public int GalleryItemId { get; set; }
         public int GalleryId { get; set; }
         public int UserId { get; set; }
-        public DateTime? Timestamp { get; set; }
+        public DateTimeOffset Timestamp { get; set; }
     }
 }

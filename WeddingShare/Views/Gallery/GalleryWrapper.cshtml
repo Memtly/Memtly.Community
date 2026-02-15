@@ -5,7 +5,7 @@
 
 @if (Model.ViewMode != ViewMode.Slideshow)
 {
-    var galleryName = (!string.IsNullOrWhiteSpace(Model?.Gallery?.Identifier) && !Model.Gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase)) ? Model.Gallery.Name.ToLower() : "default";
+    var galleryName = (!string.IsNullOrWhiteSpace(Model?.Gallery?.Identifier) && !Model.Gallery.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase)) ? Model.Gallery.Name.ToLower() : "default";
 
     var showTitle = await _settings.GetOrDefault(Settings.Gallery.ShowTitle, true, Model?.Gallery?.Id);
     if (showTitle)
@@ -17,28 +17,31 @@
         </div>
     }
 
-    try
+    if (!Model!.Gallery!.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))
     {
-        var banner = await _settings.GetOrDefault(Settings.Gallery.BannerImage, string.Empty, Model?.Gallery?.Id);
-        if (!string.IsNullOrWhiteSpace(banner))
+        try
         {
-            <div class="row mb-3 mb-lg-4 p-0">
-                <div class="col-12 gallery_banner_header text-center p-0">
-                    <img src="@banner" alt="banner image" />
+            var banner = await _settings.GetOrDefault(Settings.Gallery.BannerImage, string.Empty, Model?.Gallery?.Id);
+            if (!string.IsNullOrWhiteSpace(banner))
+            {
+                <div class="row mb-3 mb-lg-4 p-0">
+                    <div class="col-12 gallery_banner_header text-center p-0">
+                        <img src="@banner" alt="banner image" />
+                    </div>
+                </div>
+            }
+        }
+        catch { }
+
+        var quote = await _settings.GetOrDefault(Settings.Gallery.Quote, string.Empty, Model?.Gallery?.Id);
+        if (!string.IsNullOrWhiteSpace(quote))
+        {
+            <div class="row mb-3 mb-lg-4 border border-primary-1 rounded">
+                <div class="col-12 quote">
+                    <p class="my-4 mx-4 mx-lg-0 text-center">@quote</p>
                 </div>
             </div>
         }
-    }
-    catch { }
-
-    var quote = await _settings.GetOrDefault(Settings.Gallery.Quote, string.Empty, Model?.Gallery?.Id);
-    if (!string.IsNullOrWhiteSpace(quote))
-    {
-        <div class="row mb-3 mb-lg-4 border border-primary-1 rounded">
-            <div class="col-12 quote">
-                <p class="my-4 mx-4 mx-lg-0 text-center">@quote</p>
-            </div>
-        </div>
     }
 
     if (await _settings.GetOrDefault(Settings.Gallery.ReviewCounter, true, Model?.Gallery?.Id))

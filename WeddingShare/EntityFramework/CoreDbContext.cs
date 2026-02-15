@@ -40,10 +40,12 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.FailedLoginCount).HasDefaultValue(0);
                 e.Property(x => x.LockoutUntil).HasConversion(
                     v => v.HasValue ? v.Value.UtcTicks : (long?)null,
-                    v => v.HasValue ? new DateTimeOffset(v.Value, TimeSpan.Zero) : (DateTimeOffset?)null);
+                    v => v.HasValue ? new DateTimeOffset(v.Value, TimeSpan.Zero) : (DateTimeOffset?)null
+                );
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
             });
 
             mb.Entity<Gallery>(e =>
@@ -54,7 +56,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.SecretKey).HasMaxLength(500);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.Ignore(x => x.IsSecure);
 
@@ -75,7 +78,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.Orientation).HasDefaultValue(ImageOrientation.Unknown);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.HasOne(x => x.Gallery)
                  .WithMany(g => g.Items)
@@ -87,7 +91,8 @@ namespace WeddingShare.EntityFramework
             {
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.HasOne(x => x.GalleryItem)
                  .WithMany(gi => gi.Likes)
@@ -105,7 +110,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.Value).HasMaxLength(1000);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.HasOne(x => x.Gallery)
                  .WithMany(g => g.Settings)
@@ -125,7 +131,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.Value).HasMaxLength(1000);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
             });
 
             mb.Entity<CustomResource>(e =>
@@ -133,7 +140,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.Filename).HasMaxLength(2000);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.HasOne(x => x.User)
                  .WithMany()
@@ -147,7 +155,8 @@ namespace WeddingShare.EntityFramework
                 e.Property(x => x.Severity).HasDefaultValue(AuditSeverity.Information);
                 e.Property(x => x.CreatedAt).HasConversion(
                     v => v.UtcTicks,
-                    v => new DateTimeOffset(v, TimeSpan.Zero));
+                    v => new DateTimeOffset(v, TimeSpan.Zero)
+                );
 
                 e.HasOne(x => x.User)
                  .WithMany()

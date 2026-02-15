@@ -13,16 +13,8 @@
 
             public class Admin
             {
-                public const string Username = "Settings:Account:Admin:Username";
+                public const string BaseKey = "Settings:Account:Admin:";
                 public const string Password = "Settings:Account:Admin:Password";
-            }
-
-            public class Owner
-            {
-                public const string BaseKey = "Settings:Account:Owner:";
-                public const string Username = "Settings:Account:Owner:Username";
-                public const string Password = "Settings:Account:Owner:Password";
-                public const string LogPassword = "Settings:Account:Owner:Log_Password";
             }
 
             public class Registration

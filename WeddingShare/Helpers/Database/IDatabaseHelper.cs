@@ -44,7 +44,6 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region Users
-        Task<bool> InitOwnerAccount(UserModel model);
         Task<bool> ValidateCredentials(string username, string password);
         Task<List<UserModel>?> GetAllUsers();
         Task<UserModel?> GetUser(int id);

@@ -132,51 +132,10 @@ namespace WeddingShare.Models
             : base()
         {
             Review =
-                ReviewPermissions.View
-                | ReviewPermissions.Approve
-                | ReviewPermissions.Reject
-                | ReviewPermissions.Delete;
-            Gallery =
-                GalleryPermissions.View
-                | GalleryPermissions.ViewAllGallery
-                | GalleryPermissions.Create
-                | GalleryPermissions.Update
-                | GalleryPermissions.Delete
-                | GalleryPermissions.Upload
-                | GalleryPermissions.Download;
-            Users =
-                UserPermissions.Login
-                | UserPermissions.View
-                | UserPermissions.Create
-                | UserPermissions.Update
-                | UserPermissions.Change_Password
-                | UserPermissions.Change_Permissions_Level
-                | UserPermissions.Reset_MFA
-                | UserPermissions.Freeze;
-            CustomResources =
-                CustomResourcePermissions.View
-                | CustomResourcePermissions.Create
-                | CustomResourcePermissions.Update
-                | CustomResourcePermissions.Delete;
-            Settings =
-                SettingsPermissions.View
-                | SettingsPermissions.Update
-                | SettingsPermissions.Gallery_Update;
-            Audit =
-                AuditPermissions.View;
-        }
-    }
-
-    public class OwnerPermissions : Permissions
-    {
-        public OwnerPermissions()
-            : base()
-        {
-            Review =
-                ReviewPermissions.View
-                | ReviewPermissions.Approve
-                | ReviewPermissions.Reject
-                | ReviewPermissions.Delete;
+                 ReviewPermissions.View
+                 | ReviewPermissions.Approve
+                 | ReviewPermissions.Reject
+                 | ReviewPermissions.Delete;
             Gallery =
                 GalleryPermissions.View
                 | GalleryPermissions.ViewAllGallery

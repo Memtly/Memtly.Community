@@ -21,7 +21,7 @@ namespace WeddingShare.Helpers
         Task<byte[]> ReadAllBytes(string path);
         Task SaveFile(IFormFile file, string path, FileMode mode);
         Task<string> GetChecksum(string path);
-        Task<DateTime?> GetCreationDatetime(string path);
+        Task<DateTime> GetCreationDatetime(string path);
         string BytesToHumanReadable(long bytes, int decimalPlaces = 0);
         string SanitizeFilename(string filename);
     }
@@ -184,7 +184,7 @@ namespace WeddingShare.Helpers
             });
         }
 
-        public async Task<DateTime?> GetCreationDatetime(string path)
+        public async Task<DateTime> GetCreationDatetime(string path)
         {
             return await Task.Run(() =>
             {

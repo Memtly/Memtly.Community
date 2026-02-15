@@ -83,50 +83,74 @@ namespace WeddingShare.Configurations
         private static void InitializeDatabase(IConfigHelper config, IDatabaseHelper database, IEncryptionHelper encryption, ILogger logger)
         {
             var isDemoMode = config.GetOrDefault(Settings.IsDemoMode, false);
-            var username = !isDemoMode ? config.GetOrDefault(Settings.Account.Admin.Username, config.GetOrDefault(Settings.Account.Owner.Username, "admin")).ToLower() : "demo";
-            var password = encryption.Encrypt(!isDemoMode ? config.GetOrDefault(Settings.Account.Admin.Password, config.GetOrDefault(Settings.Account.Owner.Password, "admin")) : "demo", username);
+            var password = encryption.Encrypt(!isDemoMode ? config.GetOrDefault(Settings.Account.Admin.Password, config.GetOrDefault(Settings.Account.Admin.Password, "admin")) : "demo", UserAccounts.AdminUser.ToLower());
             var allowInsecureGalleries = config.GetOrDefault(Settings.Basic.AllowInsecureGalleries, true);
             var defaultSecretKey = config.GetOrDefault(Settings.Basic.DefaultGallerySecretKey, string.Empty);
 
             Task.Run(async () =>
             {
-                var adminAccount = await database.GetUser(1);
-                if (adminAccount == null)
+                var systemAccount = await database.GetUserByUsername(UserAccounts.SystemUser);
+                if (systemAccount == null)
                 {
                     await database.AddUser(new UserModel
                     {
-                        Id = 1,
-                        Username = username,
-                        Email = $"{username}@example.com",
-                        Firstname = "Admin",
+                        Username = UserAccounts.SystemUser.ToLower(),
+                        Email = $"system@example.com",
+                        Firstname = "System",
                         Lastname = "User",
-                        Password = password,
+                        Password = PasswordHelper.GenerateTempPassword(),
                         State = AccountState.Active,
-                        Level = UserLevel.Owner
+                        Level = UserLevel.System
                     });
                 }
                 else
                 {
-                    adminAccount.Username = username;
+                    systemAccount.Firstname = "System";
+                    systemAccount.Lastname = "User";
+                    systemAccount.State = AccountState.Active;
+                    systemAccount.Level = UserLevel.System;
+
+                    await database.EditUser(systemAccount);
+                }
+
+                var adminAccount = await database.GetUserByUsername(UserAccounts.AdminUser);
+                if (adminAccount == null)
+                {
+                    await database.AddUser(new UserModel
+                    {
+                        Username = UserAccounts.AdminUser.ToLower(),
+                        Email = $"admin@example.com",
+                        Firstname = "Admin",
+                        Lastname = "User",
+                        Password = password,
+                        State = AccountState.Active,
+                        Level = UserLevel.Admin
+                    });
+                }
+                else
+                {
+                    adminAccount.Firstname = "Admin";
+                    adminAccount.Lastname = "User";
                     adminAccount.Password = password;
                     adminAccount.State = AccountState.Active;
-                    adminAccount.Level = UserLevel.Owner;
+                    adminAccount.Level = UserLevel.Admin;
 
                     await database.EditUser(adminAccount);
                 }
 
-                adminAccount = await database.GetUser(1);
+                adminAccount = await database.GetUserByUsername(UserAccounts.AdminUser);
                 if (adminAccount != null)
                 {
-                    var defaultGallery = await database.GetGallery(1);
+                    var defaultGalleryId = await database.GetGalleryId(SystemGalleries.DefaultGallery);
+                    var defaultGallery = defaultGalleryId != null ? await database.GetGallery(defaultGalleryId.Value) : null;
+
                     if (defaultGallery == null)
                     {
                         var secretKey = !string.IsNullOrWhiteSpace(defaultSecretKey) || allowInsecureGalleries ? defaultSecretKey : PasswordHelper.GenerateGallerySecretKey();
                         await database.AddGallery(new GalleryModel
                         {
-                            Id = 1,
-                            Identifier = "Default",
-                            Name = "Default",
+                            Identifier = SystemGalleries.DefaultGallery,
+                            Name = SystemGalleries.DefaultGallery,
                             SecretKey = secretKey,
                             Owner = adminAccount.Id
                         });
@@ -158,18 +182,13 @@ namespace WeddingShare.Configurations
                     await database.ResetMultiFactorToDefault();
                 }
             }).ConfigureAwait(false).GetAwaiter().GetResult();
-
-            if (config.GetOrDefault(Settings.Account.Owner.LogPassword, false))
-            {
-                logger.LogInformation($"Password: {password}");
-            }
         }
 
         private static async Task ImportSettings(IConfigHelper config, IDatabaseHelper database, ILogger logger)
         {
             try
             {
-                var galleries = (await database.GetGalleries())?.Where(x => !x.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase));
+                var galleries = (await database.GetGalleries())?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase));
 
                 var settings = await database.GetAllSettings();
                 if (settings == null || !settings.Any(setting => setting.Id.StartsWith(Settings.Basic.BaseKey, StringComparison.OrdinalIgnoreCase)))

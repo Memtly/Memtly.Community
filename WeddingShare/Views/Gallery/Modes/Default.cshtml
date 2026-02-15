@@ -72,7 +72,7 @@
                 }
                 break;
             case GalleryGroup.Uploader:
-                imageGroups = Model?.Images?.GroupBy(x => x.UploadedBy ?? "Anonymous");
+                imageGroups = Model?.Images?.GroupBy(x => !string.IsNullOrWhiteSpace(x.UploadedBy) ? x.UploadedBy : "Anonymous");
                 switch (Model?.OrderBy ?? GalleryOrder.Descending)
                 {
                     case GalleryOrder.Ascending:

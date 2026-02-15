@@ -27,7 +27,7 @@ namespace WeddingShare.Attributes
 
                     if (galleryId == null)
                     { 
-                        var galleryName = (request.Query.ContainsKey("id") && !string.IsNullOrWhiteSpace(request.Query["id"])) ? request.Query["id"].ToString().ToLower() : "default";
+                        var galleryName = (request.Query.ContainsKey("id") && !string.IsNullOrWhiteSpace(request.Query["id"])) ? request.Query["id"].ToString().ToLower() : SystemGalleries.DefaultGallery.ToLower();
                         if (!string.IsNullOrWhiteSpace(galleryName))
                         { 
                             galleryId = (databaseHelper?.GetGalleryIdByName(galleryName)?.Result) ?? 1;

@@ -18,7 +18,7 @@ namespace WeddingShare.EntityFramework.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Key = table.Column<string>(maxLength: 1000, nullable: false),
                     Value = table.Column<string>(maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,8 +50,8 @@ namespace WeddingShare.EntityFramework.Migrations
                     Level = table.Column<UserLevel?>(nullable: false),
                     State = table.Column<AccountState?>(nullable: false),
                     FailedLoginCount = table.Column<int>(nullable: false),
-                    LockoutUntil = table.Column<DateTimeOffset?>(nullable: true),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    LockoutUntil = table.Column<long?>(nullable: true),
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -84,7 +84,7 @@ namespace WeddingShare.EntityFramework.Migrations
                     SecretKey = table.Column<string>(maxLength: 500, nullable: false),
                     UserId = table.Column<int>(nullable: false),
                     IsSecure = table.Column<bool>(nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -115,7 +115,7 @@ namespace WeddingShare.EntityFramework.Migrations
                     GalleryId = table.Column<int>(nullable: false),
                     SettingId = table.Column<int>(nullable: false),
                     Value = table.Column<string>(maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -151,7 +151,7 @@ namespace WeddingShare.EntityFramework.Migrations
                     State = table.Column<GalleryItemState>(nullable: false),
                     Type = table.Column<MediaType>(nullable: false),
                     Orientation = table.Column<ImageOrientation>(nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -175,7 +175,7 @@ namespace WeddingShare.EntityFramework.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     GalleryId = table.Column<int>(nullable: false),
                     UserId = table.Column<int>(nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -205,7 +205,7 @@ namespace WeddingShare.EntityFramework.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     UserId = table.Column<int>(nullable: false),
                     Filename = table.Column<string>(maxLength: 2000, nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -230,7 +230,7 @@ namespace WeddingShare.EntityFramework.Migrations
                     Message = table.Column<string>(maxLength: 2000, nullable: false),
                     UserId = table.Column<int>(nullable: false),
                     Severity = table.Column<AuditSeverity>(nullable: false),
-                    CreatedAt = table.Column<DateTimeOffset?>(nullable: false)
+                    CreatedAt = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {

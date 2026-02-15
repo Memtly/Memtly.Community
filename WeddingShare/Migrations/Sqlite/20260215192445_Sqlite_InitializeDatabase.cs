@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace WeddingShare.Migrations.SqlServer
+namespace WeddingShare.Migrations.Sqlite
 {
     /// <inheritdoc />
-    public partial class SqlServer_InitializeDatabase : Migration
+    public partial class Sqlite_InitializeDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,11 +14,11 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "Settings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Key = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Value = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Key = table.Column<string>(type: "TEXT", maxLength: 255, nullable: false),
+                    Value = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,20 +29,20 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "Users",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Username = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    EmailAddress = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Firstname = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Lastname = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    MultiFactorAuthToken = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    ActionAuthCode = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    Level = table.Column<int>(type: "int", nullable: true, defaultValue: 0),
-                    State = table.Column<int>(type: "int", nullable: true, defaultValue: 2),
-                    FailedLoginCount = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
-                    LockoutUntil = table.Column<long>(type: "bigint", nullable: true),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Username = table.Column<string>(type: "TEXT", maxLength: 10, nullable: false),
+                    EmailAddress = table.Column<string>(type: "TEXT", maxLength: 200, nullable: false),
+                    Firstname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Lastname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Password = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false),
+                    MultiFactorAuthToken = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
+                    ActionAuthCode = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
+                    Level = table.Column<int>(type: "INTEGER", nullable: true, defaultValue: 0),
+                    State = table.Column<int>(type: "INTEGER", nullable: true, defaultValue: 2),
+                    FailedLoginCount = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
+                    LockoutUntil = table.Column<long>(type: "INTEGER", nullable: true),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -53,12 +53,12 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "AuditLogs",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Message = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: true),
-                    Severity = table.Column<int>(type: "int", nullable: true, defaultValue: 2),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Message = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
+                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
+                    Severity = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 2),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -75,11 +75,11 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "CustomResources",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Filename = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: true),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Filename = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
+                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -96,13 +96,13 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "Galleries",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Identifier = table.Column<string>(type: "nvarchar(32)", maxLength: 32, nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    SecretKey = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    UserId = table.Column<int>(type: "int", nullable: true),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Identifier = table.Column<string>(type: "TEXT", maxLength: 32, nullable: false),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    SecretKey = table.Column<string>(type: "TEXT", maxLength: 500, nullable: true),
+                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -119,17 +119,17 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "GalleryItems",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    GalleryId = table.Column<int>(type: "int", nullable: true),
-                    Title = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    UploadedBy = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Checksum = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    FileSize = table.Column<long>(type: "bigint", nullable: false, defaultValue: 0L),
-                    State = table.Column<int>(type: "int", nullable: false, defaultValue: 1),
-                    Type = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
-                    Orientation = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    GalleryId = table.Column<int>(type: "INTEGER", nullable: true),
+                    Title = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    UploadedBy = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    Checksum = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
+                    FileSize = table.Column<long>(type: "INTEGER", nullable: false, defaultValue: 0L),
+                    State = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 1),
+                    Type = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
+                    Orientation = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -146,12 +146,12 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "GallerySettings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    GalleryId = table.Column<int>(type: "int", nullable: true),
-                    SettingId = table.Column<int>(type: "int", nullable: true),
-                    Value = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    GalleryId = table.Column<int>(type: "INTEGER", nullable: true),
+                    SettingId = table.Column<int>(type: "INTEGER", nullable: true),
+                    Value = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -174,11 +174,11 @@ namespace WeddingShare.Migrations.SqlServer
                 name: "GalleryLikes",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    GalleryItemId = table.Column<int>(type: "int", nullable: true),
-                    UserId = table.Column<int>(type: "int", nullable: true),
-                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    GalleryItemId = table.Column<int>(type: "INTEGER", nullable: true),
+                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
+                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

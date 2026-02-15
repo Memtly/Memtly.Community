@@ -97,7 +97,7 @@
     </div>
 </section>
 
-@if (await _settings.GetOrDefault(Settings.Gallery.FullWidth, false, Model?.Gallery?.Id) && User?.Identity != null && User.Identity.IsAuthenticated && !Model.Gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase))
+@if (await _settings.GetOrDefault(Settings.Gallery.FullWidth, false, Model?.Gallery?.Id) && User?.Identity != null && User.Identity.IsAuthenticated && !Model.Gallery.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))
 {
     <!-- Settings Button -->
     <i id="btn-full-width-settings" class="fas fa-gear btnGallerySettings" data-gallery-name="@Model?.Gallery?.Name" data-gallery-id="@Model?.Gallery?.Id"></i>

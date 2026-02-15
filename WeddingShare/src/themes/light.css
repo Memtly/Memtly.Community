@@ -544,3 +544,13 @@ label {
     color: rgba(var(--primary-bg-1), 1.0) !important;
     background-color: rgba(var(--primary-bg-1), 0.05) !important;
 }
+
+.pagination .page-item.active .page-link {
+    background-color: rgba(var(--primary-bg-1), 0.5) !important;
+    border-color: rgba(var(--primary-bg-1), 0.75) !important;
+}
+
+.pagination .page-item:hover .page-link {
+    background-color: rgba(var(--primary-bg-1), 0.2) !important;
+    border-color: rgba(var(--primary-bg-1), 0.75) !important;
+}

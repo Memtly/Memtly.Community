@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public string FileName { get; set; } = string.Empty;
-        public string? UploadedBy { get; set; }
+        public string UploadedBy { get; set; } = "Unknown";
         public int Owner { get; set; }
     }
 }

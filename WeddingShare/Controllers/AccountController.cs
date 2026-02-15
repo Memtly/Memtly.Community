@@ -40,7 +40,6 @@ namespace WeddingShare.Controllers
         private readonly Helpers.IUrlHelper _url;
         private readonly IAuditHelper _audit;
         private readonly ILoggerFactory _loggerFactory;
-        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger _logger;
         private readonly IStringLocalizer<Lang.Translations> _localizer;
 
@@ -49,9 +48,7 @@ namespace WeddingShare.Controllers
         private readonly string ThumbnailsDirectory;
         private readonly string CustomResourcesDirectory;
 
-        private const string DefaultUserGalleryName = "Default";
-
-        public AccountController(IWebHostEnvironment hostingEnvironment, ISettingsHelper settings, IDatabaseHelper database, IDeviceDetector deviceDetector, IFileHelper fileHelper, IEncryptionHelper encryption, INotificationHelper notificationHelper, ISmtpClientWrapper smtpClientWrapper, Helpers.IUrlHelper url, IAuditHelper audit, IHttpClientFactory httpClientFactory, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer)
+        public AccountController(IWebHostEnvironment hostingEnvironment, ISettingsHelper settings, IDatabaseHelper database, IDeviceDetector deviceDetector, IFileHelper fileHelper, IEncryptionHelper encryption, INotificationHelper notificationHelper, ISmtpClientWrapper smtpClientWrapper, Helpers.IUrlHelper url, IAuditHelper audit, ILoggerFactory loggerFactory, IStringLocalizer<Lang.Translations> localizer)
             : base()
         {
             _hostingEnvironment = hostingEnvironment;
@@ -64,7 +61,6 @@ namespace WeddingShare.Controllers
             _smtpClientWrapper = smtpClientWrapper;
             _url = url;
             _audit = audit;
-            _httpClientFactory = httpClientFactory;
             _loggerFactory = loggerFactory;
             _logger = loggerFactory.CreateLogger<AccountController>();
             _localizer = localizer;
@@ -567,7 +563,7 @@ namespace WeddingShare.Controllers
                         }
                         else if (model.ActiveTab == AccountTabs.Galleries)
                         {
-                            model.Galleries = (await _database.GetGalleries())?.Where(x => !x.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase))?.ToList();
+                            model.Galleries = (await _database.GetGalleries())?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList();
                             if (model.Galleries != null)
                             {
                                 var all = await _database.GetAllGallery();
@@ -650,7 +646,7 @@ namespace WeddingShare.Controllers
                 {
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        result = (await _database.GetGalleries())?.Where(x => !x.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase))?.ToList();
+                        result = (await _database.GetGalleries())?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList();
                         if (result != null)
                         {
                             var all = await _database.GetAllGallery();
@@ -1178,7 +1174,7 @@ namespace WeddingShare.Controllers
                 try
                 {
                     var gallery = await _database.GetGallery(id);
-                    if (gallery != null && gallery.Id > 1 && User.Identity.CanEdit(GalleryPermissions.Delete, gallery.Owner))
+                    if (gallery != null && User.Identity.CanEdit(GalleryPermissions.Delete, gallery.Owner))
                     {
                         var galleryDir = Path.Combine(UploadsDirectory, gallery.Identifier);
                         _fileHelper.DeleteDirectoryIfExists(galleryDir);
@@ -1469,7 +1465,7 @@ namespace WeddingShare.Controllers
                 try
                 {
                     var user = await _database.GetUser(id);
-                    if (user != null && user.Id > 1 && User.Identity.CanEdit(UserPermissions.Delete, user.Id))
+                    if (user != null && User.Identity.CanEdit(UserPermissions.Delete, user.Id))
                     {
                         var galleries = await _database.GetGalleries(user.Id);
                         foreach (var gallery in galleries)
@@ -1961,7 +1957,7 @@ namespace WeddingShare.Controllers
         {
             var galleries = new List<PhotoGallery>();
 
-            var items = await _database.GetGalleryItems(userId);
+            var items = await _database.GetGalleryItems(userId, state: GalleryItemState.Pending);
             if (items != null)
             {
                 foreach (var galleryGroup in items.GroupBy(x => x.GalleryId))
@@ -2003,14 +1999,14 @@ namespace WeddingShare.Controllers
                 {
                     gallery = await _database.AddGallery(new GalleryModel()
                     {
-                        Name = DefaultUserGalleryName,
+                        Name = SystemGalleries.DefaultGallery,
                         SecretKey = PasswordHelper.GenerateGallerySecretKey(),
                         Owner = user.Id
                     });
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, $"Failed to create '{DefaultUserGalleryName}' gallery for user '{user.Username}'");
+                    _logger.LogError(ex, $"Failed to create '{SystemGalleries.DefaultGallery}' gallery for user '{user.Username}'");
                 }
             }
 

@@ -44,8 +44,7 @@ namespace WeddingShare.Extensions
                 
                 return userLevel == UserLevel.Reviewer
                     || userLevel == UserLevel.Moderator
-                    || userLevel == UserLevel.Admin
-                    || userLevel == UserLevel.Owner;
+                    || userLevel == UserLevel.Admin;
             }
             catch { }
 
@@ -74,8 +73,6 @@ namespace WeddingShare.Extensions
                         return new ModeratorPermissions();
                     case UserLevel.Admin:
                         return new AdminPermissions();
-                    case UserLevel.Owner:
-                        return new OwnerPermissions();
                     default: 
                         return new Permissions();
                 }
@@ -98,8 +95,6 @@ namespace WeddingShare.Extensions
                         return 3;
                     case UserLevel.Moderator:
                     case UserLevel.Admin:
-                        return 10;
-                    case UserLevel.Owner:
                         return int.MaxValue;
                 }
             }

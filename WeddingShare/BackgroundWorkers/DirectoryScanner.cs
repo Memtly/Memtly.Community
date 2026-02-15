@@ -76,6 +76,9 @@ namespace WeddingShare.BackgroundWorkers
                         {
                             var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
 
+                            
+                            var systemUser = await db.GetUserByUsername(UserAccounts.SystemUser);
+
                             foreach (var galleryDir in galleryDirs)
                             {
                                 try
@@ -92,7 +95,7 @@ namespace WeddingShare.BackgroundWorkers
                                             Identifier = identifier,
                                             Name = galleryName,
                                             SecretKey = PasswordHelper.GenerateGallerySecretKey(),
-                                            Owner = 0
+                                            Owner = systemUser!.Id
                                         }))?.Id;
                                     }
 
@@ -257,6 +260,8 @@ namespace WeddingShare.BackgroundWorkers
                 {
                     var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
 
+                    var systemUser = await db.GetUserByUsername(UserAccounts.SystemUser);
+
                     var existing = await db.GetCustomResources();
 
                     var customResourcesDirectory = Path.Combine(hostingEnvironment.WebRootPath, Directories.CustomResources);
@@ -273,7 +278,7 @@ namespace WeddingShare.BackgroundWorkers
                                 {
                                     FileName = filename,
                                     UploadedBy = "DirectoryScanner",
-                                    Owner = 0
+                                    Owner = systemUser!.Id
                                 });
                             }
                         }

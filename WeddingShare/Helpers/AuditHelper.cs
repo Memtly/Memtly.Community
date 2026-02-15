@@ -38,10 +38,12 @@ namespace WeddingShare.Helpers
                     using (var scope = _scopeFactory.CreateScope())
                     {
                         var db = scope.ServiceProvider.GetRequiredService<IDatabaseHelper>();
-                     
+
+                        var user = userId ?? (await db.GetUserByUsername(UserAccounts.SystemUser))?.Id;
+
                         return await db.AddAuditLog(new AuditLogModel()
                         {
-                            UserId = userId,
+                            UserId = user ?? 0,
                             Message = action,
                             Severity = severity
                         }) != null;

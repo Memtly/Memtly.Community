@@ -26,42 +26,26 @@
                         @if (userPermissions.Users.HasFlag(UserPermissions.Update))
                         {
                             var tooltip = _localizer["User_Edit"].Value;
-                            @if (user.Id > 1)
-                            {
-                                <button class="btnEditUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
-                                    <i class="fas fa-pen-to-square"></i>
-                                </button>
-                            }
-                            else
-                            {
-                                <button class="btn btn-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
-                                    <i class="fas fa-pen-to-square"></i>
-                                </button>
-                            }
+                            
+                            <button class="btnEditUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
+                                <i class="fas fa-pen-to-square"></i>
+                            </button>
                         }
 
                         <!-- ( Change User Password ) -->
                         @if (userPermissions.Users.HasFlag(UserPermissions.Change_Password))
                         {
                             var tooltip = _localizer["Change_Password"].Value;
-                            @if (user.Id > 1)
-                            {
-                                <button class="btnChangePassword btn btn-primary-3" alt="@tooltip" title="@tooltip">
-                                    <i class="fas fa-unlock-keyhole"></i>
-                                </button>
-                            }
-                            else
-                            {
-                                <button class="btn btn-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
-                                    <i class="fas fa-unlock-keyhole"></i>
-                                </button>
-                            }
+                            
+                            <button class="btnChangePassword btn btn-primary-3" alt="@tooltip" title="@tooltip">
+                                <i class="fas fa-unlock-keyhole"></i>
+                            </button>
                         }
 
                         <!-- ( Reset 2FA ) -->
                         @if (userPermissions.Users.HasFlag(UserPermissions.Reset_MFA))
                         {
-                            if (user.Id > 1 && !string.IsNullOrWhiteSpace(user.MultiFactorToken))
+                            if (!string.IsNullOrWhiteSpace(user.MultiFactorToken))
                             {
                                 var tooltip = _localizer["Wipe_2FA"].Value;
                                 <button class="btnWipe2FA btn btn-danger" alt="@tooltip" title="@tooltip">
@@ -80,53 +64,26 @@
                         <!-- ( Freeze / Un-Freeze User ) -->
                         @if (userPermissions.Users.HasFlag(UserPermissions.Freeze))
                         {
-                            if (user.Id > 1)
+                            if (user.State == AccountState.PendingActivation)
                             {
-                                if (user.State == AccountState.PendingActivation)
-                                {
-                                    var tooltip = _localizer["Activate"].Value;
-                                    <button class="btnActivateUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
-                                        <i class="fas fa-hourglass-half"></i>
-                                    </button>
-                                }
-                                else if (user.State == AccountState.Frozen)
-                                {
-                                    var tooltip = _localizer["Unfreeze"].Value;
-                                    <button class="btnUnfreezeUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
-                                        <i class="fas fa-fire"></i>
-                                    </button>
-                                }
-                                else
-                                {
-                                    var tooltip = _localizer["Freeze"].Value;
-                                    <button class="btnFreezeUser btn btn-danger" alt="@tooltip" title="@tooltip">
-                                        <i class="fas fa-snowflake"></i>
-                                    </button>
-                                }
+                                var tooltip = _localizer["Activate"].Value;
+                                <button class="btnActivateUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
+                                    <i class="fas fa-hourglass-half"></i>
+                                </button>
+                            }
+                            else if (user.State == AccountState.Frozen)
+                            {
+                                var tooltip = _localizer["Unfreeze"].Value;
+                                <button class="btnUnfreezeUser btn btn-primary-3" alt="@tooltip" title="@tooltip">
+                                    <i class="fas fa-fire"></i>
+                                </button>
                             }
                             else
                             {
-                                if (user.State == AccountState.PendingActivation)
-                                {
-                                    var tooltip = _localizer["Activate"].Value;
-                                    <button class="btn btn-disabled" disabled=disabled alt="@tooltip" title="@tooltip @tooltipDisabled">
-                                        <i class="fas fa-hourglass-half"></i>
-                                    </button>
-                                }
-                                else if (user.State == AccountState.Frozen)
-                                {
-                                    var tooltip = _localizer["Unfreeze"].Value;
-                                    <button class="btn btn-disabled" disabled=disabled alt="@tooltip" title="@tooltip @tooltipDisabled">
-                                        <i class="fas fa-fire"></i>
-                                    </button>
-                                }
-                                else
-                                {
-                                    var tooltip = _localizer["Freeze"].Value;
-                                    <button class="btn btn-disabled" disabled=disabled alt="@tooltip" title="@tooltip @tooltipDisabled">
-                                        <i class="fas fa-snowflake"></i>
-                                    </button>
-                                }
+                                var tooltip = _localizer["Freeze"].Value;
+                                <button class="btnFreezeUser btn btn-danger" alt="@tooltip" title="@tooltip">
+                                    <i class="fas fa-snowflake"></i>
+                                </button>
                             }
                         }
 
@@ -134,18 +91,10 @@
                         @if (userPermissions.Users.HasFlag(UserPermissions.Delete))
                         {
                             var tooltip = _localizer["Delete"].Value;
-                            if (user.Id > 1)
-                            {
-                                <button class="btnDeleteUser btn btn-danger" alt="@tooltip" title="@tooltip">
-                                    <i class="fas fa-trash-can"></i>
-                                </button>
-                            }
-                            else
-                            {
-                                <button class="btn btn-disabled" disabled=disabled alt="@tooltip @tooltipDisabled" title="@tooltip @tooltipDisabled">
-                                    <i class="fas fa-trash-can"></i>
-                                </button>
-                            }
+                            
+                            <button class="btnDeleteUser btn btn-danger" alt="@tooltip" title="@tooltip">
+                                <i class="fas fa-trash-can"></i>
+                            </button>
                         }
                     </td>
                 </tr>

@@ -43,18 +43,24 @@ namespace WeddingShare.Helpers.Database
                     Id = g.Id,
                     Identifier = g.Identifier,
                     Name = g.Name,
+                    SecretKey = g.SecretKey,
                     OwnerName = g.User!.Username,
                     TotalItems = g.Items.Count,
                     ApprovedItems = g.Items.Count(gi => gi.State == GalleryItemState.Approved),
                     PendingItems = g.Items.Count(gi => gi.State == GalleryItemState.Pending),
                     TotalGallerySize = g.Items.Sum(gi => (long?)gi.FileSize) ?? 0
                 })
-                .OrderBy(g => g.Name!.ToLower())
+                .OrderByDescending(g => g.TotalGallerySize)
                 .ToListAsync();
         }
 
         public async Task<int?> GetGalleryIdByName(string name)
         {
+            if (name.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))
+            {
+                return 0;
+            }
+
             return (await _db.Galleries
                 .FirstOrDefaultAsync(g => g.Name.ToLower().Equals(name.ToLower()))
             )?.Id;
@@ -62,6 +68,11 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<int?> GetGalleryId(string identifier)
         {
+            if (identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))
+            {
+                return 0;
+            }
+
             return (await _db.Galleries
                .FirstOrDefaultAsync(g => g.Identifier.Equals(identifier))
             )?.Id;
@@ -69,6 +80,11 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<string?> GetGalleryIdentifier(int id)
         {
+            if (id == 0)
+            {
+                return SystemGalleries.AllGallery;
+            }
+
             return (await _db.Galleries
                .FirstOrDefaultAsync(g => g.Id == id)
             )?.Identifier;
@@ -76,6 +92,11 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<string?> GetGalleryName(int id)
         {
+            if (id == 0)
+            {
+                return SystemGalleries.AllGallery;
+            }
+
             return (await _db.Galleries
                .FirstOrDefaultAsync(g => g.Id == id)
             )?.Name;
@@ -86,8 +107,8 @@ namespace WeddingShare.Helpers.Database
             return new GalleryModel
             {
                 Id = 0,
-                Identifier = "all",
-                Name = "all",
+                Identifier = SystemGalleries.AllGallery.ToLower(),
+                Name = SystemGalleries.AllGallery,
                 SecretKey = null,
                 TotalItems = await _db.GalleryItems.CountAsync(),
                 ApprovedItems = await _db.GalleryItems.CountAsync(gi => gi.State == GalleryItemState.Approved),
@@ -100,12 +121,18 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<GalleryModel?> GetGallery(int id)
         {
+            if (id == 0)
+            {
+                return await GetAllGallery();
+            }
+
             return await _db.Galleries
                 .Select(g => new GalleryModel
                 {
                     Id = g.Id,
                     Identifier = g.Identifier,
                     Name = g.Name,
+                    SecretKey = g.SecretKey,
                     OwnerName = g.User!.Username,
                     TotalItems = g.Items.Count,
                     ApprovedItems = g.Items.Count(gi => gi.State == GalleryItemState.Approved),
@@ -190,7 +217,7 @@ namespace WeddingShare.Helpers.Database
         {
             var counts = await _db.GalleryItems
                 .Where(gi =>
-                    (galleryId == null || gi.GalleryId == galleryId)
+                    (galleryId == null || galleryId == 0 || gi.GalleryId == galleryId)
                     && (state == GalleryItemState.All || gi.State == state)
                     && (type == MediaType.All || gi.Type == type)
                     && (orientation == ImageOrientation.All || gi.Orientation == orientation)
@@ -204,7 +231,7 @@ namespace WeddingShare.Helpers.Database
                 var key = s.ToString();
                 if (!counts.ContainsKey(key))
                 {
-                    counts.Add(key, s.ToLower().Equals("All".ToLower()) ? counts.Sum(x => x.Value) : 0);
+                    counts.Add(key, s.ToLower().Equals(SystemGalleries.AllGallery.ToLower()) ? counts.Sum(x => x.Value) : 0);
                 }
             }
 
@@ -216,7 +243,7 @@ namespace WeddingShare.Helpers.Database
             var query = _db.GalleryItems
                 .Where(gi =>
                     (userId == null || gi.Gallery!.UserId == userId)
-                    && (galleryId == null || gi.GalleryId == galleryId)
+                    && (galleryId == null || galleryId == 0 || gi.GalleryId == galleryId)
                     && (state == GalleryItemState.All || gi.State == state)
                     && (type == MediaType.All || gi.Type == type)
                     && (orientation == ImageOrientation.All || gi.Orientation == orientation)
@@ -256,8 +283,8 @@ namespace WeddingShare.Helpers.Database
                     Title = gi.Title,
                     State = gi.State,
                     UploadedBy = gi.UploadedBy,
-                    //UploaderEmailAddress = gi.User
-                    UploadedDate = gi.CreatedAt.DateTime,
+                    //UploaderEmailAddress = gi?.Gallery?.User?.EmailAddress ?? string.Empty,
+                    UploadedDate = gi.CreatedAt,
                     Checksum = gi.Checksum,
                     MediaType = gi.Type,
                     Orientation = gi.Orientation,
@@ -277,7 +304,7 @@ namespace WeddingShare.Helpers.Database
                     State = gi.State,
                     UploadedBy = gi.UploadedBy,
                     //UploaderEmailAddress = gi.User
-                    UploadedDate = gi.CreatedAt.DateTime,
+                    UploadedDate = gi.CreatedAt,
                     Checksum = gi.Checksum,
                     MediaType = gi.Type,
                     Orientation = gi.Orientation,
@@ -297,7 +324,7 @@ namespace WeddingShare.Helpers.Database
                     State = gi.State,
                     UploadedBy = gi.UploadedBy,
                     //UploaderEmailAddress = gi.User
-                    UploadedDate = gi.CreatedAt.DateTime,
+                    UploadedDate = gi.CreatedAt,
                     Checksum = gi.Checksum,
                     MediaType = gi.Type,
                     Orientation = gi.Orientation,
@@ -341,11 +368,9 @@ namespace WeddingShare.Helpers.Database
                 galleryItem.FileSize = model.FileSize;
 
                 await _db.SaveChangesAsync();
-
-                return await GetGalleryItem(galleryItem.Id);
             }
 
-            return null;
+            return galleryItem != null ? await GetGalleryItem(galleryItem.Id) : null;
         }
 
         public async Task DeleteGalleryItem(GalleryItemModel model)
@@ -373,7 +398,7 @@ namespace WeddingShare.Helpers.Database
                     GalleryId = gl!.GalleryItem!.GalleryId ?? 0,
                     GalleryItemId = gl!.GalleryItemId ?? 0,
                     UserId = gl!.UserId ?? 0,
-                    Timestamp = gl.CreatedAt.DateTime
+                    Timestamp = gl.CreatedAt
                 })
                 .ToListAsync();
         }
@@ -388,7 +413,7 @@ namespace WeddingShare.Helpers.Database
                     GalleryId = gl!.GalleryItem!.GalleryId ?? 0,
                     GalleryItemId = gl!.GalleryItemId ?? 0,
                     UserId = gl!.UserId ?? 0,
-                    Timestamp = gl.CreatedAt.DateTime
+                    Timestamp = gl.CreatedAt
                 })
                 .ToListAsync();
         }
@@ -403,7 +428,7 @@ namespace WeddingShare.Helpers.Database
                     GalleryId = gl!.GalleryItem!.GalleryId ?? 0,
                     GalleryItemId = gl!.GalleryItemId ?? 0,
                     UserId = gl!.UserId ?? 0,
-                    Timestamp = gl.CreatedAt.DateTime
+                    Timestamp = gl.CreatedAt
                 })
                 .ToListAsync();
         }
@@ -449,33 +474,16 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region Users
-        public async Task<bool> InitOwnerAccount(UserModel model)
-        {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == model.Id);
-            if (user != null)
-            {
-                user.Username = model.Username.ToLower();
-                user.Password = model.Password ?? PasswordHelper.GenerateTempPassword();
-                user.Level = UserLevel.Owner;
-                user.State = AccountState.Active;
-
-                await _db.SaveChangesAsync();
-
-                return true;
-            }
-
-            return false;
-        }
-
         public async Task<bool> ValidateCredentials(string username, string password)
         {
             return (await _db.Users
-                .CountAsync(u => u.Username.ToLower().Equals(username.ToLower()) && u.Password.Equals(password))) > 0;
+                .CountAsync(u => u.Level != UserLevel.System && u.Username.ToLower().Equals(username.ToLower()) && u.Password.Equals(password))) > 0;
         }
 
         public async Task<List<UserModel>?> GetAllUsers()
         {
             return await _db.Users
+                .Where(u => !u.Username.ToLower().Equals(UserAccounts.SystemUser.ToLower()))
                 .Select(u => new UserModel()
                 {
                     Id = u.Id,
@@ -589,23 +597,21 @@ namespace WeddingShare.Helpers.Database
                 //ActionAuthCode = model.
 
                 await _db.SaveChangesAsync();
-
-                return await GetUser(user.Id);
             }
 
-            return null;
+            return user != null ? await GetUser(user.Id) : null;
         }
 
         public async Task DeleteUser(UserModel model)
         {
             await _db.Users
-                .Where(u => u.Id == model.Id)
+                .Where(u => u.Level != UserLevel.System && u.Id == model.Id)
                 .ExecuteDeleteAsync();
         }
 
         public async Task<bool> ChangePassword(UserModel model)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == model.Id);
+            var user = await _db.Users.FirstOrDefaultAsync(u => u.Level != UserLevel.System && u.Id == model.Id);
             if (user != null)
             {
                 user.Password = model.Password ?? PasswordHelper.GenerateTempPassword();
@@ -620,7 +626,7 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<bool> SetMultiFactorToken(int id, string token)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _db.Users.FirstOrDefaultAsync(u => u.Level != UserLevel.System && u.Id == id);
             if (user != null)
             {
                 user.MultiFactorAuthToken = token;
@@ -635,7 +641,7 @@ namespace WeddingShare.Helpers.Database
 
         public async Task<string> SetUserSecret(int id, string secretCode)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _db.Users.FirstOrDefaultAsync(u => u.Level != UserLevel.System && u.Id == id);
             if (user != null)
             {
                 user.ActionAuthCode = secretCode;
@@ -651,7 +657,7 @@ namespace WeddingShare.Helpers.Database
         public async Task<bool> VerifyUserSecret(int id, string secretCode)
         {
             return (await _db.Users
-                .CountAsync(u => u.Id == id && u.ActionAuthCode.Equals(secretCode))) > 0;
+                .CountAsync(u => u.Level != UserLevel.System && u.Id == id && u.ActionAuthCode.Equals(secretCode))) > 0;
         }
 
         public async Task<int> IncrementLockoutCount(int id)
@@ -685,7 +691,7 @@ namespace WeddingShare.Helpers.Database
             try
             {
                 await _db.Users
-                    .Where(u => u.Id == id)
+                    .Where(u => u.Level != UserLevel.System && u.Id == id)
                     .ExecuteUpdateAsync(setter => setter
                         .SetProperty(u => u.LockoutUntil, normalizedDatetime)
                     );
@@ -771,17 +777,16 @@ namespace WeddingShare.Helpers.Database
         public async Task<CustomResourceModel?> EditCustomResource(CustomResourceModel model)
         {
             var customResource = await _db.CustomResources.FirstOrDefaultAsync(x => x.Id == model.Id);
+
             if (customResource != null)
             {
                 customResource.Filename = model.FileName;
                 customResource.UserId = model.Owner;
 
                 await _db.SaveChangesAsync();
-
-                return await GetCustomResource(customResource.Id);
             }
 
-            return null;
+            return customResource != null ? await GetCustomResource(customResource.Id) : null;
         }
 
         public async Task DeleteCustomResource(CustomResourceModel model)
@@ -1064,8 +1069,8 @@ namespace WeddingShare.Helpers.Database
                     UserId = al.UserId ?? 0,
                     Username = al.User!.Username ?? "System",
                     Message = al.Message,
-                    Severity = al.Severity ?? AuditSeverity.Information,
-                    Timestamp = al.CreatedAt.DateTime
+                    Severity = al.Severity,
+                    Timestamp = al.CreatedAt
                 })
                 .FirstOrDefaultAsync(al => al.Id == id);
         }
@@ -1073,7 +1078,11 @@ namespace WeddingShare.Helpers.Database
         public async Task<IEnumerable<AuditLogModel>?> GetAuditLogs(int? userId = null, string term = "", AuditSeverity severity = AuditSeverity.Information, int limit = 100)
         {
             return await _db.AuditLogs
-                .Where(al => (userId == null || al.UserId == userId) && (string.IsNullOrWhiteSpace(term) || al.Message.ToLower().Contains(term.ToLower()) || al.User!.Username.ToLower().Contains(term.ToLower())) && al.Severity >= severity)
+                .Where(al => (userId == null || al.UserId == userId)
+                    && (string.IsNullOrWhiteSpace(term)
+                        || al.Message.ToLower().Contains(term.ToLower())
+                        || (al.User != null && al.User.Username.ToLower().Contains(term.ToLower())))
+                    && al.Severity >= severity)
                 .OrderByDescending(al => al.CreatedAt)
                 .Take(limit)
                 .Select(al => new AuditLogModel()
@@ -1082,8 +1091,8 @@ namespace WeddingShare.Helpers.Database
                     UserId = al.UserId ?? 0,
                     Username = al.User!.Username ?? "System",
                     Message = al.Message,
-                    Severity = al.Severity ?? AuditSeverity.Information,
-                    Timestamp = al.CreatedAt.DateTime
+                    Severity = al.Severity,
+                    Timestamp = al.CreatedAt
                 })
                 .ToListAsync();
         }

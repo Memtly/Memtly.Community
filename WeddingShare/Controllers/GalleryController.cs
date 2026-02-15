@@ -213,7 +213,7 @@ namespace WeddingShare.Controllers
                         }
                     }
 
-                    var orientation = ImageOrientation.Unknown;
+                    var orientation = ImageOrientation.All;
                     switch (galleryFilter)
                     {
                         case GalleryFilter.Landscape:
@@ -226,7 +226,7 @@ namespace WeddingShare.Controllers
                             orientation = ImageOrientation.Square;
                             break;
                         default:
-                            orientation = ImageOrientation.Unknown;
+                            orientation = ImageOrientation.All;
                             break;
                     }
 
@@ -236,7 +236,7 @@ namespace WeddingShare.Controllers
 
                     var isGalleryAdmin = User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.Gallery.HasFlag(GalleryPermissions.Upload);
                     
-                    var uploadActvated = !gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) && (isGalleryAdmin || await _settings.GetOrDefault(Settings.Gallery.Upload, true, gallery?.Id));
+                    var uploadActvated = !gallery!.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase) && (isGalleryAdmin || await _settings.GetOrDefault(Settings.Gallery.Upload, true, gallery?.Id));
                     if (uploadActvated)
                     {
                         try
@@ -279,7 +279,7 @@ namespace WeddingShare.Controllers
                     }
 
                     var itemCounts = await _database.GetGalleryItemCount(gallery?.Id, GalleryItemState.All, mediaType, orientation);
-                    var galleryIdentifiers = !gallery.Identifier.Equals("All", StringComparison.OrdinalIgnoreCase) ? new Dictionary<int, string>() { { gallery.Id, gallery.Identifier } } : items?.GroupBy(x => x.GalleryId)?.Select(x => new KeyValuePair<int, string>(x.Key, _database.GetGalleryIdentifier(x.Key).Result))?.ToDictionary();
+                    var galleryIdentifiers = !gallery!.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase) ? new Dictionary<int, string>() { { gallery.Id, gallery.Identifier } } : items?.GroupBy(x => x.GalleryId)?.Select(x => new KeyValuePair<int, string>(x.Key, _database.GetGalleryIdentifier(x.Key).Result))?.ToDictionary();
                     var model = new PhotoGallery()
                     {
                         Gallery = gallery,
@@ -292,7 +292,7 @@ namespace WeddingShare.Controllers
                                 GalleryId = x.GalleryId,
                                 GalleryName = gallery.Name,
                                 Name = Path.GetFileName(x.Title),
-                                UploadedBy = x.UploadedBy,
+                                UploadedBy = x.UploadedBy ?? "Unknown",
                                 UploaderEmailAddress = x.UploaderEmailAddress,
                                 UploadDate = x.UploadedDate,
                                 ImagePath = $"/{Path.Combine(UploadsDirectory, galleryIdentifier).Remove(_hostingEnvironment.WebRootPath).Replace('\\', '/').TrimStart('/')}/{x.Title}",
@@ -552,7 +552,7 @@ namespace WeddingShare.Controllers
                                                 switch (type)
                                                 {
                                                     case GalleryGroup.Date:
-                                                        filtered = galleryItems?.GroupBy(x => x.UploadedDate != null ? x.UploadedDate.Value.ToString("dddd, d MMMM yyyy") : "Unknown");
+                                                        filtered = galleryItems?.GroupBy(x => x.UploadedDate.ToString("dddd, d MMMM yyyy"));
                                                         break;
                                                     case GalleryGroup.MediaType:
                                                         filtered = galleryItems?.GroupBy(x => x.MediaType.ToString());

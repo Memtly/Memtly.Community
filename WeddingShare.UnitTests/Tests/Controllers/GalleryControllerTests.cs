@@ -62,7 +62,7 @@ namespace WeddingShare.UnitTests.Tests.Helpers
                 ApprovedItems = 0,
                 PendingItems = 0,
                 TotalItems = 0,
-				Owner = 0
+				Owner = 1
             }));
 			_database.AddGalleryItem(Arg.Any<GalleryItemModel>()).Returns(Task.FromResult<GalleryItemModel?>(MockData.MockGalleryItem()));
 
@@ -422,7 +422,7 @@ namespace WeddingShare.UnitTests.Tests.Helpers
                         ApprovedItems = 0,
                         PendingItems = 0,
                         TotalItems = 0,
-                        Owner = 0
+                        Owner = 1
                     }
                 }
             };

@@ -58,7 +58,7 @@ namespace WeddingShare.Migrations.Postgres
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Message = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: false),
                     UserId = table.Column<int>(type: "integer", nullable: true),
-                    Severity = table.Column<int>(type: "integer", nullable: true, defaultValue: 2),
+                    Severity = table.Column<int>(type: "integer", nullable: false, defaultValue: 2),
                     CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>

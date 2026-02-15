@@ -20,7 +20,7 @@
             <tr>
                 <td class="text-capitalize">@log.Username</td>
                 <td class="d-none d-md-table-cell text-capitalize">@log.Severity</td>
-                <td class="d-none d-md-table-cell">@log.Timestamp</td>
+                <td class="d-none d-md-table-cell">@log.Timestamp.ToString("dd/MM/yyyy hh:mm tt")</td>
                 <td>@log.Message</td>
             </tr>
         }

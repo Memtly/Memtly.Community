@@ -7,6 +7,6 @@
         Reviewer = 2,
         Moderator = 3,
         Admin = 4,
-        Owner = 5
+        System = 9999
     }
 }

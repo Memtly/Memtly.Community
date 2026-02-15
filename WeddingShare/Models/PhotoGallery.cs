@@ -60,9 +60,9 @@ namespace WeddingShare.Models
         public int? GalleryId { get; set; }
         public string? GalleryName { get; set; }
         public string? Name { get; set; }
-        public string? UploadedBy { get; set; }
+        public string UploadedBy { get; set; }
         public string? UploaderEmailAddress { get; set; }
-        public DateTime? UploadDate { get; set; }
+        public DateTimeOffset? UploadDate { get; set; }
         public string? ImagePath { get; set; }
         public string? ThumbnailPath { get; set; }
         public MediaType MediaType { get; set; }
