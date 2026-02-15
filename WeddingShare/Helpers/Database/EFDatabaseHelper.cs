@@ -1113,8 +1113,9 @@ namespace WeddingShare.Helpers.Database
 
         public async Task FlushLogsOlderThan(int days = 30)
         {
+            var flushDate = DateTimeOffset.UtcNow.AddDays(Math.Abs(days) * -1);
             await _db.AuditLogs
-                .Where(al => al.CreatedAt < DateTimeOffset.UtcNow.AddDays(Math.Abs(days) * -1))
+                .Where(al => al.CreatedAt < flushDate)
                 .ExecuteDeleteAsync();
         }
         #endregion
