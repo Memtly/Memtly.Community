@@ -1603,19 +1603,19 @@ namespace WeddingShare.Controllers
                         var dbExport = Path.Combine(exportDir, $"WeddingShare.bak");
 
                         var exported = true;
-                        if (options.Database)
-                        { 
-                            exported = await _database.Export($"Data Source={dbExport}");
-                        }
+                        //if (options.Database)
+                        //{ 
+                        //    exported = await _database.Export($"Data Source={dbExport}");
+                        //}
 
                         if (exported)
                         {
                             var listing = new List<ZipListing>();
 
-                            if (options.Database)
-                            {
-                                listing.Add(new ZipListing(exportDir, new string[] { dbExport }));
-                            }
+                            //if (options.Database)
+                            //{
+                            //    listing.Add(new ZipListing(exportDir, new string[] { dbExport }));
+                            //}
 
                             if (options.Uploads)
                             {

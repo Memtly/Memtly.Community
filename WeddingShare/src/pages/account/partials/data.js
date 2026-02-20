@@ -81,33 +81,46 @@ function bindExportButton() {
             return;
         }
 
-        displayPopup({
-            Title: localization.translate('Export_Data'),
-            Fields: [{
+        let exportOptions = [];
+
+        let includeDatabaseOption = false;
+        if (includeDatabaseOption) {
+            exportOptions.push({
                 Id: 'database',
                 Type: 'checkbox',
                 Checked: true,
                 Class: 'form-check-input',
                 Label: 'Database'
-            }, {
-                Id: 'uploads',
-                Type: 'checkbox',
-                Checked: true,
-                Class: 'form-check-input',
-                Label: 'Uploads'
-            }, {
-                Id: 'thumbnails',
-                Type: 'checkbox',
-                Checked: true,
-                Class: 'form-check-input',
-                Label: 'Thumbnails'
-            }, {
-                Id: 'custom-resources',
-                Type: 'checkbox',
-                Checked: true,
-                Class: 'form-check-input',
-                Label: 'Custom Resources'
-            }],
+            });
+        }
+
+        exportOptions.push({
+            Id: 'uploads',
+            Type: 'checkbox',
+            Checked: true,
+            Class: 'form-check-input',
+            Label: 'Uploads'
+        });
+
+        exportOptions.push({
+            Id: 'thumbnails',
+            Type: 'checkbox',
+            Checked: true,
+            Class: 'form-check-input',
+            Label: 'Thumbnails'
+        });
+
+        exportOptions.push({
+            Id: 'custom-resources',
+            Type: 'checkbox',
+            Checked: true,
+            Class: 'form-check-input',
+            Label: 'Custom Resources'
+        });
+
+        displayPopup({
+            Title: localization.translate('Export_Data'),
+            Fields: exportOptions,
             Buttons: [{
                 Text: localization.translate('Export'),
                 Class: 'btn-primary-2',
@@ -118,7 +131,7 @@ function bindExportButton() {
                         url: '/Account/ExportBackup',
                         method: 'POST',
                         data: {
-                            Database: $('#popup-modal-field-database').is(':checked'),
+                            Database: includeDatabaseOption ? $('#popup-modal-field-database').is(':checked') : false,
                             Uploads: $('#popup-modal-field-uploads').is(':checked'),
                             Thumbnails: $('#popup-modal-field-thumbnails').is(':checked'),
                             CustomResources: $('#popup-modal-field-custom-resources').is(':checked')

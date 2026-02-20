@@ -5,7 +5,6 @@
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
-    var showMySQLFeatures = !string.Equals("mysql", await _settings.GetOrDefault(Database.Type, "sqlite"), StringComparison.OrdinalIgnoreCase);
 }
 
 @if (userPermissions.Data.HasFlag(DataPermissions.View))
@@ -29,7 +28,7 @@
         </div>
     </section>
 
-    @if (showMySQLFeatures && (userPermissions.Data.HasFlag(DataPermissions.Import) || userPermissions.Data.HasFlag(DataPermissions.Export)))
+    @if (userPermissions.Data.HasFlag(DataPermissions.Import) || userPermissions.Data.HasFlag(DataPermissions.Export))
     {
         <section class="pnl-account pnl-account-data pb-0 pb-lg-4">
             <div class="container px-3 px-lg-1 my-3 my-lg-0">
