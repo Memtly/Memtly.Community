@@ -2,66 +2,66 @@
     /* Generic */
     --white: 255, 255, 255;
     --black: 0, 0, 0;
-    --text-contrast: 255, 255, 255;
+    --text-contrast: 0, 0, 0;
     /* Navbar */
-    --navbar-bg: 31, 41, 55;
-    --navbar-border: 5, 150, 105;
-    --navbar-title-text: 250, 250, 250;
-    --navbar-options-text: 52, 211, 153;
-    --navbar-options-text-hover: 16, 185, 129;
+    --navbar-bg: 255, 255, 255;
+    --navbar-border: 219, 39, 119;
+    --navbar-title-text: 40, 40, 40;
+    --navbar-options-text: 236, 72, 153;
+    --navbar-options-text-hover: 236, 72, 153;
     /* Navigation */
-    --nav-text: 52, 211, 153;
-    --nav-bg: 31, 41, 55;
-    --nav-border: 16, 185, 129;
+    --nav-text: 219, 39, 119;
+    --nav-bg: 255, 255, 255;
+    --nav-border: 236, 72, 153;
     --nav-hover-text: 255, 255, 255;
-    --nav-hover-bg: 16, 185, 129;
-    --nav-hover-border: 16, 185, 129;
+    --nav-hover-bg: 236, 72, 153;
+    --nav-hover-border: 236, 72, 153;
     /* Tables */
-    --table-border: 5, 150, 105;
-    --table-header-text: 5, 150, 105;
-    --table-header-bg: 5, 150, 105;
-    --table-data-text: 229, 231, 235;
-    --table-data-bg: 31, 41, 55;
+    --table-border: 219, 39, 119;
+    --table-header-text: 219, 39, 119;
+    --table-header-bg: 219, 39, 119;
+    --table-data-text: 40, 40, 40;
+    --table-data-bg: 255, 255, 255;
     /* Forms */
-    --form-text: 255, 255, 255;
+    --form-text: 40, 40, 40;
     /* Footer */
-    --footer-text: 229, 231, 235;
-    --footer-bg: 17, 24, 39;
+    --footer-text: 255, 255, 255;
+    --footer-bg: 0, 0, 0;
     /* Colour Scheme (Primary 1) */
     --primary-text-1: 255, 255, 255;
-    --primary-bg-1: 5, 150, 105;
-    --primary-border-1: 5, 150, 105;
+    --primary-bg-1: 219, 39, 119;
+    --primary-border-1: 219, 39, 119;
     --primary-hover-text-1: 255, 255, 255;
-    --primary-hover-bg-1: 4, 120, 87;
-    --primary-hover-border-1: 4, 120, 87;
+    --primary-hover-bg-1: 190, 24, 93;
+    --primary-hover-border-1: 190, 24, 93;
     /* Colour Scheme (Primary 2) */
     --primary-text-2: 255, 255, 255;
-    --primary-bg-2: 16, 185, 129;
-    --primary-border-2: 16, 185, 129;
+    --primary-bg-2: 236, 72, 153;
+    --primary-border-2: 236, 72, 153;
     --primary-hover-text-2: 255, 255, 255;
-    --primary-hover-bg-2: 5, 150, 105;
-    --primary-hover-border-2: 5, 150, 105;
+    --primary-hover-bg-2: 219, 39, 119;
+    --primary-hover-border-2: 219, 39, 119;
     /* Colour Scheme (Primary 3) */
     --primary-text-3: 255, 255, 255;
-    --primary-bg-3: 52, 211, 153;
-    --primary-border-3: 52, 211, 153;
+    --primary-bg-3: 244, 114, 182;
+    --primary-border-3: 244, 114, 182;
     --primary-hover-text-3: 255, 255, 255;
-    --primary-hover-bg-3: 16, 185, 129;
-    --primary-hover-border-3: 16, 185, 129;
+    --primary-hover-bg-3: 236, 72, 153;
+    --primary-hover-border-3: 236, 72, 153;
     /* Colour Scheme (Secondary 1) */
     --secondary-text-1: 255, 255, 255;
-    --secondary-bg-1: 59, 130, 246;
-    --secondary-border-1: 59, 130, 246;
+    --secondary-bg-1: 168, 85, 247;
+    --secondary-border-1: 168, 85, 247;
     --secondary-hover-text-1: 255, 255, 255;
-    --secondary-hover-bg-1: 37, 99, 235;
-    --secondary-hover-border-1: 37, 99, 235;
+    --secondary-hover-bg-1: 147, 51, 234;
+    --secondary-hover-border-1: 147, 51, 234;
     /* Colour Scheme (Secondary 2) */
     --secondary-text-2: 255, 255, 255;
-    --secondary-bg-2: 96, 165, 250;
-    --secondary-border-2: 96, 165, 250;
+    --secondary-bg-2: 192, 132, 252;
+    --secondary-border-2: 192, 132, 252;
     --secondary-hover-text-2: 255, 255, 255;
-    --secondary-hover-bg-2: 59, 130, 246;
-    --secondary-hover-border-2: 59, 130, 246;
+    --secondary-hover-bg-2: 168, 85, 247;
+    --secondary-hover-border-2: 168, 85, 247;
     /* Colour Scheme (Danger) */
     --danger-text: 255, 255, 255;
     --danger-bg: 248, 113, 113;
@@ -70,22 +70,22 @@
     --danger-hover-bg: 239, 68, 68;
     --danger-hover-border: 239, 68, 68;
     /* Colour Scheme (Disabled) */
-    --disabled-text: 156, 163, 175;
-    --disabled-bg: 55, 65, 81;
-    --disabled-border: 55, 65, 81;
-    --disabled-hover-text: 156, 163, 175;
-    --disabled-hover-bg: 75, 85, 99;
-    --disabled-hover-border: 75, 85, 99;
+    --disabled-text: 255, 255, 255;
+    --disabled-bg: 200, 200, 200;
+    --disabled-border: 200, 200, 200;
+    --disabled-hover-text: 255, 255, 255;
+    --disabled-hover-bg: 150, 150, 150;
+    --disabled-hover-border: 150, 150, 150;
 }
 
 /* Wrapper */
 
-body {
+#main-wrapper {
     background: rgba(var(--navbar-bg), 0.9) !important;
 }
 
 .card {
-    color: rgba(var(--white), 1.0) !important;
+    color: rgba(var(--black), 1.0) !important;
     background: rgba(var(--navbar-bg), 0.5) !important;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
     .modal .modal-content .modal-header {
-        border-bottom-color: rgba(var(--primary-bg-1), 1.0) !important;
+        border-bottom-color: rgba(var(--primary-bg-1), 0.3) !important;
     }
 
 .accordion .accordion-item {
@@ -102,6 +102,7 @@ body {
 }
 
 /* Navbar */
+
 .navbar {
     --bs-navbar-border-color: rgba(var(--navbar-bg), 1.0) !important;
     color: rgba(var(--navbar-title-text), 1.0) !important;
@@ -114,11 +115,11 @@ body {
     }
 
     .navbar .navbar-options i, .navbar .navbar-options svg {
-        color: rgba(var(--navbar-options-text), 0.8) !important;
+        color: rgba(var(--navbar-options-text), 1.0) !important;
     }
 
         .navbar .navbar-options i:hover, .navbar .navbar-options svg:hover {
-            color: rgba(var(--navbar-options-text-hover), 0.6) !important;
+            color: rgba(var(--navbar-options-text-hover), 0.8) !important;
         }
 
 /* Navigation */
@@ -131,7 +132,7 @@ body {
     .nav-tabs .nav-item .nav-link {
         color: rgba(var(--nav-text), 1.0) !important;
         background-color: rgba(var(--nav-bg), 1.0) !important;
-        border-color: none !important;
+        border-color: rgba(var(--nav-hover-border), 1.0) !important;
     }
 
         .nav-tabs .nav-item .nav-link.active, .nav-tabs .nav-item .nav-link.active:hover {
@@ -179,14 +180,6 @@ h1, h2, h3, h4, h5, h6 {
         color: rgba(var(--primary-bg-1), 1.0) !important;
     }
 
-.modal .modal-body h5 {
-    color: rgba(var(--primary-bg-1), 1.0) !important;
-}
-
-.modal .modal-body p {
-    color: rgba(var(--white), 1.0);
-}
-
 /* Text */
 
 .text-primary-1 {
@@ -222,7 +215,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Borders */
-
 .border-primary-1 {
     border-color: rgba(var(--primary-bg-1), 1.0) !important;
 }
@@ -484,25 +476,10 @@ table {
 }
 
 /* Inputs */
-select option {
-    color: rgba(var(--black), 1.0) !important;
-    background-color: rgba(var(--white), 1.0) !important;
+select option:hover, select option:checked, select option:focus, select option:active {
+    color: rgba(var(--primary-text-3), 1.0) !important;
+    background-color: rgba(var(--primary-bg-3), 0.8) !important;
 }
-
-    select option:hover, select option:checked, select option:focus, select option:active {
-        color: rgba(var(--primary-text-3), 1.0) !important;
-        background-color: rgba(var(--primary-bg-3), 0.8) !important;
-    }
-
-input, select {
-    color: rgba(var(--primary-text-1), 1.0) !important;
-    background-color: rgba(var(--primary-bg-1), 0.1) !important;
-    border-color: rgba(var(--primary-border-1), 0.1) !important;
-}
-
-    input::placeholder {
-        color: rgba(var(--primary-text-1), 0.5) !important;
-    }
 
 input:focus, select:focus {
     outline: 3px solid rgba(var(--primary-bg-1), 0.5) !important;
@@ -526,10 +503,6 @@ label {
 
 /* Misc */
 
-.modal-body {
-    color: rgba(var(--white), 1.0) !important;
-}
-
 .media-viewer-options .media-viewer-download {
     color: rgba(var(--disabled-text), 1.0) !important;
     background-color: rgba(var(--disabled-bg), 0.8) !important;
@@ -552,49 +525,36 @@ label {
 
 .file-uploader-form, .upload_drop {
     outline-color: rgba(var(--primary-bg-2), 1.0) !important;
-    fill: rgba(var(--primary-hover-bg-2), 1.0) !important;
 }
 
-.upload_drop .upload_svg {
-    outline-color: rgba(var(--primary-bg-2), 1.0) !important;
-    fill: rgba(var(--primary-hover-bg-2), 1.0) !important;
-}
+    .upload_drop .upload_svg {
+        fill: rgba(var(--primary-hover-bg-2), 1.0) !important;
+    }
 
     .file-uploader-form fieldset {
         color: rgba(var(--primary-bg-2), 1.0) !important;
     }
 
     .upload_drop.highlight {
-        color: rgba(var(--primary-hover-bg-1), 1.0) !important;
-        outline: 2px dashed rgba(var(--primary-hover-bg-1), 1.0) !important;
+        color: rgba(var(--primary-hover-bg-1)) !important;
+        outline: 2px dashed rgba(var(--primary-hover-bg-1)) !important;
     }
 
-    .upload_drop.highlight .upload_svg {
-        fill: rgba(var(--primary-hover-bg-1), 1.0) !important;
-    }
-
-.border-top {
-    --bs-border-color: rgba(var(--primary-bg-1), 1.0) !important;
-}
+        .upload_drop.highlight .upload_svg {
+            fill: rgba(var(--primary-hover-bg-1), 1.0) !important;
+        }
 
 .quote {
     color: rgba(var(--primary-bg-1), 1.0) !important;
     background-color: rgba(var(--primary-bg-1), 0.05) !important;
 }
 
-.pagination .page-item .page-link {
-    background-color: rgba(var(--primary-bg-1), 0.05) !important;
-    border-color: rgba(var(--primary-bg-1), 0.75) !important;
-}
-
 .pagination .page-item.active .page-link {
-    color: rgba(var(--white), 0.75) !important;
     background-color: rgba(var(--primary-bg-1), 0.5) !important;
     border-color: rgba(var(--primary-bg-1), 0.75) !important;
 }
 
 .pagination .page-item:hover .page-link {
-    color: rgba(var(--white), 0.6) !important;
     background-color: rgba(var(--primary-bg-1), 0.2) !important;
     border-color: rgba(var(--primary-bg-1), 0.75) !important;
 }

@@ -86,6 +86,10 @@
     <Content Include="src\pages\account\registration.js" />
     <Content Include="src\pages\gallery\index.js" />
     <Content Include="src\pages\homepage\index.js" />
+    <Content Include="src\themes\darkblue.css" />
+    <Content Include="src\themes\darkpink.css" />
+    <Content Include="src\themes\pink.css" />
+    <Content Include="src\themes\blue.css" />
     <Content Include="src\themes\dark.css" />
     <Content Include="src\themes\index.js" />
     <Content Include="src\modules\utilities\blobs.js" />

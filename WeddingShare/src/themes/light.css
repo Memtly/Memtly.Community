@@ -293,11 +293,11 @@ a, a:active, a:visited {
         color: rgba(var(--secondary-hover-bg-2), 1.0) !important;
     }
 
-.link-danger {
+.link-danger, .link-danger * {
     color: rgba(var(--danger-bg), 1.0) !important;
 }
 
-    .link-danger:hover, .link-danger:active {
+    .link-danger:hover, .link-danger:hover *, .link-danger:active, .link-danger:hover * {
         color: rgba(var(--danger-hover-bg), 1.0) !important;
     }
 
