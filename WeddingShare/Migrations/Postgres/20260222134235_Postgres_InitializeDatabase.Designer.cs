@@ -11,7 +11,7 @@ using WeddingShare.EntityFramework;
 namespace WeddingShare.Migrations.Postgres
 {
     [DbContext(typeof(CoreDbContext))]
-    [Migration("20260219193823_Postgres_InitializeDatabase")]
+    [Migration("20260222134235_Postgres_InitializeDatabase")]
     partial class Postgres_InitializeDatabase
     {
         /// <inheritdoc />
@@ -160,8 +160,8 @@ namespace WeddingShare.Migrations.Postgres
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
 
                     b.Property<int>("Type")
                         .ValueGeneratedOnAdd()

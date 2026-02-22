@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace WeddingShare.Migrations.Sqlite
+namespace WeddingShare.Migrations.Postgres
 {
     /// <inheritdoc />
-    public partial class Sqlite_InitializeDatabase : Migration
+    public partial class Postgres_InitializeDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,11 +15,11 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "Settings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Key = table.Column<string>(type: "TEXT", maxLength: 255, nullable: false),
-                    Value = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Key = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    Value = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,20 +30,20 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "Users",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Username = table.Column<string>(type: "TEXT", maxLength: 10, nullable: false),
-                    EmailAddress = table.Column<string>(type: "TEXT", maxLength: 200, nullable: false),
-                    Firstname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    Lastname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    Password = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false),
-                    MultiFactorAuthToken = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
-                    ActionAuthCode = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
-                    Level = table.Column<int>(type: "INTEGER", nullable: true, defaultValue: 0),
-                    State = table.Column<int>(type: "INTEGER", nullable: true, defaultValue: 2),
-                    FailedLoginCount = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
-                    LockoutUntil = table.Column<long>(type: "INTEGER", nullable: true),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Username = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
+                    EmailAddress = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
+                    Firstname = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Lastname = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Password = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
+                    MultiFactorAuthToken = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: false),
+                    ActionAuthCode = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: false),
+                    Level = table.Column<int>(type: "integer", nullable: true, defaultValue: 0),
+                    State = table.Column<int>(type: "integer", nullable: true, defaultValue: 2),
+                    FailedLoginCount = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
+                    LockoutUntil = table.Column<long>(type: "bigint", nullable: true),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -53,12 +54,12 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "AuditLogs",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Message = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
-                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
-                    Severity = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 2),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Message = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: false),
+                    UserId = table.Column<int>(type: "integer", nullable: true),
+                    Severity = table.Column<int>(type: "integer", nullable: false, defaultValue: 2),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -75,12 +76,12 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "CustomResources",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Title = table.Column<string>(type: "TEXT", maxLength: 2000, nullable: false),
-                    Filename = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Title = table.Column<string>(type: "character varying(2000)", maxLength: 2000, nullable: false),
+                    Filename = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    UserId = table.Column<int>(type: "integer", nullable: true),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -97,13 +98,13 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "Galleries",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Identifier = table.Column<string>(type: "TEXT", maxLength: 32, nullable: false),
-                    Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    SecretKey = table.Column<string>(type: "TEXT", maxLength: 500, nullable: true),
-                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Identifier = table.Column<string>(type: "character varying(32)", maxLength: 32, nullable: false),
+                    Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    SecretKey = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: true),
+                    UserId = table.Column<int>(type: "integer", nullable: true),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -120,17 +121,17 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "GalleryItems",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    GalleryId = table.Column<int>(type: "INTEGER", nullable: true),
-                    Title = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    UploadedBy = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    Checksum = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
-                    FileSize = table.Column<long>(type: "INTEGER", nullable: false, defaultValue: 0L),
-                    State = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 1),
-                    Type = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
-                    Orientation = table.Column<int>(type: "INTEGER", nullable: false, defaultValue: 0),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    GalleryId = table.Column<int>(type: "integer", nullable: true),
+                    Title = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
+                    UploadedBy = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    Checksum = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false),
+                    FileSize = table.Column<long>(type: "bigint", nullable: false, defaultValue: 0L),
+                    State = table.Column<int>(type: "integer", nullable: false, defaultValue: 1),
+                    Type = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
+                    Orientation = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -147,12 +148,12 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "GallerySettings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    GalleryId = table.Column<int>(type: "INTEGER", nullable: true),
-                    SettingId = table.Column<int>(type: "INTEGER", nullable: true),
-                    Value = table.Column<string>(type: "TEXT", maxLength: 1000, nullable: false),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    GalleryId = table.Column<int>(type: "integer", nullable: true),
+                    SettingId = table.Column<int>(type: "integer", nullable: true),
+                    Value = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -175,11 +176,11 @@ namespace WeddingShare.Migrations.Sqlite
                 name: "GalleryLikes",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    GalleryItemId = table.Column<int>(type: "INTEGER", nullable: true),
-                    UserId = table.Column<int>(type: "INTEGER", nullable: true),
-                    CreatedAt = table.Column<long>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    GalleryItemId = table.Column<int>(type: "integer", nullable: true),
+                    UserId = table.Column<int>(type: "integer", nullable: true),
+                    CreatedAt = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
