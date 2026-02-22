@@ -1,19 +1,28 @@
-@model List<PhotoGallery>
+@model ReviewsModel
 @using WeddingShare.Constants
 @using WeddingShare.Models.Database
 @using WeddingShare.Views.Account.Partials
+@using WeddingShare.Views.Account.Tabs
+@using WeddingShare.Views.Shared
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
     var identityEnabled = await _settings.GetOrDefault(Settings.IdentityCheck.Enabled, true);
     var requireEmailEnabled = identityEnabled ? await _settings.GetOrDefault(Settings.IdentityCheck.RequireEmail, false) : false;
+
+    var currentPage = 1;
+    try
+    {
+        currentPage = int.Parse((Context.Request.Query.ContainsKey("page") && !string.IsNullOrWhiteSpace(Context.Request.Query["page"])) ? Context.Request.Query["page"].ToString().ToLower() : "1");
+    }
+    catch { }
 }
 
 <div class="row">
-    @if (userPermissions.Review.HasFlag(ReviewPermissions.View) && Model != null && Model.Any())
+    @if (userPermissions.Review.HasFlag(ReviewPermissions.View) && Model?.PendingRequests != null && Model.PendingRequests.Any())
     {
         var index = 0;
-        foreach (var gallery in Model)
+        foreach (var gallery in Model.PendingRequests)
         {
             if (gallery.Images != null)
             {
@@ -76,6 +85,12 @@
                 }
             }
         }
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <partial name="~/Views/Shared/_Pagination.cshtml" model="new PaginationModel() { CurrentPage = currentPage, TotalItems = Model?.TotalItems ?? 0, ItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
+            </div>
+        </div>
     }
     else
     {

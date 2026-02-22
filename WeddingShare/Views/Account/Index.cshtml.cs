@@ -19,6 +19,9 @@ namespace WeddingShare.Views.Account
         public IEnumerable<AuditLogModel>? AuditLogs { get; set; }
         public IDictionary<string, string>? Settings { get; set; }
 
+        public int TotalItems { get; set; } = 0;
+        public int TotalItemsPerPage { get; set; } = 50;
+
         public void OnGet()
         {
         }

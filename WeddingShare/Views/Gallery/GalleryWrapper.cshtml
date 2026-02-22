@@ -1,6 +1,7 @@
 @model WeddingShare.Models.PhotoGallery
 @using WeddingShare.Constants
 @using WeddingShare.Views.Gallery
+@using WeddingShare.Views.Shared
 @inject WeddingShare.Helpers.IConfigHelper _config
 
 @if (Model.ViewMode != ViewMode.Slideshow)
@@ -77,7 +78,7 @@
     {
         <div class="row">
             <div class="col-12">
-                <partial name="~/Views/Gallery/GalleryPagination.cshtml" model="new GalleryPaginationModel() { CurrentPage = Model.CurrentPage, TotalItems = Model?.ApprovedCount ?? 0, ItemsPerPage = Model?.ItemsPerPage ?? 50 }" />
+                <partial name="~/Views/Shared/_Pagination.cshtml" model="new PaginationModel() { CurrentPage = Model.CurrentPage, TotalItems = Model?.ApprovedCount ?? 0, ItemsPerPage = Model?.ItemsPerPage ?? 50 }" />
             </div>
         </div>
     }

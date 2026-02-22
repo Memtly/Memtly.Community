@@ -232,7 +232,7 @@ namespace WeddingShare.Controllers
 
                     var itemsPerPage = await _settings.GetOrDefault(Settings.Gallery.ItemsPerPage, 50, gallery?.Id);
                     var allowedFileTypes = (await _settings.GetOrDefault(Settings.Gallery.AllowedFileTypes, ".jpg,.jpeg,.png,.mp4,.mov", gallery?.Id)).Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
-                    var items = (await _database.GetGalleryItems(null, gallery?.Id, GalleryItemState.Approved, mediaType, orientation, galleryGroup, galleryOrder, itemsPerPage, currentPage))?.Where(x => allowedFileTypes.Any(y => string.Equals(Path.GetExtension(x.Title).Trim('.'), y.Trim('.'), StringComparison.OrdinalIgnoreCase)));
+                    var items = (await _database.GetGalleryItems(null, gallery?.Id, GalleryItemState.Approved, mediaType, orientation, galleryGroup, galleryOrder, currentPage, itemsPerPage))?.Where(x => allowedFileTypes.Any(y => string.Equals(Path.GetExtension(x.Title).Trim('.'), y.Trim('.'), StringComparison.OrdinalIgnoreCase)));
 
                     var isGalleryAdmin = User?.Identity != null && User.Identity.IsAuthenticated && userPermissions.Gallery.HasFlag(GalleryPermissions.Upload);
                     

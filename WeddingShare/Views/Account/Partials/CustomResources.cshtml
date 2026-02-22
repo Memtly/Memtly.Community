@@ -1,18 +1,27 @@
-﻿@model List<CustomResourceModel>
+﻿@model ResourcesModel
 @using WeddingShare.Constants
 @using WeddingShare.Models.Database
 @using WeddingShare.Views.Account
+@using WeddingShare.Views.Account.Tabs
+@using WeddingShare.Views.Shared
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
+
+    var currentPage = 1;
+    try
+    {
+        currentPage = int.Parse((Context.Request.Query.ContainsKey("page") && !string.IsNullOrWhiteSpace(Context.Request.Query["page"])) ? Context.Request.Query["page"].ToString().ToLower() : "1");
+    }
+    catch { }
 }
 
 <div class="row">
-    @if (userPermissions.CustomResources.HasFlag(CustomResourcePermissions.View) && Model != null && Model.Any())
+    @if (userPermissions.CustomResources.HasFlag(CustomResourcePermissions.View) && Model?.CustomResources != null && Model.CustomResources.Any())
     {
-        for (var i = 0; i < Model.Count; i++)
+        for (var i = 0; i < Model.CustomResources.Count; i++)
         {
-            var resource = Model[i];
+            var resource = Model.CustomResources[i];
 
             <div class="custom-resource col-12 col-lg-4 mb-1 mb-lg-4" data-custom-resource-username="@resource.OwnerName">
                 <div class="card">
@@ -31,6 +40,12 @@
                 </div>
             </div>
         }
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <partial name="~/Views/Shared/_Pagination.cshtml" model="new PaginationModel() { CurrentPage = currentPage, TotalItems = Model?.TotalItems ?? 0, ItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
+            </div>
+        </div>
     }
     else
     {

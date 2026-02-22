@@ -2,6 +2,7 @@
 import { displayPopup } from '@modules/popups';
 import { displayLoader, hideLoader } from '@modules/loader';
 import MediaViewer from '@modules/media-viewer';
+import { getQueryParam } from '@utilities/urls';
 
 function init() {
     new MediaViewer().init();
@@ -18,6 +19,14 @@ function bindEventHandlers() {
 
 function bindSearchBox() {
     $(document).off('keyup', 'input#custom-resources-search-term').on('keyup', 'input#custom-resources-search-term', function (e) {
+        const term = $('input#custom-resources-search-term').val();
+
+        const url = new URL(window.location.href);
+        url.searchParams.set('term', term);
+        url.searchParams.set('page', '1');
+
+        history.pushState({}, '', url);
+
         updateCustomResources();
     });
 }
@@ -284,16 +293,21 @@ function bindBulkDeleteCustomResourceButton() {
 }
 
 export function updateCustomResources() {
-    let term = $('input#custom-resources-search-term').val();
-    let limit = 1000;
-    let page = 1;
+    const term = getQueryParam('term') ?? '';
+    const page = getQueryParam('page') ?? 1;
+    const limit = getQueryParam('limit') ?? 50;
 
     $.ajax({
         type: 'GET',
-        url: `/Account/CustomResources?term=${term}&limit=${limit}&page=${page}`,
+        url: `/Account/CustomResources?term=${term}&page=${page}&limit=${limit}`,
         success: function (data) {
             $('#custom-resources').html(data);
             bindEventHandlers();
+
+            const url = new URL(window.location.href);
+            url.searchParams.set('term', term);
+
+            history.pushState({}, '', url);
         }
     });
 }

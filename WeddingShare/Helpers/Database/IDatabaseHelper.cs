@@ -6,9 +6,9 @@ namespace WeddingShare.Helpers.Database
     public interface IDatabaseHelper
     {
         #region Gallery
-        Task<int> GetGalleryCount();
+        Task<int> GetGalleryCount(int? userId = null);
         Task<IDictionary<string, string>> GetGalleryNames(bool showUsernames = false);
-        Task<List<GalleryModel>> GetGalleries(int? userId = null, string term = "", int limit = int.MaxValue, int page = 1);
+        Task<List<GalleryModel>> GetGalleries(int? userId = null, string term = "", int page = 1, int limit = int.MaxValue);
         Task<int?> GetGalleryId(string identifier);
         Task<int?> GetGalleryIdByName(string name);
         Task<string?> GetGalleryIdentifier(int id);
@@ -24,10 +24,10 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region Gallery Items
-        Task<IDictionary<string, long>> GetGalleryItemCount(int? galleryId, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All);
+        Task<IDictionary<string, int>> GetGalleryItemCount(int? galleryId, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All);
         Task<GalleryItemModel?> GetGalleryItem(int id);
         Task<GalleryItemModel?> GetGalleryItemByChecksum(int galleryId, string checksum);
-        Task<List<GalleryItemModel>> GetGalleryItems(int? userId = null, int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All, GalleryGroup group = GalleryGroup.None, GalleryOrder order = GalleryOrder.Descending, int limit = int.MaxValue, int page = 1);
+        Task<List<GalleryItemModel>> GetGalleryItems(int? userId = null, int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All, GalleryGroup group = GalleryGroup.None, GalleryOrder order = GalleryOrder.Descending, int page = 1, int limit = int.MaxValue);
         Task<GalleryItemModel?> AddGalleryItem(GalleryItemModel model);
         Task<GalleryItemModel?> EditGalleryItem(GalleryItemModel model);
         Task DeleteGalleryItem(GalleryItemModel model);
@@ -46,7 +46,8 @@ namespace WeddingShare.Helpers.Database
 
         #region Users
         Task<bool> ValidateCredentials(string username, string password);
-        Task<List<UserModel>?> GetUsers(string term = "", int limit = int.MaxValue, int page = 1);
+        Task<int> GetUserCount();
+        Task<List<UserModel>?> GetUsers(string term = "", int page = 1, int limit = int.MaxValue);
         Task<UserModel?> GetUser(int id);
         Task<UserModel?> GetUserByUsername(string name);
         Task<UserModel?> GetUserByEmail(string email);
@@ -75,8 +76,9 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region Custom Resources
+        Task<int> GetCustomResourceCount(int? userId = null);
         Task<CustomResourceModel?> GetCustomResource(int id);
-        Task<List<CustomResourceModel>> GetCustomResources(int? userId = null, string term = "", int limit = int.MaxValue, int page = 1);
+        Task<List<CustomResourceModel>> GetCustomResources(int? userId = null, string term = "", int page = 1, int limit = int.MaxValue);
         Task<CustomResourceModel?> AddCustomResource(CustomResourceModel model);
         Task<CustomResourceModel?> EditCustomResource(CustomResourceModel model);
         Task<CustomResourceModel?> RelinkCustomResource(CustomResourceModel model);

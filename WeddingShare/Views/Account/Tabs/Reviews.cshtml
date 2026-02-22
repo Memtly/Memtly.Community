@@ -1,8 +1,23 @@
 ﻿@model ReviewsModel
 @using WeddingShare.Views.Account.Tabs
+@using WeddingShare.Views.Shared
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
+
+    var currentPage = 1;
+    try
+    {
+        currentPage = int.Parse((Context.Request.Query.ContainsKey("page") && !string.IsNullOrWhiteSpace(Context.Request.Query["page"])) ? Context.Request.Query["page"].ToString().ToLower() : "1");
+    }
+    catch { }
+
+    var searchTerm = string.Empty;
+    try
+    {
+        searchTerm = (Context.Request.Query.ContainsKey("term") ? Context.Request.Query["term"].ToString() : string.Empty);
+    }
+    catch { }
 }
 
 <section class="pnl-account pnl-account-reviews pb-0 pb-lg-4">
@@ -24,7 +39,7 @@
         </div>
         <div class="row px-3 pb-3">
             <div id="pending-reviews" class="col-12 text-contrast rounded text-center">
-                <partial name="~/Views/Account/Partials/PendingReviews.cshtml" model="Model?.PendingRequests" />
+                <partial name="~/Views/Account/Partials/PendingReviews.cshtml" model="Model" />
             </div>
         </div>
     </div>

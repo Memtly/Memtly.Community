@@ -77,19 +77,19 @@
 
         @if (Model.ActiveTab == AccountTabs.Reviews && userPermissions.Review.HasFlag(ReviewPermissions.View))
         {
-            <partial name="~/Views/Account/Tabs/Reviews.cshtml" model="new ReviewsModel() { PendingRequests = Model?.PendingRequests }" />
+            <partial name="~/Views/Account/Tabs/Reviews.cshtml" model="new ReviewsModel() { PendingRequests = Model?.PendingRequests, TotalItems = Model?.TotalItems ?? 0, TotalItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
         }
         else if (Model.ActiveTab == AccountTabs.Galleries && userPermissions.Gallery.HasFlag(GalleryPermissions.View))
         {
-            <partial name="~/Views/Account/Tabs/Galleries.cshtml" model="new GalleriesModel() { Galleries = Model?.Galleries }" />
+            <partial name="~/Views/Account/Tabs/Galleries.cshtml" model="new GalleriesModel() { Galleries = Model?.Galleries, TotalItems = Model?.TotalItems ?? 0, TotalItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
         }
         else if (Model.ActiveTab == AccountTabs.Users && userPermissions.Users.HasFlag(UserPermissions.View))
         {
-            <partial name="~/Views/Account/Tabs/Users.cshtml" model="new UsersModel() { Users = Model?.Users }" />
+            <partial name="~/Views/Account/Tabs/Users.cshtml" model="new UsersModel() { Users = Model?.Users, TotalItems = Model?.TotalItems ?? 0, TotalItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
         }
         else if (Model.ActiveTab == AccountTabs.Resources && userPermissions.CustomResources.HasFlag(CustomResourcePermissions.View))
         {
-            <partial name="~/Views/Account/Tabs/Resources.cshtml" model="new ResourcesModel() { CustomResources = Model?.CustomResources }" />
+            <partial name="~/Views/Account/Tabs/Resources.cshtml" model="new ResourcesModel() { CustomResources = Model?.CustomResources, TotalItems = Model?.TotalItems ?? 0, TotalItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
         }
         else if (Model.ActiveTab == AccountTabs.Settings && userPermissions.Settings.HasFlag(SettingsPermissions.View))
         {

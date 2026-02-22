@@ -2,6 +2,7 @@
 import { displayPopup } from '@modules/popups';
 import { displayLoader, hideLoader } from '@modules/loader';
 import MediaViewer from '@modules/media-viewer';
+import { getQueryParam } from '@utilities/urls';
 
 function init() {
     new MediaViewer().init();
@@ -160,9 +161,12 @@ function bindBulkReviewButton() {
 }
 
 export function updatePendingReviews() {
+    const page = getQueryParam('page') ?? 1;
+    const limit = getQueryParam('limit') ?? 50;
+
     $.ajax({
         type: 'GET',
-        url: `/Account/PendingReviews`,
+        url: `/Account/PendingReviews?page=${page}&limit=${limit}`,
         success: function (data) {
             $('#pending-reviews').html(data);
             bindEventHandlers();

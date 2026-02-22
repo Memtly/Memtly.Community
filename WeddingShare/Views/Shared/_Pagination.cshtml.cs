@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace WeddingShare.Views.Gallery
+namespace WeddingShare.Views.Shared
 {
-    public class GalleryPaginationModel : PageModel
+    public class PaginationModel : PageModel
     {
         public void OnGet()
         {

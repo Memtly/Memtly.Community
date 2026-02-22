@@ -2,6 +2,7 @@
 import { displayPopup } from '@modules/popups';
 import { displayLoader } from '@modules/loader';
 import { generatePasswordValidationContainer, initPasswordValidation } from '@validation/password-validation';
+import { getQueryParam } from '@utilities/urls';
 
 function init() {
     bindEventHandlers();
@@ -21,6 +22,14 @@ function bindEventHandlers() {
 
 function bindSearchBox() {
     $(document).off('keyup', 'input#users-search-term').on('keyup', 'input#users-search-term', function (e) {
+        const term = $('input#users-search-term').val();
+
+        const url = new URL(window.location.href);
+        url.searchParams.set('term', term);
+        url.searchParams.set('page', '1');
+
+        history.pushState({}, '', url);
+
         updateUsersList();
     });
 }
@@ -634,16 +643,21 @@ function bindDeleteUserButton() {
 }
 
 export function updateUsersList() {
-    let term = $('input#users-search-term').val();
-    let limit = 1000;
-    let page = 1;
+    const term = getQueryParam('term') ?? '';
+    const page = getQueryParam('page') ?? 1;
+    const limit = getQueryParam('limit') ?? 50;
 
     $.ajax({
         type: 'GET',
-        url: `/Account/UsersList?term=${term}&limit=${limit}&page=${page}`,
+        url: `/Account/UsersList?term=${term}&page=${page}&limit=${limit}`,
         success: function (data) {
             $('#users-list').html(data);
             bindEventHandlers();
+
+            const url = new URL(window.location.href);
+            url.searchParams.set('term', term);
+
+            history.pushState({}, '', url);
         }
     });
 }

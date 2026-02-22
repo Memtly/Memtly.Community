@@ -1,21 +1,30 @@
-﻿@model List<UserModel>
+﻿@model UsersModel
 @using WeddingShare.Views.Account
 @using WeddingShare.Models.Database
+@using WeddingShare.Views.Account.Tabs
+@using WeddingShare.Views.Shared
 
 @{
     var userPermissions = (User?.Identity?.GetUserPermissions() ?? new Permissions());
     var tooltipDisabled = $"({_localizer["Disabled"].Value})";
     var tooltipUpgradeToUnlock = $"({_localizer["Upgrade_To_Unlock"].Value})";
+
+    var currentPage = 1;
+    try
+    {
+        currentPage = int.Parse((Context.Request.Query.ContainsKey("page") && !string.IsNullOrWhiteSpace(Context.Request.Query["page"])) ? Context.Request.Query["page"].ToString().ToLower() : "1");
+    }
+    catch { }
 }
 
-@if (userPermissions.Users.HasFlag(UserPermissions.View) && Model != null && Model.Any())
+@if (userPermissions.Users.HasFlag(UserPermissions.View) && Model?.Users != null && Model.Users.Any())
 {
     <table class="table table-rounded-border">
         <tr>
             <th class="col-5 col-md-4">@_localizer["Name"].Value</th>
             <th class="col-7 col-md-8">@_localizer["Actions"].Value</th>
         </tr>
-        @foreach (var user in Model.OrderBy(x => x.Username.ToLower()))
+        @foreach (var user in Model.Users.OrderBy(x => x.Username.ToLower()))
         {
             if (user != null)
             {
@@ -101,6 +110,12 @@
             }
         }
     </table>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <partial name="~/Views/Shared/_Pagination.cshtml" model="new PaginationModel() { CurrentPage = currentPage, TotalItems = Model?.TotalItems ?? 0, ItemsPerPage = Model?.TotalItemsPerPage ?? 50 }" />
+        </div>
+    </div>
 }
 else
 {

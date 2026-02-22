@@ -20,9 +20,13 @@ namespace WeddingShare.Helpers.Database
         }
 
         #region Gallery
-        public async Task<int> GetGalleryCount()
+        public async Task<int> GetGalleryCount(int? userId = null)
         {
-            return await _db.Galleries.CountAsync();
+            return await _db.Galleries
+                .Where(g =>
+                    userId == null || g.UserId == userId
+                )
+                .CountAsync();
         }
 
         public async Task<IDictionary<string, string>> GetGalleryNames(bool showUsernames = false)
@@ -34,7 +38,7 @@ namespace WeddingShare.Helpers.Database
                 );
         }
 
-        public async Task<List<GalleryModel>> GetGalleries(int? userId = null, string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<List<GalleryModel>> GetGalleries(int? userId = null, string term = "", int page = 1, int limit = int.MaxValue)
         {
             return await _db.Galleries
                 .Where(g => 
@@ -234,7 +238,7 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region Gallery Items
-        public async Task<IDictionary<string, long>> GetGalleryItemCount(int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All)
+        public async Task<IDictionary<string, int>> GetGalleryItemCount(int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All)
         {
             var counts = await _db.GalleryItems
                 .Where(gi =>
@@ -245,7 +249,7 @@ namespace WeddingShare.Helpers.Database
                 )
                  .GroupBy(gi => gi.State)
                 .Select(g => new { State = g.Key, Count = g.Count() })
-                .ToDictionaryAsync(x => x.State!.ToString(), x => (long)x.Count);
+                .ToDictionaryAsync(x => x.State!.ToString(), x => x.Count);
 
             foreach (var s in Enum.GetNames(typeof(GalleryItemState)))
             {
@@ -259,7 +263,7 @@ namespace WeddingShare.Helpers.Database
             return counts;
         }
 
-        public async Task<List<GalleryItemModel>> GetGalleryItems(int? userId = null, int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All, GalleryGroup group = GalleryGroup.None, GalleryOrder order = GalleryOrder.Descending, int limit = int.MaxValue, int page = 1)
+        public async Task<List<GalleryItemModel>> GetGalleryItems(int? userId = null, int? galleryId = null, GalleryItemState state = GalleryItemState.All, MediaType type = MediaType.All, ImageOrientation orientation = ImageOrientation.All, GalleryGroup group = GalleryGroup.None, GalleryOrder order = GalleryOrder.Descending, int page = 1, int limit = int.MaxValue)
         {
             var query = _db.GalleryItems
                 .Where(gi =>
@@ -501,7 +505,13 @@ namespace WeddingShare.Helpers.Database
                 .CountAsync(u => u.Level != UserLevel.System && u.Username.ToLower().Equals(username.ToLower()) && u.Password.Equals(password))) > 0;
         }
 
-        public async Task<List<UserModel>?> GetUsers(string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<int> GetUserCount()
+        {
+            return await _db.Users
+                .CountAsync();
+        }
+
+        public async Task<List<UserModel>?> GetUsers(string term = "", int page = 1, int limit = int.MaxValue)
         {
             return await _db.Users
                 .Where(u => 
@@ -763,6 +773,15 @@ namespace WeddingShare.Helpers.Database
         #endregion
 
         #region CustomResources
+        public async Task<int> GetCustomResourceCount(int? userId = null)
+        {
+            return await _db.CustomResources
+                .Where(g =>
+                    userId == null || g.UserId == userId
+                )
+                .CountAsync();
+        }
+
         public async Task<CustomResourceModel?> GetCustomResource(int id)
         {
             return await _db.CustomResources
@@ -778,7 +797,7 @@ namespace WeddingShare.Helpers.Database
                 .FirstOrDefaultAsync();
         }
 
-        public async Task<List<CustomResourceModel>> GetCustomResources(int? userId = null, string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<List<CustomResourceModel>> GetCustomResources(int? userId = null, string term = "", int page = 1, int limit = int.MaxValue)
         {
             return await _db.CustomResources
                 .Where(cr => 

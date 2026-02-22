@@ -1,8 +1,23 @@
 ﻿@model ResourcesModel
 @using WeddingShare.Views.Account.Tabs
+@using WeddingShare.Views.Shared
 
 @{
     var userPermissions = User?.Identity?.GetUserPermissions() ?? new Permissions();
+
+    var currentPage = 1;
+    try
+    {
+        currentPage = int.Parse((Context.Request.Query.ContainsKey("page") && !string.IsNullOrWhiteSpace(Context.Request.Query["page"])) ? Context.Request.Query["page"].ToString().ToLower() : "1");
+    }
+    catch { }
+
+    var searchTerm = string.Empty;
+    try
+    {
+        searchTerm = (Context.Request.Query.ContainsKey("term") ? Context.Request.Query["term"].ToString() : string.Empty);
+    }
+    catch { }
 }
 
 <section class="pnl-account pnl-account-custom-resources">
@@ -35,13 +50,13 @@
         <div class="row mt-3 mb-4">
             <div class="col-12 mb-lg-0">
                 <label>@_localizer["SearchTerm_Label"].Value</label>
-                <input id="custom-resources-search-term" class="form-control" type="text" placeholder="" />
+                <input id="custom-resources-search-term" class="form-control" type="text" placeholder="" value="@searchTerm" />
                 <div class="form-text">@_localizer["SearchTerm_Help"].Value</div>
             </div>
         </div>
         <div class="row">
             <div id="custom-resources" class="col-12 pb-5">
-                <partial name="~/Views/Account/Partials/CustomResources.cshtml" model="Model?.CustomResources" />
+                <partial name="~/Views/Account/Partials/CustomResources.cshtml" model="Model" />
             </div>
         </div>
     </div>

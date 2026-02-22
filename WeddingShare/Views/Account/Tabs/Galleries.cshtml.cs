@@ -10,6 +10,8 @@ namespace WeddingShare.Views.Account.Tabs
         }
 
         public List<GalleryModel>? Galleries { get; set; }
+        public int TotalItems { get; set; } = 0;
+        public int TotalItemsPerPage { get; set; } = 50;
 
         public void OnGet()
         {

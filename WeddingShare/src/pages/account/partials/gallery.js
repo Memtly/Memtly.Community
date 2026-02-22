@@ -3,6 +3,7 @@ import { displayPopup } from '@modules/popups';
 import { displayLoader, hideLoader } from '@modules/loader';
 import { getTimestamp } from '@utilities/datetime';
 import { downloadBlob } from '@utilities/blobs';
+import { getQueryParam } from '@utilities/urls';
 
 function init() {
     bindEventHandlers();
@@ -23,6 +24,14 @@ function bindEventHandlers() {
 
 function bindSearchBox() {
     $(document).off('keyup', 'input#galleries-search-term').on('keyup', 'input#galleries-search-term', function (e) {
+        const term = $('input#galleries-search-term').val();
+
+        const url = new URL(window.location.href);
+        url.searchParams.set('term', term);
+        url.searchParams.set('page', '1');
+
+        history.pushState({}, '', url);
+
         updateGalleryList();
     });
 }
@@ -503,13 +512,13 @@ function bindDeleteGalleryButton() {
 }
 
 export function updateGalleryList() {
-    let term = $('input#galleries-search-term').val();
-    let limit = 1000;
-    let page = 1;
-
+    const term = getQueryParam('term') ?? '';
+    const page = getQueryParam('page') ?? 1;
+    const limit = getQueryParam('limit') ?? 50;
+    
     $.ajax({
         type: 'GET',
-        url: `/Account/GalleriesList?term=${term}&limit=${limit}&page=${page}`,
+        url: `/Account/GalleriesList?term=${term}&page=${page}&limit=${limit}`,
         success: function (data) {
             $('#galleries-list').html(data);
             bindEventHandlers();

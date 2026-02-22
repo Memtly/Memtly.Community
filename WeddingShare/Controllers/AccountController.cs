@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO.Compression;
 using System.Net;
 using System.Net.Http;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
+using Mysqlx.Crud;
 using TwoFactorAuthNet;
 using WeddingShare.Attributes;
 using WeddingShare.Constants;
@@ -23,6 +25,7 @@ using WeddingShare.Models.Database;
 using WeddingShare.Models.Notifications;
 using WeddingShare.Resources.Templates.Email;
 using WeddingShare.Views.Account;
+using WeddingShare.Views.Account.Tabs;
 
 namespace WeddingShare.Controllers
 {
@@ -531,7 +534,7 @@ namespace WeddingShare.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index(AccountTabs? tab = null)
+        public async Task<IActionResult> Index(AccountTabs? tab = null, string term = "", int page = 1, int limit = 50)
         {
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             { 
@@ -559,11 +562,12 @@ namespace WeddingShare.Controllers
                     {
                         if (model.ActiveTab == AccountTabs.Reviews)
                         {
-                            model.PendingRequests = await GetPendingReviews();
+                            model.PendingRequests = await GetPendingReviews(null, page, limit);
+                            model.TotalItems = (await _database.GetGalleryItemCount(null, GalleryItemState.Pending))[GalleryItemState.Pending.ToString()];
                         }
                         else if (model.ActiveTab == AccountTabs.Galleries)
                         {
-                            model.Galleries = (await _database.GetGalleries())?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList();
+                            model.Galleries = (await _database.GetGalleries(null, term, page, limit))?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList();
                             if (model.Galleries != null)
                             {
                                 var all = await _database.GetAllGallery();
@@ -572,14 +576,17 @@ namespace WeddingShare.Controllers
                                     model.Galleries.Add(all);
                                 }
                             }
+                            model.TotalItems = await _database.GetGalleryCount(null);
                         }
                         else if (model.ActiveTab == AccountTabs.Users)
                         {
-                            model.Users = await _database.GetUsers();
+                            model.Users = await _database.GetUsers(term, page, limit);
+                            model.TotalItems = await _database.GetUserCount();
                         }
                         else if (model.ActiveTab == AccountTabs.Resources)
                         {
-                            model.CustomResources = await _database.GetCustomResources();
+                            model.CustomResources = await _database.GetCustomResources(null, term, page, limit);
+                            model.TotalItems = await _database.GetCustomResourceCount(null);
                         }
                         else if (model.ActiveTab == AccountTabs.Settings)
                         {
@@ -595,19 +602,23 @@ namespace WeddingShare.Controllers
                     {
                         if (model.ActiveTab == AccountTabs.Reviews)
                         {
-                            model.PendingRequests = await GetPendingReviews(user.Id);
+                            model.PendingRequests = await GetPendingReviews(user.Id, page, limit);
+                            model.TotalItems = (await _database.GetGalleryItemCount(user.Id, GalleryItemState.Pending))[GalleryItemState.Pending.ToString()];
                         }
                         else if (model.ActiveTab == AccountTabs.Galleries)
                         {
-                            model.Galleries = await _database.GetGalleries(user.Id);
+                            model.Galleries = await _database.GetGalleries(user.Id, term, page, limit);
+                            model.TotalItems = await _database.GetGalleryCount(user.Id);
                         }
                         else if (model.ActiveTab == AccountTabs.Users)
                         {
                             model.Users = new List<UserModel>() { user };
+                            model.TotalItems = 1;
                         }
                         else if (model.ActiveTab == AccountTabs.Resources)
                         {
-                            model.CustomResources = await _database.GetCustomResources(user.Id);
+                            model.CustomResources = await _database.GetCustomResources(user.Id, term, page, limit);
+                            model.TotalItems = await _database.GetCustomResourceCount(user.Id);
                         }
                         else if (model.ActiveTab == AccountTabs.Settings)
                         {
@@ -630,14 +641,14 @@ namespace WeddingShare.Controllers
 
         [HttpGet]
         [RequiresRole(GalleryPermission = GalleryPermissions.View)]
-        public async Task<IActionResult> GalleriesList(string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<IActionResult> GalleriesList(string term = "", int page = 1, int limit = 50)
         {
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             {
                 return Redirect("/");
             }
 
-            List<GalleryModel>? result = null;
+            var result = new GalleriesModel();
 
             try
             {
@@ -646,19 +657,21 @@ namespace WeddingShare.Controllers
                 {
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        result = (await _database.GetGalleries(null, term, limit, page))?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList() ?? new List<GalleryModel>();
-                        if (result != null && (string.IsNullOrEmpty(term) || SystemGalleries.AllGallery.Contains(term, StringComparison.OrdinalIgnoreCase)))
+                        result.Galleries = (await _database.GetGalleries(null, term, page, limit))?.Where(x => !x.Identifier.Equals(SystemGalleries.AllGallery, StringComparison.OrdinalIgnoreCase))?.ToList() ?? new List<GalleryModel>();
+                        if (result.Galleries != null && (string.IsNullOrEmpty(term) || SystemGalleries.AllGallery.Contains(term, StringComparison.OrdinalIgnoreCase)))
                         {
                             var all = await _database.GetAllGallery();
                             if (all != null)
                             {
-                                result.Add(all);
+                                result.Galleries.Add(all);
                             }
                         }
+                        result.TotalItems = await _database.GetGalleryCount(null);
                     }
                     else
                     {
-                        result = await _database.GetGalleries(user.Id, term, limit, page);
+                        result.Galleries = await _database.GetGalleries(user.Id, term, page, limit);
+                        result.TotalItems = await _database.GetGalleryCount(user.Id);
                     }
                 }
             }
@@ -667,19 +680,19 @@ namespace WeddingShare.Controllers
                 _logger.LogError(ex, $"{_localizer["Gallery_List_Failed"].Value} - {ex?.Message}");
             }
 
-            return PartialView("~/Views/Account/Partials/GalleriesList.cshtml", result ?? new List<GalleryModel>());
+            return PartialView("~/Views/Account/Partials/GalleriesList.cshtml", result);
         }
 
         [HttpGet]
         [RequiresRole(ReviewPermission = ReviewPermissions.View)]
-        public async Task<IActionResult> PendingReviews()
+        public async Task<IActionResult> PendingReviews(int page = 1, int limit = 50)
         {
-            var galleries = new List<PhotoGallery>();
-
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             {
                 return Redirect("/");
             }
+
+            var result = new ReviewsModel();
 
             try
             {
@@ -688,11 +701,13 @@ namespace WeddingShare.Controllers
                 {
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        galleries = await GetPendingReviews();
+                        result.PendingRequests = await GetPendingReviews(null, page, limit);
+                        result.TotalItems = (await _database.GetGalleryItemCount(null, GalleryItemState.Pending))[GalleryItemState.Pending.ToString()];
                     }
                     else
                     {
-                        galleries = await GetPendingReviews(user.Id);
+                        result.PendingRequests = await GetPendingReviews(user.Id, page, limit);
+                        result.TotalItems = (await _database.GetGalleryItemCount(user.Id, GalleryItemState.Pending))[GalleryItemState.Pending.ToString()];
                     }
                 }
             }
@@ -701,19 +716,19 @@ namespace WeddingShare.Controllers
                 _logger.LogError(ex, $"{_localizer["Pending_Uploads_Failed"].Value} - {ex?.Message}");
             }
 
-            return PartialView("~/Views/Account/Partials/PendingReviews.cshtml", galleries);
+            return PartialView("~/Views/Account/Partials/PendingReviews.cshtml", result);
         }
 
         [HttpGet]
         [RequiresRole(UserPermission = UserPermissions.View)]
-        public async Task<IActionResult> UsersList(string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<IActionResult> UsersList(string term = "", int page = 1, int limit = 50)
         {
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             {
                 return Redirect("/");
             }
 
-            List<UserModel>? result = null;
+            var result = new UsersModel();
 
             try
             {
@@ -722,11 +737,13 @@ namespace WeddingShare.Controllers
                 {
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        result = await _database.GetUsers(term, limit, page);
+                        result.Users = await _database.GetUsers(term, page, limit);
+                        result.TotalItems = await _database.GetUserCount();
                     }
                     else 
                     {
-                        result = new List<UserModel>() { user };
+                        result.Users = new List<UserModel>() { user };
+                        result.TotalItems = 1;
                     }
                 }
             }
@@ -735,19 +752,19 @@ namespace WeddingShare.Controllers
                 _logger.LogError(ex, $"{_localizer["Users_List_Failed"].Value} - {ex?.Message}");
             }
 
-            return PartialView("~/Views/Account/Partials/UsersList.cshtml", result ?? new List<UserModel>());
+            return PartialView("~/Views/Account/Partials/UsersList.cshtml", result);
         }
 
         [HttpGet]
         [RequiresRole(CustomResourcePermission = CustomResourcePermissions.View)]
-        public async Task<IActionResult> CustomResources(string term = "", int limit = int.MaxValue, int page = 1)
+        public async Task<IActionResult> CustomResources(string term = "", int page = 1, int limit = 50)
         {
             if (User?.Identity == null || !User.Identity.IsAuthenticated)
             {
                 return Redirect("/");
             }
 
-            List<CustomResourceModel>? result = null;
+            var result = new ResourcesModel();
 
             try
             {
@@ -756,11 +773,13 @@ namespace WeddingShare.Controllers
                 {
                     if (User?.Identity?.IsPrivilegedUser() ?? false)
                     {
-                        result = await _database.GetCustomResources(null, term, limit, page);
+                        result.CustomResources = await _database.GetCustomResources(null, term, page, limit);
+                        result.TotalItems = await _database.GetCustomResourceCount(null);
                     }
                     else
                     { 
-                        result = await _database.GetCustomResources(user.Id, term, limit, page);
+                        result.CustomResources = await _database.GetCustomResources(user.Id, term, page, limit);
+                        result.TotalItems = await _database.GetCustomResourceCount(user.Id);
                     }
                 }
             }
@@ -769,7 +788,7 @@ namespace WeddingShare.Controllers
                 _logger.LogError(ex, $"{_localizer["Custom_Resources_Failed"].Value} - {ex?.Message}");
             }
 
-            return PartialView("~/Views/Account/Partials/CustomResources.cshtml", result ?? new List<CustomResourceModel>());
+            return PartialView("~/Views/Account/Partials/CustomResources.cshtml", result);
         }
 
         [HttpGet]
@@ -2080,11 +2099,11 @@ namespace WeddingShare.Controllers
             }
         }
 
-        private async Task<List<PhotoGallery>> GetPendingReviews(int? userId = null)
+        private async Task<List<PhotoGallery>> GetPendingReviews(int? userId = null, int page = 1, int limit = 50)
         {
             var galleries = new List<PhotoGallery>();
 
-            var items = await _database.GetGalleryItems(userId, state: GalleryItemState.Pending);
+            var items = await _database.GetGalleryItems(userId, state: GalleryItemState.Pending, page: page, limit: limit);
             if (items != null)
             {
                 foreach (var galleryGroup in items.GroupBy(x => x.GalleryId))
