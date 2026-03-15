@@ -15,9 +15,9 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
-COPY ["/Memtly.Community/Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
-COPY ["/Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/"]
-RUN dotnet restore -a $TARGETARCH "./Memtly.Community/./Memtly.Community.csproj"
+COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
+COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
+RUN dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community.csproj"
 COPY . .
 WORKDIR "/src/Memtly.Community"
 RUN dotnet build "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
