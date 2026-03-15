@@ -13,6 +13,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
+COPY ["Memtly.Community/nuget.config", "nuget.config"]
 COPY ["Memtly.Community/Memtly.Community/Memtly.Community.csproj", "Memtly.Community/Memtly.Community/"]
 COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
 RUN dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community/Memtly.Community.csproj"
@@ -27,4 +28,5 @@ RUN dotnet publish "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGUR
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+RUN mkdir -p /app/config
 ENTRYPOINT ["dotnet", "Memtly.Community.dll"]

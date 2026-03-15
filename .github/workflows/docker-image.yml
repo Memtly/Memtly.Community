@@ -31,7 +31,7 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build . \
+          docker build ./Memtly.Community \
             --file Memtly.Community/Memtly.Community/Dockerfile \
             --tag ghcr.io/memtly/memtly:ce \
             --tag ghcr.io/memtly/memtly:latest
