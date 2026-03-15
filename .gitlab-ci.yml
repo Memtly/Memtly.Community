@@ -4,11 +4,11 @@ stages:
   - release
   
 variables:
-  CSPROJ_PATH: 'WeddingShare/WeddingShare.csproj'
-  BUILD_DOCKERFILE: 'WeddingShare/Dockerfile'
+  CSPROJ_PATH: 'Memtly.Community/Memtly.Community.csproj'
+  BUILD_DOCKERFILE: 'Memtly.Community/Dockerfile'
   BUILD_CONFIGURATION: 'Release'
   BUILD_PLATFORMS: 'linux/arm/v7,linux/arm64/v8,linux/amd64'
-  BUILD_BUILDER_NAME: 'wedding-share-builder'
+  BUILD_BUILDER_NAME: 'memtly-builder'
   DOCKER_DRIVER: overlay2
   OBJECTS_DIRECTORY: 'obj'
   NUGET_PACKAGES_DIRECTORY: '.nuget'
@@ -98,6 +98,6 @@ push_docker_hub:
   only:
     - tags
   script:
-    - docker buildx build --tag $DOCKERHUB_USERNAME/wedding_share:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/wedding_share:latest --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $DOCKERHUB_USERNAME/memtly_community:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/memtly_community:latest --platform $BUILD_PLATFORMS --push -f $BUILD_DOCKERFILE .
   needs:
     - push_tag

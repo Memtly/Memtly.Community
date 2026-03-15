@@ -15,17 +15,17 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
-COPY ["WeddingShare/WeddingShare.csproj", "WeddingShare/"]
-RUN dotnet restore -a $TARGETARCH "./WeddingShare/./WeddingShare.csproj"
+COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
+RUN dotnet restore -a $TARGETARCH "./Memtly.Community/./Memtly.Community.csproj"
 COPY . .
-WORKDIR "/src/WeddingShare"
-RUN dotnet build "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/Memtly.Community"
+RUN dotnet build "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./WeddingShare.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WeddingShare.dll"]
+ENTRYPOINT ["dotnet", "Memtly.Community.dll"]
