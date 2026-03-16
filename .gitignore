@@ -23,3 +23,9 @@
 /wwwroot/logos
 /wwwroot/banners
 /wwwroot/dist
+/uploads/**/*
+/custom_resources/**/*
+/thumbnails/**/*
+/temp/**/*
+/logos/**/*
+/banners/**/*
