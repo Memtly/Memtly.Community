@@ -13,17 +13,16 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
-COPY ["nuget.config", "."]
 COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/Memtly.Community/"]
-COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
+COPY ["Memtly.Community/Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Community/Memtly.Core/Memtly.Core/"]
+COPY ["nuget.config", "."]
+
+COPY . .
 
 RUN --mount=type=secret,id=nuget_token \
     sed -i "s|%NUGET_TOKEN%|$(cat /run/secrets/nuget_token | tr -d '[:space:]')|g" nuget.config && \
-    echo "--- nuget.config ---" && \
-    cat nuget.config && \
     dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community/Memtly.Community.csproj"
 
-COPY . .
 WORKDIR "/src/Memtly.Community"
 RUN dotnet build "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
 
@@ -35,4 +34,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 RUN mkdir -p /app/config
-ENTRYPOINT ["dotnet", "Memtly.Community.dll"]ENTRYPOINT ["dotnet", "Memtly.Community.dll"]
+ENTRYPOINT ["dotnet", "Memtly.Community.dll"]
