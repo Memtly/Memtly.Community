@@ -18,7 +18,9 @@ COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/Memtly.Commu
 COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
 
 RUN --mount=type=secret,id=nuget_token \
-    NUGET_TOKEN=$(cat /run/secrets/nuget_token | tr -d '[:space:]') \
+    export NUGET_TOKEN=$(cat /run/secrets/nuget_token | tr -d '[:space:]') && \
+    echo "Token length: ${#NUGET_TOKEN}" && \
+    echo "Token starts with: ${NUGET_TOKEN:0:4}" && \
     dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community/Memtly.Community.csproj"
 
 COPY . .
