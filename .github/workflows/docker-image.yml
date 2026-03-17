@@ -22,15 +22,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build the Docker image
-        run: |
-          echo "${{ secrets.NUGET_READ_TOKEN }}" | docker build . \
-            --file Memtly.Community/Dockerfile \
-            --secret id=nuget_token,src=/dev/stdin \
-            --tag ghcr.io/memtly/memtly:ce \
-            --tag ghcr.io/memtly/memtly:latest
-
-      - name: Push the Docker image
-        run: |
-          docker push ghcr.io/memtly/memtly:ce
-          docker push ghcr.io/memtly/memtly:latest
+      
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Memtly.Community/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/memtly/memtly:ce
+            ghcr.io/memtly/memtly:latest
+          secrets: |
+            nuget_token=${{ secrets.NUGET_READ_TOKEN }}
