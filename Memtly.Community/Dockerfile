@@ -13,15 +13,14 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
-COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/Memtly.Community/"]
-COPY ["Memtly.Community/Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Community/Memtly.Core/Memtly.Core/"]
+COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
+COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
 COPY ["nuget.config", "."]
-
 COPY . .
 
 RUN --mount=type=secret,id=nuget_token \
     sed -i "s|%NUGET_TOKEN%|$(cat /run/secrets/nuget_token | tr -d '[:space:]')|g" nuget.config && \
-    dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community/Memtly.Community.csproj"
+    dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community.csproj"
 
 WORKDIR "/src/Memtly.Community"
 RUN dotnet build "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
