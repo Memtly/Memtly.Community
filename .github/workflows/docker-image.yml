@@ -21,8 +21,6 @@ jobs:
 
       - name: Restore
         run: dotnet restore Memtly.Community.sln
-        env:
-          NUGET_TOKEN: ${{ secrets.NUGET_READ_TOKEN }}
 
       - name: Test
         run: dotnet test Memtly.Community.sln --configuration Release --no-restore --verbosity normal
@@ -63,5 +61,3 @@ jobs:
           tags: |
             ghcr.io/memtly/memtly:ce
             ghcr.io/memtly/memtly:latest
-          secrets: |
-            nuget_token=${{ secrets.NUGET_READ_TOKEN }}

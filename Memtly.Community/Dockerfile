@@ -17,9 +17,7 @@ COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
 COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
 COPY . .
 
-RUN --mount=type=secret,id=nuget_token \
-    export NUGET_TOKEN=$(cat /run/secrets/nuget_token | tr -d '[:space:]') && \
-    dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community.csproj"
+RUN dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community.csproj"
 
 WORKDIR "/src/Memtly.Community"
 RUN dotnet build "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/build
