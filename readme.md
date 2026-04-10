@@ -47,7 +47,11 @@ Not all image formats are supported in browsers so although you may be able to a
 
 ![Homepage](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Homepage.png)
 
-![Gallery](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Gallery.png)
+![Gallery - Default](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Gallery_Default.png)
+
+![Gallery - Presentation](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Gallery_Presentation.png)
+
+![Gallery - Slideshow](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Gallery_Slideshow.png)
 
 ![Admin Area - Reviews Tab](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/AdminPanel_ReviewsTab.png)
 
@@ -67,7 +71,11 @@ Not all image formats are supported in browsers so although you may be able to a
 
 ![Homepage](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/Homepage.png)
 
-![Gallery](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/Gallery.png)
+![Gallery - Default](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/Gallery_Default.png)
+
+![Gallery - Presentation](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/Gallery_Presentation.png)
+
+![Gallery - Slideshow](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/Gallery_Slideshow.png)
 
 ![Admin Area - Reviews Tab](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Dark/AdminPanel_ReviewsTab.png)
 
@@ -87,7 +95,11 @@ Not all image formats are supported in browsers so although you may be able to a
 
 ![Homepage](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/Homepage.png)
 
-![Gallery](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/Gallery.png)
+![Gallery - Default](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/Gallery_Default.png)
+
+![Gallery - Presentation](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/Gallery_Presentation.png)
+
+![Gallery - Slideshow](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/Gallery_Slideshow.png)
 
 ![Admin Area - Reviews Tab](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Light/AdminPanel_ReviewsTab.png)
 
@@ -107,7 +119,11 @@ Not all image formats are supported in browsers so although you may be able to a
 
 ![Homepage](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/Homepage.png)
 
-![Gallery](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/Gallery.png)
+![Gallery - Default](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/Gallery_Default.png)
+
+![Gallery - Presentation](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/Gallery_Presentation.png)
+
+![Gallery - Slideshow](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/Gallery_Slideshow.png)
 
 ![Admin Area - Reviews Tab](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Mobile/Dark/AdminPanel_ReviewsTab.png)
 
