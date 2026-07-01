@@ -7,7 +7,7 @@
 
 Memtly (formerly WeddingShare) is a very basic site with only one goal. It provides you and your guests a way to share memories of and leading up to an event. Simply provide your guests with a link to a gallery either via a Url or even better by printing out the provided QR code and handing it out to your guests on arrival. Doing so will allow them to view your journey up to this point and give them the ability to share their experience on the day by uploading their own images and videos. 
 
-![Screenshot](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Desktop/Light/Gallery_Default.png)
+![Screenshot](https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Screenshots/Community/Promo_Light.png)
 
 ## Support
 
