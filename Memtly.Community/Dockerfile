@@ -1,3 +1,5 @@
+ARG CODE_BUILT_BY="3rd Party"
+
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
 WORKDIR /app
 EXPOSE 5000
@@ -27,6 +29,8 @@ ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./Memtly.Community.csproj" -a $TARGETARCH -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
+ARG CODE_BUILT_BY=Other
+ENV CODE_BUILT_BY=$CODE_BUILT_BY
 WORKDIR /app
 COPY --from=publish /app/publish .
 RUN mkdir -p /app/config

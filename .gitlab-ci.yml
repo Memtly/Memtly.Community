@@ -65,7 +65,7 @@ push_release:
     - /^(feature\/|release\/).+/
     - /^(prerel|rc|release)-.+/
   script:
-    - docker buildx build --tag $CI_REGISTRY_IMAGE:pre_release --platform $BUILD_PLATFORMS --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:pre_release --platform $BUILD_PLATFORMS --build-arg CODE_BUILT_BY="${CODE_BUILT_BY:-3rd Party}" --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
   needs:
     - test
 
@@ -80,7 +80,7 @@ push_latest:
     - main
     - master
   script:
-    - docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --build-arg CODE_BUILT_BY="${CODE_BUILT_BY:-3rd Party}" --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
   needs:
     - test
     
@@ -94,7 +94,7 @@ push_tag:
   only:
     - tags
   script:
-    - docker buildx build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME --tag $CI_REGISTRY_IMAGE:latest --platform $BUILD_PLATFORMS --build-arg CODE_BUILT_BY="${CODE_BUILT_BY:-3rd Party}" --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
   needs:
     - test
 
@@ -104,8 +104,8 @@ push_docker_hub:
   only:
     - tags
   script:
-    - docker buildx build --tag $DOCKERHUB_USERNAME/memtly:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/memtly:ce --tag $DOCKERHUB_USERNAME/memtly:latest --platform $BUILD_PLATFORMS --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
-#    - docker buildx build --tag $DOCKERHUB_USERNAME/memtly_community:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/memtly_community:latest --platform $BUILD_PLATFORMS --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
+    - docker buildx build --tag $DOCKERHUB_USERNAME/memtly:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/memtly:ce --tag $DOCKERHUB_USERNAME/memtly:latest --platform $BUILD_PLATFORMS --build-arg CODE_BUILT_BY="${CODE_BUILT_BY:-3rd Party}" --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
+#    - docker buildx build --tag $DOCKERHUB_USERNAME/memtly_community:$CI_COMMIT_REF_NAME --tag $DOCKERHUB_USERNAME/memtly_community:latest --platform $BUILD_PLATFORMS --build-arg CODE_BUILT_BY="${CODE_BUILT_BY:-3rd Party}" --build-arg BUILDKIT_MAX_PARALLELISM=$BUILD_PARALLEL_COUNT --push -f $BUILD_DOCKERFILE .
   needs:
     - push_tag
 
