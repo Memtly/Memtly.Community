@@ -22,3 +22,4 @@
 /**/banners/**/*
 /node_modules
 /ffmpeg
+*.bak
