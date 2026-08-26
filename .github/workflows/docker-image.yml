@@ -20,7 +20,7 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restore
-        run: dotnet restore Memtly.Community.sln
+        run: dotnet restore --locked-mode Memtly.Community.sln
 
       - name: Test
         run: dotnet test Memtly.Community.sln --configuration Release --no-restore --verbosity normal

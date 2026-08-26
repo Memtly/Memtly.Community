@@ -51,7 +51,7 @@ test:
     - curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
     - apt-get install -y nodejs
   script:
-    - 'dotnet restore'
+    - 'dotnet restore --locked-mode'
     - 'dotnet test'
 
 #
