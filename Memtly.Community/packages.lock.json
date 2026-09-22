@@ -4,9 +4,9 @@
     "net10.0": {
       "Memtly.Localization": {
         "type": "Direct",
-        "requested": "[1.0.5.18, )",
-        "resolved": "1.0.5.18",
-        "contentHash": "p+16zwC6N/Aq6i6L2QEKdV54Y2NUV9ecJRS6vH8CxLr8PiJFQuUSLdJAcGz4UZzZKnHalauZ+miwN6uItHSnug=="
+        "requested": "[1.0.5.19, )",
+        "resolved": "1.0.5.19",
+        "contentHash": "SmMPvDgOSVtaqHmMTOezqHX/m8WIyfiylbP7J2CmPnb+zSVBwr9eVXgk23jravx+PxL1MlxJanldQt6EoFWc/w=="
       },
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
         "type": "Direct",
@@ -659,7 +659,7 @@
         "type": "Project",
         "dependencies": {
           "MailKit": "[4.18.0, )",
-          "Memtly.Localization": "[1.0.5.18, )",
+          "Memtly.Localization": "[1.0.5.19, )",
           "MetadataExtractor": "[2.9.3, )",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[9.0.18, )",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[9.0.18, )",
